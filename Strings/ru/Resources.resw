@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Choosing gadgets (выбор гаджетов). MaxGog 2021. Приложение создано для того, чтобы Вы смогли выбрать себе компьютер или телефон. Спасибо, что скачали моё приложение! GitHub: https://github.com/MaxGog</value>
+  </data>
+  <data name="Accuracy_check.Content" xml:space="preserve">
+    <value>Точный результат</value>
+    <comment>Checkbox</comment>
+  </data>
+  <data name="Action.Content" xml:space="preserve">
+    <value>Экшен</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Выбор гаджетов</value>
+  </data>
+  <data name="AppTitleMenu.Content" xml:space="preserve">
+    <value>Выбор гаджетов (С юбилеем приложения!)</value>
+  </data>
+  <data name="CPU" xml:space="preserve">
+    <value>, частота процессора: </value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Discussions.Content" xml:space="preserve">
+    <value>Обсуждения</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Finish.Content" xml:space="preserve">
+    <value>Подобрать</value>
+  </data>
+  <data name="For_3D.Content" xml:space="preserve">
+    <value>Для рендера 3D материалов</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_develop.Content" xml:space="preserve">
+    <value>Для разработки</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="For_developer.Content" xml:space="preserve">
+    <value>Для разработки программного обеспечения</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_gaming.Content" xml:space="preserve">
+    <value>Для гейминга</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="For_home.Content" xml:space="preserve">
+    <value>Для дома</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="For_photo_render.Content" xml:space="preserve">
+    <value>Для рендера фотографий</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_render.Content" xml:space="preserve">
+    <value>Для рендера видео</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_work.Content" xml:space="preserve">
+    <value>Для офисной работы</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="For_work_online.Content" xml:space="preserve">
+    <value>Для работы за компьютером</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_work_physic.Content" xml:space="preserve">
+    <value>Для работы с компьютером</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="Friend.Header" xml:space="preserve">
+    <value>Играете ли вы с друзьями?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="GameBuy.Header" xml:space="preserve">
+    <value>Как вы предпочитаете покупать игры?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="GamingConsole.Content" xml:space="preserve">
+    <value>Игровые консоли</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Genres.Text" xml:space="preserve">
+    <value>Какие жанры вы предпочитаете?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Graphics.Header" xml:space="preserve">
+    <value>Вам важно качество графики?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="HaveGame.Header" xml:space="preserve">
+    <value>Вы уже имеете какие то либо игры?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Horror.Content" xml:space="preserve">
+    <value>Ужасы</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="MacBook_air" xml:space="preserve">
+    <value>В ноябре 2020 года Apple представила ​​MacBook Air A2337. Он стал первым ноутбуком компании который оснащен процессором фирменного производства. Чип получил названии M1. Он выполнен по 5-ти нанометровому техпроцессу. Центральный процессор имеет 8 ядер (4 высокопроизводительных и 4 энергоэффективных). Графический процессор также получил 8 ядер, а нейронный блок — 16.
+
+Благодаря M1 графическая производительность нового MacBook Air возросла в 5 раз, а фирменный контроллер, интегрированный в данный чип, позволил увеличить скорость твердотельного накопителя (SSD) в 2 раза.
+
+Также благодаря использованию нового чипа, удалось заметно "прокачать" автономность устройства. MacBook Air M1 способен работать до 15 часов в режиме веб-серфинга и до 18 часов в режиме просмотра видео.
+
+Лэптоп от Apple получил сканер отпечатков Touch ID, беспроводной адаптер Wi-Fi 6, экран Retina с разрешением – 2560 х 1600 пикселей и диагональю 13,3 дюйма. Максимальный объем оперативной памяти составляет 16 ГБ, а объем твердотельного накопителя –  2 ТБ.</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Market.Content" xml:space="preserve">
+    <value>Яндекс.Маркет</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Media.Header" xml:space="preserve">
+    <value>Требуется ли вам медиацентр?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Menu.Content" xml:space="preserve">
+    <value>Меню (С юбилеем приложения!)</value>
+  </data>
+  <data name="Model_str" xml:space="preserve">
+    <value>Модель: </value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="MuchPlay.Header" xml:space="preserve">
+    <value>Много ли вы играете часов в неделю?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Okay" xml:space="preserve">
+    <value>Готово</value>
+    <comment>Вывод</comment>
+  </data>
+  <data name="OS" xml:space="preserve">
+    <value>Операционная система: </value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Рекомендуемая платёжная система: </value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="PC_Assembly.Header" xml:space="preserve">
+    <value>Вам нужна качественная сборка и материал?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_bigROM.Header" xml:space="preserve">
+    <value>Вы планируете хранить большой объем информации?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Ecosystem.Header" xml:space="preserve">
+    <value>Вам важна качественная экосистема?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Game.Header" xml:space="preserve">
+    <value>Вы будете играть в игры?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Laptop.Content" xml:space="preserve">
+    <value>Компьютеры и ноутбуки</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Laptop_Page.Text" xml:space="preserve">
+    <value>Компьютеры и ноутбуки</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Modility.Header" xml:space="preserve">
+    <value>Вы часто передвигаетесь?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_phoneSync.Header" xml:space="preserve">
+    <value>Какой Ваш смартфон?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Pro.Header" xml:space="preserve">
+    <value>Вы используете профессиональное ПО?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Purpose.Header" xml:space="preserve">
+    <value>Для каких целей вам нужен ПК, ноутбук?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Sync.Header" xml:space="preserve">
+    <value>Вы синхронизируете устройства?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Phone.Content" xml:space="preserve">
+    <value>Телефоны</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Phone_Apps.Header" xml:space="preserve">
+    <value>Будете ли вы устанавливать более 20 сторонних приложений?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Phone_Cloud.Header" xml:space="preserve">
+    <value>Используете ли вы файлы в автономном режиме или в облаке?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Phone_File.Header" xml:space="preserve">
+    <value>Вы работаете с файловой системой?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Phone_Game.Header" xml:space="preserve">
+    <value>Вы будете играть в тяжелые игры на телефоне?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Phone_Page.Text" xml:space="preserve">
+    <value>Смартфоны</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Phone_Pro.Header" xml:space="preserve">
+    <value>Вы должны использовать профессиональное программное обеспечение?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Phone_Purpose.Header" xml:space="preserve">
+    <value>Для каких целей вам нужен смартфон?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Price_purpose.Header" xml:space="preserve">
+    <value>Ценовая категория</value>
+  </data>
+  <data name="Processor_architecture" xml:space="preserve">
+    <value>, aрхитектура процессора: </value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="pro_adobe.Header" xml:space="preserve">
+    <value>Вы будете использовать продукты Adobe?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Pro_ver.Content" xml:space="preserve">
+    <value>Для профессионалов</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="pro_vr.Header" xml:space="preserve">
+    <value>Будете ли Вы использовать VR?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Pro_words.Text" xml:space="preserve">
+    <value>VR - Виртуальная реальность.
+VR гарнитура - это устройство, которое надевается на голову и отображает различный контент, который ощущаеться как реальный
+Автономность - это режим устройства. Данный режим позволяет программному обеспечению и устройству работать без зависимости. В данном случае работать без интернета
+Ресурсы - характеристики устройства, от которых зависит работа программного обеспечения
+Тяжёлые игры - это ресурсопотребные игры
+Стандартный пользователь - обычный пользователь, поверхостно разбирается в гаджетах
+Опытный пользователь - это продвинутый пользователь, который углублённо разбирается в гаджетах
+Компилировать - это слово применяется программистами. Это слово означает проверку кода на работоспособность
+Постоянная память - это память, на которой хранятся данные.&lt;/Paragraph&gt;
+Оперативная память - это память, используемая программным обеспечением при работе компьютера. Хранить на ней ничего нельзя
+Операционная система - это программное обеспечение, которое заставляет устройство работать
+SSD - тип постоянной памяти. Твёрдотельный накопитель.&lt;/Paragraph&gt;
+HDD - тип постоянной памяти. Жёсткий диск.&lt;/Paragraph&gt;
+DDR3/DDR4 и другие вариации - это тип оперативной памяти. Чем выше цифра типа, тем оперативная память быстрее
+x86, x64 - разрядность процессоров. Чаще их используют в компьютерах и ноутбуках. x64 имеет 64-битную разрядность, а x86 имеет 32-битную разрядность
+ARMx86, ARMx64 - разрядности процессоров. ARM процессоры предназначены для мобильных устройств и занимают меньше места в устройстве за счёт низкой производительности по сравнению с x64 и x86 процессорами
+PC - стационарный компьютер</value>
+  </data>
+  <data name="PurposeMobile.Text" xml:space="preserve">
+    <value>Для каких целей Вам требуется смартфон?</value>
+  </data>
+  <data name="PurposePC.Text" xml:space="preserve">
+    <value>Для каких целей вам требуется ПК, ноутбук?</value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Racing.Content" xml:space="preserve">
+    <value>Гонки</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="RAM" xml:space="preserve">
+    <value>Оперативная память: </value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="ROM" xml:space="preserve">
+    <value>Внутренняя память: </value>
+  </data>
+  <data name="ROMvideo" xml:space="preserve">
+    <value>Видеопамять: </value>
+    <comment>Компьютер</comment>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Shooter.Content" xml:space="preserve">
+    <value>Шутеры</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Sites.Content" xml:space="preserve">
+    <value>Ссылки:</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="SmartModel" xml:space="preserve">
+    <value>Смартфон: </value>
+    <comment>Для кода</comment>
+  </data>
+  <data name="Surface_pro7" xml:space="preserve">
+    <value>Большая часть тех составляющих, которые по моим представлениям можно было модернизировать, Microsoft проигнорировала. Начиная от вопиющих рамок до высоты корпуса, которые остались по-прежнему слишком большим, для комфортного использовать девайса в качестве планшета.
+
+770 грамм — это слишком много по сравнению 453 г у iPad 2019 года, к тому же Surface Pro 7 немного толще. В этой области Surface Pro X сделал огромный шаг вперёд, его толщина меньше iPad на 0,51 см. Несмотря на то что Surface Pro 7 и Pro X весят одинаково, меньший размер последнего облегчает его более удобное использование в качестве планшета. Клавиатура обеспечивает полный ход клавиш на 1,3 мм, а её раскладка такая же удобная, как и у любого высококачественного ноутбука. Мне бы хотелось, чтобы Type Cover магнитилась к нижней части экрана, поскольку открывать и закрывать устройство не очень удобно, а также чтобы тачпад был немного больше. Операционная система
+
+Windows 10
+
+Дисплей
+
+Pixelsense 12,3-дюйм, соотношение сторон 3: 2, 2736×1824 (267 ppi)
+
+Процессоры
+
+10-го поколения Intel
+Core i3-1005G1
+Core i5-1035G4
+Core i7-1065G7
+
+Объём памяти
+
+LPDDR4x 4 ГБ, 8 ГБ или 16 ГБ
+
+Объём хранилища
+
+SSD 128/256/512 ГБ или 1 ТБ
+
+Камера заднего вида
+
+8-МП автофокусировка (1080p)
+
+Передняя камера
+
+5-МП (1080p)
+
+Безопасность
+
+Windows Hello камера для проверки по лицу
+
+Связь
+
+Bluetooth 5.0, Wi-Fi 6
+
+Порты
+
+1?USB-C, 1?USB-A, 1?MicroSDXC, разъём для подключения клавиатуры, разъём для наушников 3,5 мм
+
+Автономность
+
+До 10,5 часов
+
+Вес
+
+От 770 г
+
+Цвета корпуса
+
+Платиновый, чёрный
+</value>
+  </data>
+  <data name="Tips.Content" xml:space="preserve">
+    <value>Подсказки</value>
+  </data>
+  <data name="TypeDevice" xml:space="preserve">
+    <value>Формфактор устройства: </value>
+  </data>
+  <data name="VideoCard" xml:space="preserve">
+    <value>Видеокарта: </value>
+  </data>
+  <data name="VR.Text" xml:space="preserve">
+    <value>VR-гарнитуры</value>
+  </data>
+  <data name="Where_HaveGame.Text" xml:space="preserve">
+    <value>Где вы уже имеете игры?</value>
+    <comment>Консоли</comment>
+  </data>
+</root>

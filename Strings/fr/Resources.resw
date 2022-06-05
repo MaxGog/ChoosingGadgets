@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Choosing gadgets (sélection de gadgets). MaxGog 2021. L'application est créée pour que vous puissiez choisir un ordinateur ou un téléphone. Merci d'avoir Téléchargé mon application! GitHub: https://github.com/MaxGog</value>
+  </data>
+  <data name="Action.Content" xml:space="preserve">
+    <value>Action</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Choosing gadgets</value>
+  </data>
+  <data name="AppTitleMenu.Content" xml:space="preserve">
+    <value>Choosing gadgets</value>
+  </data>
+  <data name="CPU" xml:space="preserve">
+    <value>, fréquence du processeur :</value>
+  </data>
+  <data name="Discussions.Content" xml:space="preserve">
+    <value>Débats</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Finish.Content" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="For_3D.Content" xml:space="preserve">
+    <value>Pour le rendu de matériaux 3D</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_develop.Content" xml:space="preserve">
+    <value>Para el desarrollo</value>
+  </data>
+  <data name="For_developer.Content" xml:space="preserve">
+    <value>Pour le développement de logiciels</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_gaming.Content" xml:space="preserve">
+    <value>Para Gaming</value>
+  </data>
+  <data name="For_home.Content" xml:space="preserve">
+    <value>Para el hogar</value>
+  </data>
+  <data name="For_photo_render.Content" xml:space="preserve">
+    <value>Pour le rendu des photos</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_render.Content" xml:space="preserve">
+    <value>Pour le rendu vidéo</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_work.Content" xml:space="preserve">
+    <value>Para el trabajo de oficina</value>
+  </data>
+  <data name="For_work_online.Content" xml:space="preserve">
+    <value>Travailler sur un ordinateur</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="For_work_physic.Content" xml:space="preserve">
+    <value>Travailler avec un ordinateur</value>
+    <comment>DLC_1</comment>
+  </data>
+  <data name="Friend.Header" xml:space="preserve">
+    <value>Jouez-vous avec vos amis?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="GameBuy.Header" xml:space="preserve">
+    <value>Comment préférez-vous acheter des jeux?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="GamingConsole.Content" xml:space="preserve">
+    <value>Consoles de jeux vidéo</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Genres.Text" xml:space="preserve">
+    <value>Quels genres préférez-vous?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Graphics.Header" xml:space="preserve">
+    <value>La qualité graphique est-elle importante pour vous?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="HaveGame.Header" xml:space="preserve">
+    <value>Avez-vous déjà des jeux?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Horror.Content" xml:space="preserve">
+    <value>Horreur</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Market.Content" xml:space="preserve">
+    <value>Marché Yandex</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="Media.Header" xml:space="preserve">
+    <value>Avez-vous besoin d'un centre multimédia?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Menu.Content" xml:space="preserve">
+    <value>Menu (Joyeux anniversaire de l'application!)</value>
+  </data>
+  <data name="Model_str" xml:space="preserve">
+    <value>Modèle:</value>
+    <comment>Для кода</comment>
+  </data>
+  <data name="MuchPlay.Header" xml:space="preserve">
+    <value>Jouez-vous beaucoup d'heures par semaine?</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Okay" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="OS" xml:space="preserve">
+    <value>Système opérateur:</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Système de paiement recommandé :</value>
+  </data>
+  <data name="PC_Assembly.Header" xml:space="preserve">
+    <value>Vous avez besoin d'un assemblage et d'un matériel de qualité ?</value>
+  </data>
+  <data name="PC_bigROM.Header" xml:space="preserve">
+    <value>Envisagez-vous de stocker une grande quantité d'informations?</value>
+    <comment>Вопрос - компьютер</comment>
+  </data>
+  <data name="PC_Ecosystem.Header" xml:space="preserve">
+    <value>Un écosystème de qualité est-il important pour vous ?</value>
+    <comment>Вопрос по поводу экосистемы компьютера</comment>
+  </data>
+  <data name="PC_Game.Header" xml:space="preserve">
+    <value>Jouerez-vous à des jeux ?</value>
+  </data>
+  <data name="PC_Laptop.Content" xml:space="preserve">
+    <value>Des ordinateurs</value>
+    <comment>Меню</comment>
+  </data>
+  <data name="PC_Laptop_Page.Text" xml:space="preserve">
+    <value>Ordinateurs et portables</value>
+  </data>
+  <data name="PC_Modility.Header" xml:space="preserve">
+    <value>Vous bougez beaucoup ?</value>
+    <comment>Вопрос - компьютер</comment>
+  </data>
+  <data name="PC_phoneSync.Header" xml:space="preserve">
+    <value>C'est quoi ton smartphone ?</value>
+  </data>
+  <data name="PC_Pro.Header" xml:space="preserve">
+    <value>Utilisez-vous un logiciel professionnel ?</value>
+    <comment>Вопрос - компьютер</comment>
+  </data>
+  <data name="PC_Purpose.Header" xml:space="preserve">
+    <value>A quelles fins avez-vous besoin d'un PC, d'un ordinateur portable ?</value>
+    <comment>Вопрос - компьютер</comment>
+  </data>
+  <data name="PC_Sync.Header" xml:space="preserve">
+    <value>Synchronisez-vous des appareils ?</value>
+    <comment>Вопрос - компьютер</comment>
+  </data>
+  <data name="Phone.Content" xml:space="preserve">
+    <value>Téléphone (s</value>
+  </data>
+  <data name="Phone_Apps.Header" xml:space="preserve">
+    <value>Allez-vous installer plus de 20 applications tierces ?</value>
+  </data>
+  <data name="Phone_Cloud.Header" xml:space="preserve">
+    <value>Utilisez-vous des fichiers hors ligne ou dans le cloud ?</value>
+  </data>
+  <data name="Phone_File.Header" xml:space="preserve">
+    <value>Travaillez-vous avec le système de fichiers ?</value>
+  </data>
+  <data name="Phone_Game.Header" xml:space="preserve">
+    <value>Jouerez-vous à des jeux lourds sur votre téléphone ?</value>
+  </data>
+  <data name="Phone_Page.Text" xml:space="preserve">
+    <value>Téléphones intelligents
+</value>
+  </data>
+  <data name="Phone_Pro.Header" xml:space="preserve">
+    <value>Faut-il utiliser un logiciel professionnel ?</value>
+  </data>
+  <data name="Phone_Purpose.Header" xml:space="preserve">
+    <value>À quelles fins avez-vous besoin d'un smartphone ?</value>
+    <comment>Телефон</comment>
+  </data>
+  <data name="Price_purpose.Header" xml:space="preserve">
+    <value>Catégorie de prix</value>
+  </data>
+  <data name="Processor_architecture" xml:space="preserve">
+    <value>, architecture du processeur :</value>
+  </data>
+  <data name="pro_adobe.Header" xml:space="preserve">
+    <value>Utiliserez-vous des produits Adobe?</value>
+  </data>
+  <data name="Pro_ver.Content" xml:space="preserve">
+    <value>Pour les professionnels</value>
+  </data>
+  <data name="pro_vr.Header" xml:space="preserve">
+    <value>Utiliserez-vous la VR?</value>
+  </data>
+  <data name="Pro_words.Text" xml:space="preserve">
+    <value>VR-réalité Virtuelle.
+Un casque VR est un appareil qui est porté sur la tête et affiche divers contenus qui se sentent comme réels
+L'autonomie est le mode de l'appareil. Ce mode permet au logiciel et à l'appareil de fonctionner sans dépendance. Dans ce cas, travailler sans Internet
+Ressources - caractéristiques de l'appareil dont dépend le fonctionnement du logiciel
+Les jeux lourds sont des jeux de ressources
+L'utilisateur standard est un utilisateur normal qui connaît les gadgets
+Un utilisateur expérimenté est un utilisateur avancé qui comprend en profondeur les gadgets
+Compiler-ce mot est utilisé par les programmeurs. Ce mot signifie vérifier l'intégrité du code
+La mémoire permanente est la mémoire sur laquelle les données sont stockées.&lt;/Paragraph&gt;
+La mémoire vive est la mémoire utilisée par le logiciel lors du fonctionnement de l'ordinateur. Vous ne pouvez rien stocker dessus
+Le système d'exploitation est le logiciel qui fait fonctionner l'appareil
+SSD est un type de mémoire permanente. SSD.&lt;/Paragraph&gt;
+HDD est un type de mémoire permanente. Poil/dd.&lt;/Paragraph&gt;
+DDR3 / DDR4 et d'autres variations sont un type de RAM. Plus le type de chiffre est élevé, plus la RAM est rapide
+x86, processeurs x64 bits. Le plus souvent, ils sont utilisés dans les Ordinateurs et les Ordinateurs portables. x64 a une capacité de 64 bits et x86 a une capacité de 32 bits
+ARMx86, processeurs ARMx64 bits. Les processeurs ARM sont conçus pour les appareils mobiles et occupent moins d'espace dans l'appareil en raison de la faible performance par rapport aux processeurs x64 et x86
+PC-ordinateur fixe</value>
+  </data>
+  <data name="PurposePC.Text" xml:space="preserve">
+    <value>À quelles fins avez-vous besoin d'un ordinateur portable?</value>
+  </data>
+  <data name="Racing.Content" xml:space="preserve">
+    <value>Course</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="RAM" xml:space="preserve">
+    <value>RAM:</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="ROM" xml:space="preserve">
+    <value>Mémoire intérieure :</value>
+  </data>
+  <data name="ROMvideo" xml:space="preserve">
+    <value>Mémoire vidéo:</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Shooter.Content" xml:space="preserve">
+    <value>Tireurs</value>
+    <comment>Консоли</comment>
+  </data>
+  <data name="Sites.Content" xml:space="preserve">
+    <value>Liens:</value>
+  </data>
+  <data name="SmartModel" xml:space="preserve">
+    <value>Téléphone intelligent:</value>
+    <comment>Для кода</comment>
+  </data>
+  <data name="Tips.Content" xml:space="preserve">
+    <value>Conseil</value>
+  </data>
+  <data name="TypeDevice" xml:space="preserve">
+    <value>Facteur de forme de l'appareil :</value>
+  </data>
+  <data name="VideoCard" xml:space="preserve">
+    <value>Carte vidéo:</value>
+  </data>
+  <data name="VR.Text" xml:space="preserve">
+    <value>Casques VR</value>
+  </data>
+  <data name="Where_HaveGame.Text" xml:space="preserve">
+    <value>Où avez-vous déjà des jeux?</value>
+    <comment>Консоли</comment>
+  </data>
+</root>
