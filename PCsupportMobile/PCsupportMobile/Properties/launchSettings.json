@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "PCsupportMobile": {
+      "commandName": "Project"
+    },
+    "PCsupportMobile.Android": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\maxgo\\source\\repos\\PCsupportMobile\\PCsupportMobile.Android"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="PCsupportMobile.AppShell"
+       xmlns:views="clr-namespace:PCsupportMobile.Views"
+       BackgroundColor="{AppThemeBinding Light=#7c8094, Dark=#000000}">
+
+    <TabBar>
+        <ShellContent Title="Компьютеры" Icon="pclaptops.png" Route="PCLaptopsPage" ContentTemplate="{DataTemplate views:PCLaptopsPage}"/>
+        <ShellContent Title="Телефоны" Icon="phone.png" ContentTemplate="{DataTemplate views:PhonesPage}"/>
+        <ShellContent Title="Game console" Icon="xbox.png" IsEnabled="False" IsVisible="False" ContentTemplate="{DataTemplate views:GameConsolePage}"/>
+        <ShellContent Title="Мой GitHub" Icon="yes.png" ContentTemplate="{DataTemplate views:GitHubPage}"/>
+    </TabBar>
+</Shell>
