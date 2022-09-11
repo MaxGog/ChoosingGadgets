@@ -1,0 +1,2 @@
+MainPackage=C:\Users\maxgo\source\repos\PC_support\bin\x64\Release\PC_support_2.4.4.0_x64.appx
+SymbolPackage=C:\Users\maxgo\source\repos\PC_support\obj\x64\Release\Symbols\PC_support_2.4.4.0_x64.appxsym
