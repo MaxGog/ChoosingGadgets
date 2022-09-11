@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCsupportMobile.Views.PCLaptopsPage"
+             Title="Выбор компьютеров" 
+             BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#000000}"
+             >
+
+    <ContentPage.Resources>
+        <ControlTemplate x:Key="RadioButtonTemplate">
+            <Frame HasShadow="False"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Padding="0">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CheckedStates">
+                            <VisualState x:Name="Checked">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                                            Value="#EAE6CA" />
+                                    <Setter Property="BorderColor"
+                                            Value="#EAE6CA" />
+                                    <Setter TargetName="check"
+                                            Property="Opacity"
+                                            Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Unchecked">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                                            Value="{AppThemeBinding Dark=#2c3238, Light=#c5cbd1}" />
+                                    <Setter Property="BorderColor"
+                                            Value="{AppThemeBinding Dark=#2c3238, Light=#c5cbd1}" />
+                                    <Setter TargetName="check"
+                                            Property="Opacity"
+                                            Value="0" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </VisualStateManager.VisualStateGroups>
+                <Grid Margin="4"
+                      WidthRequest="100">
+                    <Grid WidthRequest="18"
+                          HeightRequest="18"
+                          HorizontalOptions="End"
+                          VerticalOptions="Start">
+                        <Ellipse Stroke="Blue"
+                                 WidthRequest="16"
+                                 HeightRequest="16"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center" />
+                        <Ellipse x:Name="check"
+                                 WidthRequest="8"
+                                 HeightRequest="8"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center" />
+                    </Grid>
+                    <ContentPresenter />
+                </Grid>
+            </Frame>
+        </ControlTemplate>
+
+        <Style TargetType="RadioButton">
+            <Setter Property="ControlTemplate" Value="{StaticResource RadioButtonTemplate}" />
+        </Style>
+    </ContentPage.Resources>
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Результат" Clicked="FinishButton_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="front.png"/>
+                <Label Text="Для чего вам нужен компьютер?" HorizontalOptions="Center" FontSize="Medium"/>
+                <StackLayout RadioButtonGroup.GroupName="PurposeDevice" x:Name="PurposeDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Home" CheckedChanged="Home_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="home.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Для дома" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="Work" CheckedChanged="Work_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="work.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Для работы" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="Gaming" CheckedChanged="Gaming_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="xbox.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Для игр" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Часто ли вы передвигаетесь с ноутбуком?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="MobileDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Yes" CheckedChanged="MobileYes_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="yes.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Да" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="No" CheckedChanged="MobileNo_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="no.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Нет" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Вы будете использовать профессиональное программное обеспечение?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="SoftwareDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Yes" CheckedChanged="SoftwareYes_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="yes.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Да" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="No" CheckedChanged="SoftwareNo_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="no.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Нет" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Будете ли вы использовать продукты Adobe?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="AdobeDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Yes" CheckedChanged="AdobeYes_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="yes.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Да" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="No" CheckedChanged="AdobeNo_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="no.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                                <Label Text="Нет" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Будете ли вы хранить большой объем информации?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="ROMDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Yes" CheckedChanged="ROMYes_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="yes.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Да" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="No" CheckedChanged="ROMNo_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="no.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Нет" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Какой у вас? смартфон?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="PhoneDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Android" CheckedChanged="Android_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="android.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="На базе Android" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="iPhone" CheckedChanged="iPhone_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="apple.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="iPhone" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Важна ли для вас качественная сборка устройства и материала?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="MaterialDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Yes" CheckedChanged="MaterialYes_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="yes.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Да" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="No" CheckedChanged="MaterialNo_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="no.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Нет" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <Label Text="Будете ли вы рисовать на ноутбуке?" HorizontalOptions="Center" FontSize="Medium" Margin="0, 50, 0, 0"/>
+                <StackLayout RadioButtonGroup.GroupName="DrawDevice" Orientation="Horizontal" HorizontalOptions="Center">
+                    <RadioButton Value="Yes" CheckedChanged="DrawYes_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="yes.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Да" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="No" CheckedChanged="DrawNo_CheckedChanged">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="no.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Label Text="Нет" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
