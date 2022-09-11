@@ -1,0 +1,11 @@
+MainPackage=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_ARM64.appx
+SymbolPackage=C:\Users\maxgo\source\repos\PC_support\obj\ARM64\Release\Symbols\PC_support_2.4.4.0_ARM64.appxsym
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_language-es.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_language-fr.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_language-ko.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_language-ru.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_language-zh-hant.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_scale-100.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_scale-125.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_scale-150.appx
+ResourcePack=C:\Users\maxgo\source\repos\PC_support\bin\ARM64\Release\PC_support_2.4.4.0_scale-400.appx

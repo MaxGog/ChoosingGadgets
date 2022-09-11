@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="PC_support.Views.ModelsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:list="using:PC_support.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto" MaxWidth="500"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="0">
+            <GridView x:Name="SelectPage" HorizontalAlignment="Left" IsItemClickEnabled="True" ItemClick="SelectPage_ItemClick" SelectionMode="Single" Margin="10">
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="250" Height="200" Background="{ThemeResource SystemControlAcrylicElementMediumHighBrush}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding ViewImage}" HorizontalAlignment="Center" Margin="10"/>
+                            <TextBlock Text="{Binding Name_str}" FontSize="19" HorizontalAlignment="Left" Grid.Row="1" Margin="20"/>
+                            <!--<TextBlock Text="{Binding Model_str}" FontSize="10" HorizontalAlignment="Center" Grid.Row="2" Margin="5"/>-->
+                        </Grid>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+                <GridView.Items>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/MacBook_Air.png" Name_str="MacBook Air" x:Name="MacBook_Air"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/Surface.png" Name_str="Surface Pro" x:Name="Surface_Pro"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoIdeaPad.png" Name_str="Lenovo IdeaPad" x:Name="Lenovo_IdeaPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad" x:Name="Lenovo_ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <list:ListModel ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                </GridView.Items>
+            </GridView>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="1">
+            <StackPanel x:Name="InfoPC"/>
+        </ScrollViewer>
+    </Grid>
+</Page>
