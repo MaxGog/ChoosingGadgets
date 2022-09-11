@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "ChoosingGadgets (Package)", "ChoosingGadgets (Package)\ChoosingGadgets (Package).wapproj", "{040BE2BF-9292-43F0-9029-90F2112C58B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoosingGadgets", "ChoosingGadgets\ChoosingGadgets.csproj", "{F85789CD-8920-4742-B1A4-C1E40ADAB608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|arm64.ActiveCfg = Debug|arm64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|arm64.Build.0 = Debug|arm64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|arm64.Deploy.0 = Debug|arm64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|x64.ActiveCfg = Debug|x64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|x64.Build.0 = Debug|x64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|x64.Deploy.0 = Debug|x64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|x86.ActiveCfg = Debug|x86
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|x86.Build.0 = Debug|x86
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Debug|x86.Deploy.0 = Debug|x86
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|arm64.ActiveCfg = Release|arm64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|arm64.Build.0 = Release|arm64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|arm64.Deploy.0 = Release|arm64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|x64.ActiveCfg = Release|x64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|x64.Build.0 = Release|x64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|x64.Deploy.0 = Release|x64
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|x86.ActiveCfg = Release|x86
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|x86.Build.0 = Release|x86
+		{040BE2BF-9292-43F0-9029-90F2112C58B4}.Release|x86.Deploy.0 = Release|x86
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Debug|arm64.ActiveCfg = Debug|arm64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Debug|arm64.Build.0 = Debug|arm64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Debug|x64.ActiveCfg = Debug|x64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Debug|x64.Build.0 = Debug|x64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Debug|x86.ActiveCfg = Debug|x86
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Debug|x86.Build.0 = Debug|x86
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Release|arm64.ActiveCfg = Release|arm64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Release|arm64.Build.0 = Release|arm64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Release|x64.ActiveCfg = Release|x64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Release|x64.Build.0 = Release|x64
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Release|x86.ActiveCfg = Release|x86
+		{F85789CD-8920-4742-B1A4-C1E40ADAB608}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C5F5F4B-0471-4017-9808-1B9022CF3C0B}
+	EndGlobalSection
+EndGlobal

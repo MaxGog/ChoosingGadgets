@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IDEAPADL340-MAX</Machine>
+    <WindowsUser>maxgo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>524da459-6c43-4fd0-9979-630d0d516dd9</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\bin\Debug\PCsupport_RT.exe">
+      <PackagePath>PCsupport_RT.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Apple.png">
+      <PackagePath>Assets\LogoManufacture\Apple.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\ChomeOS.png">
+      <PackagePath>Assets\LogoManufacture\ChomeOS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\FStudio1.png">
+      <PackagePath>Assets\LogoManufacture\FStudio1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\FStudio2.png">
+      <PackagePath>Assets\LogoManufacture\FStudio2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Lenovo.png">
+      <PackagePath>Assets\LogoManufacture\Lenovo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Linux.png">
+      <PackagePath>Assets\LogoManufacture\Linux.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\MacOS.png">
+      <PackagePath>Assets\LogoManufacture\MacOS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Pixel.png">
+      <PackagePath>Assets\LogoManufacture\Pixel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Samsung.png">
+      <PackagePath>Assets\LogoManufacture\Samsung.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Surface.png">
+      <PackagePath>Assets\LogoManufacture\Surface.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Windows.png">
+      <PackagePath>Assets\LogoManufacture\Windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\LogoManufacture\Windows8.png">
+      <PackagePath>Assets\LogoManufacture\Windows8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\NintendoSwitch.png">
+      <PackagePath>Assets\VisualConsoles\NintendoSwitch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\PS4.png">
+      <PackagePath>Assets\VisualConsoles\PS4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\PS5.png">
+      <PackagePath>Assets\VisualConsoles\PS5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\XboxOne_fat.png">
+      <PackagePath>Assets\VisualConsoles\XboxOne_fat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\XboxOne_s.png">
+      <PackagePath>Assets\VisualConsoles\XboxOne_s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\XboxSeries_S.png">
+      <PackagePath>Assets\VisualConsoles\XboxSeries_S.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\XboxSeries_X.png">
+      <PackagePath>Assets\VisualConsoles\XboxSeries_X.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\GamingPC.png">
+      <PackagePath>Assets\VisualPictures\PC\GamingPC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\iMac.png">
+      <PackagePath>Assets\VisualPictures\PC\iMac.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\LenovoIdeaPad.png">
+      <PackagePath>Assets\VisualPictures\PC\LenovoIdeaPad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\LenovoThinkPad.png">
+      <PackagePath>Assets\VisualPictures\PC\LenovoThinkPad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\MacBook_Air.png">
+      <PackagePath>Assets\VisualPictures\PC\MacBook_Air.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\MonoPC.png">
+      <PackagePath>Assets\VisualPictures\PC\MonoPC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\PC.png">
+      <PackagePath>Assets\VisualPictures\PC\PC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\PCLaptop.png">
+      <PackagePath>Assets\VisualPictures\PC\PCLaptop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\Surface.png">
+      <PackagePath>Assets\VisualPictures\PC\Surface.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\PC\Tablet.png">
+      <PackagePath>Assets\VisualPictures\PC\Tablet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\Phones\FirstPhone.png">
+      <PackagePath>Assets\VisualPictures\Phones\FirstPhone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\Phones\Honor.png">
+      <PackagePath>Assets\VisualPictures\Phones\Honor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\Phones\IPhone.png">
+      <PackagePath>Assets\VisualPictures\Phones\IPhone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\Phones\Samsung.png">
+      <PackagePath>Assets\VisualPictures\Phones\Samsung.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualPictures\Phones\WinPhone.png">
+      <PackagePath>Assets\VisualPictures\Phones\WinPhone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\Assets\VisualConsoles\XboxOne_X.jpg">
+      <PackagePath>Assets\VisualConsoles\XboxOne_X.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\bin\Debug\PCsupport_RT.xr.xml">
+      <PackagePath>PCsupport_RT.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\PCsupport_RT\PCsupport_RT\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

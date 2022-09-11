@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>ChoosingGadgets</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x86;x64;arm64</Platforms>
+    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+    <UseWinUI>true</UseWinUI>
+    <AutoGenerateBindingRedirects></AutoGenerateBindingRedirects>
+    <Company>Feather Projects Studio</Company>
+    <Product>Choosing Gadgets</Product>
+    <Authors>Max Goglov</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>en</NeutralLanguage>
+    <ApplicationIcon>IconNew2.ico</ApplicationIcon>
+    <Version>3.1.0</Version>
+    <Description>The Choosing gadgets from Feather Project Studio will help you determine the best computer or phone for simple questions.
+The interface is made in a Fluent Desing design that does not stand out from the style of the Windows operating system.
+The application will help you identify the computer: by RAM, form factor, hard disk, video card, processor, as well as the operating system
+And if you need a smartphone, then according to the minimum characteristics, so that it is much easier for you to decide before buying.
+Directly from the app, you can go to Yandex.Market for shopping and join the discussions in VKontakte!</Description>
+    <Copyright>Feather Projects Studio</Copyright>
+    <PackageLicenseExpression />
+    <PackageIcon>IconNew2.png</PackageIcon>
+    <PackageIconUrl />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>TemporaryKeyMS.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DLC\Models\ModelsPage.xaml" />
+    <None Remove="PCLaptopPage.xaml" />
+    <None Remove="PCLaptopPage_pro.xaml" />
+    <None Remove="PhonePage.xaml" />
+    <None Remove="SettingsApp\SettingsPage.xaml" />
+    <None Remove="WebPages\DisVKPage.xaml" />
+    <None Remove="WebPages\MarketPage.xaml" />
+    <None Include="E:\Projects\Choosing gadgets\ICONS\IconNew2.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.13" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22000.197" />
+    <Manifest Include="$(ApplicationManifest)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\LogoManufacture\" />
+    <Folder Include="Assets\VisualPictures\" />
+    <Folder Include="DLC\Tips\" />
+    <Folder Include="Strings\en\" />
+    <Folder Include="Strings\ru\" />
+    <Folder Include="Strings\fr\" />
+    <Folder Include="Strings\es\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="SettingsApp\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="DLC\Models\ModelsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="WebPages\DisVKPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="WebPages\MarketPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="PhonePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="PCLaptopPage_pro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="PCLaptopPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

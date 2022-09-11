@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IDEAPAD-L340-MA</Machine>
+    <WindowsUser>maxgo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>FeatherProjects.SupportSystem</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AF289A0911FAA5E74AE13D2B766E0AE6E9962F8504EE9F45DCC4D64314560419</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>FeatherProjects.SupportSystem_1.0.0.0_neutral__f6m6dz6y2b6a4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>FeatherProjects.SupportSystem_f6m6dz6y2b6a4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>FeatherProjects.SupportSystem</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=maxgo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-10-15T08:10:12.776</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\bin\Release\SupportSystem_Metro.Windows.exe">
+      <PackagePath>SupportSystem_Metro.Windows.exe</PackagePath>
+      <Modified>2021-10-15T08:10:12.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Icon_metro.scale-140.png">
+      <PackagePath>Assets\Icon_metro.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Icon_metro.scale-180.png">
+      <PackagePath>Assets\Icon_metro.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\PC.png">
+      <PackagePath>Assets\PC.png</PackagePath>
+      <Modified>2021-08-25T20:52:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.scale-180.png">
+      <PackagePath>Assets\Square44x44Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:02.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-22T13:51:03.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Surface.png">
+      <PackagePath>Assets\Surface.png</PackagePath>
+      <Modified>2021-08-25T20:52:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Tablet.png">
+      <PackagePath>Assets\Tablet.png</PackagePath>
+      <Modified>2021-08-25T20:52:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <Modified>2021-09-22T13:51:02.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-10-15T08:10:12.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-10-15T08:10:12.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\bin\Release\SupportSystem_Metro.Windows.xr.xml">
+      <PackagePath>SupportSystem_Metro.Windows.xr.xml</PackagePath>
+      <Modified>2021-10-15T08:10:12.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-10-15T08:10:12.718</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

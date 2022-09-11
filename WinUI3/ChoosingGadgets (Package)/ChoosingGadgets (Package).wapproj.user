@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <Source>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</Source>
+    <SmallTileSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</SmallTileSource>
+    <MediumTileSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</MediumTileSource>
+    <WideTileSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</WideTileSource>
+    <LargeTileSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</LargeTileSource>
+    <AppIconSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</AppIconSource>
+    <SplashScreenSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Icon2.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>StoreAndSideload</UapAppxPackageBuildMode>
+    <AppxBuildConfigurationSelection>x86</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+</Project>

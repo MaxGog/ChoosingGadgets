@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ChoosingGadgets</id>
+    <version>3.1.0</version>
+    <authors>Max Goglov</authors>
+    <icon>IconNew2.png</icon>
+    <description>The Choosing gadgets from Feather Project Studio will help you determine the best computer or phone for simple questions.
+The interface is made in a Fluent Desing design that does not stand out from the style of the Windows operating system.
+The application will help you identify the computer: by RAM, form factor, hard disk, video card, processor, as well as the operating system
+And if you need a smartphone, then according to the minimum characteristics, so that it is much easier for you to decide before buying.
+Directly from the app, you can go to Yandex.Market for shopping and join the discussions in VKontakte!</description>
+    <copyright>Feather Projects Studio</copyright>
+    <dependencies>
+      <group targetFramework="net5.0-windows10.0.19041">
+        <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="6.2.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Windows.SDK.BuildTools" version="10.0.22000.197" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.WindowsAppSDK" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Apple.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/ChomeOS.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/FStudio1.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/FStudio2.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Lenovo.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Linux.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/MacOS.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Pixel.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Samsung.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Surface.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/LogoManufacture/Windows8.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/GamingPC.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/LenovoIdeaPad.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/LenovoThinkPad.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/MacBook_Air.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/MonoPC.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/PC.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/PCLaptop.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/Surface.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/PC/Tablet.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/Phones/FirstPhone.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/Phones/Honor.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/Phones/IPhone.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/Phones/Samsung.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/VisualPictures/Phones/WinPhone.png" buildAction="Content" />
+      <files include="any/net5.0-windows10.0.19041/Assets/background.jpg" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.runtimeconfig.json" target="lib\net5.0-windows10.0.19041\ChoosingGadgets.runtimeconfig.json" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.dll" target="lib\net5.0-windows10.0.19041\ChoosingGadgets.dll" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.pri" target="lib\net5.0-windows10.0.19041\ChoosingGadgets.pri" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Apple.png" target="content\Assets\LogoManufacture\Apple.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Apple.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Apple.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\ChomeOS.png" target="content\Assets\LogoManufacture\ChomeOS.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\ChomeOS.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\ChomeOS.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\FStudio1.png" target="content\Assets\LogoManufacture\FStudio1.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\FStudio1.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\FStudio1.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\FStudio2.png" target="content\Assets\LogoManufacture\FStudio2.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\FStudio2.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\FStudio2.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Lenovo.png" target="content\Assets\LogoManufacture\Lenovo.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Lenovo.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Lenovo.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Linux.png" target="content\Assets\LogoManufacture\Linux.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Linux.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Linux.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\MacOS.png" target="content\Assets\LogoManufacture\MacOS.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\MacOS.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\MacOS.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Pixel.png" target="content\Assets\LogoManufacture\Pixel.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Pixel.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Pixel.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Samsung.png" target="content\Assets\LogoManufacture\Samsung.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Samsung.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Samsung.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Surface.png" target="content\Assets\LogoManufacture\Surface.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Surface.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Surface.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Windows8.png" target="content\Assets\LogoManufacture\Windows8.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Windows8.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\LogoManufacture\Windows8.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\GamingPC.png" target="content\Assets\VisualPictures\PC\GamingPC.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\GamingPC.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\GamingPC.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\LenovoIdeaPad.png" target="content\Assets\VisualPictures\PC\LenovoIdeaPad.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\LenovoIdeaPad.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\LenovoIdeaPad.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\LenovoThinkPad.png" target="content\Assets\VisualPictures\PC\LenovoThinkPad.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\LenovoThinkPad.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\LenovoThinkPad.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\MacBook_Air.png" target="content\Assets\VisualPictures\PC\MacBook_Air.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\MacBook_Air.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\MacBook_Air.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\MonoPC.png" target="content\Assets\VisualPictures\PC\MonoPC.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\MonoPC.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\MonoPC.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\PC.png" target="content\Assets\VisualPictures\PC\PC.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\PC.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\PC.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\PCLaptop.png" target="content\Assets\VisualPictures\PC\PCLaptop.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\PCLaptop.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\PCLaptop.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\Surface.png" target="content\Assets\VisualPictures\PC\Surface.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\Surface.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\Surface.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\Tablet.png" target="content\Assets\VisualPictures\PC\Tablet.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\Tablet.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\PC\Tablet.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\FirstPhone.png" target="content\Assets\VisualPictures\Phones\FirstPhone.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\FirstPhone.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\Phones\FirstPhone.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\Honor.png" target="content\Assets\VisualPictures\Phones\Honor.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\Honor.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\Phones\Honor.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\IPhone.png" target="content\Assets\VisualPictures\Phones\IPhone.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\IPhone.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\Phones\IPhone.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\Samsung.png" target="content\Assets\VisualPictures\Phones\Samsung.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\Samsung.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\Phones\Samsung.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\WinPhone.png" target="content\Assets\VisualPictures\Phones\WinPhone.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\WinPhone.png" target="contentFiles\any\net5.0-windows10.0.19041\Assets\VisualPictures\Phones\WinPhone.png" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\background.jpg" target="content\Assets\background.jpg" />
+    <file src="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\background.jpg" target="contentFiles\any\net5.0-windows10.0.19041\Assets\background.jpg" />
+    <file src="E:\Projects\Choosing gadgets\ICONS\IconNew2.png" target="IconNew2.png" />
+  </files>
+</package>

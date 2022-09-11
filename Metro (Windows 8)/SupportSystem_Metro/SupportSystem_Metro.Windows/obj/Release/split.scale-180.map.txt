@@ -1,0 +1,10 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\obj\Release\split.scale-180.pri"			"resources.pri"
+"C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\obj\Release\PackageLayout\Assets\StoreLogo.scale-180.png"			"Assets\StoreLogo.scale-180.png"
+"C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\obj\Release\PackageLayout\Assets\Square44x44Logo.scale-180.png"			"Assets\Square44x44Logo.scale-180.png"
+"C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\obj\Release\PackageLayout\Assets\SmallLogo.scale-180.png"			"Assets\SmallLogo.scale-180.png"
+"C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\obj\Release\PackageLayout\Assets\Icon_metro.scale-180.png"			"Assets\Icon_metro.scale-180.png"

@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="SupportSystemBeta.DLC.Vacuum_cleaner"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SupportSystemBeta.DLC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="{ThemeResource SystemControlAcrylicWindowBrush}" Grid.RowSpan="3" HorizontalAlignment="Stretch" Grid.ColumnSpan="2"/>
+        <Button Style="{StaticResource AccentButtonStyle}" x:Uid="Finish" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top" x:Name="Finish" Click="Finish_Click" Grid.ColumnSpan="1"/>
+        <ScrollViewer Grid.Row="1" Grid.RowSpan="2">
+            <StackPanel Grid.Row="1" Grid.ColumnSpan="1" Visibility="Visible" VerticalAlignment="Center">
+                <ToggleSwitch x:Name="Smart" Toggled="Smart_Toggled" x:Uid="Cl_smart" OffContent="No" OnContent="Yes" IsOn="True" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Width="300" Margin="10"/>
+                <ToggleSwitch x:Name="Dimensions" Toggled="Dimensions_Toggled" x:Uid="Cl_dimensios" OffContent="Small" OnContent="Big" IsOn="True" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Width="300" Margin="10"/>
+                <TextBlock Text="Coating" Margin="10" FontSize="17"/>
+                <ListBox SelectionChanged="ListBox_SelectionChanged" SelectionMode="Multiple">
+                    <ListBoxItem Content="Cl_Carpet" x:Name="Carpet"/>
+                    <ListBoxItem Content="Cl_Carpets" x:Name="Carpets"/>
+                    <ListBoxItem Content="Cl_Cork" x:Name="Cork"/>
+                    <ListBoxItem Content="Cl_Linoleum" x:Name="Linoleum"/>
+                    <ListBoxItem Content="Cl_Laminate" x:Name="Laminate"/>
+                    <ListBoxItem Content="Cl_Ceramics_Ceramogranite" x:Name="Granit"/>
+                    <ListBoxItem Content="Cl_Marble-Granite" x:Name="Marble"/>
+                </ListBox>
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.RowSpan="2" Grid.Column="2">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                <Rectangle Fill="{ThemeResource SystemControlAcrylicWindowBrush}"/>
+                <Image x:Name="Image_Home" Source="/DLC/Assets/cleaner.jpg"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

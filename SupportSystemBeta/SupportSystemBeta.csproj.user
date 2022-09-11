@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</Source>
+    <SmallTileSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</SmallTileSource>
+    <MediumTileSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</MediumTileSource>
+    <WideTileSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</WideTileSource>
+    <LargeTileSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</LargeTileSource>
+    <AppIconSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</AppIconSource>
+    <SplashScreenSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\Assets\Иконка_adobespark.png</PackageLogoSource>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <UapAppxPackageBuildMode>StoreAndSideload</UapAppxPackageBuildMode>
+    <AppxBuildConfigurationSelection>x86</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+</Project>

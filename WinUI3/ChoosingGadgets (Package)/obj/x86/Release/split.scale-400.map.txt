@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-400"
+"ResourceDimensions"		"scale-400"
+
+[Files]
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\split.scale-400.pri"			"resources.pri"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\Wide310x150Logo.scale-400.png"			"Images\Wide310x150Logo.scale-400.png"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\StoreLogo.scale-400.png"			"Images\StoreLogo.scale-400.png"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\Square44x44Logo.scale-400.png"			"Images\Square44x44Logo.scale-400.png"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\Square150x150Logo.scale-400.png"			"Images\Square150x150Logo.scale-400.png"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\SplashScreen.scale-400.png"			"Images\SplashScreen.scale-400.png"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\SmallTile.scale-400.png"			"Images\SmallTile.scale-400.png"
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\PackageLayout\Images\LargeTile.scale-400.png"			"Images\LargeTile.scale-400.png"

@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="ChoosingGadgets" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN,ES,FR,RU</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://ChoosingGadgets/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainWindow.xbf" uri="ms-resource://ChoosingGadgets/Files/MainWindow.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PCLaptopPage.xbf" uri="ms-resource://ChoosingGadgets/Files/PCLaptopPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PCLaptopPage_pro.xbf" uri="ms-resource://ChoosingGadgets/Files/PCLaptopPage_pro.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PhonePage.xbf" uri="ms-resource://ChoosingGadgets/Files/PhonePage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="background.jpg" uri="ms-resource://ChoosingGadgets/Files/Assets/background.jpg">
+					<Candidate type="Path">
+						<Value>Assets\background.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="LogoManufacture">
+					<NamedResource name="Apple.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Apple.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Apple.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ChomeOS.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/ChomeOS.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\ChomeOS.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FStudio1.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/FStudio1.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\FStudio1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FStudio2.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/FStudio2.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\FStudio2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Lenovo.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Lenovo.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Lenovo.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Linux.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Linux.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Linux.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MacOS.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/MacOS.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\MacOS.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Pixel.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Pixel.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Pixel.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Samsung.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Samsung.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Samsung.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Surface.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Surface.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Surface.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Windows8.png" uri="ms-resource://ChoosingGadgets/Files/Assets/LogoManufacture/Windows8.png">
+						<Candidate type="Path">
+							<Value>Assets\LogoManufacture\Windows8.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="VisualPictures">
+					<ResourceMapSubtree name="PC">
+						<NamedResource name="GamingPC.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/GamingPC.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\GamingPC.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LenovoIdeaPad.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/LenovoIdeaPad.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\LenovoIdeaPad.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LenovoThinkPad.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/LenovoThinkPad.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\LenovoThinkPad.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="MacBook_Air.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/MacBook_Air.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\MacBook_Air.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="MonoPC.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/MonoPC.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\MonoPC.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PC.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/PC.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\PC.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PCLaptop.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/PCLaptop.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\PCLaptop.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Surface.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/Surface.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\Surface.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Tablet.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/PC/Tablet.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\PC\Tablet.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Phones">
+						<NamedResource name="FirstPhone.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/Phones/FirstPhone.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\Phones\FirstPhone.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Honor.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/Phones/Honor.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\Phones\Honor.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="IPhone.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/Phones/IPhone.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\Phones\IPhone.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Samsung.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/Phones/Samsung.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\Phones\Samsung.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="WinPhone.png" uri="ms-resource://ChoosingGadgets/Files/Assets/VisualPictures/Phones/WinPhone.png">
+							<Candidate type="Path">
+								<Value>Assets\VisualPictures\Phones\WinPhone.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DLC">
+				<ResourceMapSubtree name="Models">
+					<NamedResource name="ModelsPage.xbf" uri="ms-resource://ChoosingGadgets/Files/DLC/Models/ModelsPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SettingsApp">
+				<NamedResource name="SettingsPage.xbf" uri="ms-resource://ChoosingGadgets/Files/SettingsApp/SettingsPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WebPages">
+				<NamedResource name="DisVKPage.xbf" uri="ms-resource://ChoosingGadgets/Files/WebPages/DisVKPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MarketPage.xbf" uri="ms-resource://ChoosingGadgets/Files/WebPages/MarketPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="CPU" uri="ms-resource://ChoosingGadgets/Resources/CPU">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>, частота процессора: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>, fréquence du processeur :</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>, Frecuencia de la CPU:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>, CPU frequency: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MacBook_air" uri="ms-resource://ChoosingGadgets/Resources/MacBook_air">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>В ноябре 2020 года Apple представила ​​MacBook Air A2337. Он стал первым ноутбуком компании который оснащен процессором фирменного производства. Чип получил названии M1. Он выполнен по 5-ти нанометровому техпроцессу. Центральный процессор имеет 8 ядер (4 высокопроизводительных и 4 энергоэффективных). Графический процессор также получил 8 ядер, а нейронный блок — 16.
+
+Благодаря M1 графическая производительность нового MacBook Air возросла в 5 раз, а фирменный контроллер, интегрированный в данный чип, позволил увеличить скорость твердотельного накопителя (SSD) в 2 раза.
+
+Также благодаря использованию нового чипа, удалось заметно "прокачать" автономность устройства. MacBook Air M1 способен работать до 15 часов в режиме веб-серфинга и до 18 часов в режиме просмотра видео.
+
+Лэптоп от Apple получил сканер отпечатков Touch ID, беспроводной адаптер Wi-Fi 6, экран Retina с разрешением – 2560 х 1600 пикселей и диагональю 13,3 дюйма. Максимальный объем оперативной памяти составляет 16 ГБ, а объем твердотельного накопителя –  2 ТБ.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Model_str" uri="ms-resource://ChoosingGadgets/Resources/Model_str">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Модель: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Modèle:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Modelo:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Preferred model: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Okay" uri="ms-resource://ChoosingGadgets/Resources/Okay">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Готово</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Prêt</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Listo</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Ok</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OS" uri="ms-resource://ChoosingGadgets/Resources/OS">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Операционная система: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Système opérateur:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Sistema operativo:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>OS: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Payment" uri="ms-resource://ChoosingGadgets/Resources/Payment">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Рекомендуемая платёжная система: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Système de paiement recommandé :</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Sistema de pago recomendado:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Recommended payment system: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Processor_architecture" uri="ms-resource://ChoosingGadgets/Resources/Processor_architecture">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>, aрхитектура процессора: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>, architecture du processeur :</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>, arquitectura del procesador</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>, processor architecture: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RAM" uri="ms-resource://ChoosingGadgets/Resources/RAM">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Оперативная память: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>RAM:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>RAM:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>RAM: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Result" uri="ms-resource://ChoosingGadgets/Resources/Result">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Результат</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Résultat</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Resultado</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Result</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ROM" uri="ms-resource://ChoosingGadgets/Resources/ROM">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Внутренняя память: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Mémoire intérieure :</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Memoria interna:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>ROM: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ROMvideo" uri="ms-resource://ChoosingGadgets/Resources/ROMvideo">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Видеопамять: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Mémoire vidéo:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Memoria de video:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Video RAM:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SmartModel" uri="ms-resource://ChoosingGadgets/Resources/SmartModel">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Смартфон: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Téléphone intelligent:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Smartphone:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Smartphone: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Surface_pro7" uri="ms-resource://ChoosingGadgets/Resources/Surface_pro7">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Большая часть тех составляющих, которые по моим представлениям можно было модернизировать, Microsoft проигнорировала. Начиная от вопиющих рамок до высоты корпуса, которые остались по-прежнему слишком большим, для комфортного использовать девайса в качестве планшета.
+
+770 грамм — это слишком много по сравнению 453 г у iPad 2019 года, к тому же Surface Pro 7 немного толще. В этой области Surface Pro X сделал огромный шаг вперёд, его толщина меньше iPad на 0,51 см. Несмотря на то что Surface Pro 7 и Pro X весят одинаково, меньший размер последнего облегчает его более удобное использование в качестве планшета. Клавиатура обеспечивает полный ход клавиш на 1,3 мм, а её раскладка такая же удобная, как и у любого высококачественного ноутбука. Мне бы хотелось, чтобы Type Cover магнитилась к нижней части экрана, поскольку открывать и закрывать устройство не очень удобно, а также чтобы тачпад был немного больше. Операционная система
+
+Windows 10
+
+Дисплей
+
+Pixelsense 12,3-дюйм, соотношение сторон 3: 2, 2736×1824 (267 ppi)
+
+Процессоры
+
+10-го поколения Intel
+Core i3-1005G1
+Core i5-1035G4
+Core i7-1065G7
+
+Объём памяти
+
+LPDDR4x 4 ГБ, 8 ГБ или 16 ГБ
+
+Объём хранилища
+
+SSD 128/256/512 ГБ или 1 ТБ
+
+Камера заднего вида
+
+8-МП автофокусировка (1080p)
+
+Передняя камера
+
+5-МП (1080p)
+
+Безопасность
+
+Windows Hello камера для проверки по лицу
+
+Связь
+
+Bluetooth 5.0, Wi-Fi 6
+
+Порты
+
+1?USB-C, 1?USB-A, 1?MicroSDXC, разъём для подключения клавиатуры, разъём для наушников 3,5 мм
+
+Автономность
+
+До 10,5 часов
+
+Вес
+
+От 770 г
+
+Цвета корпуса
+
+Платиновый, чёрный
+</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TypeDevice" uri="ms-resource://ChoosingGadgets/Resources/TypeDevice">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Формфактор устройства: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Facteur de forme de l'appareil :</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Factor de forma del dispositivo:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Type device: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="VideoCard" uri="ms-resource://ChoosingGadgets/Resources/VideoCard">
+				<Candidate qualifiers="Language-RU" type="String">
+					<Value>Видеокарта: </Value>
+				</Candidate>
+				<Candidate qualifiers="Language-FR" type="String">
+					<Value>Carte vidéo:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-ES" type="String">
+					<Value>Tarjeta de video:</Value>
+				</Candidate>
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Videocard: </Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Accuracy_check">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Accuracy_check/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Точный результат</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Appliances_word">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Appliances_word/Content">
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Accesorios</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Discussions">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Discussions/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Обсуждения</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Débats</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Discusiones</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Discussions on VK</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Finish">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Finish/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Результат</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Résultat</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Resultado</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Finish</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="For_develop">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/For_develop/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для разработки</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Para el desarrollo</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Para el desarrollo</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For develop</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="For_gaming">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/For_gaming/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для гейминга</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Para Gaming</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Para Gaming</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For gaming</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="For_home">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/For_home/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для дома</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Para el hogar</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Para el hogar</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For home</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="For_work">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/For_work/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для офисной работы</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Para el trabajo de oficina</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Para el trabajo de oficina</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For office work</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="LoadingWork">
+				<NamedResource name="Message" uri="ms-resource://ChoosingGadgets/Resources/LoadingWork/Message">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Мы работаем над этим, зайдите позже!</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Nous y travaillons, revenez plus tard!</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Estamos trabajando en ello, ¡vuelva más tarde!</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>We're working on it, check back later!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Main">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Main/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Общее</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Market">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Market/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Яндекс.Маркет</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Marché Yandex</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Mercado Yandex</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Market</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Models">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Models/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Модели компьютеров</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Modèles</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Modelos</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Models</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="No">
+				<NamedResource name="OffContent" uri="ms-resource://ChoosingGadgets/Resources/No/OffContent">
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>No</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Assembly">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Assembly/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вам нужна качественная сборка и материал?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Vous avez besoin d'un assemblage et d'un matériel de qualité ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Necesita un montaje y material de calidad?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You need high-quality build and material?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_bigROM">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_bigROM/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы планируете хранить большой объем информации?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Envisagez-vous de stocker une grande quantité d'informations?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Planea almacenar una gran cantidad de información?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Do you plan to store a large amount of information?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Ecosystem">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Ecosystem/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вам важна качественная экосистема?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Un écosystème de qualité est-il important pour vous ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Es importante para ti un ecosistema de calidad?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You're important to the ecosystem/quality of design?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Game">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Game/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы будете играть в игры?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Jouerez-vous à des jeux ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Jugarás juegos?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You will play the game?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Laptop">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/PC_Laptop/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Компьютеры</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Des ordinateurs</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Ordenadores</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>PC's and laptops</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Laptop_Page">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/PC_Laptop_Page/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>PC and Laptops</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Text" uri="ms-resource://ChoosingGadgets/Resources/PC_Laptop_Page/Text">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Компьютеры и ноутбуки</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Ordinateurs et portables</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Computadoras y laptops</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Modility">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Modility/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы часто передвигаетесь?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Vous bougez beaucoup ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Te mueves mucho?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You need mobility?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_phoneSync">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_phoneSync/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Какой Ваш смартфон?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>C'est quoi ton smartphone ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Cuál es tu smartphone?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Which smartphone do you have?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Pro">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Pro/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы используете профессиональное ПО?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Utilisez-vous un logiciel professionnel ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Utiliza software profesional?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You work with the "pro" software?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Purpose">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Purpose/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для каких целей вам нужен ПК, ноутбук?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>A quelles fins avez-vous besoin d'un PC, d'un ordinateur portable ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Para qué necesita una PC, una computadora portátil?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For what purpose You need a PC\laptop?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Sync">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/PC_Sync/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы синхронизируете устройства?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Synchronisez-vous des appareils ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Estás sincronizando dispositivos?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Are you syncing your devices?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Phone/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Телефоны</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Téléphone (s</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Los telefonos</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Phones</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Apps">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/Phone_Apps/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Будете ли вы устанавливать более 20 сторонних приложений?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Allez-vous installer plus de 20 applications tierces ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Instalará más de 20 aplicaciones de terceros?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Will you be installing over 20 third-party apps?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Cloud">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/Phone_Cloud/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Используете ли вы файлы в автономном режиме или в облаке?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Utilisez-vous des fichiers hors ligne ou dans le cloud ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Utiliza archivos sin conexión o en la nube?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Are you using files offline or in the cloud?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_File">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/Phone_File/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы работаете с файловой системой?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Travaillez-vous avec le système de fichiers ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Está trabajando con el sistema de archivos?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Are you working with the file system?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Game">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/Phone_Game/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы будете играть в тяжелые игры на телефоне?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Jouerez-vous à des jeux lourds sur votre téléphone ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Jugarás juegos pesados ​​en tu teléfono?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Will you play heavy games on your phone?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Page">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Phone_Page/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Phone's</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Text" uri="ms-resource://ChoosingGadgets/Resources/Phone_Page/Text">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Смартфоны</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Téléphones intelligents
+</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Teléfonos inteligentes</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Pro">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/Phone_Pro/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы должны использовать профессиональное программное обеспечение?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Faut-il utiliser un logiciel professionnel ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Debería utilizar software profesional?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Do you need to use professional software?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Purpose">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/Phone_Purpose/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для каких целей вам нужен смартфон?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>À quelles fins avez-vous besoin d'un smartphone ?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Para qué necesitas un teléfono inteligente?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For what purposes do you need a smartphone?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="pro_adobe">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/pro_adobe/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Вы будете использовать продукты Adobe?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Pro_ver">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Pro_ver/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для профессионалов</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Pour les professionnels</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Para profesionales</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For professionals</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="pro_vr">
+				<NamedResource name="Header" uri="ms-resource://ChoosingGadgets/Resources/pro_vr/Header">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Будете ли Вы использовать VR?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Pro_words">
+				<NamedResource name="Message" uri="ms-resource://ChoosingGadgets/Resources/Pro_words/Message">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Если непонимаете некоторых слов, загляните в словарь!</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Si vous ne comprenez pas certains mots, regardez dans le dictionnaire!</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Si no entiendes algunas palabras, ¡Mira el diccionario!</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>If you don't understand some words, look in the dictionary!</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PurposePC">
+				<NamedResource name="Text" uri="ms-resource://ChoosingGadgets/Resources/PurposePC/Text">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Для каких целей вам требуется ноутбук?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>À quelles fins avez-vous besoin d'un ordinateur portable?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>¿Para qué fines necesita una computadora portátil?</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For what purposes do you need a laptop?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Settings">
+				<NamedResource name="Text" uri="ms-resource://ChoosingGadgets/Resources/Settings/Text">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Настройки</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Paramètres</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Ajustes</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Settings</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Sites">
+				<NamedResource name="Content" uri="ms-resource://ChoosingGadgets/Resources/Sites/Content">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>Ссылки:</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Liens:</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Enlaces:</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Sites:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="VR">
+				<NamedResource name="Text" uri="ms-resource://ChoosingGadgets/Resources/VR/Text">
+					<Candidate qualifiers="Language-RU" type="String">
+						<Value>VR-гарнитуры</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-FR" type="String">
+						<Value>Casques VR</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>Auriculares VR</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>VR station</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Yes">
+				<NamedResource name="OnContent" uri="ms-resource://ChoosingGadgets/Resources/Yes/OnContent">
+					<Candidate qualifiers="Language-ES" type="String">
+						<Value>sí</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

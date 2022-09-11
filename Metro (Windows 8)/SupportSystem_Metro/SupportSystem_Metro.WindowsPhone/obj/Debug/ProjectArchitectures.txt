@@ -1,0 +1,1 @@
+C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.WindowsPhone\SupportSystem_Metro.WindowsPhone.csproj;neutral

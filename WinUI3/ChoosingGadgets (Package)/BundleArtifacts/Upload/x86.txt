@@ -1,0 +1,9 @@
+MainPackage=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_x86.msix
+SymbolPackage=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0\ChoosingGadgets (Package)_3.1.6.0_x86.appxsym
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_language-es.msix
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_language-fr.msix
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_language-ru.msix
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_scale-100.msix
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_scale-125.msix
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_scale-150.msix
+ResourcePack=C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x86\Release\Upload\ChoosingGadgets (Package)_3.1.6.0_scale-400.msix

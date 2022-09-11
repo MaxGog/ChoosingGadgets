@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fBx+hvQo0+oBEicFTxHUztiWerEjB6i2Ragyps/CjXoexzz1H330FILQcS3XAaBO6kwAYXpLFEQJzx8lVLV+NA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maxgo\\source\\repos\\ChoosingGadgets\\ChoosingGadgets (Package)\\ChoosingGadgets (Package).wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

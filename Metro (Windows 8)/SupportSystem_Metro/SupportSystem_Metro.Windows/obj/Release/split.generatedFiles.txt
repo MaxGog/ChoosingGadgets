@@ -1,0 +1,10 @@
+obj\Release\split.pri
+obj\Release\split.map.txt
+obj\Release\split.language-ru.pri
+obj\Release\split.language-ru.map.txt
+obj\Release\split.scale-140.pri
+obj\Release\split.scale-140.map.txt
+obj\Release\split.scale-150.pri
+obj\Release\split.scale-150.map.txt
+obj\Release\split.scale-180.pri
+obj\Release\split.scale-180.map.txt

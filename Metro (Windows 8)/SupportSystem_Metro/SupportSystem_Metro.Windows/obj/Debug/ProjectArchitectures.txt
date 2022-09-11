@@ -1,0 +1,1 @@
+C:\Users\maxgo\source\repos\SupportSystem_Metro\SupportSystem_Metro\SupportSystem_Metro.Windows\SupportSystem_Metro.Windows.csproj;neutral

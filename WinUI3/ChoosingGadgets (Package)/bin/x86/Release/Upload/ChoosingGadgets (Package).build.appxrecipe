@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>L340-GAMING-MAX</Machine>
+    <WindowsUser>maxgo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>52304FeatherProjects.Supportsystemwhenyouselectthe</PackageIdentityName>
+    <PackageIdentityPublisher>CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\bin\x86\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\bin\x86\Release\Upload\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Apple.png">
+      <PackagePath>Assets\LogoManufacture\Apple.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\ChomeOS.png">
+      <PackagePath>Assets\LogoManufacture\ChomeOS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\FStudio1.png">
+      <PackagePath>Assets\LogoManufacture\FStudio1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\FStudio2.png">
+      <PackagePath>Assets\LogoManufacture\FStudio2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Lenovo.png">
+      <PackagePath>Assets\LogoManufacture\Lenovo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Linux.png">
+      <PackagePath>Assets\LogoManufacture\Linux.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\MacOS.png">
+      <PackagePath>Assets\LogoManufacture\MacOS.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Pixel.png">
+      <PackagePath>Assets\LogoManufacture\Pixel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Samsung.png">
+      <PackagePath>Assets\LogoManufacture\Samsung.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Surface.png">
+      <PackagePath>Assets\LogoManufacture\Surface.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Windows8.png">
+      <PackagePath>Assets\LogoManufacture\Windows8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\GamingPC.png">
+      <PackagePath>Assets\VisualPictures\PC\GamingPC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\LenovoIdeaPad.png">
+      <PackagePath>Assets\VisualPictures\PC\LenovoIdeaPad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\LenovoThinkPad.png">
+      <PackagePath>Assets\VisualPictures\PC\LenovoThinkPad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\MacBook_Air.png">
+      <PackagePath>Assets\VisualPictures\PC\MacBook_Air.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\MonoPC.png">
+      <PackagePath>Assets\VisualPictures\PC\MonoPC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\PC.png">
+      <PackagePath>Assets\VisualPictures\PC\PC.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\PCLaptop.png">
+      <PackagePath>Assets\VisualPictures\PC\PCLaptop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\Surface.png">
+      <PackagePath>Assets\VisualPictures\PC\Surface.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\Tablet.png">
+      <PackagePath>Assets\VisualPictures\PC\Tablet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\FirstPhone.png">
+      <PackagePath>Assets\VisualPictures\Phones\FirstPhone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\Honor.png">
+      <PackagePath>Assets\VisualPictures\Phones\Honor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\IPhone.png">
+      <PackagePath>Assets\VisualPictures\Phones\IPhone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\Samsung.png">
+      <PackagePath>Assets\VisualPictures\Phones\Samsung.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x86\Release\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\WinPhone.png">
+      <PackagePath>Assets\VisualPictures\Phones\WinPhone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\ChoosingGadgets.png">
+      <PackagePath>Images\ChoosingGadgets.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets %28Package%29\bin\x86\Release\Upload\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\ChoosingGadgets.exe">
+      <PackagePath>ChoosingGadgets\ChoosingGadgets.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\ChoosingGadgets.deps.json">
+      <PackagePath>ChoosingGadgets\ChoosingGadgets.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\ChoosingGadgets.runtimeconfig.json">
+      <PackagePath>ChoosingGadgets\ChoosingGadgets.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\API-MS-Win-core-xstate-l2-1-0.dll">
+      <PackagePath>ChoosingGadgets\API-MS-Win-core-xstate-l2-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.DiaSymReader.Native.x86.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.DiaSymReader.Native.x86.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-console-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-console-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-console-l1-2-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-console-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-datetime-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-datetime-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-debug-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-debug-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-errorhandling-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-errorhandling-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-file-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-file-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-file-l1-2-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-file-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-file-l2-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-file-l2-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-handle-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-handle-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-heap-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-heap-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-interlocked-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-interlocked-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-libraryloader-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-libraryloader-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-localization-l1-2-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-localization-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-memory-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-memory-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-namedpipe-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-namedpipe-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-processenvironment-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-processenvironment-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-processthreads-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-processthreads-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-processthreads-l1-1-1.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-processthreads-l1-1-1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-profile-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-profile-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-rtlsupport-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-rtlsupport-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-string-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-string-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-synch-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-synch-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-synch-l1-2-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-synch-l1-2-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-sysinfo-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-sysinfo-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-timezone-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-timezone-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-core-util-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-core-util-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-conio-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-conio-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-convert-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-convert-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-environment-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-environment-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-filesystem-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-filesystem-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-heap-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-heap-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-locale-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-locale-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-math-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-math-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-multibyte-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-multibyte-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-private-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-private-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-process-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-process-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-runtime-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-runtime-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-stdio-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-stdio-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-string-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-string-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-time-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-time-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\api-ms-win-crt-utility-l1-1-0.dll">
+      <PackagePath>ChoosingGadgets\api-ms-win-crt-utility-l1-1-0.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\clrcompression.dll">
+      <PackagePath>ChoosingGadgets\clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\clretwrc.dll">
+      <PackagePath>ChoosingGadgets\clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\clrjit.dll">
+      <PackagePath>ChoosingGadgets\clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\coreclr.dll">
+      <PackagePath>ChoosingGadgets\coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\createdump.exe">
+      <PackagePath>ChoosingGadgets\createdump.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\dbgshim.dll">
+      <PackagePath>ChoosingGadgets\dbgshim.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\hostfxr.dll">
+      <PackagePath>ChoosingGadgets\hostfxr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\hostpolicy.dll">
+      <PackagePath>ChoosingGadgets\hostpolicy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\mscordaccore.dll">
+      <PackagePath>ChoosingGadgets\mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\mscordaccore_x86_x86_5.0.1522.11506.dll">
+      <PackagePath>ChoosingGadgets\mscordaccore_x86_x86_5.0.1522.11506.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\mscordbi.dll">
+      <PackagePath>ChoosingGadgets\mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\mscorrc.dll">
+      <PackagePath>ChoosingGadgets\mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\ucrtbase.dll">
+      <PackagePath>ChoosingGadgets\ucrtbase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.CSharp.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.VisualBasic.Core.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.VisualBasic.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.VisualBasic.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Win32.Primitives.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Win32.Registry.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.AppContext.dll">
+      <PackagePath>ChoosingGadgets\System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Buffers.dll">
+      <PackagePath>ChoosingGadgets\System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Collections.Concurrent.dll">
+      <PackagePath>ChoosingGadgets\System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Collections.Immutable.dll">
+      <PackagePath>ChoosingGadgets\System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Collections.NonGeneric.dll">
+      <PackagePath>ChoosingGadgets\System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Collections.Specialized.dll">
+      <PackagePath>ChoosingGadgets\System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Collections.dll">
+      <PackagePath>ChoosingGadgets\System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ComponentModel.Annotations.dll">
+      <PackagePath>ChoosingGadgets\System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>ChoosingGadgets\System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>ChoosingGadgets\System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ComponentModel.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>ChoosingGadgets\System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ComponentModel.dll">
+      <PackagePath>ChoosingGadgets\System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Configuration.dll">
+      <PackagePath>ChoosingGadgets\System.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Console.dll">
+      <PackagePath>ChoosingGadgets\System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Core.dll">
+      <PackagePath>ChoosingGadgets\System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Data.Common.dll">
+      <PackagePath>ChoosingGadgets\System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Data.DataSetExtensions.dll">
+      <PackagePath>ChoosingGadgets\System.Data.DataSetExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Data.dll">
+      <PackagePath>ChoosingGadgets\System.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.Contracts.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.Debug.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.Process.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.StackTrace.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.Tools.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.TraceSource.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Diagnostics.Tracing.dll">
+      <PackagePath>ChoosingGadgets\System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Drawing.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Drawing.dll">
+      <PackagePath>ChoosingGadgets\System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Dynamic.Runtime.dll">
+      <PackagePath>ChoosingGadgets\System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Formats.Asn1.dll">
+      <PackagePath>ChoosingGadgets\System.Formats.Asn1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Globalization.Calendars.dll">
+      <PackagePath>ChoosingGadgets\System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Globalization.Extensions.dll">
+      <PackagePath>ChoosingGadgets\System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Globalization.dll">
+      <PackagePath>ChoosingGadgets\System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.Compression.Brotli.dll">
+      <PackagePath>ChoosingGadgets\System.IO.Compression.Brotli.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.Compression.FileSystem.dll">
+      <PackagePath>ChoosingGadgets\System.IO.Compression.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.Compression.ZipFile.dll">
+      <PackagePath>ChoosingGadgets\System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.Compression.dll">
+      <PackagePath>ChoosingGadgets\System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>ChoosingGadgets\System.IO.FileSystem.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>ChoosingGadgets\System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>ChoosingGadgets\System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.FileSystem.dll">
+      <PackagePath>ChoosingGadgets\System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.IsolatedStorage.dll">
+      <PackagePath>ChoosingGadgets\System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>ChoosingGadgets\System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>ChoosingGadgets\System.IO.Pipes.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.Pipes.dll">
+      <PackagePath>ChoosingGadgets\System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>ChoosingGadgets\System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.IO.dll">
+      <PackagePath>ChoosingGadgets\System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Linq.Expressions.dll">
+      <PackagePath>ChoosingGadgets\System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Linq.Parallel.dll">
+      <PackagePath>ChoosingGadgets\System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Linq.Queryable.dll">
+      <PackagePath>ChoosingGadgets\System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Linq.dll">
+      <PackagePath>ChoosingGadgets\System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Memory.dll">
+      <PackagePath>ChoosingGadgets\System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Http.Json.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Http.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Http.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.HttpListener.dll">
+      <PackagePath>ChoosingGadgets\System.Net.HttpListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Mail.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Mail.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.NameResolution.dll">
+      <PackagePath>ChoosingGadgets\System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.NetworkInformation.dll">
+      <PackagePath>ChoosingGadgets\System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Ping.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Requests.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Security.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.ServicePoint.dll">
+      <PackagePath>ChoosingGadgets\System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.Sockets.dll">
+      <PackagePath>ChoosingGadgets\System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.WebClient.dll">
+      <PackagePath>ChoosingGadgets\System.Net.WebClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.WebHeaderCollection.dll">
+      <PackagePath>ChoosingGadgets\System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.WebProxy.dll">
+      <PackagePath>ChoosingGadgets\System.Net.WebProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.WebSockets.Client.dll">
+      <PackagePath>ChoosingGadgets\System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.WebSockets.dll">
+      <PackagePath>ChoosingGadgets\System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Net.dll">
+      <PackagePath>ChoosingGadgets\System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Numerics.Vectors.dll">
+      <PackagePath>ChoosingGadgets\System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Numerics.dll">
+      <PackagePath>ChoosingGadgets\System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ObjectModel.dll">
+      <PackagePath>ChoosingGadgets\System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Private.DataContractSerialization.dll">
+      <PackagePath>ChoosingGadgets\System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Private.Uri.dll">
+      <PackagePath>ChoosingGadgets\System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Private.Xml.Linq.dll">
+      <PackagePath>ChoosingGadgets\System.Private.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Private.Xml.dll">
+      <PackagePath>ChoosingGadgets\System.Private.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.DispatchProxy.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.Emit.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.Extensions.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.Metadata.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.TypeExtensions.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Reflection.dll">
+      <PackagePath>ChoosingGadgets\System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Resources.Reader.dll">
+      <PackagePath>ChoosingGadgets\System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Resources.ResourceManager.dll">
+      <PackagePath>ChoosingGadgets\System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Resources.Writer.dll">
+      <PackagePath>ChoosingGadgets\System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Extensions.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Handles.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.InteropServices.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Intrinsics.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Intrinsics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Loader.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Numerics.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Serialization.Json.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.Serialization.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Runtime.dll">
+      <PackagePath>ChoosingGadgets\System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.AccessControl.dll">
+      <PackagePath>ChoosingGadgets\System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Claims.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.Cng.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.Csp.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.OpenSsl.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.OpenSsl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Principal.Windows.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.Principal.dll">
+      <PackagePath>ChoosingGadgets\System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.SecureString.dll">
+      <PackagePath>ChoosingGadgets\System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Security.dll">
+      <PackagePath>ChoosingGadgets\System.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ServiceModel.Web.dll">
+      <PackagePath>ChoosingGadgets\System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ServiceProcess.dll">
+      <PackagePath>ChoosingGadgets\System.ServiceProcess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Text.Encoding.CodePages.dll">
+      <PackagePath>ChoosingGadgets\System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Text.Encoding.Extensions.dll">
+      <PackagePath>ChoosingGadgets\System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Text.Encoding.dll">
+      <PackagePath>ChoosingGadgets\System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Text.Encodings.Web.dll">
+      <PackagePath>ChoosingGadgets\System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Text.Json.dll">
+      <PackagePath>ChoosingGadgets\System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Text.RegularExpressions.dll">
+      <PackagePath>ChoosingGadgets\System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Channels.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Channels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Overlapped.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Tasks.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Thread.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.ThreadPool.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.Timer.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Threading.dll">
+      <PackagePath>ChoosingGadgets\System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Transactions.Local.dll">
+      <PackagePath>ChoosingGadgets\System.Transactions.Local.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Transactions.dll">
+      <PackagePath>ChoosingGadgets\System.Transactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.ValueTuple.dll">
+      <PackagePath>ChoosingGadgets\System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Web.HttpUtility.dll">
+      <PackagePath>ChoosingGadgets\System.Web.HttpUtility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Web.dll">
+      <PackagePath>ChoosingGadgets\System.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Windows.dll">
+      <PackagePath>ChoosingGadgets\System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.Linq.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.ReaderWriter.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.Serialization.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.XDocument.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.XPath.XDocument.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.XPath.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.XmlDocument.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.XmlSerializer.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Xml.dll">
+      <PackagePath>ChoosingGadgets\System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.dll">
+      <PackagePath>ChoosingGadgets\System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\WindowsBase.dll">
+      <PackagePath>ChoosingGadgets\WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\mscorlib.dll">
+      <PackagePath>ChoosingGadgets\mscorlib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\netstandard.dll">
+      <PackagePath>ChoosingGadgets\netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\System.Private.CoreLib.dll">
+      <PackagePath>ChoosingGadgets\System.Private.CoreLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.WinUI.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\ChoosingGadgets.dll">
+      <PackagePath>ChoosingGadgets\ChoosingGadgets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>ChoosingGadgets\Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\win10-x86\publish\WinRT.Runtime.dll">
+      <PackagePath>ChoosingGadgets\WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>0.319.455.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 0.319.455.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>0.319.455.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 0.319.455.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>0.319.455.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 0.319.455.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.0.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.0</Name>
+      <Version>0.319.455.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.0, MinVersion = 0.319.455.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\build\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.0.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

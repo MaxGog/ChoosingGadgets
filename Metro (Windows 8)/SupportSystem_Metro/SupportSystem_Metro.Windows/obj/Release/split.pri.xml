@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="FeatherProjects.SupportSystem" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN</Language>
+			<Scale>100</Scale>
+			<TargetSize>48, 32, 256, 24, 16</TargetSize>
+			<AlternateForm>LIGHTUNPLATED, UNPLATED</AlternateForm>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://FeatherProjects.SupportSystem/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://FeatherProjects.SupportSystem/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SupportSystem_Metro.Windows.xr.xml" uri="ms-resource://FeatherProjects.SupportSystem/Files/SupportSystem_Metro.Windows.xr.xml">
+				<Candidate type="Path">
+					<Value>SupportSystem_Metro.Windows.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Icon_metro.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Icon_metro.png"/>
+				<NamedResource name="LargeTile.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/LargeTile.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\LargeTile.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/LargeTile.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/LargeTile.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\LargeTile.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PC.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/PC.png">
+					<Candidate type="Path">
+						<Value>Assets\PC.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SmallTile.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\SmallTile.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SmallTile.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SmallTile.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\SmallTile.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SplashScreen.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreen.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SplashScreen.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/SplashScreen.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreen.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square150x150Logo.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\Square150x150Logo.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square150x150Logo.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square150x150Logo.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\Square150x150Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square44x44Logo.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\Square44x44Logo.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square44x44Logo.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Square44x44Logo.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\Square44x44Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/StoreLogo.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/StoreLogo.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/StoreLogo.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Surface.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Surface.png">
+					<Candidate type="Path">
+						<Value>Assets\Surface.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Tablet.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Tablet.png">
+					<Candidate type="Path">
+						<Value>Assets\Tablet.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.scale-125.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Wide310x150Logo.scale-125.png">
+					<Candidate type="Path">
+						<Value>Assets\Wide310x150Logo.scale-125.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.scale-200.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Wide310x150Logo.scale-200.png">
+					<Candidate type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.scale-400.png" uri="ms-resource://FeatherProjects.SupportSystem/Files/Assets/Wide310x150Logo.scale-400.png">
+					<Candidate type="Path">
+						<Value>Assets\Wide310x150Logo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="CPU" uri="ms-resource://FeatherProjects.SupportSystem/Resources/CPU">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>, CPU frequency: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Model_str" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Model_str">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Preferred model: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Okay" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Okay">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Ok</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OS" uri="ms-resource://FeatherProjects.SupportSystem/Resources/OS">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>OS: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Payment" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Payment">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Recommended payment system: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Processor_architecture" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Processor_architecture">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>, processor architecture: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RAM" uri="ms-resource://FeatherProjects.SupportSystem/Resources/RAM">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>RAM: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Result" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Result">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Result</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ROM" uri="ms-resource://FeatherProjects.SupportSystem/Resources/ROM">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>ROM: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ROMvideo" uri="ms-resource://FeatherProjects.SupportSystem/Resources/ROMvideo">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Video RAM:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SmartModel" uri="ms-resource://FeatherProjects.SupportSystem/Resources/SmartModel">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Smartphone: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="String1" uri="ms-resource://FeatherProjects.SupportSystem/Resources/String1">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value/>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TypeDevice" uri="ms-resource://FeatherProjects.SupportSystem/Resources/TypeDevice">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Type device: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="VideoCard" uri="ms-resource://FeatherProjects.SupportSystem/Resources/VideoCard">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Videocard: </Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Appliances_word">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Appliances_word/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Appliances</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Cl_dimensios">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Cl_dimensios/Header"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Cl_smart">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Cl_smart/Header"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Discussions">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Discussions/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Discussions on VK</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Finish">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Finish/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Finish</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FontWelcome">
+				<NamedResource name="Text" uri="ms-resource://FeatherProjects.SupportSystem/Resources/FontWelcome/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Support system when you select the device</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Width" uri="ms-resource://FeatherProjects.SupportSystem/Resources/FontWelcome/Width">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Auto</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Market">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Market/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Market</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="No">
+				<NamedResource name="OffContent" uri="ms-resource://FeatherProjects.SupportSystem/Resources/No/OffContent">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>No</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Assembly">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Assembly/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You need high-quality build and material?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_bigROM">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_bigROM/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Do you plan to store a large amount of information?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Ecosystem">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Ecosystem/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You're important to the ecosystem/quality of design?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Game">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Game/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You will play the game?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Laptop">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Laptop/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>PC's and laptops</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Laptop_Page">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Laptop_Page/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>PC and Laptops</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Text" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Laptop_Page/Text"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Modility">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Modility/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You need mobility?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_phoneSync">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_phoneSync/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Which smartphone do you have?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Pro">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Pro/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>You work with the "pro" software?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Purpose">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Purpose/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For what purpose You need a PC\laptop?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PC_Sync">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/PC_Sync/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Are you syncing your devices?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Phones</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Apps">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Apps/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Will you be installing over 20 third-party apps?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Cloud">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Cloud/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Are you using files offline or in the cloud?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_File">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_File/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Are you working with the file system?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Game">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Game/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Will you play heavy games on your phone?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Page">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Page/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Phone's</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Text" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Page/Text"/>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Pro">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Pro/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Do you need to use professional software?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Phone_Purpose">
+				<NamedResource name="Header" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Phone_Purpose/Header">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>For what purposes do you need a smartphone?</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Settings">
+				<NamedResource name="Text" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Settings/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Settings</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Sites">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Sites/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Sites:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Vacuum_cleaner">
+				<NamedResource name="Content" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Vacuum_cleaner/Content">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Vacuum cleaner</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="VR">
+				<NamedResource name="Text" uri="ms-resource://FeatherProjects.SupportSystem/Resources/VR/Text">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>VR station</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Yes">
+				<NamedResource name="OnContent" uri="ms-resource://FeatherProjects.SupportSystem/Resources/Yes/OnContent">
+					<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+						<Value>Yes</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

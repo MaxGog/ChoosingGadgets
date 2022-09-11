@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-fr"
+"ResourceDimensions"		"language-fr"
+
+[Files]
+"C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\obj\x86\Release\Upload\split.language-fr.pri"			"resources.pri"

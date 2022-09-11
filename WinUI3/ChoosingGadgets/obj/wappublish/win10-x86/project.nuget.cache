@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "17z5bCaipESmAGHBc1sGO2LDPQm2UTIGJhCVL2rAhhf2gp8EVsJbpXiySNvzY+5V/RGtQus4xLYzvrnCc1YBYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maxgo\\source\\repos\\ChoosingGadgets\\ChoosingGadgets\\ChoosingGadgets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.13\\microsoft.netcore.universalwindowsplatform.6.2.13.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.197\\microsoft.windows.sdk.buildtools.10.0.22000.197.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\\6.2.13\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.13.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.13\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.13.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.15\\microsoft.netcore.app.runtime.win-x86.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.15\\microsoft.netcore.app.runtime.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\5.0.15\\microsoft.netcore.app.runtime.win-arm64.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.15\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\5.0.15\\microsoft.windowsdesktop.app.runtime.win-arm64.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.15\\microsoft.aspnetcore.app.runtime.win-x86.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.15\\microsoft.aspnetcore.app.runtime.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\5.0.15\\microsoft.aspnetcore.app.runtime.win-arm64.5.0.15.nupkg.sha512",
+    "C:\\Users\\maxgo\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.23\\microsoft.windows.sdk.net.ref.10.0.19041.23.nupkg.sha512"
+  ],
+  "logs": []
+}

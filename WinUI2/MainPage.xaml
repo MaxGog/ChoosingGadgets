@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="PC_support.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PC_support"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+
+    <Grid >
+        <NavigationView x:Name="NavPan" SelectionChanged="NavigationView_SelectionChanged" IsBackButtonVisible="Collapsed">
+            <!--<NavigationView.AutoSuggestBox>
+                <AutoSuggestBox x:Name="Search" PlaceholderText="Search" QueryIcon="Find" TextChanged="Search_TextChanged" Width="250"/>
+            </NavigationView.AutoSuggestBox>-->
+            <NavigationView.MenuItems>
+                <!--<NavigationViewItemHeader x:Uid="AppTitleMenu"/>-->
+                <NavigationViewItem Icon="Home" Content="Menu" x:Name="Menu"/>
+                <NavigationViewItem Icon="Keyboard" x:Uid="PC_Laptop" x:Name="PC_and_laptops"/>
+                <NavigationViewItem Icon="CellPhone" x:Uid="Phone" x:Name="Phone"/>
+                <NavigationViewItem Icon="XboxOneConsole" x:Uid="GamingConsole" x:Name="GamingConsole"/>
+                <NavigationViewItem Icon="Help" Content="Tips" x:Name="Tips"/>
+                <NavigationViewItem Icon="Library" Content="Models" x:Name="Models"/>
+                <NavigationViewItemHeader x:Uid="Sites"/>
+                <NavigationViewItem Icon="World" x:Uid="Market" x:Name="Market"/>
+                <NavigationViewItem Icon="World" Content="GitHub" x:Name="VK"/>
+            </NavigationView.MenuItems>
+            <Frame x:Name="contentFrame"/>
+        </NavigationView>
+    </Grid>
+</Page>

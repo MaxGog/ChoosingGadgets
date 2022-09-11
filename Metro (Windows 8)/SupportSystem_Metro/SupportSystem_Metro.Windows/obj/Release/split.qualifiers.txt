@@ -1,0 +1,4 @@
+Language=RU
+Scale=140
+Scale=150
+Scale=180

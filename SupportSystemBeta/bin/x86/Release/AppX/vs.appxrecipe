@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IDEAPAD-L340-MA</Machine>
+    <WindowsUser>maxgo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>afcb2e03-55c8-49db-8a7d-23e47ebef3ea</PackageIdentityName>
+    <PackageIdentityPublisher>CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E55949CB0299F419DC69E99E216E81CA51DBD1AD9FD7F64A3C6FAFF36F56CC4F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>52304FeatherProjects.supportsystem.beta_2.0.0.0_x86__0te7p3c492kb4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>52304FeatherProjects.supportsystem.beta_0te7p3c492kb4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>52304FeatherProjects.supportsystem.beta</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D</RegisteredPackagePublisher>
+    <RegisteredVersion>2.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:32:24.316</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2021-08-25T20:52:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <Modified>2021-08-25T20:52:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <Modified>2021-08-25T20:52:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <Modified>2021-08-25T20:52:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <Modified>2021-08-25T20:52:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\FPS.png">
+      <PackagePath>Assets\FPS.png</PackagePath>
+      <Modified>2021-08-25T20:52:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\GamingPC.png">
+      <PackagePath>Assets\GamingPC.png</PackagePath>
+      <Modified>2021-08-25T20:52:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\IPhone.png">
+      <PackagePath>Assets\IPhone.png</PackagePath>
+      <Modified>2021-08-25T20:52:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-08-25T20:52:23.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\MonoPC.png">
+      <PackagePath>Assets\MonoPC.png</PackagePath>
+      <Modified>2021-08-25T20:52:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\PC.png">
+      <PackagePath>Assets\PC.png</PackagePath>
+      <Modified>2021-08-25T20:52:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\PCLaptop.png">
+      <PackagePath>Assets\PCLaptop.png</PackagePath>
+      <Modified>2021-08-25T20:52:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\PCSupportingIcon.png">
+      <PackagePath>Assets\PCSupportingIcon.png</PackagePath>
+      <Modified>2021-08-25T20:52:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Samsung.png">
+      <PackagePath>Assets\Samsung.png</PackagePath>
+      <Modified>2021-08-25T20:52:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2021-08-25T20:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <Modified>2021-08-25T20:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <Modified>2021-08-25T20:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <Modified>2021-08-25T20:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <Modified>2021-08-25T20:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:52.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2021-08-25T20:52:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+      <Modified>2021-08-25T20:52:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <Modified>2021-08-25T20:52:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <Modified>2021-08-25T20:52:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <Modified>2021-08-25T20:52:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:53.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Surface.png">
+      <PackagePath>Assets\Surface.png</PackagePath>
+      <Modified>2021-08-25T20:52:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Surface_model.png">
+      <PackagePath>Assets\Surface_model.png</PackagePath>
+      <Modified>2021-08-25T20:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Tablet.png">
+      <PackagePath>Assets\Tablet.png</PackagePath>
+      <Modified>2021-08-25T20:52:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\VR.png">
+      <PackagePath>Assets\VR.png</PackagePath>
+      <Modified>2021-08-25T20:52:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-09-19T07:12:51.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\WinPhone.png">
+      <PackagePath>Assets\WinPhone.png</PackagePath>
+      <Modified>2021-08-25T20:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Иконка.png">
+      <PackagePath>Assets\Иконка.png</PackagePath>
+      <Modified>2021-08-25T20:52:13.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\Assets\Иконка_adobespark.png">
+      <PackagePath>Assets\Иконка_adobespark.png</PackagePath>
+      <Modified>2021-09-19T07:11:40.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2021-02-04T22:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\DLC\Assets\cleaner.jpg">
+      <PackagePath>DLC\Assets\cleaner.jpg</PackagePath>
+      <Modified>2021-08-25T20:52:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-09-19T07:31:15.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\SupportSystemBeta.dll">
+      <PackagePath>SupportSystemBeta.dll</PackagePath>
+      <Modified>2021-09-19T07:32:24.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\SupportSystemBeta.exe">
+      <PackagePath>SupportSystemBeta.exe</PackagePath>
+      <Modified>2021-09-19T07:32:24.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maxgo\OneDrive\Documents\Проекты\SupportSystemBeta\bin\x86\Release\ilc\SupportSystemBeta.pdb">
+      <PackagePath>SupportSystemBeta.pdb</PackagePath>
+      <Modified>2021-09-19T07:32:24.295</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

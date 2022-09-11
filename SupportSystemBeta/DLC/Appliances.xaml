@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="SupportSystemBeta.DLC.Appliances"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SupportSystemBeta.DLC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView SelectionChanged="NavigationView_SelectionChanged" IsSettingsVisible="False" Background="{ThemeResource SystemControlAcrylicElementBrush}">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" Content="Smart_home" x:Name="SmartHome_object"/>
+                <NavigationViewItem Icon="Sync" Content="Eco_systems" x:Name="Models_object"/>
+                <NavigationViewItem Icon="Clear" x:Uid="Vacuum_cleaner" x:Name="VacuumCleaner_object"/>
+            </NavigationView.MenuItems>
+            <Frame x:Name="contentFrame"/>
+        </NavigationView>
+    </Grid>
+</Page>

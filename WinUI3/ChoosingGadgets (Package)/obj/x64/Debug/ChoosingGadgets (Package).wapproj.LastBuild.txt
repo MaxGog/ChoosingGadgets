@@ -1,0 +1,143 @@
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\App.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\PCLaptopPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\PCLaptopPage_pro.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\PhonePage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\DLC\Models\ModelsPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\SettingsApp\SettingsPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\WebPages\DisVKPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\WebPages\MarketPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\background.jpg
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Apple.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\ChomeOS.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\FStudio1.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\FStudio2.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Lenovo.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Linux.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\MacOS.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Pixel.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Samsung.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Surface.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\LogoManufacture\Windows8.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\GamingPC.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\LenovoIdeaPad.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\LenovoThinkPad.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\MacBook_Air.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\MonoPC.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\PC.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\PCLaptop.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\Surface.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\PC\Tablet.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\FirstPhone.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\Honor.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\IPhone.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\Samsung.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\Assets\VisualPictures\Phones\WinPhone.png
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\ChoosingGadgets.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\LargeTile.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\LargeTile.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\LargeTile.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\LargeTile.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\LargeTile.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SmallTile.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SmallTile.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SmallTile.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SmallTile.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SmallTile.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SplashScreen.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SplashScreen.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SplashScreen.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SplashScreen.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\LockScreenLogo.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\SplashScreen.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square150x150Logo.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square150x150Logo.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square150x150Logo.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square150x150Logo.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square150x150Logo.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-unplated_targetsize-16.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-unplated_targetsize-256.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-unplated_targetsize-32.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.altform-unplated_targetsize-48.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.targetsize-16.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.targetsize-24.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.targetsize-256.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.targetsize-32.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Square44x44Logo.targetsize-48.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\StoreLogo.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\StoreLogo.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\StoreLogo.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\StoreLogo.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\StoreLogo.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Wide310x150Logo.scale-100.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Wide310x150Logo.scale-125.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Wide310x150Logo.scale-150.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\Images\Wide310x150Logo.scale-400.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets (Package)\bin\x64\Debug\resources.pri
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.23\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\maxgo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.23\lib\WinRT.Runtime.dll
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.deps.json
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.runtimeconfig.dev.json
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\App.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\DLC\Models\ModelsPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\PCLaptopPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\PCLaptopPage_pro.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\PhonePage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\SettingsApp\SettingsPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\WebPages\DisVKPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\WebPages\MarketPage.xbf
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Apple.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\ChomeOS.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\FStudio1.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\FStudio2.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Lenovo.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Linux.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\MacOS.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Pixel.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Samsung.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Surface.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\LogoManufacture\Windows8.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\GamingPC.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\LenovoIdeaPad.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\LenovoThinkPad.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\MacBook_Air.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\MonoPC.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\PC.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\PCLaptop.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\Surface.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\PC\Tablet.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\FirstPhone.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\Honor.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\IPhone.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\Samsung.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\VisualPictures\Phones\WinPhone.png
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\Assets\background.jpg
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\obj\x64\Debug\net5.0-windows10.0.19041.0\apphost.exe
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.runtimeconfig.json
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.dll
+C:\Users\maxgo\source\repos\ChoosingGadgets\ChoosingGadgets\bin\x64\Debug\net5.0-windows10.0.19041.0\ChoosingGadgets.pdb
