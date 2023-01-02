@@ -17,16 +17,6 @@ namespace PC_support.Views
         public PCLaptopPage()
         {
             this.InitializeComponent();
-
-            //SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-            //SystemNavigationManager.GetForCurrentView().BackRequested += (s, e) =>
-            //{
-            //    App.TryGoBack();
-            //    //Frame.Navigate(typeof(MainPage));
-            //    //Frame.GoBack();
-            //};
-            //StoreServicesCustomEventLogger logger = StoreServicesCustomEventLogger.GetDefault();
-            //logger.Log("myCustomEvent");
         }
         private void Pro_ver_Click(object sender, RoutedEventArgs e)
         {

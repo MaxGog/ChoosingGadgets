@@ -6,12 +6,6 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace PC_support.Views
 {
-    public class ModelsList
-    {
-        public ImageSource ViewImage { get; set; }
-        public string Name_str { get; set; }
-        //public string Model_str { get; set; }
-    }
     public sealed partial class ModelsPage : Page
     {
         private TextBlock namePC = new TextBlock();
