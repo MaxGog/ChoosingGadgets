@@ -4,7 +4,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Core;
 
-namespace PC_support
+namespace PC_support.Views
 {
     public sealed partial class ConsolePage : Page
     {

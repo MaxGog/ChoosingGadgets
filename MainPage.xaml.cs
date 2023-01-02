@@ -1,8 +1,7 @@
-﻿using PC_support.WebPages;
+﻿using PC_support.Views;
 using Windows.UI.Xaml.Controls;
 using PC_support.DLC;
 using Windows.UI.ViewManagement;
-using PC_support.UserExperience;
 //using Windows.ApplicationModel.Core;
 
 namespace PC_support

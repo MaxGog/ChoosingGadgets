@@ -1,4 +1,4 @@
-﻿using PC_support.DLC;
+﻿
 using System;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
@@ -6,7 +6,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 //using Windows.Services.Store;
 
-namespace PC_support
+namespace PC_support.Views
 {
     public sealed partial class PCLaptopPage : Page
     {
