@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="PC_support.ConsolePage"
+    x:Class="PC_support.Views.ConsolePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:PC_support"

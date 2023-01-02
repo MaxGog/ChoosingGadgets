@@ -132,17 +132,17 @@
     <Compile Include="Views\ConsolePage.xaml.cs">
       <DependentUpon>ConsolePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DLC\ModelsPage.xaml.cs">
+    <Compile Include="Views\ModelsPage.xaml.cs">
       <DependentUpon>ModelsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewMainPage.xaml.cs">
       <DependentUpon>NewMainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WebPages\DisVKPage.xaml.cs">
+    <Compile Include="Views\DisVKPage.xaml.cs">
       <DependentUpon>DisVKPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WebPages\MarketRUSPage.xaml.cs">
-      <DependentUpon>MarketRUSPage.xaml</DependentUpon>
+    <Compile Include="Views\MarketPage.xaml.cs">
+      <DependentUpon>MarketPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -150,17 +150,17 @@
     <Compile Include="Views\PCLaptopPage.xaml.cs">
       <DependentUpon>PCLaptopPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DLC\PCLaptopPage_pro.xaml.cs">
+    <Compile Include="Views\PCLaptopPage_pro.xaml.cs">
       <DependentUpon>PCLaptopPage_pro.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PhonePage.xaml.cs">
       <DependentUpon>PhonePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DLC\DictionaryPage.xaml.cs">
+    <Compile Include="Views\DictionaryPage.xaml.cs">
       <DependentUpon>DictionaryPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DLC\MainTipsPage.xaml.cs">
+    <Compile Include="Views\MainTipsPage.xaml.cs">
       <DependentUpon>MainTipsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -259,21 +259,6 @@
     <Content Include="Assets\VisualPictures\Phones\WinPhone.png" />
     <None Include="Package.StoreAssociation.xml" />
     <Content Include="Assets\VisualConsoles\XboxOne_fat.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\GamingPC.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\iMac.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\LenovoIdeaPad.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\LenovoThinkPad.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\MacBook_Air.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\MonoPC.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\PC.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\PCLaptop.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\Surface.png" />
-    <Content Include="DLC\Assets\VisualPictures\PC\Tablet.png" />
-    <Content Include="DLC\Assets\VisualPictures\Phones\FirstPhone.png" />
-    <Content Include="DLC\Assets\VisualPictures\Phones\Honor.png" />
-    <Content Include="DLC\Assets\VisualPictures\Phones\IPhone.png" />
-    <Content Include="DLC\Assets\VisualPictures\Phones\Samsung.png" />
-    <Content Include="DLC\Assets\VisualPictures\Phones\WinPhone.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -293,7 +278,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DLC\ModelsPage.xaml">
+    <Page Include="Views\ModelsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -301,11 +286,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WebPages\DisVKPage.xaml">
+    <Page Include="Views\DisVKPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WebPages\MarketRUSPage.xaml">
+    <Page Include="Views\MarketPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -317,7 +302,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DLC\PCLaptopPage_pro.xaml">
+    <Page Include="Views\PCLaptopPage_pro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -325,11 +310,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DLC\DictionaryPage.xaml">
+    <Page Include="Views\DictionaryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DLC\MainTipsPage.xaml">
+    <Page Include="Views\MainTipsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

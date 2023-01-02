@@ -1,7 +1,6 @@
 ﻿using System;
 using Windows.UI.Xaml.Controls;
-using PC_support.DLC;
-using PC_support.WebPages;
+using PC_support.Views;
 
 namespace PC_support
 {
