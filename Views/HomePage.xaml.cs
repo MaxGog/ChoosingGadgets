@@ -9,9 +9,9 @@ namespace PC_support
         public string Icon { get; set; }
         public string Name_str { get; set; }
     }
-    public sealed partial class NewMainPage : Page
+    public sealed partial class HomePage : Page
     {
-        public NewMainPage()
+        public HomePage()
         {
             this.InitializeComponent();
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PC_support.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -13,18 +14,47 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace PC_support.Views
 {
-    /// <summary>
-    /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
-    /// </summary>
     public sealed partial class SettingsPage : Page
     {
+        public SettingsViewModel ViewModel { get; } = new SettingsViewModel();
         public SettingsPage()
         {
             this.InitializeComponent();
+            FrameworkElement root = (FrameworkElement)Window.Current.Content;
+            root.RequestedTheme = AppSettings.Theme;
+            SetThemeToggle(AppSettings.Theme);
+        }
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            await ViewModel.InitializeAsync();
+        }
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            base.OnNavigatingFrom(e);
+        }
+        private void SetThemeToggle(ElementTheme theme)
+        {
+            if (theme == AppSettings.DEFAULTTHEME)
+                tglAppTheme.IsOn = false;
+            else
+                tglAppTheme.IsOn = true;
+        }
+        private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            FrameworkElement window = (FrameworkElement)Window.Current.Content;
+
+            if (((ToggleSwitch)sender).IsOn)
+            {
+                AppSettings.Theme = AppSettings.NONDEFLTHEME;
+                window.RequestedTheme = AppSettings.NONDEFLTHEME;
+            }
+            else
+            {
+                AppSettings.Theme = AppSettings.DEFAULTTHEME;
+                window.RequestedTheme = AppSettings.DEFAULTTHEME;
+            }
         }
     }
 }

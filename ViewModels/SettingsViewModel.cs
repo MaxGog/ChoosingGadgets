@@ -1,4 +1,5 @@
-﻿using GalaSoft.MvvmLight;
+﻿using Microsoft.Toolkit.Mvvm.ComponentModel;
+using Microsoft.Toolkit.Mvvm.Input;
 using PC_support.Services;
 using System;
 using System.Collections.Generic;

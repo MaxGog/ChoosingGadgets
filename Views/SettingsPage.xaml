@@ -36,19 +36,10 @@
         <PivotItem x:Uid="AboutItem">
             <StackPanel>
                 <TextBlock x:Uid="About" FontSize="20" Margin="0, 0, 0, 5"/>
-                <!--<TextBlock Text="Portal Netwok Windows 10 Edition" Margin="0, 0, 0, 2"/>-->
-                <!--<TextBlock x:Uid="Description" TextWrapping="WrapWholeWords" Margin="0, 0, 0, 2"/>-->
                 <StackPanel>
                     <TextBlock Text="{x:Bind ViewModel.VersionDescription, Mode=OneWay}"/>
                     <TextBlock x:Uid="Creator" Margin="0, 0, 0, 2"/>
                     <TextBlock x:Uid="Description"/>
-                    <HyperlinkButton Content="Portal Network" NavigateUri="https://portal.net.ru/"/>
-                    <!--<HyperlinkButton x:Uid="Settings_PrivacyTermsLink" Margin="{StaticResource XSmallTopMargin}" />-->
-                    <!--<HyperlinkButton
-                    Margin="{StaticResource XSmallTopMargin}"
-                    x:Uid="FeedbackHub_Link"
-                    Command="{x:Bind ViewModel.LaunchFeedbackHubCommand}"
-                    Visibility="{x:Bind ViewModel.FeedbackLinkVisibility}" />-->
                 </StackPanel>
             </StackPanel>
         </PivotItem>

@@ -13,8 +13,6 @@ namespace PC_support
         public const ElementTheme DEFAULTTHEME = ElementTheme.Light;
         public const ElementTheme NONDEFLTHEME = ElementTheme.Dark;
 
-        //public static ApplicationTheme SelectedTheme = (ApplicationTheme)Theme;
-
         const string KEY_THEME = "appColourMode";
         public static ApplicationDataContainer LOCALSETTINGS = ApplicationData.Current.LocalSettings;
 
