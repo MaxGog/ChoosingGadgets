@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="PC_support.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PC_support.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:helper="using:PC_support.Helpers"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot x:Name="rootPivot">
+        <PivotItem x:Uid="Setting">
+            <ScrollViewer>
+                <StackPanel>
+                    <StackPanel>
+                        <TextBlock x:Uid="SetSimple" FontSize="20" Margin="0, 0, 0, 5"/>
+                        <TextBlock x:Uid="SimpleText" TextWrapping="WrapWholeWords"/>
+                        <ToggleSwitch Name="tglAppSimple" x:Uid="ToggleSimple" IsOn="True" IsEnabled="False"/>
+                        <ToggleSwitch Name="tglLocal" x:Uid="ToggleLocal" IsOn="False" IsEnabled="False"/>
+                    </StackPanel>
+                    <StackPanel Margin="0, 20, 0, 0">
+                        <StackPanel>
+                            <ToggleSwitch Name="tglAppTheme" x:Uid="ThemeSwitch" OffContent="Light" OnContent="Dark" IsOn="False" Toggled="ToggleSwitch_Toggled" />
+                            <HyperlinkButton x:Uid="WindowsColor" NavigateUri="ms-settings:colors"/>
+                        </StackPanel>
+                        <StackPanel Margin="0, 20, 0, 0">
+                            <TextBlock x:Uid="SetLang" FontSize="20" Margin="0, 0, 0, 5"/>
+                            <TextBlock x:Uid="SetLangAbout" TextWrapping="WrapWholeWords"/>
+                            <HyperlinkButton x:Uid="WindowsLang" NavigateUri="ms-settings:regionlanguage"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </PivotItem>
+        <PivotItem x:Uid="AboutItem">
+            <StackPanel>
+                <TextBlock x:Uid="About" FontSize="20" Margin="0, 0, 0, 5"/>
+                <!--<TextBlock Text="Portal Netwok Windows 10 Edition" Margin="0, 0, 0, 2"/>-->
+                <!--<TextBlock x:Uid="Description" TextWrapping="WrapWholeWords" Margin="0, 0, 0, 2"/>-->
+                <StackPanel>
+                    <TextBlock Text="{x:Bind ViewModel.VersionDescription, Mode=OneWay}"/>
+                    <TextBlock x:Uid="Creator" Margin="0, 0, 0, 2"/>
+                    <TextBlock x:Uid="Description"/>
+                    <HyperlinkButton Content="Portal Network" NavigateUri="https://portal.net.ru/"/>
+                    <!--<HyperlinkButton x:Uid="Settings_PrivacyTermsLink" Margin="{StaticResource XSmallTopMargin}" />-->
+                    <!--<HyperlinkButton
+                    Margin="{StaticResource XSmallTopMargin}"
+                    x:Uid="FeedbackHub_Link"
+                    Command="{x:Bind ViewModel.LaunchFeedbackHubCommand}"
+                    Visibility="{x:Bind ViewModel.FeedbackLinkVisibility}" />-->
+                </StackPanel>
+            </StackPanel>
+        </PivotItem>
+    </Pivot>
+</Page>
