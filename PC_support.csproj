@@ -138,8 +138,8 @@
     <Compile Include="NewMainPage.xaml.cs">
       <DependentUpon>NewMainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DisVKPage.xaml.cs">
-      <DependentUpon>DisVKPage.xaml</DependentUpon>
+    <Compile Include="Views\SocialPage.xaml.cs">
+      <DependentUpon>SocialPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MarketPage.xaml.cs">
       <DependentUpon>MarketPage.xaml</DependentUpon>
@@ -286,7 +286,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DisVKPage.xaml">
+    <Page Include="Views\SocialPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
