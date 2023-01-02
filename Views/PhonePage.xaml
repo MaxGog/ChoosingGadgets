@@ -22,10 +22,9 @@
             <StackPanel  Grid.ColumnSpan="1" Visibility="Visible" VerticalAlignment="Center" Margin="10">
                 <Slider x:Uid="Price_purpose" TickFrequency="10" TickPlacement="Outside" IsEnabled="False"/>
                 <TextBlock x:Uid="PurposeMobile"/>
-                <CheckBox Content="PurposeMobile_Home"/>
-                <CheckBox Content="PurposeMobile_Work"/>
-                <CheckBox Content="PurposeMobile_School"/>
-                <!--<ToggleSwitch x:Name="Purpose" x:Uid="Phone_Purpose" OffContent="To work" OnContent="To home" IsEnabled="False"/>-->
+                <CheckBox x:Uid="For_home"/>
+                <CheckBox x:Uid="For_work"/>
+                <CheckBox x:Uid="For_gaming"/>
                 <ToggleSwitch x:Name="ProMobile" x:Uid="Phone_Pro" OffContent="No" OnContent="Yes"/>
                 <ToggleSwitch x:Name="File" x:Uid="Phone_File" OffContent="No" OnContent="Yes"/>
                 <ToggleSwitch x:Name="Cloud" x:Uid="Phone_Cloud" OffContent="Cloud" OnContent="Offline"/>

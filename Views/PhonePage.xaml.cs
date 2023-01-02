@@ -15,13 +15,6 @@ namespace PC_support.Views
         public PhonePage()
         {
             this.InitializeComponent();
-            //SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-            //SystemNavigationManager.GetForCurrentView().BackRequested += (s, e) =>
-            //{
-            //    App.TryGoBack();
-            //    //Frame.Navigate(typeof(MainPage));
-                
-            //};
         }
         private void Finish_Click(object sender, RoutedEventArgs e)
         {

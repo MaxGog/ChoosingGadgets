@@ -7,18 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:helper="using:PC_support.Helpers"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
 
     <Pivot x:Name="rootPivot">
         <PivotItem x:Uid="Setting">
             <ScrollViewer>
                 <StackPanel>
-                    <StackPanel>
-                        <TextBlock x:Uid="SetSimple" FontSize="20" Margin="0, 0, 0, 5"/>
-                        <TextBlock x:Uid="SimpleText" TextWrapping="WrapWholeWords"/>
-                        <ToggleSwitch Name="tglAppSimple" x:Uid="ToggleSimple" IsOn="True" IsEnabled="False"/>
-                        <ToggleSwitch Name="tglLocal" x:Uid="ToggleLocal" IsOn="False" IsEnabled="False"/>
-                    </StackPanel>
                     <StackPanel Margin="0, 20, 0, 0">
                         <StackPanel>
                             <ToggleSwitch Name="tglAppTheme" x:Uid="ThemeSwitch" OffContent="Light" OnContent="Dark" IsOn="False" Toggled="ToggleSwitch_Toggled" />

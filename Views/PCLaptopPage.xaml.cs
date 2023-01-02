@@ -18,10 +18,6 @@ namespace PC_support.Views
         {
             this.InitializeComponent();
         }
-        private void Pro_ver_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(PCLaptopPage_pro));
-        }
         private void pro_Toggled(object sender, RoutedEventArgs e)
         {
             if (pro.IsOn == true)

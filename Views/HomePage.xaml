@@ -33,12 +33,12 @@
                         </DataTemplate>
                     </GridView.ItemTemplate>
                     <GridView.Items>
-                        <local:FunctionalityNew Icon="💻" Name_str="PC and laptops" x:Name="PCLaptopMenu"/>
-                        <local:FunctionalityNew Icon="📱" Name_str="Phones" x:Name="PhonesMenu"/>
-                        <local:FunctionalityNew Icon="📦" Name_str="Yandex market" x:Name="MarketMenu"/>
-                        <local:FunctionalityNew Icon="📨" Name_str="GitHub" x:Name="Community"/>
-                        <local:FunctionalityNew Icon="🎮" Name_str="Consoles" x:Name="Consoles"/>
-                        <local:FunctionalityNew Icon="❗" Name_str="Tips" x:Name="TipsMenu"/>
+                        <local:Functionality Icon="💻" Name_str="PC and laptops" x:Name="PCLaptopMenu"/>
+                        <local:Functionality Icon="📱" Name_str="Phones" x:Name="PhonesMenu"/>
+                        <local:Functionality Icon="📦" Name_str="Yandex market" x:Name="MarketMenu"/>
+                        <local:Functionality Icon="📨" Name_str="GitHub" x:Name="Community"/>
+                        <local:Functionality Icon="🎮" Name_str="Consoles" x:Name="Consoles"/>
+                        <local:Functionality Icon="❗" Name_str="Tips" x:Name="TipsMenu"/>
                         <!--<local:Functionality Icon="⚙" Name_str="Settings" x:Name="Settings"/>-->
                         <!--<local:Functionality Icon="💻" Name_str="Models" x:Name="ModelsMenu"/>-->
                     </GridView.Items>

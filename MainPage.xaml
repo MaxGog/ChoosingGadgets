@@ -9,14 +9,14 @@
     Background="{ThemeResource SystemControlAcrylicWindowBrush}">
 
     <Grid >
-        <NavigationView x:Name="NavPan" SelectionChanged="NavigationView_SelectionChanged" IsBackButtonVisible="Collapsed">
+        <NavigationView x:Name="NavPan" SelectionChanged="NavigationView_SelectionChanged" PaneDisplayMode="Top"
+                        IsBackButtonVisible="Collapsed">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" x:Uid="Menu" x:Name="Menu"/>
                 <NavigationViewItem Icon="Keyboard" x:Uid="PC_Laptop" x:Name="PC_and_laptops"/>
                 <NavigationViewItem Icon="CellPhone" x:Uid="Phone" x:Name="Phone"/>
                 <NavigationViewItem Icon="XboxOneConsole" x:Uid="GamingConsole" x:Name="GamingConsole"/>
                 <NavigationViewItem Icon="Help" x:Uid="Tips" x:Name="Tips"/>
-                <NavigationViewItem Icon="Library" Content="Models" x:Name="Models"/>
                 <NavigationViewItemHeader x:Uid="Sites"/>
                 <NavigationViewItem Icon="Shop" x:Uid="Market" x:Name="Market"/>
                 <NavigationViewItem Icon="World" Content="GitHub" x:Name="VK"/>

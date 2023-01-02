@@ -120,6 +120,10 @@
   <data name="About" xml:space="preserve">
     <value>Choosing gadgets (выбор гаджетов). MaxGog 2021. Приложение создано для того, чтобы Вы смогли выбрать себе компьютер или телефон. Спасибо, что скачали моё приложение! GitHub: https://github.com/MaxGog</value>
   </data>
+  <data name="AboutItem.Header" xml:space="preserve">
+    <value>О приложении</value>
+    <comment>Настройки</comment>
+  </data>
   <data name="Accuracy_check.Content" xml:space="preserve">
     <value>Точный результат</value>
     <comment>Checkbox</comment>
@@ -132,9 +136,25 @@
     <value>Choosing Gadgets</value>
     <comment>Application description</comment>
   </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>Choosing Gadgets</value>
+    <comment>Application display name</comment>
+  </data>
   <data name="CPU" xml:space="preserve">
     <value>, частота процессора: </value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="Creator.Text" xml:space="preserve">
+    <value>Максим Гоглов Алексеевич</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Выбор гаджетов поможет по простым вопросам определить наилучший Вам компьютер, или же телефон.
+Интерфейс выполнен в Fluent Desing дизайне, который не выбивается из стилистики операционной системы Windows.
+Приложение поможет определить компьютер: по оперативной памяти, формфакторе, жёсткому диску, видеокарте, процессору, а также операционной системы
+А если нужен смартфон, то по минимальным характеристикам, чтобы Вам было намного легче определиться перед покупкой.
+Прямо из приложения можете отправиться в Яндекс.Маркет за покупками и посмотреть код в GitHub!</value>
+    <comment>Настройки</comment>
   </data>
   <data name="Discussions.Content" xml:space="preserve">
     <value>Обсуждения</value>
@@ -230,7 +250,7 @@
     <comment>Консоли</comment>
   </data>
   <data name="Menu.Content" xml:space="preserve">
-    <value>Меню (С юбилеем приложения!)</value>
+    <value>Главная страница</value>
   </data>
   <data name="Model_str" xml:space="preserve">
     <value>Модель: </value>
@@ -256,13 +276,31 @@
     <value>Вам нужна качественная сборка и материал?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="PC_Assembly.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Assembly.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="PC_bigROM.Header" xml:space="preserve">
     <value>Вы планируете хранить большой объем информации?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="PC_bigROM.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_bigROM.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="PC_Ecosystem.Header" xml:space="preserve">
     <value>Вам важна качественная экосистема?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Ecosystem.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Ecosystem.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="PC_Game.Header" xml:space="preserve">
     <value>Вы будете играть в игры?</value>
@@ -280,6 +318,12 @@
     <value>Вы часто передвигаетесь?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="PC_Modility.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Modility.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="PC_phoneSync.Header" xml:space="preserve">
     <value>Какой Ваш смартфон?</value>
     <comment>Компьютер</comment>
@@ -288,6 +332,12 @@
     <value>Вы используете профессиональное ПО?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="PC_Pro.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Pro.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="PC_Purpose.Header" xml:space="preserve">
     <value>Для каких целей вам нужен ПК, ноутбук?</value>
     <comment>Компьютер</comment>
@@ -295,6 +345,12 @@
   <data name="PC_Sync.Header" xml:space="preserve">
     <value>Вы синхронизируете устройства?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Sync.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Sync.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="Phone.Content" xml:space="preserve">
     <value>Телефоны</value>
@@ -339,6 +395,12 @@
     <value>Вы будете использовать продукты Adobe?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="pro_adobe.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="pro_adobe.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="Pro_ver.Content" xml:space="preserve">
     <value>Для профессионалов</value>
     <comment>Компьютер</comment>
@@ -346,6 +408,12 @@
   <data name="pro_vr.Header" xml:space="preserve">
     <value>Будете ли Вы использовать VR?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="pro_vr.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="pro_vr.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="Pro_words.Text" xml:space="preserve">
     <value>VR - Виртуальная реальность.
@@ -390,8 +458,39 @@ PC - стационарный компьютер</value>
     <value>Видеопамять: </value>
     <comment>Компьютер</comment>
   </data>
+  <data name="SetColor.Text" xml:space="preserve">
+    <value>Тема приложения</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="SetLang.Text" xml:space="preserve">
+    <value>Язык приложения</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="SetLangAbout.Text" xml:space="preserve">
+    <value>Язык приложения зависит от настройки языка и региона в Windows, чтобы его изменить, измените настройки языка Windows в параметрах</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="Setting.Header" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
   <data name="Settings.Text" xml:space="preserve">
     <value>Настройки</value>
+  </data>
+  <data name="SettingsPivot.Title" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>В коде для NavPan Header</comment>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>About this application</value>
+    <comment>About this application title for Settings</comment>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Settings page placeholder text.  Your app description goes here.</value>
+    <comment>About this application description for Settings</comment>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Заявление о конфиденциальности</value>
+    <comment>Privacy Statement link content for Settings</comment>
   </data>
   <data name="Shooter.Content" xml:space="preserve">
     <value>Шутеры</value>
@@ -464,6 +563,19 @@ Bluetooth 5.0, Wi-Fi 6
 Платиновый, чёрный
 </value>
   </data>
+  <data name="ThemeApp.Text" xml:space="preserve">
+    <value>Выберите тему приложения</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="ThemeSwitch.Header" xml:space="preserve">
+    <value>Выберите режим приложения</value>
+  </data>
+  <data name="ThemeSwitch.OffContent" xml:space="preserve">
+    <value>Светлая тема</value>
+  </data>
+  <data name="ThemeSwitch.OnContent" xml:space="preserve">
+    <value>Тёмная тема</value>
+  </data>
   <data name="Tips.Content" xml:space="preserve">
     <value>Подсказки</value>
   </data>
@@ -479,5 +591,13 @@ Bluetooth 5.0, Wi-Fi 6
   <data name="Where_HaveGame.Text" xml:space="preserve">
     <value>Где вы уже имеете игры?</value>
     <comment>Консоли</comment>
+  </data>
+  <data name="WindowsColor.Content" xml:space="preserve">
+    <value>Настройки цветов Windows</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="WindowsLang.Content" xml:space="preserve">
+    <value>Настройки языка Windows</value>
+    <comment>Настройки</comment>
   </data>
 </root>
