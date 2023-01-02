@@ -128,11 +128,9 @@
     <value>Экшен</value>
     <comment>Консоли</comment>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Выбор гаджетов</value>
-  </data>
-  <data name="AppTitleMenu.Content" xml:space="preserve">
-    <value>Выбор гаджетов (С юбилеем приложения!)</value>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Choosing Gadgets</value>
+    <comment>Application description</comment>
   </data>
   <data name="CPU" xml:space="preserve">
     <value>, частота процессора: </value>

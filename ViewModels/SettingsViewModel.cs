@@ -45,7 +45,7 @@ namespace PC_support.ViewModels
         }
         private string GetVersionDescription()
         {
-            var appName = "AppDisplayName".GetLocalized();
+            var appName = "Choosing Gadgets";
             var package = Package.Current;
             var packageId = package.Id;
             var version = packageId.Version;

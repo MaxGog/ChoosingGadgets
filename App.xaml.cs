@@ -23,10 +23,7 @@ namespace PC_support
             Frame rootFrame = Window.Current.Content as Frame;
             Window.Current.Activate();
             CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
-            //var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
             ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
-            //var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
-            //ApplicationView.GetForCurrentView().Title = resourceLoader.GetString("AppTitle");
             titleBar.ButtonBackgroundColor = Colors.Transparent;
             titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
