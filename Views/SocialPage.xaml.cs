@@ -7,9 +7,9 @@ namespace PC_support.Views
     /// <summary>
     /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
     /// </summary>
-    public sealed partial class DisVKPage : Page
+    public sealed partial class SocialPage : Page
     {
-        public DisVKPage()
+        public SocialPage()
         {
             this.InitializeComponent();
         }
