@@ -129,7 +129,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CoreApp\ConsolePage.xaml.cs">
+    <Compile Include="Views\ConsolePage.xaml.cs">
       <DependentUpon>ConsolePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="DLC\ModelsPage.xaml.cs">
@@ -137,9 +137,6 @@
     </Compile>
     <Compile Include="NewMainPage.xaml.cs">
       <DependentUpon>NewMainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserExperience\SettingsPage.xaml.cs">
-      <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="WebPages\DisVKPage.xaml.cs">
       <DependentUpon>DisVKPage.xaml</DependentUpon>
@@ -150,13 +147,13 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CoreApp\PCLaptopPage.xaml.cs">
+    <Compile Include="Views\PCLaptopPage.xaml.cs">
       <DependentUpon>PCLaptopPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="DLC\PCLaptopPage_pro.xaml.cs">
       <DependentUpon>PCLaptopPage_pro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CoreApp\PhonePage.xaml.cs">
+    <Compile Include="Views\PhonePage.xaml.cs">
       <DependentUpon>PhonePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -284,7 +281,6 @@
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <PRIResource Include="UserExperience\Settings.resw" />
     <PRIResource Include="Strings\ko\Resources.resw" />
     <PRIResource Include="Strings\zh-Hant\Resources.resw" />
   </ItemGroup>
@@ -293,7 +289,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="CoreApp\ConsolePage.xaml">
+    <Page Include="Views\ConsolePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -302,10 +298,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="NewMainPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserExperience\SettingsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -321,7 +313,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="CoreApp\PCLaptopPage.xaml">
+    <Page Include="Views\PCLaptopPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -329,7 +321,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CoreApp\PhonePage.xaml">
+    <Page Include="Views\PhonePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -2,8 +2,9 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
+using Windows.UI.Core;
 
-namespace PC_support.Views
+namespace PC_support
 {
     public sealed partial class PhonePage : Page
     {
@@ -110,7 +111,7 @@ namespace PC_support.Views
                 PrimaryButtonText = resourceLoader.GetString("Okay"),
             };
             ContentDialogResult result = await Result.ShowAsync();
-            //PlusResult();
+            PlusResult();
         }
         public async void PlusResult()
         {
@@ -130,15 +131,15 @@ namespace PC_support.Views
         private void Picture()
         {
             if (model == "Windows Phone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/WinPhone.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/WinPhone.png"));
             else if (model == "Android" || model == "Google Pixel or Samsung Galaxy")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Samsung.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Samsung.png"));
             else if (model == "iPhone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/IPhone.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/IPhone.png"));
             else if (model == "Windows Phone, but if you have a many money, you can buy iPhone" || model == "Windows Phone, if you use Google, you can buy Android phone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Samsung.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Samsung.png"));
             else if (model == "Nokia or Honor")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Honor.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Honor.png"));
         }
     }
 }

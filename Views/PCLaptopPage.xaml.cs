@@ -1,15 +1,12 @@
-﻿using System;
-using System.ServiceModel.Channels;
-
+﻿using PC_support.DLC;
+using System;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
-
-using PC_support.Models;
-
 //using Windows.Services.Store;
 
-namespace PC_support.Views
+namespace PC_support
 {
     public sealed partial class PCLaptopPage : Page
     {
@@ -57,7 +54,7 @@ namespace PC_support.Views
             else
                 Phone_sync.IsEnabled = false;
         }
-        private /*async*/ void Finish_Click(object sender, RoutedEventArgs e)
+        private void Finish_Click(object sender, RoutedEventArgs e)
         {
             OS = 0; 
             RAM = 0; 
@@ -120,31 +117,31 @@ namespace PC_support.Views
             {
                 OS_str = "Windows"; 
                 OS = 1;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Surface.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Windows.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/Surface.png"));
             }
             else if (OS == 12 && pro_adobe.IsOn == true && Work_purpose.IsEnabled == true)
             {
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Apple.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Apple.png"));
                 OS = 2;
                 if (type == "Laptop" || type == "Laptop or Tablet")
                 {
                     model = "MacBook Pro";
                     type = "Laptop";
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/MacBook_Air.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/MacBook_Air.png"));
                 }
                 else if (Home_purpose.IsEnabled == true && Mobile.IsOn == false && type == "PC or Laptop")
                 {
                     model = "iMac";
                     type = "PC";
                     ROM = 8;
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/iMac.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/iMac.png"));
                 }
                 else
                 {
                     model = "MacBook Air";
                     type = "Laptop";
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/MacBook_Air.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets//VisualPictures/PC/MacBook_Air.png"));
                 }
                 OS_str = "MacOS";
                 СPU_model = "Apple M1";
@@ -155,20 +152,20 @@ namespace PC_support.Views
                 OS = 3;
                 OS_str = "Chrome OS"; 
                 model = "ChromeBook";
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/ChromeOS.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/ChromeOS.png"));
             }
             else if (OS == 123 || OS == 134 || OS == 124 && Gaming_purpose.IsEnabled == false && pro_adobe.IsOn == false)
             {
                 OS_str = "Linux";
                 OS = 4;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Linux.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Linux.png"));
             }
             else
             {
                 OS_str = "Windows";
                 OS = 1;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Surface.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Windows.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/Surface.png"));
             }
             if (Assembly.IsOn == true)
             {
@@ -196,15 +193,15 @@ namespace PC_support.Views
                 VideoCard = 1;
             if (model == "Lenovo")
             {
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Lenovo.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Lenovo.png"));
                 if (Work_purpose.IsEnabled == true && Gaming_purpose.IsEnabled == false)
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/LenovoThinkPad.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/LenovoThinkPad.png"));
                 else
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/LenovoIdeaPad.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/LenovoIdeaPad.png"));
 
             }
             else
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/PCLaptop.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/PCLaptop.png"));
             if (Gaming_purpose.IsChecked == true)
             {
                 RAM = 16;
@@ -224,13 +221,9 @@ namespace PC_support.Views
                     model = "Gaming PC";
                 }
                 OS_str = "Windows";
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Resources/GamingPC.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Windows.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/GamingPC.png"));
             }
-
-
-            //HistoryPC users = (HistoryPC)BindingContext;
-            //await App.HistoryData.SaveUserAsync(users);
             Final_Result();
         }
         public async void Final_Result()
