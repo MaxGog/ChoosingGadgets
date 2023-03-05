@@ -124,15 +124,15 @@ namespace PC_support.Views
         private void Picture()
         {
             if (model == "Windows Phone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/WinPhone.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/WinPhone.png"));
             else if (model == "Android" || model == "Google Pixel or Samsung Galaxy")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Samsung.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Samsung.png"));
             else if (model == "iPhone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/IPhone.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/IPhone.png"));
             else if (model == "Windows Phone, but if you have a many money, you can buy iPhone" || model == "Windows Phone, if you use Google, you can buy Android phone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Samsung.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Samsung.png"));
             else if (model == "Nokia or Honor")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Honor.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Honor.png"));
         }
     }
 }

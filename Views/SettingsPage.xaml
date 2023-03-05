@@ -34,6 +34,7 @@
                     <TextBlock Text="{x:Bind ViewModel.VersionDescription, Mode=OneWay}"/>
                     <TextBlock x:Uid="Creator" Margin="0, 0, 0, 2"/>
                     <TextBlock x:Uid="Description"/>
+                    <Image Source="/Assets/MyBadge.png" Height="50" Margin="10" HorizontalAlignment="Left"/>
                 </StackPanel>
             </StackPanel>
         </PivotItem>

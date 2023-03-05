@@ -103,31 +103,31 @@ namespace PC_support.Views
             {
                 OS_str = "Windows"; 
                 OS = 1;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/Surface.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Windows.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Surface.png"));
             }
             else if (OS == 12 && pro_adobe.IsOn == true && Work_purpose.IsEnabled == true)
             {
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Apple.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Apple.png"));
                 OS = 2;
                 if (type == "Laptop" || type == "Laptop or Tablet")
                 {
                     model = "MacBook Pro";
                     type = "Laptop";
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/MacBook_Air.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/MacBook_Air.png"));
                 }
                 else if (Home_purpose.IsEnabled == true && Mobile.IsOn == false && type == "PC or Laptop")
                 {
                     model = "iMac";
                     type = "PC";
                     ROM = 8;
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/iMac.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/iMac.png"));
                 }
                 else
                 {
                     model = "MacBook Air";
                     type = "Laptop";
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets//VisualPictures/PC/MacBook_Air.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/MacBook_Air.png"));
                 }
                 OS_str = "MacOS";
                 СPU_model = "Apple M1";
@@ -138,20 +138,20 @@ namespace PC_support.Views
                 OS = 3;
                 OS_str = "Chrome OS"; 
                 model = "ChromeBook";
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/ChromeOS.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/ChromeOS.png"));
             }
             else if (OS == 123 || OS == 134 || OS == 124 && Gaming_purpose.IsEnabled == false && pro_adobe.IsOn == false)
             {
                 OS_str = "Linux";
                 OS = 4;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Linux.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Linux.png"));
             }
             else
             {
                 OS_str = "Windows";
                 OS = 1;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/Surface.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Windows.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Surface.png"));
             }
             if (Assembly.IsOn == true)
             {
@@ -179,15 +179,15 @@ namespace PC_support.Views
                 VideoCard = 1;
             if (model == "Lenovo")
             {
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Lenovo.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Lenovo.png"));
                 if (Work_purpose.IsEnabled == true && Gaming_purpose.IsEnabled == false)
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/LenovoThinkPad.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/LenovoThinkPad.png"));
                 else
-                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/LenovoIdeaPad.png"));
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/LenovoIdeaPad.png"));
 
             }
             else
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/PCLaptop.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/PCLaptop.png"));
             if (Gaming_purpose.IsChecked == true)
             {
                 RAM = 16;
@@ -207,8 +207,8 @@ namespace PC_support.Views
                     model = "Gaming PC";
                 }
                 OS_str = "Windows";
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/LogoManufacture/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualPictures/PC/GamingPC.png"));
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Windows.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/GamingPC.png"));
             }
             Final_Result();
         }

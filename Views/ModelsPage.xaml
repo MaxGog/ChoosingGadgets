@@ -30,17 +30,17 @@
                     </DataTemplate>
                 </GridView.ItemTemplate>
                 <GridView.Items>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/MacBook_Air.png" Name_str="MacBook Air" x:Name="MacBook_Air"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/Surface.png" Name_str="Surface Pro" x:Name="Surface_Pro"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoIdeaPad.png" Name_str="Lenovo IdeaPad" x:Name="Lenovo_IdeaPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad" x:Name="Lenovo_ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
-                    <local:ModelsList ViewImage="/Assets/VisualPictures/PC/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/MacBook_Air.png" Name_str="MacBook Air" x:Name="MacBook_Air"/>
+                    <local:ModelsList ViewImage="/Assets/Surface.png" Name_str="Surface Pro" x:Name="Surface_Pro"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoIdeaPad.png" Name_str="Lenovo IdeaPad" x:Name="Lenovo_IdeaPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad" x:Name="Lenovo_ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
+                    <local:ModelsList ViewImage="/Assets/LenovoThinkPad.png" Name_str="Lenovo ThinkPad"/>
                 </GridView.Items>
             </GridView>
         </ScrollViewer>

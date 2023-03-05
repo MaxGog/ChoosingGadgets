@@ -133,11 +133,11 @@
     <comment>Консоли</comment>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>Choosing Gadgets</value>
+    <value>Выбор гаджетов</value>
     <comment>Application description</comment>
   </data>
   <data name="AppDisplayName" xml:space="preserve">
-    <value>Choosing Gadgets</value>
+    <value>Выбор гаджетов</value>
     <comment>Application display name</comment>
   </data>
   <data name="CPU" xml:space="preserve">

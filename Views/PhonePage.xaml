@@ -34,7 +34,7 @@
         </ScrollViewer>
         <Grid Grid.RowSpan="2" Grid.Column="2">
             <Grid>
-                <Image x:Name="Image_Phone" Source="/Assets/VisualPictures/Phones/Samsung.png"/>
+                <Image x:Name="Image_Phone" Source="/Assets/IPhone.png"/>
             </Grid>
         </Grid>
     </Grid>

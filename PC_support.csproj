@@ -12,7 +12,7 @@
     <DefaultLanguage>en</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22000.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -174,50 +174,44 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Apple.png" />
     <Content Include="Assets\BadgeLogo.scale-100.png" />
     <Content Include="Assets\BadgeLogo.scale-125.png" />
     <Content Include="Assets\BadgeLogo.scale-150.png" />
     <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\BadgeLogo.scale-400.png" />
-    <Content Include="Assets\Icons\IconMetroOne.png" />
-    <Content Include="Assets\Icons\IconFluent.png" />
-    <Content Include="Assets\Icons\Icon_Metro2.png" />
-    <Content Include="Assets\LogoManufacture\FStudio1.png" />
-    <Content Include="Assets\LogoManufacture\FStudio2.png" />
-    <Content Include="Assets\LogoManufacture\Windows.png" />
-    <Content Include="Assets\VisualConsoles\NintendoSwitch.png" />
-    <Content Include="Assets\VisualConsoles\PS4.png" />
-    <Content Include="Assets\VisualConsoles\PS5.png" />
-    <Content Include="Assets\VisualConsoles\XboxOne_s.png" />
-    <Content Include="Assets\VisualConsoles\XboxOne_X.jpg" />
-    <Content Include="Assets\VisualConsoles\XboxSeries_S.png" />
-    <Content Include="Assets\VisualConsoles\XboxSeries_X.png" />
-    <Content Include="Assets\VisualPictures\PC\GamingPC.png" />
-    <Content Include="Assets\VisualPictures\PC\iMac.png" />
-    <Content Include="Assets\VisualPictures\PC\LenovoIdeaPad.png" />
-    <Content Include="Assets\VisualPictures\PC\LenovoThinkPad.png" />
-    <Content Include="Assets\VisualPictures\Phones\FirstPhone.png" />
-    <Content Include="Assets\VisualPictures\Phones\Honor.png" />
-    <Content Include="Assets\VisualPictures\Phones\IPhone.png" />
+    <Content Include="Assets\ChomeOS.png" />
+    <Content Include="Assets\FirstPhone.png" />
+    <Content Include="Assets\front2.png" />
+    <Content Include="Assets\FStudio1.png" />
+    <Content Include="Assets\FStudio2.png" />
+    <Content Include="Assets\GamingPC.png" />
+    <Content Include="Assets\Honor.png" />
+    <Content Include="Assets\IconFluent.png" />
+    <Content Include="Assets\IconMetroOne.png" />
+    <Content Include="Assets\Icon_Metro2.png" />
+    <Content Include="Assets\iMac.png" />
+    <Content Include="Assets\IPhone.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
-    <Content Include="Assets\LogoManufacture\Apple.png" />
-    <Content Include="Assets\LogoManufacture\ChomeOS.png" />
-    <Content Include="Assets\LogoManufacture\Lenovo.png" />
-    <Content Include="Assets\LogoManufacture\Linux.png" />
-    <Content Include="Assets\LogoManufacture\MacOS.png" />
-    <Content Include="Assets\LogoManufacture\Pixel.png" />
-    <Content Include="Assets\LogoManufacture\Samsung.png" />
-    <Content Include="Assets\LogoManufacture\Surface.png" />
-    <Content Include="Assets\LogoManufacture\Windows8.png" />
-    <Content Include="Assets\VisualPictures\PC\MacBook_Air.png" />
-    <Content Include="Assets\VisualPictures\PC\MonoPC.png" />
-    <Content Include="Assets\VisualPictures\PC\PC.png" />
-    <Content Include="Assets\VisualPictures\PC\PCLaptop.png" />
-    <Content Include="Assets\VisualPictures\Phones\Samsung.png" />
+    <Content Include="Assets\Lenovo.png" />
+    <Content Include="Assets\LenovoIdeaPad.png" />
+    <Content Include="Assets\LenovoThinkPad.png" />
+    <Content Include="Assets\Linux.png" />
+    <Content Include="Assets\MacBook_Air.png" />
+    <Content Include="Assets\MacOS.png" />
+    <Content Include="Assets\MonoPC.png" />
+    <Content Include="Assets\MyBadge.png" />
+    <Content Include="Assets\NintendoSwitch.png" />
+    <Content Include="Assets\PC.png" />
+    <Content Include="Assets\PCLaptop.png" />
+    <Content Include="Assets\Pixel.png" />
+    <Content Include="Assets\PS4.png" />
+    <Content Include="Assets\PS5.png" />
+    <Content Include="Assets\Samsung.png" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-125.png" />
     <Content Include="Assets\SmallTile.scale-150.png" />
@@ -249,20 +243,27 @@
     <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-32.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\StoreLogo.backup.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-125.png" />
     <Content Include="Assets\StoreLogo.scale-150.png" />
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
-    <Content Include="Assets\VisualPictures\PC\Surface.png" />
-    <Content Include="Assets\VisualPictures\PC\Tablet.png" />
+    <Content Include="Assets\Surface.png" />
+    <Content Include="Assets\Tablet.png" />
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="Assets\VisualPictures\Phones\WinPhone.png" />
     <None Include="Package.StoreAssociation.xml" />
-    <Content Include="Assets\VisualConsoles\XboxOne_fat.png" />
+    <Content Include="Assets\Windows.png" />
+    <Content Include="Assets\Windows8.png" />
+    <Content Include="Assets\WinPhone.png" />
+    <Content Include="Assets\XboxOne_fat.png" />
+    <Content Include="Assets\XboxOne_s.png" />
+    <Content Include="Assets\XboxOne_X.jpg" />
+    <Content Include="Assets\XboxSeries_S.png" />
+    <Content Include="Assets\XboxSeries_X.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

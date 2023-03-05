@@ -46,10 +46,10 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0" Margin="10">
-                <Image x:Name="Image_Logo" Source="/Assets/LogoManufacture/Windows.png" />
+                <Image x:Name="Image_Logo" Source="/Assets/Windows.png" />
             </Grid>
             <Grid Grid.Row="1" Margin="10">
-                <Image x:Name="Image_Model" Source="/Assets/VisualPictures/PC/PCLaptop.png" />
+                <Image x:Name="Image_Model" Source="/Assets/PCLaptop.png" />
             </Grid>
         </Grid>
     </Grid>

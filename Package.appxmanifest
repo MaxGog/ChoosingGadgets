@@ -9,7 +9,7 @@
   <Identity
     Name="52304FeatherProjects.Supportsystemwhenyouselectthe"
     Publisher="CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D"
-    Version="2.4.5.0" />
+    Version="2.4.6.0" />
 
   <mp:PhoneIdentity PhoneProductId="38adfdd8-d246-4657-bd6a-7489568a9ae1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="PC_support.App">
       <uap:VisualElements
-        DisplayName="Choosing gadgets"
+        DisplayName="ms-resource:AppDisplayName"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="PC_support"
