@@ -138,24 +138,12 @@
     <value>,프로세서 주파수:</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="Discussions.Content" xml:space="preserve">
-    <value>토론</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Finish.Content" xml:space="preserve">
     <value>결과</value>
-  </data>
-  <data name="For_3D.Content" xml:space="preserve">
-    <value>3 차원 재료 렌더링</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_develop.Content" xml:space="preserve">
     <value>개발을 위해</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_developer.Content" xml:space="preserve">
-    <value>소프트웨어 개발을 위해</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_gaming.Content" xml:space="preserve">
     <value>게임용</value>
@@ -165,25 +153,9 @@
     <value>가정을 위해</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="For_photo_render.Content" xml:space="preserve">
-    <value>사진 렌더링 용</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_render.Content" xml:space="preserve">
-    <value>비디오 렌더링</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_work.Content" xml:space="preserve">
     <value>사무실 일을 위해</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_work_online.Content" xml:space="preserve">
-    <value>컴퓨터에서 작업하려면</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_work_physic.Content" xml:space="preserve">
-    <value>컴퓨터로 작업하려면</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="Friend.Header" xml:space="preserve">
     <value>당신은 당신의 친구와 함께 플레이합니까?</value>
@@ -192,10 +164,6 @@
   <data name="GameBuy.Header" xml:space="preserve">
     <value>당신은 어떻게 게임을 구입하는 것을 선호합니까?</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="GamingConsole.Content" xml:space="preserve">
-    <value>게임 콘솔</value>
-    <comment>Меню</comment>
   </data>
   <data name="Genres.Text" xml:space="preserve">
     <value>당신은 어떤 장르를 선호합니까?</value>
@@ -222,10 +190,6 @@
 
 애플의 노트북은 터치 아이디 지문 스캐너,와이파이 6 무선 어댑터,2560 엑스 1600 픽셀의 해상도와 13.3 인치의 대각선 망막 화면을 받았다. 이 경우 솔리드 스테이트 드라이브의 볼륨은 2 테라 바이트입니다.</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="Market.Content" xml:space="preserve">
-    <value>얀 덱스.시장</value>
-    <comment>Меню</comment>
   </data>
   <data name="Media.Header" xml:space="preserve">
     <value>미디어 센터가 필요하십니까?</value>
@@ -297,10 +261,6 @@
   <data name="PC_Sync.Header" xml:space="preserve">
     <value>당신은 장치를 동기화하고 있습니까?</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="Phone.Content" xml:space="preserve">
-    <value>전화 번호</value>
-    <comment>Меню</comment>
   </data>
   <data name="Phone_Apps.Header" xml:space="preserve">
     <value>당신은 20 개 이상의 타사 응용 프로그램을 설치할 것인가?</value>
@@ -395,10 +355,6 @@
   <data name="Shooter.Content" xml:space="preserve">
     <value>저격수</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="Sites.Content" xml:space="preserve">
-    <value>링크:</value>
-    <comment>Меню</comment>
   </data>
   <data name="SmartModel" xml:space="preserve">
     <value>스마트 폰:</value>

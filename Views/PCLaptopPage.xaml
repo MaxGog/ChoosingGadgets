@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
         <ScrollViewer Grid.Row="0" Margin="10">
             <StackPanel Grid.Row="1" Grid.ColumnSpan="1" Visibility="Visible" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Slider x:Uid="Price_purpose" TickFrequency="10" TickPlacement="Outside" IsEnabled="False"/>
+                <Slider x:Uid="Price_purpose" TickFrequency="10" x:Name="StorePrice" TickPlacement="Outside"/>
                 <TextBlock x:Uid="PurposePC"/>
                 <CheckBox x:Uid="For_home" x:Name="Home_purpose"/>
                 <CheckBox x:Uid="For_work" x:Name="Work_purpose"/>

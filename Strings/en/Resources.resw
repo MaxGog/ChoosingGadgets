@@ -157,25 +157,13 @@ And if you need a smartphone, then according to the minimum characteristics, so 
 Directly from the app, you can go to Yandex.Market for shopping and view the code in GitHub!</value>
     <comment>Настройки</comment>
   </data>
-  <data name="Discussions.Content" xml:space="preserve">
-    <value>Discussions on VK</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Finish.Content" xml:space="preserve">
     <value>Finish</value>
     <comment>Кнопка</comment>
   </data>
-  <data name="For_3D.Content" xml:space="preserve">
-    <value>For rendering 3D materials</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_develop.Content" xml:space="preserve">
     <value>For develop</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_developer.Content" xml:space="preserve">
-    <value>For software development</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_gaming.Content" xml:space="preserve">
     <value>For gaming</value>
@@ -185,25 +173,9 @@ Directly from the app, you can go to Yandex.Market for shopping and view the cod
     <value>For home</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="For_photo_render.Content" xml:space="preserve">
-    <value>For rendering photos</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_render.Content" xml:space="preserve">
-    <value>For video rendering</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_work.Content" xml:space="preserve">
     <value>For office work</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_work_online.Content" xml:space="preserve">
-    <value>To work at a computer</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_work_physic.Content" xml:space="preserve">
-    <value>To work with a computer</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="Friend.Header" xml:space="preserve">
     <value>Do you play with your friends?</value>
@@ -212,10 +184,6 @@ Directly from the app, you can go to Yandex.Market for shopping and view the cod
   <data name="GameBuy.Header" xml:space="preserve">
     <value>How do you prefer to buy games?</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="GamingConsole.Content" xml:space="preserve">
-    <value>Game consoles</value>
-    <comment>Меню</comment>
   </data>
   <data name="Genres.Text" xml:space="preserve">
     <value>What genres do you prefer?</value>
@@ -350,10 +318,6 @@ Directly from the app, you can go to Yandex.Market for shopping and view the cod
   <data name="PC_Sync.OnContent" xml:space="preserve">
     <value>Yes</value>
   </data>
-  <data name="Phone.Content" xml:space="preserve">
-    <value>Phones</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Phone_Apps.Header" xml:space="preserve">
     <value>Will you be installing over 20 third-party apps?</value>
     <comment>Телефоны</comment>
@@ -474,10 +438,6 @@ PC - stationary computer</value>
   <data name="Setting.Header" xml:space="preserve">
     <value>Application Settings</value>
   </data>
-  <data name="Settings.Text" xml:space="preserve">
-    <value>Settings</value>
-    <comment>Меню</comment>
-  </data>
   <data name="SettingsPivot.Title" xml:space="preserve">
     <value>Settings</value>
     <comment>В коде для NavPan Header</comment>
@@ -497,10 +457,6 @@ PC - stationary computer</value>
   <data name="Shooter.Content" xml:space="preserve">
     <value>Shooter</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="Sites.Content" xml:space="preserve">
-    <value>Sites:</value>
-    <comment>Меню</comment>
   </data>
   <data name="SmartModel" xml:space="preserve">
     <value>Smartphone: </value>

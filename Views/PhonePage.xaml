@@ -20,7 +20,7 @@
         <Button Grid.Row="1" Style="{StaticResource AccentButtonStyle}" x:Uid="Finish" HorizontalAlignment="Left" Margin="10" x:Name="Finish" Click="Finish_Click"/>
         <ScrollViewer Grid.Row="0">
             <StackPanel  Grid.ColumnSpan="1" Visibility="Visible" VerticalAlignment="Center" Margin="10">
-                <Slider x:Uid="Price_purpose" TickFrequency="10" TickPlacement="Outside" IsEnabled="False"/>
+                <Slider x:Uid="Price_purpose" TickFrequency="10" TickPlacement="Outside" x:Name="StorePrice"/>
                 <TextBlock x:Uid="PurposeMobile"/>
                 <CheckBox x:Uid="For_home"/>
                 <CheckBox x:Uid="For_work"/>

@@ -137,23 +137,11 @@
   <data name="CPU" xml:space="preserve">
     <value>，处理器频率:</value>
   </data>
-  <data name="Discussions.Content" xml:space="preserve">
-    <value>讨论</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Finish.Content" xml:space="preserve">
     <value>结果</value>
   </data>
-  <data name="For_3D.Content" xml:space="preserve">
-    <value>用于渲染3d材质</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_develop.Content" xml:space="preserve">
     <value>为了发展</value>
-  </data>
-  <data name="For_developer.Content" xml:space="preserve">
-    <value>用于软件开发</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_gaming.Content" xml:space="preserve">
     <value>游戏用</value>
@@ -161,24 +149,8 @@
   <data name="For_home.Content" xml:space="preserve">
     <value>为家而设</value>
   </data>
-  <data name="For_photo_render.Content" xml:space="preserve">
-    <value>用于渲染照片</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_render.Content" xml:space="preserve">
-    <value>用于视频渲染</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_work.Content" xml:space="preserve">
     <value>办公室工作</value>
-  </data>
-  <data name="For_work_online.Content" xml:space="preserve">
-    <value>在电脑前工作</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_work_physic.Content" xml:space="preserve">
-    <value>使用电脑</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="Friend.Header" xml:space="preserve">
     <value>你和你的朋友一起玩吗？</value>
@@ -187,10 +159,6 @@
   <data name="GameBuy.Header" xml:space="preserve">
     <value>你喜欢如何购买游戏？</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="GamingConsole.Content" xml:space="preserve">
-    <value>游戏机</value>
-    <comment>Меню</comment>
   </data>
   <data name="Genres.Text" xml:space="preserve">
     <value>你喜欢什么类型？</value>
@@ -219,10 +187,6 @@
   </data>
   <data name="Main.Content" xml:space="preserve">
     <value>一般事务</value>
-  </data>
-  <data name="Market.Content" xml:space="preserve">
-    <value>燕基科斯.街市</value>
-    <comment>Меню</comment>
   </data>
   <data name="Media.Header" xml:space="preserve">
     <value>你需要一个媒体中心吗?</value>
@@ -261,10 +225,6 @@
   </data>
   <data name="PC_Game.Header" xml:space="preserve">
     <value>你会玩游戏吗？</value>
-  </data>
-  <data name="PC_Laptop.Content" xml:space="preserve">
-    <value>电脑</value>
-    <comment>Меню</comment>
   </data>
   <data name="PC_Laptop_Page.Text" xml:space="preserve">
     <value>电脑及手提电脑</value>

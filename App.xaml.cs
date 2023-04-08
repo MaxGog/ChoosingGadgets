@@ -1,9 +1,12 @@
-﻿using System;
+﻿using PC_support.Views;
+using System;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.ApplicationModel.Core;
 using Windows.UI;
 using Windows.UI.Core;
+using Windows.UI.StartScreen;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -18,14 +21,10 @@ namespace PC_support
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
             Window.Current.Activate();
-            CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
-            ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
-            titleBar.ButtonBackgroundColor = Colors.Transparent;
-            titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
 
             if (rootFrame == null)
@@ -34,12 +33,23 @@ namespace PC_support
                 rootFrame.NavigationFailed += OnNavigationFailed;
                 rootFrame.Navigated += OnNavigated;
 
+                var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+                ApplicationView.GetForCurrentView().Title = resourceLoader.GetString("AppDisplayName");
+
+                CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
+                ApplicationView view = ApplicationView.GetForCurrentView();
+                ApplicationViewTitleBar titleBar = view.TitleBar;
+                view.SuppressSystemOverlays = true;
+                //titleBar.BackgroundColor = Windows.UI.Color.FromArgb(0, 0, 0, 0);
+
+                var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
+                coreTitleBar.ExtendViewIntoTitleBar = false;
+
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
                     //TODO: Загрузить состояние из ранее приостановленного приложения
                 }
 
-                // Размещение фрейма в текущем окне
                 Window.Current.Content = rootFrame;
                 SystemNavigationManager.GetForCurrentView().BackRequested += OnBackRequested;
                 SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
@@ -47,15 +57,23 @@ namespace PC_support
                     AppViewBackButtonVisibility.Visible :
                     AppViewBackButtonVisibility.Collapsed;
             }
-
             if (e.PrelaunchActivated == false)
             {
-                if (rootFrame.Content == null)
+                if (e.Arguments == "PC")
+                {
+                    rootFrame.Navigate(typeof(PCLaptopPage), e.Arguments);
+                }
+                else if (e.Arguments == "Phone")
+                {
+                    rootFrame.Navigate(typeof(PhonePage), e.Arguments);
+                }
+                else
                 {
                     rootFrame.Navigate(typeof(MainPage), e.Arguments);
                 }
-                // Обеспечение активности текущего окна
                 Window.Current.Activate();
+
+                await SetupJumpList();
             }
         }
         void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
@@ -65,14 +83,12 @@ namespace PC_support
         private void OnSuspending(object sender, SuspendingEventArgs e)
         {
             var deferral = e.SuspendingOperation.GetDeferral();
-            //TODO: Сохранить состояние приложения и остановить все фоновые операции
             deferral.Complete();
         }
 
 
         private void OnNavigated(object sender, NavigationEventArgs e)
         {
-            // Each time a navigation event occurs, update the Back button's visibility
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
                 ((Frame)sender).CanGoBack ?
                 AppViewBackButtonVisibility.Visible :
@@ -98,15 +114,20 @@ namespace PC_support
             }
             return false;
         }
-        /*private bool TryGoForward()
+        public static async Task SetupJumpList()
         {
-            Frame rootFrame = Window.Current.Content as Frame;
-            if (rootFrame.CanGoForward)
-            {
-                rootFrame.GoForward();
-                return true;
-            }
-            return false;
-        }*/
+            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+            JumpList jumpList = await JumpList.LoadCurrentAsync();
+            jumpList.Items.Clear();
+
+            JumpListItem PCItem = JumpListItem.CreateWithArguments("PC", resourceLoader.GetString("PCArgument"));
+            JumpListItem PhoneItem = JumpListItem.CreateWithArguments("Phone", resourceLoader.GetString("PhoneArgument"));
+            PCItem.Logo = new Uri("ms-appx:///Assets/pclaptopsdark.png");
+            PhoneItem.Logo = new Uri("ms-appx:///Assets/pclaptopsdark.png");
+            jumpList.Items.Add(PCItem);
+            jumpList.Items.Add(PhoneItem);
+
+            await jumpList.SaveAsync();
+        }
     }
 }

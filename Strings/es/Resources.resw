@@ -137,23 +137,11 @@
   <data name="CPU" xml:space="preserve">
     <value>, Frecuencia de la CPU:</value>
   </data>
-  <data name="Discussions.Content" xml:space="preserve">
-    <value>Discusiones</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Finish.Content" xml:space="preserve">
     <value>Resultado</value>
   </data>
-  <data name="For_3D.Content" xml:space="preserve">
-    <value>Para renderizar materiales 3D</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_develop.Content" xml:space="preserve">
     <value>Para el desarrollo</value>
-  </data>
-  <data name="For_developer.Content" xml:space="preserve">
-    <value>Para el desarrollo de software</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_gaming.Content" xml:space="preserve">
     <value>Para Gaming</value>
@@ -161,24 +149,8 @@
   <data name="For_home.Content" xml:space="preserve">
     <value>Para el hogar</value>
   </data>
-  <data name="For_photo_render.Content" xml:space="preserve">
-    <value>Para renderizar fotos</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_render.Content" xml:space="preserve">
-    <value>Para renderizado de vídeo</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_work.Content" xml:space="preserve">
     <value>Para el trabajo de oficina</value>
-  </data>
-  <data name="For_work_online.Content" xml:space="preserve">
-    <value>Trabajar en una computadora</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_work_physic.Content" xml:space="preserve">
-    <value>Para trabajar con un ordenador</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="Friend.Header" xml:space="preserve">
     <value>¿Juegas con tus amigos?</value>
@@ -187,10 +159,6 @@
   <data name="GameBuy.Header" xml:space="preserve">
     <value>¿Necesita un centro de medios?</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="GamingConsole.Content" xml:space="preserve">
-    <value>Consolas de videojuegos</value>
-    <comment>Меню</comment>
   </data>
   <data name="Genres.Text" xml:space="preserve">
     <value>¿Qué géneros prefieres?</value>
@@ -207,10 +175,6 @@
   <data name="Horror.Content" xml:space="preserve">
     <value>Horror</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="Market.Content" xml:space="preserve">
-    <value>Mercado Yandex</value>
-    <comment>Меню</comment>
   </data>
   <data name="Media.Header" xml:space="preserve">
     <value>¿Necesita un centro de medios?</value>
@@ -249,10 +213,6 @@
   </data>
   <data name="PC_Game.Header" xml:space="preserve">
     <value>¿Jugarás juegos?</value>
-  </data>
-  <data name="PC_Laptop.Content" xml:space="preserve">
-    <value>Ordenadores</value>
-    <comment>Меню</comment>
   </data>
   <data name="PC_Laptop_Page.Text" xml:space="preserve">
     <value>Computadoras y laptops</value>

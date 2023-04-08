@@ -1,7 +1,8 @@
 ﻿using PC_support.Views;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.ViewManagement;
-//using Windows.ApplicationModel.Core;
+using PC_support.Models;
+using System;
 
 namespace PC_support
 {
@@ -10,41 +11,37 @@ namespace PC_support
         public MainPage()
         {
             this.InitializeComponent();
-            contentFrame.Navigate(typeof(HomePage));
         }
-        private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        private void SelectPage_ItemClick(object sender, ItemClickEventArgs e)
         {
-            if (args.SelectedItem == VK)
+            Functionality selectedFunctionalNew = (Functionality)e.ClickedItem;
+            if (selectedFunctionalNew == PCLaptopMenu)
             {
-                contentFrame.Navigate(typeof(SocialPage));
+                Frame.Navigate(typeof(PCLaptopPage));
             }
-            else if (args.SelectedItem == PC_and_laptops)
+            else if (selectedFunctionalNew == PhonesMenu)
             {
-                contentFrame.Navigate(typeof(PCLaptopPage));
+                Frame.Navigate(typeof(PhonePage));
             }
-            else if (args.SelectedItem == Menu)
+            else if (selectedFunctionalNew == MarketMenu)
             {
-                contentFrame.Navigate(typeof(HomePage));
+                Frame.Navigate(typeof(MarketPage));
             }
-            else if (args.SelectedItem == Phone)
+            else if (selectedFunctionalNew == Consoles)
             {
-                contentFrame.Navigate(typeof(PhonePage));
+                Frame.Navigate(typeof(ConsolePage));
             }
-            else if (args.SelectedItem == Market)
+            else if (selectedFunctionalNew == Settings)
             {
-                contentFrame.Navigate(typeof(MarketPage));
+                Frame.Navigate(typeof(SettingsPage));
             }
-            else if (args.SelectedItem == GamingConsole)
+            else if (selectedFunctionalNew == TipsMenu)
             {
-                contentFrame.Navigate(typeof(ConsolePage));
+                Frame.Navigate(typeof(DictionaryPage));
             }
-            else if (args.SelectedItem == Tips)
+            else if (selectedFunctionalNew == Community)
             {
-                contentFrame.Navigate(typeof(DictionaryPage));
-            }
-            if (args.IsSettingsSelected == true)
-            {
-                contentFrame.Navigate(typeof(SettingsPage));
+                Frame.Navigate(typeof(SocialPage));
             }
         }
     }

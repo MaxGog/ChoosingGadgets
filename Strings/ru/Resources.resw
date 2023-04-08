@@ -124,10 +124,6 @@
     <value>О приложении</value>
     <comment>Настройки</comment>
   </data>
-  <data name="Accuracy_check.Content" xml:space="preserve">
-    <value>Точный результат</value>
-    <comment>Checkbox</comment>
-  </data>
   <data name="Action.Content" xml:space="preserve">
     <value>Экшен</value>
     <comment>Консоли</comment>
@@ -156,24 +152,12 @@
 Прямо из приложения можете отправиться в Яндекс.Маркет за покупками и посмотреть код в GitHub!</value>
     <comment>Настройки</comment>
   </data>
-  <data name="Discussions.Content" xml:space="preserve">
-    <value>Обсуждения</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Finish.Content" xml:space="preserve">
     <value>Подобрать</value>
-  </data>
-  <data name="For_3D.Content" xml:space="preserve">
-    <value>Для рендера 3D материалов</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_develop.Content" xml:space="preserve">
     <value>Для разработки</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_developer.Content" xml:space="preserve">
-    <value>Для разработки программного обеспечения</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_gaming.Content" xml:space="preserve">
     <value>Для гейминга</value>
@@ -183,25 +167,9 @@
     <value>Для дома</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="For_photo_render.Content" xml:space="preserve">
-    <value>Для рендера фотографий</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_render.Content" xml:space="preserve">
-    <value>Для рендера видео</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_work.Content" xml:space="preserve">
     <value>Для офисной работы</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_work_online.Content" xml:space="preserve">
-    <value>Для работы за компьютером</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_work_physic.Content" xml:space="preserve">
-    <value>Для работы с компьютером</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="Friend.Header" xml:space="preserve">
     <value>Играете ли вы с друзьями?</value>
@@ -210,10 +178,6 @@
   <data name="GameBuy.Header" xml:space="preserve">
     <value>Как вы предпочитаете покупать игры?</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="GamingConsole.Content" xml:space="preserve">
-    <value>Игровые консоли</value>
-    <comment>Меню</comment>
   </data>
   <data name="Genres.Text" xml:space="preserve">
     <value>Какие жанры вы предпочитаете?</value>
@@ -241,10 +205,6 @@
 Лэптоп от Apple получил сканер отпечатков Touch ID, беспроводной адаптер Wi-Fi 6, экран Retina с разрешением – 2560 х 1600 пикселей и диагональю 13,3 дюйма. Максимальный объем оперативной памяти составляет 16 ГБ, а объем твердотельного накопителя –  2 ТБ.</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="Market.Content" xml:space="preserve">
-    <value>Яндекс.Маркет</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Media.Header" xml:space="preserve">
     <value>Требуется ли вам медиацентр?</value>
     <comment>Консоли</comment>
@@ -271,6 +231,9 @@
   <data name="Payment" xml:space="preserve">
     <value>Рекомендуемая платёжная система: </value>
     <comment>Телефон</comment>
+  </data>
+  <data name="PCArgument" xml:space="preserve">
+    <value>Выбрать компьютер</value>
   </data>
   <data name="PC_Assembly.Header" xml:space="preserve">
     <value>Вам нужна качественная сборка и материал?</value>
@@ -352,9 +315,8 @@
   <data name="PC_Sync.OnContent" xml:space="preserve">
     <value>Да</value>
   </data>
-  <data name="Phone.Content" xml:space="preserve">
-    <value>Телефоны</value>
-    <comment>Меню</comment>
+  <data name="PhoneArgument" xml:space="preserve">
+    <value>Выбрать телефон</value>
   </data>
   <data name="Phone_Apps.Header" xml:space="preserve">
     <value>Будете ли вы устанавливать более 20 сторонних приложений?</value>
@@ -495,10 +457,6 @@ PC - стационарный компьютер</value>
   <data name="Shooter.Content" xml:space="preserve">
     <value>Шутеры</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="Sites.Content" xml:space="preserve">
-    <value>Ссылки:</value>
-    <comment>Меню</comment>
   </data>
   <data name="SmartModel" xml:space="preserve">
     <value>Смартфон: </value>

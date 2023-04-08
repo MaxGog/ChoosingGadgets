@@ -1,6 +1,8 @@
 ﻿
 using System;
+using Windows.Services.Store;
 using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
@@ -17,6 +19,9 @@ namespace PC_support.Views
         public PCLaptopPage()
         {
             this.InitializeComponent();
+
+            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+            ApplicationView.GetForCurrentView().Title = "Выбор компьютера";
         }
         private void pro_Toggled(object sender, RoutedEventArgs e)
         {
@@ -106,7 +111,7 @@ namespace PC_support.Views
                 Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Windows.png"));
                 Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Surface.png"));
             }
-            else if (OS == 12 && pro_adobe.IsOn == true && Work_purpose.IsEnabled == true)
+            if (OS == 12 && pro_adobe.IsOn == true && Work_purpose.IsEnabled == true && StorePrice.Value >= 70)
             {
                 Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Apple.png"));
                 OS = 2;
@@ -116,11 +121,11 @@ namespace PC_support.Views
                     type = "Laptop";
                     Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/MacBook_Air.png"));
                 }
-                else if (Home_purpose.IsEnabled == true && Mobile.IsOn == false && type == "PC or Laptop")
+                else if (Home_purpose.IsEnabled == true || Mobile.IsOn == false || type == "PC or Laptop" && StorePrice.Value >= 70)
                 {
                     model = "iMac";
                     type = "PC";
-                    ROM = 8;
+                    ROM = 16;
                     Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/iMac.png"));
                 }
                 else
@@ -133,32 +138,45 @@ namespace PC_support.Views
                 СPU_model = "Apple M1";
                 typeCPU = "ARM";
             }
-            else if (OS == 123 || OS == 134 && Home_purpose.IsEnabled == true && Work_purpose.IsEnabled == false && pro_adobe.IsOn == true)
+            if (OS == 123 || OS == 134 || OS == 12 && Home_purpose.IsEnabled == true && StorePrice.Value <= 50)
             {
                 OS = 3;
                 OS_str = "Chrome OS"; 
                 model = "ChromeBook";
                 Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/ChromeOS.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/MonoPC.png"));
             }
-            else if (OS == 123 || OS == 134 || OS == 124 && Gaming_purpose.IsEnabled == false && pro_adobe.IsOn == false)
+            if (OS == 123 || OS == 134 || OS == 124 && Gaming_purpose.IsEnabled == false && pro_adobe.IsOn == false && StorePrice.Value <= 50)
             {
                 OS_str = "Linux";
                 OS = 4;
                 Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Linux.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/MonoPC.png"));
             }
-            else
+            else if (StorePrice.Value >= 50)
             {
                 OS_str = "Windows";
                 OS = 1;
-                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Windows.png"));
-                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Surface.png"));
-            }
-            if (Assembly.IsOn == true)
-            {
                 if (OS == 1 && Mobile.IsOn == true)
+                {
                     model = "Surface";
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Surface.png"));
+                }
                 else if (OS == 1 && Mobile.IsOn == false)
+                {
                     model = "Lenovo";
+                    Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/Lenovo.png"));
+                }    
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/Windows.png"));
+                
+            }
+            else
+            {
+                OS = 3;
+                OS_str = "Chrome OS";
+                model = "ChromeBook";
+                Image_Logo.Source = new BitmapImage(new Uri("ms-appx:///Assets/ChromeOS.png"));
+                Image_Model.Source = new BitmapImage(new Uri("ms-appx:///Assets/MonoPC.png"));
             }
             if (Accuracy.IsChecked == false)
             {
@@ -168,14 +186,16 @@ namespace PC_support.Views
                     RAM = 4;
                 if (ROM >= 65 && ROM <= 128)
                     ROM = 128;
-                else if (ROM >= 129 && ROM <= 512)
+                else if (ROM >= 129 && ROM <= 512 && StorePrice.Value >= 50)
                     ROM = 512;
-                else if (ROM >= 513 && ROM <= 1024)
+                else if (ROM >= 513 && ROM <= 1024 && StorePrice.Value >= 50)
                     ROM = 1024;
-                else if (ROM >= 1025)
+                else if (ROM >= 1025 && StorePrice.Value >= 50)
                     ROM = 2048;
+                else if (StorePrice.Value <= 50)
+                    ROM = 128;
             }
-            if (VideoCard == 0)
+            if (VideoCard == 0 && StorePrice.Value >= 40)
                 VideoCard = 1;
             if (model == "Lenovo")
             {

@@ -3,6 +3,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 
 namespace PC_support.Views
 {
@@ -34,13 +35,8 @@ namespace PC_support.Views
         public ConsolePage()
         {
             this.InitializeComponent();
-            //SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-            //SystemNavigationManager.GetForCurrentView().BackRequested += (s, e) =>
-            //{
-            //    App.TryGoBack();
-            //    //Frame.Navigate(typeof(MainPage));
-            //    //Frame.GoBack();
-            //};
+            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+            ApplicationView.GetForCurrentView().Title = "Выбор игровой консоли";
         }
 
         private async void Finish_Click(object sender, RoutedEventArgs e)
