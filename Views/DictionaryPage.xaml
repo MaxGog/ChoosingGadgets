@@ -2,33 +2,51 @@
     x:Class="PC_support.Views.DictionaryPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:PC_support.DLC"
+    xmlns:local="using:PC_support.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ScrollViewer>
-            <RichTextBlock HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Margin="10">
-                <Paragraph>VR - Виртуальная реальность.</Paragraph>
-                <Paragraph>VR гарнитура - это устройство, которое надевается на голову и отображает различный контент, который ощущаеться как реальный.</Paragraph>
-                <Paragraph>Автономность - это режим устройства. Данный режим позволяет программному обеспечению и устройству работать без зависимости. В данном случае работать без интернета.</Paragraph>
-                <Paragraph>Ресурсы - характеристики устройства, от которых зависит работа программного обеспечения.</Paragraph>
-                <Paragraph>Тяжёлые игры - это ресурсопотребные игры.</Paragraph>
-                <Paragraph>Стандартный пользователь - обычный пользователь, поверхостно разбирается в гаджетах.</Paragraph>
-                <Paragraph>Опытный пользователь - это продвинутый пользователь, который углублённо разбирается в гаджетах.</Paragraph>
-                <Paragraph>Компилировать - это слово применяется программистами. Это слово означает проверку кода на работоспособность.</Paragraph>
-                <Paragraph>Постоянная память - это память, на которой хранятся данные.</Paragraph>
-                <Paragraph>Оперативная память - это память, используемая программным обеспечением при работе компьютера. Хранить на ней ничего нельзя.</Paragraph>
-                <Paragraph>Операционная система - это программное обеспечение, которое заставляет устройство работать.</Paragraph>
-                <Paragraph>SSD - тип постоянной памяти. Твёрдотельный накопитель.</Paragraph>
-                <Paragraph>HDD - тип постоянной памяти. Жёсткий диск.</Paragraph>
-                <Paragraph>DDR3/DDR4 и другие вариации - это тип оперативной памяти. Чем выше цифра типа, тем оперативная память быстрее.</Paragraph>
-                <Paragraph>x86, x64 - разрядность процессоров. Чаще их используют в компьютерах и ноутбуках. x64 имеет 64-битную разрядность, а x86 имеет 32-битную разрядность.</Paragraph>
-                <Paragraph>ARMx86, ARMx64 - разрядности процессоров. ARM процессоры предназначены для мобильных устройств и занимают меньше места в устройстве за счёт низкой производительности по сравнению с x64 и x86 процессорами.</Paragraph>
-                <Paragraph>PC - стационарный компьютер.</Paragraph>
-            </RichTextBlock>
-        </ScrollViewer>
+        <ListView ScrollViewer.HorizontalScrollMode="Enabled"
+                ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                ScrollViewer.VerticalScrollMode="Enabled"
+                ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                IsTapEnabled="False"
+                SelectionMode="None">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsStackPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Key}" Margin="10,0"
+                               Foreground="Black" FontWeight="Bold" />
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+            <x:String>VR - Виртуальная реальность.</x:String>
+            <x:String>VR гарнитура - это устройство, которое надевается на голову и отображает различный контент, который ощущаеться как реальный.</x:String>
+            <x:String>Автономность - это режим устройства. Данный режим позволяет программному обеспечению и устройству работать без зависимости. В данном случае работать без интернета.</x:String>
+            <x:String>Ресурсы - характеристики устройства, от которых зависит работа программного обеспечения.</x:String>
+            <x:String>Тяжёлые игры - это ресурсопотребные игры.</x:String>
+            <x:String>Стандартный пользователь - обычный пользователь, поверхостно разбирается в гаджетах.</x:String>
+            <x:String>Опытный пользователь - это продвинутый пользователь, который углублённо разбирается в гаджетах.</x:String>
+            <x:String>Компилировать - это слово применяется программистами. Это слово означает проверку кода на работоспособность.</x:String>
+            <x:String>Постоянная память - это память, на которой хранятся данные.</x:String>
+            <x:String>Оперативная память - это память, используемая программным обеспечением при работе компьютера. Хранить на ней ничего нельзя.</x:String>
+            <x:String>Операционная система - это программное обеспечение, которое заставляет устройство работать.</x:String>
+            <x:String>SSD - тип постоянной памяти. Твёрдотельный накопитель.</x:String>
+            <x:String>HDD - тип постоянной памяти. Жёсткий диск.</x:String>
+            <x:String>DDR3/DDR4 и другие вариации - это тип оперативной памяти. Чем выше цифра типа, тем оперативная память быстрее.</x:String>
+            <x:String>x86, x64 - разрядность процессоров. Чаще их используют в компьютерах и ноутбуках. x64 имеет 64-битную разрядность, а x86 имеет 32-битную разрядность.</x:String>
+            <x:String>ARMx86, ARMx64 - разрядности процессоров. ARM процессоры предназначены для мобильных устройств и занимают меньше места в устройстве за счёт низкой производительности по сравнению с x64 и x86 процессорами.</x:String>
+            <x:String>PC - стационарный компьютер.</x:String>
+        </ListView>
     </Grid>
 </Page>

@@ -9,13 +9,13 @@
   <Identity
     Name="52304FeatherProjects.Supportsystemwhenyouselectthe"
     Publisher="CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D"
-    Version="2.4.3.0" />
+    Version="2.5.12.0" />
 
-  <mp:PhoneIdentity PhoneProductId="38adfdd8-d246-4657-bd6a-7489568a9ae1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="e09595fd-bfc9-4324-8e03-a72054a88d5d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Choosing gadgets</DisplayName>
-    <PublisherDisplayName>Feather Projects Studio (R)</PublisherDisplayName>
+    <DisplayName>Выбор гаджетов</DisplayName>
+    <PublisherDisplayName>MaxGog</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,12 +32,12 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="PC_support.App">
       <uap:VisualElements
-        DisplayName="Choosing gadgets"
+        DisplayName="ms-resource:AppDisplayName"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="PC_support"
-        BackgroundColor="blue">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="Choosing gadgets" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png">
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png" ShortName="ms-resource:AppDisplayName">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo"/>
             <uap:ShowOn Tile="wide310x150Logo"/>
@@ -47,8 +47,7 @@
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape"/>
-          <uap:Rotation Preference="landscapeFlipped"/></uap:InitialRotationPreference>
-        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png"  Notification="badge"/>
+          <uap:Rotation Preference="portrait"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>

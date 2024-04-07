@@ -1,0 +1,2 @@
+MainPackage=E:\Projects\PC_support\bin\x64\Release\PC_support_2.5.12.0_x64.appx
+SymbolPackage=E:\Projects\PC_support\obj\x64\Release\Symbols\PC_support_2.5.12.0_x64.appxsym

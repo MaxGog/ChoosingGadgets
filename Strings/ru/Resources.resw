@@ -120,42 +120,48 @@
   <data name="About" xml:space="preserve">
     <value>Choosing gadgets (выбор гаджетов). MaxGog 2021. Приложение создано для того, чтобы Вы смогли выбрать себе компьютер или телефон. Спасибо, что скачали моё приложение! GitHub: https://github.com/MaxGog</value>
   </data>
+  <data name="AboutItem.Header" xml:space="preserve">
+    <value>О приложении</value>
+    <comment>Настройки</comment>
+  </data>
   <data name="Accuracy_check.Content" xml:space="preserve">
     <value>Точный результат</value>
-    <comment>Checkbox</comment>
+    <comment>Компьютер</comment>
   </data>
   <data name="Action.Content" xml:space="preserve">
     <value>Экшен</value>
     <comment>Консоли</comment>
   </data>
-  <data name="AppTitle" xml:space="preserve">
+  <data name="AppDescription" xml:space="preserve">
     <value>Выбор гаджетов</value>
+    <comment>Application description</comment>
   </data>
-  <data name="AppTitleMenu.Content" xml:space="preserve">
-    <value>Выбор гаджетов (С юбилеем приложения!)</value>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>Выбор гаджетов</value>
+    <comment>Application display name</comment>
   </data>
   <data name="CPU" xml:space="preserve">
     <value>, частота процессора: </value>
     <comment>Компьютер</comment>
   </data>
-  <data name="Discussions.Content" xml:space="preserve">
-    <value>Обсуждения</value>
-    <comment>Меню</comment>
+  <data name="Creator.Text" xml:space="preserve">
+    <value>Максим Гоглов Алексеевич</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Выбор гаджетов поможет по простым вопросам определить наилучший Вам компьютер, или же телефон.
+Интерфейс выполнен в Fluent Desing дизайне, который не выбивается из стилистики операционной системы Windows.
+Приложение поможет определить компьютер: по оперативной памяти, формфакторе, жёсткому диску, видеокарте, процессору, а также операционной системы
+А если нужен смартфон, то по минимальным характеристикам, чтобы Вам было намного легче определиться перед покупкой.
+Прямо из приложения можете отправиться в Яндекс.Маркет за покупками и посмотреть код в GitHub!</value>
+    <comment>Настройки</comment>
   </data>
   <data name="Finish.Content" xml:space="preserve">
     <value>Подобрать</value>
   </data>
-  <data name="For_3D.Content" xml:space="preserve">
-    <value>Для рендера 3D материалов</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_develop.Content" xml:space="preserve">
     <value>Для разработки</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_developer.Content" xml:space="preserve">
-    <value>Для разработки программного обеспечения</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="For_gaming.Content" xml:space="preserve">
     <value>Для гейминга</value>
@@ -165,25 +171,9 @@
     <value>Для дома</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="For_photo_render.Content" xml:space="preserve">
-    <value>Для рендера фотографий</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_render.Content" xml:space="preserve">
-    <value>Для рендера видео</value>
-    <comment>DLC_1</comment>
-  </data>
   <data name="For_work.Content" xml:space="preserve">
     <value>Для офисной работы</value>
     <comment>Компьютер</comment>
-  </data>
-  <data name="For_work_online.Content" xml:space="preserve">
-    <value>Для работы за компьютером</value>
-    <comment>DLC_1</comment>
-  </data>
-  <data name="For_work_physic.Content" xml:space="preserve">
-    <value>Для работы с компьютером</value>
-    <comment>DLC_1</comment>
   </data>
   <data name="Friend.Header" xml:space="preserve">
     <value>Играете ли вы с друзьями?</value>
@@ -192,10 +182,6 @@
   <data name="GameBuy.Header" xml:space="preserve">
     <value>Как вы предпочитаете покупать игры?</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="GamingConsole.Content" xml:space="preserve">
-    <value>Игровые консоли</value>
-    <comment>Меню</comment>
   </data>
   <data name="Genres.Text" xml:space="preserve">
     <value>Какие жанры вы предпочитаете?</value>
@@ -223,16 +209,12 @@
 Лэптоп от Apple получил сканер отпечатков Touch ID, беспроводной адаптер Wi-Fi 6, экран Retina с разрешением – 2560 х 1600 пикселей и диагональю 13,3 дюйма. Максимальный объем оперативной памяти составляет 16 ГБ, а объем твердотельного накопителя –  2 ТБ.</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="Market.Content" xml:space="preserve">
-    <value>Яндекс.Маркет</value>
-    <comment>Меню</comment>
-  </data>
   <data name="Media.Header" xml:space="preserve">
     <value>Требуется ли вам медиацентр?</value>
     <comment>Консоли</comment>
   </data>
   <data name="Menu.Content" xml:space="preserve">
-    <value>Меню (С юбилеем приложения!)</value>
+    <value>Главная страница</value>
   </data>
   <data name="Model_str" xml:space="preserve">
     <value>Модель: </value>
@@ -254,17 +236,38 @@
     <value>Рекомендуемая платёжная система: </value>
     <comment>Телефон</comment>
   </data>
+  <data name="PCArgument" xml:space="preserve">
+    <value>Выбрать компьютер</value>
+  </data>
   <data name="PC_Assembly.Header" xml:space="preserve">
     <value>Вам нужна качественная сборка и материал?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Assembly.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Assembly.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="PC_bigROM.Header" xml:space="preserve">
     <value>Вы планируете хранить большой объем информации?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="PC_bigROM.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_bigROM.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="PC_Ecosystem.Header" xml:space="preserve">
     <value>Вам важна качественная экосистема?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Ecosystem.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Ecosystem.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="PC_Game.Header" xml:space="preserve">
     <value>Вы будете играть в игры?</value>
@@ -282,6 +285,12 @@
     <value>Вы часто передвигаетесь?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="PC_Modility.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Modility.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="PC_phoneSync.Header" xml:space="preserve">
     <value>Какой Ваш смартфон?</value>
     <comment>Компьютер</comment>
@@ -289,6 +298,12 @@
   <data name="PC_Pro.Header" xml:space="preserve">
     <value>Вы используете профессиональное ПО?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="PC_Pro.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Pro.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="PC_Purpose.Header" xml:space="preserve">
     <value>Для каких целей вам нужен ПК, ноутбук?</value>
@@ -298,9 +313,14 @@
     <value>Вы синхронизируете устройства?</value>
     <comment>Компьютер</comment>
   </data>
-  <data name="Phone.Content" xml:space="preserve">
-    <value>Телефоны</value>
-    <comment>Меню</comment>
+  <data name="PC_Sync.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PC_Sync.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="PhoneArgument" xml:space="preserve">
+    <value>Выбрать телефон</value>
   </data>
   <data name="Phone_Apps.Header" xml:space="preserve">
     <value>Будете ли вы устанавливать более 20 сторонних приложений?</value>
@@ -341,6 +361,12 @@
     <value>Вы будете использовать продукты Adobe?</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="pro_adobe.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="pro_adobe.OnContent" xml:space="preserve">
+    <value>Да</value>
+  </data>
   <data name="Pro_ver.Content" xml:space="preserve">
     <value>Для профессионалов</value>
     <comment>Компьютер</comment>
@@ -348,6 +374,12 @@
   <data name="pro_vr.Header" xml:space="preserve">
     <value>Будете ли Вы использовать VR?</value>
     <comment>Компьютер</comment>
+  </data>
+  <data name="pro_vr.OffContent" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="pro_vr.OnContent" xml:space="preserve">
+    <value>Да</value>
   </data>
   <data name="Pro_words.Text" xml:space="preserve">
     <value>VR - Виртуальная реальность.
@@ -392,16 +424,43 @@ PC - стационарный компьютер</value>
     <value>Видеопамять: </value>
     <comment>Компьютер</comment>
   </data>
+  <data name="SetColor.Text" xml:space="preserve">
+    <value>Тема приложения</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="SetLang.Text" xml:space="preserve">
+    <value>Язык приложения</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="SetLangAbout.Text" xml:space="preserve">
+    <value>Язык приложения зависит от настройки языка и региона в Windows, чтобы его изменить, измените настройки языка Windows в параметрах</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="Setting.Header" xml:space="preserve">
+    <value>Настройки приложения</value>
+  </data>
   <data name="Settings.Text" xml:space="preserve">
     <value>Настройки</value>
+  </data>
+  <data name="SettingsPivot.Title" xml:space="preserve">
+    <value>Настройки</value>
+    <comment>В коде для NavPan Header</comment>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>About this application</value>
+    <comment>About this application title for Settings</comment>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>Settings page placeholder text.  Your app description goes here.</value>
+    <comment>About this application description for Settings</comment>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>Заявление о конфиденциальности</value>
+    <comment>Privacy Statement link content for Settings</comment>
   </data>
   <data name="Shooter.Content" xml:space="preserve">
     <value>Шутеры</value>
     <comment>Консоли</comment>
-  </data>
-  <data name="Sites.Content" xml:space="preserve">
-    <value>Ссылки:</value>
-    <comment>Меню</comment>
   </data>
   <data name="SmartModel" xml:space="preserve">
     <value>Смартфон: </value>
@@ -466,8 +525,94 @@ Bluetooth 5.0, Wi-Fi 6
 Платиновый, чёрный
 </value>
   </data>
+  <data name="ThemeApp.Text" xml:space="preserve">
+    <value>Выберите тему приложения</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="ThemeSwitch.Header" xml:space="preserve">
+    <value>Выберите режим приложения</value>
+  </data>
+  <data name="ThemeSwitch.OffContent" xml:space="preserve">
+    <value>Светлая тема</value>
+  </data>
+  <data name="ThemeSwitch.OnContent" xml:space="preserve">
+    <value>Тёмная тема</value>
+  </data>
   <data name="Tips.Content" xml:space="preserve">
     <value>Подсказки</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_about.Text" xml:space="preserve">
+    <value>Посмотреть всю информацию о приложении можно в настройках в разделе "О приложении". Здесь Вы можете посмотреть автора приложения, его описание, версию.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_about_Title.Text" xml:space="preserve">
+    <value>Где посмотреть информацию о приложении?</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_accuracy.Text" xml:space="preserve">
+    <value>Вам необходимо иметь больше данных о Вашем будущем устройстве? Чтобы получить более точные данные и расширенный результат, поставьте галочку рядом с кнопкой «Подобрать». Тогда Ваш результат не будет округлятся для обычных пользователей и покажет наиболее точные характеристики Вашего компьютера.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_accuracy_Title.Text" xml:space="preserve">
+    <value>Точный результат</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_dictionary.Text" xml:space="preserve">
+    <value>Если Вам непонятны какие-то слова, по типу ARM, или же SSD, которые могут встречаться в результатах, а так же, если Вы не знаете что такое частота процессора, или же тип оперативной памяти, то Вы можете открыть словарь технических слов, чтобы разобраться, что то или иное слово означает!</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_dictionary_Title.Text" xml:space="preserve">
+    <value>Словарь</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_main.Text" xml:space="preserve">
+    <value>То, что представлено на скриншоте выше, это главный экран приложение с вопросами. На вопросы Вы должны ответить, как Вы будете использовать свой будущий компьютер. Пример: «Вы будете использовать профессиональное программное обеспечение?» - Если Вам необходим ноутбук для сёрфинга в интернете и переписок с друзьями, то отвечайте: «Нет». Если же Вам требуется использовать фоторедактор, или Вы будете на нём выполнять 3D модели, то ответьте «Да».</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_main_Title.Text" xml:space="preserve">
+    <value>Как работает приложение?</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_menu.Text" xml:space="preserve">
+    <value>Это меню. Здесь вы можете попасть в любую часть приложения, кликнув по плитке. Каждый раздел имеет соответствующую иконку и название.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_menu_Title.Text" xml:space="preserve">
+    <value>Меню</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_result.Text" xml:space="preserve">
+    <value>Это окно результата Вашего устройства. В зависимости от того, выбирали ли Вы телефон или консоль или компьютер, количество подбираемых параметров будет разное.</value>
+  </data>
+  <data name="Tips_result_Title.Text" xml:space="preserve">
+    <value>Окно результата</value>
+  </data>
+  <data name="Tips_theme.Text" xml:space="preserve">
+    <value>Чтобы поменять тему приложения на светлую или тёмную, нужно зайти в настройки приложения и нажать на соответствующую кнопку.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_theme_Title.Text" xml:space="preserve">
+    <value>Поменять тему приложения</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="TitleChooseConsole" xml:space="preserve">
+    <value>Выбор консоли</value>
+  </data>
+  <data name="TitleChooseLaptop" xml:space="preserve">
+    <value>Выбор компьютера</value>
+  </data>
+  <data name="TitleChoosePhone" xml:space="preserve">
+    <value>Выбор телефона</value>
+  </data>
+  <data name="TitleDictionary" xml:space="preserve">
+    <value>Словарь</value>
+  </data>
+  <data name="TitleMain" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Параметры приложения</value>
   </data>
   <data name="TypeDevice" xml:space="preserve">
     <value>Формфактор устройства: </value>
@@ -481,5 +626,13 @@ Bluetooth 5.0, Wi-Fi 6
   <data name="Where_HaveGame.Text" xml:space="preserve">
     <value>Где вы уже имеете игры?</value>
     <comment>Консоли</comment>
+  </data>
+  <data name="WindowsColor.Content" xml:space="preserve">
+    <value>Настройки цветов Windows</value>
+    <comment>Настройки</comment>
+  </data>
+  <data name="WindowsLang.Content" xml:space="preserve">
+    <value>Настройки языка Windows</value>
+    <comment>Настройки</comment>
   </data>
 </root>

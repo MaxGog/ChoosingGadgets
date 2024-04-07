@@ -1,8 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Core;
+using Windows.UI.Xaml.Navigation;
 
 namespace PC_support.Views
 {
@@ -15,13 +26,9 @@ namespace PC_support.Views
         public PhonePage()
         {
             this.InitializeComponent();
-            //SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-            //SystemNavigationManager.GetForCurrentView().BackRequested += (s, e) =>
-            //{
-            //    App.TryGoBack();
-            //    //Frame.Navigate(typeof(MainPage));
-                
-            //};
+
+            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+            ApplicationView.GetForCurrentView().Title = resourceLoader.GetString("TitleChoosePhone"); ;
         }
         private void Finish_Click(object sender, RoutedEventArgs e)
         {
@@ -65,13 +72,13 @@ namespace PC_support.Views
 
                 pay = "Google Pay";
             }
-            else if (iphone == 1)
+            else if (iphone == 1 && StorePrice.Value >= 50)
             {
                 model = "iPhone"; pay = "Apple Pay";
             }
             else if (iphone == 1 && android == 1)
             {
-                if (RAM >= 4)
+                if (RAM >= 4 || StorePrice.Value <= 70)
                 {
                     model = "Google Pixel or Samsung Galaxy";
                     pay = "Google Pay";
@@ -91,10 +98,12 @@ namespace PC_support.Views
                 RAM = 4;
             if (ROM >= 65 && ROM <= 128)
                 ROM = 128;
-            else if (ROM >= 129 && ROM <= 512)
+            else if (ROM >= 129 && ROM <= 512 && StorePrice.Value >= 50)
                 ROM = 512;
-            else if (ROM >= 513 && ROM <= 1024)
+            else if (ROM >= 513 && ROM <= 1024 && StorePrice.Value >= 50)
                 ROM = 1024;
+            else
+                ROM = 64;
             Picture();
             Final_Result();
         }
@@ -111,7 +120,7 @@ namespace PC_support.Views
                 PrimaryButtonText = resourceLoader.GetString("Okay"),
             };
             ContentDialogResult result = await Result.ShowAsync();
-            PlusResult();
+            //PlusResult();
         }
         public async void PlusResult()
         {
@@ -131,15 +140,15 @@ namespace PC_support.Views
         private void Picture()
         {
             if (model == "Windows Phone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/WinPhone.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/WinPhone.png"));
             else if (model == "Android" || model == "Google Pixel or Samsung Galaxy")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Samsung.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Samsung.png"));
             else if (model == "iPhone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/IPhone.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/IPhone.png"));
             else if (model == "Windows Phone, but if you have a many money, you can buy iPhone" || model == "Windows Phone, if you use Google, you can buy Android phone")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Samsung.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Samsung.png"));
             else if (model == "Nokia or Honor")
-                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/PhoneVisual/Honor.png"));
+                Image_Phone.Source = new BitmapImage(new Uri("ms-appx:///Assets/Honor.png"));
         }
     }
 }

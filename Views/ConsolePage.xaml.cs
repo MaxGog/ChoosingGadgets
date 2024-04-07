@@ -1,8 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Core;
+using Windows.UI.Xaml.Navigation;
 
 namespace PC_support.Views
 {
@@ -10,6 +21,12 @@ namespace PC_support.Views
     {
         private int xbox = 0, ps = 0, nintendo = 0;
         private string final;
+        public ConsolePage()
+        {
+            this.InitializeComponent();
+            var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+            ApplicationView.GetForCurrentView().Title = resourceLoader.GetString("TitleChooseConsole"); ;
+        }
 
         private void HaveGame_Toggled(object sender, RoutedEventArgs e)
         {
@@ -29,18 +46,6 @@ namespace PC_support.Views
                 PS.IsEnabled = false;
                 Nintendo.IsEnabled = false;
             }
-        }
-
-        public ConsolePage()
-        {
-            this.InitializeComponent();
-            //SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-            //SystemNavigationManager.GetForCurrentView().BackRequested += (s, e) =>
-            //{
-            //    App.TryGoBack();
-            //    //Frame.Navigate(typeof(MainPage));
-            //    //Frame.GoBack();
-            //};
         }
 
         private async void Finish_Click(object sender, RoutedEventArgs e)
@@ -94,38 +99,38 @@ namespace PC_support.Views
             if (xbox > ps && xbox > nintendo || xbox >= nintendo)
             {
                 final = "Xbox One S / Xbox One fat";
-                Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/XboxOne_fat.png"));
+                Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/XboxOne_fat.png"));
                 if (Graphics.IsOn == true)
                 {
                     final = "Xbox Series X";
-                    Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/XboxSeries_X.png"));
+                    Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/XboxSeries_X.png"));
                     if (Mobile.IsOn == true)
                     {
                         final = "Xbox Series S";
-                        Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/XboxSeries_S.png"));
+                        Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/XboxSeries_S.png"));
                         if (GameBuy.IsOn == false)
                         {
                             final = "Xbox One X";
-                            Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/XboxOne_X.png"));
+                            Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/XboxOne_X.png"));
                         }
                     }
                 }
-                    
+
             }
             if (nintendo >= xbox && nintendo >= ps)
             {
                 final = "Nintendo Switch";
-                Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/NintendoSwitch.png"));
+                Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/NintendoSwitch.png"));
             }
             if (ps > xbox && ps >= nintendo || ps >= xbox)
             {
                 final = "PlayStation 4";
-                Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/PS4.png"));
+                Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/PS4.png"));
                 if (Graphics.IsOn == true)
                 {
                     final = "PlayStation 5";
-                    Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/VisualConsoles/PS5.png"));
-                }  
+                    Image.Source = new BitmapImage(new Uri("ms-appx:///Assets/PS5.png"));
+                }
             }
             ContentDialog Result = new ContentDialog()
             {

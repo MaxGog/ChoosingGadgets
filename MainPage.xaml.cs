@@ -1,113 +1,54 @@
-﻿using PC_support.Views;
-using Windows.UI.Xaml.Controls;
-using PC_support.DLC;
+﻿using Windows.UI.Xaml.Controls;
+
+using PC_support.Models;
+using PC_support.Views;
 using Windows.UI.ViewManagement;
-//using Windows.ApplicationModel.Core;
 
 namespace PC_support
 {
-    public class Functionality
-    {
-        public string Icon { get; set; }
-        public string Name_str { get; set; }
-    }
-
     public sealed partial class MainPage : Page
     {
         public MainPage()
         {
             this.InitializeComponent();
             var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
-            ApplicationView.GetForCurrentView().Title = resourceLoader.GetString("AppTitle");
-            NavPan.IsSettingsVisible = false;
-            NavPan.PaneTitle = resourceLoader.GetString("AppTitle");
-            contentFrame.Navigate(typeof(NewMainPage));
-            //CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = false;
-            //NavPan.Header = "Choosing gadgets";
-            //NavPan.BackRequested MainPage_BackRequested;
-            //SystemNavigationManager.GetForCurrentView().BackRequested +=
-            NavPan.Header = "Menu";
+            ApplicationView.GetForCurrentView().Title = resourceLoader.GetString("TitleMain"); ;
         }
-        private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        private void SelectPage_ItemClick(object sender, ItemClickEventArgs e)
         {
-            if (args.SelectedItem == VK)
+            MenuTiles selectedFunctionalNew = (MenuTiles)e.ClickedItem;
+            if (selectedFunctionalNew == PCLaptopMenu)
             {
-                contentFrame.Navigate(typeof(DisVKPage));
-                NavPan.Header = "GitHub";
+                Frame.Navigate(typeof(PCLaptopPage));
             }
-            else if (args.SelectedItem == PC_and_laptops)
+            else if (selectedFunctionalNew == PhonesMenu)
             {
-                contentFrame.Navigate(typeof(PCLaptopPage));
-                NavPan.Header = "PC and laptop's";
+                Frame.Navigate(typeof(PhonePage));
             }
-            else if (args.SelectedItem == Menu)
+            else if (selectedFunctionalNew == MarketMenu)
             {
-                contentFrame.Navigate(typeof(NewMainPage));
-                NavPan.Header = "Menu";
+                Frame.Navigate(typeof(MarketPage));
             }
-            else if (args.SelectedItem == Phone)
+            else if (selectedFunctionalNew == Consoles)
             {
-                contentFrame.Navigate(typeof(PhonePage));
-                NavPan.Header = "Phones";
+                Frame.Navigate(typeof(ConsolePage));
             }
-            else if (args.SelectedItem == Market)
+            else if (selectedFunctionalNew == Settings)
             {
-                contentFrame.Navigate(typeof(MarketRUSPage));
-                NavPan.Header = "Yandex.Market";
+                Frame.Navigate(typeof(SettingsPage));
             }
-            else if (args.SelectedItem == GamingConsole)
+            else if (selectedFunctionalNew == TipsMenu)
             {
-                contentFrame.Navigate(typeof(ConsolePage));
-                NavPan.Header = "Gaming console";
+                Frame.Navigate(typeof(DictionaryPage));
             }
-            else if (args.SelectedItem == Tips)
+            else if (selectedFunctionalNew == TipsMenu2)
             {
-                contentFrame.Navigate(typeof(MainTipsPage));
-                NavPan.Header = "Tips";
+                Frame.Navigate(typeof(TipsPage));
             }
-            else if (args.SelectedItem == Models)
+            else if (selectedFunctionalNew == Community)
             {
-                contentFrame.Navigate(typeof(ModelsPage));
-                NavPan.Header = "Models";
-            }
-            if (args.IsSettingsSelected == true)
-            {
-                contentFrame.Navigate(typeof(SettingsPage));
+                Frame.Navigate(typeof(SocialPage));
             }
         }
-        //private void SelectPage_ItemClick(object sender, ItemClickEventArgs e)
-        //{
-        //    Functionality selectedFunctional = (Functionality)e.ClickedItem;
-        //    if (selectedFunctional == PCLaptopMenu)
-        //    {
-        //        Frame.Navigate(typeof(PCLaptopPage));
-        //        //NavPan.SelectedItem = PC_and_laptops;
-        //    }
-        //    else if (selectedFunctional == PhonesMenu)
-        //    {
-        //        Frame.Navigate(typeof(PhonePage));
-        //        //NavPan.SelectedItem = Phone;
-        //    }
-        //    else if (selectedFunctional == MarketMenu)
-        //    {
-        //        Frame.Navigate(typeof(MarketRUSPage));
-        //        //NavPan.SelectedItem = Market;
-        //    }
-        //    else if (selectedFunctional == Consoles)
-        //    {
-        //        Frame.Navigate(typeof(ConsolePage));
-        //        //NavPan.SelectedItem = GamingConsole;
-        //    }
-        //    /*else if (selectedFunctional == Settings)
-        //    {
-        //        contentFrame.Navigate(typeof(SettingsPage));
-        //    }
-        //    else if (selectedFunctional == TipsMenu)
-        //    {
-        //        contentFrame.Navigate(typeof(MainTipsPage));
-        //        NavPan.SelectedItem = Tips;
-        //    }*/
-        //}
-
     }
 }

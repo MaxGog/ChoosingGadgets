@@ -1,0 +1,7 @@
+MainPackage=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0_ARM64.appx
+SymbolPackage=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0\PC_support_2.5.12.0_ARM64.appxsym
+ResourcePack=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0_language-en.appx
+ResourcePack=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0_scale-100.appx
+ResourcePack=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0_scale-125.appx
+ResourcePack=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0_scale-150.appx
+ResourcePack=E:\Projects\PC_support\bin\ARM64\Release\Upload\PC_support_2.5.12.0_scale-400.appx

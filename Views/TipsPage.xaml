@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="PC_support.Views.TipsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PC_support.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+        <StackPanel Margin="10" HorizontalAlignment="Left" MaxWidth="400">
+            <TextBlock x:Uid="Tips_menu_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_menu.png" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_menu" TextWrapping="WrapWholeWords" Margin="0,10"/>
+
+            <TextBlock x:Uid="Tips_dictionary_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_dictionary.png" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_dictionary" TextWrapping="WrapWholeWords" Margin="0,10"/>
+
+            <TextBlock x:Uid="Tips_about_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_about.png" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_about" TextWrapping="WrapWholeWords" Margin="0,10"/>
+
+            <TextBlock x:Uid="Tips_main_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_main.png" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_main" TextWrapping="WrapWholeWords" Margin="0,10"/>
+
+            <TextBlock x:Uid="Tips_theme_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_theme.gif" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_theme" TextWrapping="WrapWholeWords" Margin="0,10"/>
+
+            <TextBlock x:Uid="Tips_result_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_result.png" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_result" TextWrapping="WrapWholeWords" Margin="0,10"/>
+
+            <TextBlock x:Uid="Tips_accuracy_Title" FontSize="20" Margin="0,10"/>
+            <Image Source="/Assets/tips_accuracy.png" Height="200" HorizontalAlignment="Left"/>
+            <TextBlock x:Uid="Tips_accuracy" TextWrapping="WrapWholeWords" Margin="0,10"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

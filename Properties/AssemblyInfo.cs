@@ -1,17 +1,17 @@
 ﻿using System.Reflection;
-using System.Resources;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Общие сведения о сборке можно задать с помощью следующего 
 // атрибутов. Отредактируйте значения этих атрибутов, чтобы изменить
 // сведений о сборке.
-[assembly: AssemblyTitle("Support System when you select the device")]
+[assembly: AssemblyTitle("PC_support")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Feather©")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PC_support")]
-[assembly: AssemblyCopyright("Feather Projects Studio Copyright ©  2021")]
-[assembly: AssemblyTrademark("Feather Projects Studio©")]
+[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
@@ -25,6 +25,5 @@ using System.Runtime.InteropServices;
 // используя "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("2.1.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: ComVisible(false)]
-[assembly: NeutralResourcesLanguage("en")]
