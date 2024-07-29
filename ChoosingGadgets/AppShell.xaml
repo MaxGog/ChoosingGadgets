@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.AppShell"
+             xmlns:resources="clr-namespace:ChoosingGadgets.Resources"
+             xmlns:views="clr-namespace:ChoosingGadgets.Views">
+
+    <Shell.Resources>
+        <Style TargetType="TabBar" BasedOn="{x:StaticResource Shell}" />
+        <Style TargetType="FlyoutItem" BasedOn="{x:StaticResource Shell}" />
+    </Shell.Resources>
+
+    <TabBar>
+        <ShellContent Title="{x:Static resources:Localization.Phones}" Icon="phone.png" Route="PhonesPage" ContentTemplate="{DataTemplate views:PhonesPage}"/>
+        <ShellContent Title="{x:Static resources:Localization.Computers}" Icon="pclaptops.png" ContentTemplate="{DataTemplate views:PCLaptopsPage}"/>
+        <ShellContent Title="{x:Static resources:Localization.Consoles}" Icon="xbox.png" IsVisible="False" ContentTemplate="{DataTemplate views:GameConsolePage}"/>
+        <ShellContent Title="{x:Static resources:Localization.Dictionary}" Icon="work.png" ContentTemplate="{DataTemplate views:DictionaryPage}"/>
+        <ShellContent Title="{x:Static resources:Localization.MyGitHub}" Icon="yes.png" ContentTemplate="{DataTemplate views:GitHubPage}"/>
+    </TabBar>
+
+</Shell>

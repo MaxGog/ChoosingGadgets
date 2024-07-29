@@ -1,0 +1,1124 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: FNI8dm0VfhsLTALZVelsvE6Glkx9A
+ dFjyenzf7iJy18=
+SHA-256-Digest-Manifest: vD5G4fw/CXO6dJwqwwaGwI7jMwGWhHQfBm6IIBP28FQ=
+Created-By: 1.8.0_112 (Oracle Corporation)
+
+Name: mono/java/lang/RunnableImplementor.class
+SHA-256-Digest: PfHyxRd3Zzk7xaMcZHGx0/rFNfhui4ehYpGTJQ9sJkk=
+
+Name: mono/android/view/ViewTreeObserver_OnPreDrawListenerImplementor.
+ class
+SHA-256-Digest: QsBpy9UkisKpHHNlYj8n+vILS98TZ3C70E8GOTmPDZo=
+
+Name: mono/android/app/ActionBar_OnNavigationListenerImplementor.class
+SHA-256-Digest: FoWXuaNO2VkuXrNjBlOuQ1SaQhRczfPNgaXEKKFHEk8=
+
+Name: mono/android/TypeManager.class
+SHA-256-Digest: kTRifEcKb42GenFQrS49e+CPPvNNilrPR5TrKZTM5HE=
+
+Name: mono/android/media/MediaCodec_OnFrameRenderedListenerImplementor
+ .class
+SHA-256-Digest: sWfe2LEdnT2meI5fewT4ohsRnHwgRbxCE4hho0htLas=
+
+Name: mono/android/animation/Animator_AnimatorPauseListenerImplementor
+ .class
+SHA-256-Digest: lMSw8dTXW6eE4zwdKDHY30NJTaL8vC7ROkvkMn0M5p8=
+
+Name: mono/android/widget/AdapterView_OnItemLongClickListenerImplement
+ or.class
+SHA-256-Digest: yIYINdxO2vQKxbV/cm7BzbVLLyhyy+ZpvzpsZD428Pg=
+
+Name: mono/android/media/audiofx/Virtualizer_OnParameterChangeListener
+ Implementor.class
+SHA-256-Digest: PHASxQdP/1ifkI7iLnicLNo+Eg9wuABIsJmOUIeGrrE=
+
+Name: mono/android/widget/TimePicker_OnTimeChangedListenerImplementor.
+ class
+SHA-256-Digest: rwJ8mAM+zfMwttyef/LVcmjjnJ8N+r6Z6Ox7o1nThJs=
+
+Name: mono/android/app/AppOpsManager_OnOpActiveChangedListenerImplemen
+ tor.class
+SHA-256-Digest: WNiiTBrazUz98IoyKHIkGwone5Yf+nppjP5Nui74aBM=
+
+Name: mono/android/media/audiofx/Equalizer_OnParameterChangeListenerIm
+ plementor.class
+SHA-256-Digest: lVzhMjmtHJQPNQVtkFVMG1pc9IPq7PizYuZcqI9umYE=
+
+Name: mono/android/media/MediaDrm_OnEventListenerImplementor.class
+SHA-256-Digest: NXVG4UbRZL23TdbumgltGqwZWYNE2ohDWuR2+zTH/vQ=
+
+Name: mono/android/media/MediaPlayer_OnDrmInfoListenerImplementor.clas
+ s
+SHA-256-Digest: la9kSICHhjPcLABdukjTJER+edi+IPIaV/tTwMbD3j8=
+
+Name: mono/android/view/View_OnContextClickListenerImplementor.class
+SHA-256-Digest: UnXhZa/iaGf3pHM8qtfF/r43K8sa5NrBl3ycSiDdIrE=
+
+Name: mono/android/view/ScaleGestureDetector_OnScaleGestureListenerImp
+ lementor.class
+SHA-256-Digest: q4SrYzXKmZK6+y6fVDIeQYwJIkfTrnF04wcPIUOz9lA=
+
+Name: mono/android/sax/EndTextElementListenerImplementor.class
+SHA-256-Digest: 0h+Tq7T8hoR6sAhSiI/AhXeT9qijEqxwMZSDxPqtvuM=
+
+Name: mono/android/view/accessibility/AccessibilityManager_Accessibili
+ tyServicesStateChangeListenerImplementor.class
+SHA-256-Digest: 3rE9tEMGKkEBsbg3CCehV0GsOS09oO38EPNyNIZC02A=
+
+Name: mono/android/widget/Toolbar_OnMenuItemClickListenerImplementor.c
+ lass
+SHA-256-Digest: z3cn8PpsnSfLWIkVLR/AOdu6AKpUFQKhNdy8dv8pP+c=
+
+Name: mono/android/media/audiofx/AudioEffect_OnEnableStatusChangeListe
+ nerImplementor.class
+SHA-256-Digest: GhnAwY8HWt8ffil1Czf2ZUrIgT+DM3T4hyd6oJkc3FA=
+
+Name: mono/android/telephony/TelephonyCallback_DisplayInfoListenerImpl
+ ementor.class
+SHA-256-Digest: MTx5EFp9BoTALz13bEU+kcJYi4OkdjjuoVUsvxOgKAk=
+
+Name: mono/android/runtime/InputStreamAdapter.class
+SHA-256-Digest: 5OskpS6U7kuBCODHimAFg5ezg/5KfkhHkNoSEsJ7hD4=
+
+Name: mono/android/media/AudioRouting_OnRoutingChangedListenerImplemen
+ tor.class
+SHA-256-Digest: FilAopmQmhR56DjuaLRrawcRn5aDcJaqjPVf+ROmhdM=
+
+Name: mono/android/net/nsd/NsdManager_RegistrationListenerImplementor.
+ class
+SHA-256-Digest: k0660nD6MVD4ofRA5c4uoefpiRLVnCAmB6b/BVz8Soc=
+
+Name: mono/android/widget/ActionMenuView_OnMenuItemClickListenerImplem
+ entor.class
+SHA-256-Digest: nefqqQQAyDDTxQdB2uB9EhxUkGCwnKCtpyPvSOtPW+Q=
+
+Name: mono/android/telephony/TelephonyCallback_CarrierNetworkListenerI
+ mplementor.class
+SHA-256-Digest: ukQbb6jBM/f18U7HUkfTY0ZzX6/zjX0bi3psooRoMow=
+
+Name: mono/android/preference/PreferenceManager_OnActivityDestroyListe
+ nerImplementor.class
+SHA-256-Digest: GmWJRwmiV+9Vzxx6kkGQQwpJY2d10c1bSwV+ikmUaHg=
+
+Name: mono/android/telephony/TelephonyCallback_ServiceStateListenerImp
+ lementor.class
+SHA-256-Digest: PnU00CX/S59oEcZPjI33wpSAxABbFghD8d4R412mEO8=
+
+Name: mono/android/media/MediaPlayer_OnSeekCompleteListenerImplementor
+ .class
+SHA-256-Digest: t5H2eC+uQzOhznSxm/KW4XnvXkhSuk4MXVv0Z7rBEaE=
+
+Name: mono/android/app/KeyguardManager_KeyguardLockedStateListenerImpl
+ ementor.class
+SHA-256-Digest: Ko3JLr7hKEctrQXydGIrbtoGn6AKzZPO2wzrmYQLibE=
+
+Name: mono/android/media/MediaPlayer_OnVideoSizeChangedListenerImpleme
+ ntor.class
+SHA-256-Digest: H2UVjJvxUbTpO1BVy18eAww81p0OB2u65Lzt9cW+Duw=
+
+Name: mono/android/animation/ValueAnimator_DurationScaleChangeListener
+ Implementor.class
+SHA-256-Digest: ocnyf7N6nrWr7WmcytjOTrH5kExschE9+iyYKYg28fA=
+
+Name: mono/android/app/TabEventDispatcher.class
+SHA-256-Digest: f6xFNS+qxKobHVx4Y9R5hFke5jH9UZ/x7nyOc1Ojfuc=
+
+Name: xamarin/android/net/OldAndroidSSLSocketFactory.class
+SHA-256-Digest: kVnNjRwW3twFNc/w/Mia7kT8GTbaHRV4ilk3QSGwGkg=
+
+Name: android/runtime/XmlReaderPullParser.class
+SHA-256-Digest: s00vRUVHTdJb2V3Gcf0XjWhJCIiF+1t4S3Dowu4D8BY=
+
+Name: mono/android/widget/RatingBar_OnRatingBarChangeListenerImplement
+ or.class
+SHA-256-Digest: Swbi8SY4WMByhM8mXfL/EAO8lBYdjCjfe8bDnRKl/sY=
+
+Name: mono/android/view/View_OnGenericMotionListenerImplementor.class
+SHA-256-Digest: ER9u4PcECw95QkC1eU4uWMK1vA/UgKAH3KyuAL+g2rc=
+
+Name: mono/android/media/audiofx/Visualizer_OnDataCaptureListenerImple
+ mentor.class
+SHA-256-Digest: 9uxi3hA/8FNediGVGnrgZCN90dR41uMosBvCIxkSxUk=
+
+Name: mono/android/net/nsd/NsdManager_DiscoveryListenerImplementor.cla
+ ss
+SHA-256-Digest: ZhumfySJtDh5sBgB31BL9/QpoRcgr8LCwMgh4Hj3paI=
+
+Name: mono/android/media/RemoteControlClient_OnGetPlaybackPositionList
+ enerImplementor.class
+SHA-256-Digest: a3QQACyBgm8mUgSHiX7hRNh1R6gUnKC19xtyz24PZc4=
+
+Name: mono/android/widget/SlidingDrawer_OnDrawerScrollListenerImplemen
+ tor.class
+SHA-256-Digest: j+FWaZ95Ay2zU8KKKX+9hlyYxKFhB8MQzv+WSjLkQwk=
+
+Name: mono/android/media/MediaDrm_OnSessionLostStateListenerImplemento
+ r.class
+SHA-256-Digest: lBojFUmhSp8SvpWrL3OLG5JNaUAhFCnIsKEWSEkYchY=
+
+Name: mono/android/net/nsd/NsdManager_ResolveListenerImplementor.class
+SHA-256-Digest: M09YPH5D874tfb0tZ7aCciKKiwoZdGwh6voa08tqWDQ=
+
+Name: mono/android/widget/AdapterView_OnItemSelectedListenerImplemento
+ r.class
+SHA-256-Digest: ugxTGM757vdPkSG2V0w4vqbXGs1rNYM4eWARMRccflY=
+
+Name: mono/android/telephony/TelephonyCallback_ImsCallDisconnectCauseL
+ istenerImplementor.class
+SHA-256-Digest: dZT2fRQcZ1PWewJ7+s6IXU6MZPJUlD8P+UPbcCbM8rI=
+
+Name: mono/android/os/ParcelFileDescriptor_OnCloseListenerImplementor.
+ class
+SHA-256-Digest: h2ow7ILoaAoan7fwnTFQSHh+KrZOBcTgmpknsj5nTuQ=
+
+Name: mono/android/media/MediaPlayer_OnPreparedListenerImplementor.cla
+ ss
+SHA-256-Digest: oI5TaSAFrqyEXqMZGrOnmyum+SB8Tqt+kU3Ryi5jPzs=
+
+Name: mono/android/runtime/OutputStreamAdapter.class
+SHA-256-Digest: 7xYm4jIk/nnrLmm5R0dIlLIf3CWpqnsbyejQrigYO6s=
+
+Name: mono/android/graphics/SurfaceTexture_OnFrameAvailableListenerImp
+ lementor.class
+SHA-256-Digest: kx3USaLiClhN25fEZPyzMlMxHyQsymg1M5UI/MszZik=
+
+Name: mono/android/media/MediaPlayer_OnMediaTimeDiscontinuityListenerI
+ mplementor.class
+SHA-256-Digest: MhXLcfSQH1G8/7qSYdp+3kccczV+vf6cXlGNviFgvFs=
+
+Name: mono/android/webkit/DownloadListenerImplementor.class
+SHA-256-Digest: qgekZF2TMTAplBo+bYzZ2dnj7lYvpZPC0LSh18drYsM=
+
+Name: mono/android/hardware/input/InputManager_InputDeviceListenerImpl
+ ementor.class
+SHA-256-Digest: iWdU1R8MNvFTC/Twb72Cb/ADbcaVNwIbfBETfunziK8=
+
+Name: mono/android/media/SoundPool_OnLoadCompleteListenerImplementor.c
+ lass
+SHA-256-Digest: PUD01L2p3Q+6S47qHPEQ2Wyc5cdrudBXbi78euYN+Ww=
+
+Name: mono/android/app/SearchManager_OnCancelListenerImplementor.class
+SHA-256-Digest: pRUrEL52G5HSWF2Zv5fUAxb0kQ849CkEXaU9RwIC/L4=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_ActionListenerImplement
+ or.class
+SHA-256-Digest: bGeQXLZm6klFvQ3E5LUfK/eTLqOEYsAyE3JUrRoufpY=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_DiscoveryStateListenerI
+ mplementor.class
+SHA-256-Digest: Oki4uKMTnXQzHDigsCs8KYndnVp/PbnEG5a67zBlt/Q=
+
+Name: mono/android/drm/DrmManagerClient_OnEventListenerImplementor.cla
+ ss
+SHA-256-Digest: zhHRyR072vuSwApGgupyIFB4FeD2l+bc+7NkrPHht3M=
+
+Name: mono/android/widget/NumberPicker_OnValueChangeListenerImplemento
+ r.class
+SHA-256-Digest: uV5qmJP+/8eb/Sh1ix6z76X8luqCpnBvu8NAfOAVveE=
+
+Name: mono/android/view/TextureView_SurfaceTextureListenerImplementor.
+ class
+SHA-256-Digest: H+87TEztFgCoRavJQPtxqYTPlXxnDfSBxeSqMn01oCQ=
+
+Name: mono/android/media/AudioTrack_OnCodecFormatChangedListenerImplem
+ entor.class
+SHA-256-Digest: SrSD3Bo8ZdwFjASXxJ3xTvc7k9vNE/arcv+YRp4xK+k=
+
+Name: mono/android/bluetooth/BluetoothProfile_ServiceListenerImplement
+ or.class
+SHA-256-Digest: 2Jsj2T/YVy9ZPBk3VyyT95Bt1WQPU75rAAJDaw0xuJ0=
+
+Name: mono/android/view/AttachedSurfaceControl_OnBufferTransformHintCh
+ angedListenerImplementor.class
+SHA-256-Digest: mZmx00hNjuC6HGuzlsG99kzUfKtuonp05rT1w/iR2Z8=
+
+Name: xamarin/android/net/ServerCertificateCustomValidator_AlwaysAccep
+ tingHostnameVerifier.class
+SHA-256-Digest: Hs6gGNzr1pfvh+oY0dUoZqckNxGcbvmVDO4hq6YB6eo=
+
+Name: mono/android/webkit/WebView_PictureListenerImplementor.class
+SHA-256-Digest: Q5CuqU/XoiKXuTJf/WruA5cPDzrdwzxkuWjgZ9eoaPc=
+
+Name: mono/android/animation/AnimatorEventDispatcher.class
+SHA-256-Digest: XhBuwns3+ndqJ9lnib7t+HRp9Do9oeqClcqFA1K4Ybo=
+
+Name: mono/android/content/DialogInterface_OnCancelListenerImplementor
+ .class
+SHA-256-Digest: shsvorkK+Y2jS+V+wzI2ZXC3Ih8lxNMXQb9WHGhUNVY=
+
+Name: mono/android/telephony/TelephonyCallback_CallStateListenerImplem
+ entor.class
+SHA-256-Digest: 7FZYzik5yr5olEdg3VZLXPZL+PVLEGX5vhOFlZK5Pxc=
+
+Name: mono/android/widget/ShareActionProvider_OnShareTargetSelectedLis
+ tenerImplementor.class
+SHA-256-Digest: 7DIDOxH5ViK0WhF8CrqYdb+cD5UudPzITx/2mSzhMRY=
+
+Name: mono/android/gesture/GestureOverlayView_OnGesturePerformedListen
+ erImplementor.class
+SHA-256-Digest: m4l/qQ8+fK0LjoFL6QUYbcfoUv5+P5CFBHdmPQ3FiaY=
+
+Name: mono/android/widget/ExpandableListView_OnGroupCollapseListenerIm
+ plementor.class
+SHA-256-Digest: P/9N3Zz3zgsrfSQ1jOkV6VCTdUPBvBgHTWw8g0D8ZEI=
+
+Name: mono/android/view/View_OnClickListenerImplementor.class
+SHA-256-Digest: xR14tJtOrr2kKedJo/PSr/RbLdUPy7xikfmkpqV35a8=
+
+Name: mono/android/widget/AbsListView_RecyclerListenerImplementor.clas
+ s
+SHA-256-Digest: rfcqerJtC5fM6kpLIHBOtnI2XWpgCgVJVwNHgo9n5ow=
+
+Name: mono/android/content/pm/PackageManager_OnChecksumsReadyListenerI
+ mplementor.class
+SHA-256-Digest: pLR9cIvP+Stm2/KKxuKpfdqYb5kzWp41smn5F7SUA70=
+
+Name: mono/android/drm/DrmManagerClient_OnInfoListenerImplementor.clas
+ s
+SHA-256-Digest: YgHjL2WeIjV9Aa6nIpNFawMz2tgnkUcmMouxrGD3mLY=
+
+Name: mono/android/hardware/Camera_OnZoomChangeListenerImplementor.cla
+ ss
+SHA-256-Digest: IqaaYqTvG2Dw4pfZ+GJXFZgxQHNnsouzGTown+D8GtY=
+
+Name: mono/android/media/Spatializer_OnHeadTrackerAvailableListenerImp
+ lementor.class
+SHA-256-Digest: F7twDqGTZ9TkUXxh6gPpp2zY1yvbIlsL5RivHeWMfHk=
+
+Name: mono/android/app/ActionBar_OnMenuVisibilityListenerImplementor.c
+ lass
+SHA-256-Digest: YRVU/zFB8tZO572zsIl12uj1BdRlJQBI0frh/XqDe6Y=
+
+Name: mono/android/os/RecoverySystem_ProgressListenerImplementor.class
+SHA-256-Digest: eaXNONHgU4LpZbmwZpd1kb2pMb7APSBXTAm/X7E8It4=
+
+Name: mono/android/widget/SlidingDrawer_OnDrawerOpenListenerImplemento
+ r.class
+SHA-256-Digest: BT/lM4C2wJ2BgQX+H6kTAvmuFpiQaU3QPzi0BMIwcJU=
+
+Name: mono/android/view/View_OnAttachStateChangeListenerImplementor.cl
+ ass
+SHA-256-Digest: me5ngn36l6z/ex0s614i4fGV1H45RvnTyqxhKOchDtY=
+
+Name: mono/android/accessibilityservice/AccessibilityService_Magnifica
+ tionController_OnMagnificationChangedListenerImplementor.class
+SHA-256-Digest: D+vihNO7tFZJkeor+KwXnUfE8CNeLEJkzTUj71jdXq4=
+
+Name: mono/android/widget/PopupMenu_OnDismissListenerImplementor.class
+SHA-256-Digest: ETVAB8+UDTRTQnxdPtXHqMbiz/XAMru6oBEGYbzquYQ=
+
+Name: mono/android/accounts/OnAccountsUpdateListenerImplementor.class
+SHA-256-Digest: frRmnjezv68OvAZq5AxQj8vVh9FtPAQlw8WOxcS5cOQ=
+
+Name: mono/android/widget/SlidingDrawer_OnDrawerCloseListenerImplement
+ or.class
+SHA-256-Digest: JNV2C19PL4VxYSzehBqVjoCfDyLFiEOzhH6XTfMV5hU=
+
+Name: mono/android/media/MediaPlayer_OnDrmPreparedListenerImplementor.
+ class
+SHA-256-Digest: 1YB+/SdriTSyaWJZs7dXt46fRZKMI/aKdFqwJbBiHuU=
+
+Name: mono/android/telephony/TelephonyCallback_SignalStrengthsListener
+ Implementor.class
+SHA-256-Digest: GOK4jLPP3Sv/VVoQQyKbh9/TdLVQC4nsg5QUPcz09yQ=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_P2pStateListenerImpleme
+ ntor.class
+SHA-256-Digest: UfA/7eZJDAG8gGSi4jVJWtXfO1BhJ6e7KIRhtOFWmFg=
+
+Name: mono/android/view/ViewStub_OnInflateListenerImplementor.class
+SHA-256-Digest: /MWUwkvJAvTv9IZMkiDHVrjuYoknnJ7qdDUVewCyjmU=
+
+Name: mono/android/media/MediaRecorder_OnErrorListenerImplementor.clas
+ s
+SHA-256-Digest: YORgv0z7rD0rhBiDYuVbONow7ujYxvywe9tDC3KVoro=
+
+Name: mono/android/content/Loader_OnLoadCanceledListenerImplementor.cl
+ ass
+SHA-256-Digest: iMf1sXxp8Efm/Y0ugNUtpWsc1lDjEuCYKzisdrulDk0=
+
+Name: mono/android/os/StrictMode_OnVmViolationListenerImplementor.clas
+ s
+SHA-256-Digest: ipC2aOi6pepo+51ya+n14ebKV4/X82AD+tYJlabFefA=
+
+Name: mono/android/app/admin/DevicePolicyManager_OnClearApplicationUse
+ rDataListenerImplementor.class
+SHA-256-Digest: 9QXB3hkeiYSAv+qzK8KWvuXqzp7hJ0Padp6YBASmBcY=
+
+Name: mono/android/view/WindowInsetsController_OnControllableInsetsCha
+ ngedListenerImplementor.class
+SHA-256-Digest: 3W0ohY/KFsAdtU0/OkBLZucE7+vJsT9rOHSQ0WDejf4=
+
+Name: mono/android/widget/ExpandableListView_OnGroupClickListenerImple
+ mentor.class
+SHA-256-Digest: AmesikbHiGOnw3HVDSSEN/FZZ37y3tlnVS9/891VNlU=
+
+Name: mono/android/sax/EndElementListenerImplementor.class
+SHA-256-Digest: GbBfzxwBuvfrrRM0AiU7+scmHJh5kcb2lSv/oSzBgPA=
+
+Name: mono/android/telephony/TelephonyCallback_BarringInfoListenerImpl
+ ementor.class
+SHA-256-Digest: J9fElLcreheKjZj9F6KS1EAFckr1KPZVdr4PdLeKmCE=
+
+Name: mono/android/view/accessibility/AccessibilityManager_AudioDescri
+ ptionRequestedChangeListenerImplementor.class
+SHA-256-Digest: c6rPp+Jawd5v0gFIRTk/tVMEhFS36AXNts7Lic60Tqg=
+
+Name: mono/android/location/Geocoder_GeocodeListenerImplementor.class
+SHA-256-Digest: 5Hln6CR5FVt8E9c3PVeJYVwuphMebwMwKi7kQqqRMOo=
+
+Name: mono/android/widget/AdapterView_OnItemClickListenerImplementor.c
+ lass
+SHA-256-Digest: hKi2rGMVXGyhQHlMek4rwXdhjN2wHchIq+NSnMBg/vs=
+
+Name: mono/android/view/View_OnHoverListenerImplementor.class
+SHA-256-Digest: 7gGPJCgGkJkMHFY2ftsZ3f3h7X7fmxMPAttB4EYYF04=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_UpnpServiceResponseList
+ enerImplementor.class
+SHA-256-Digest: GOo4srGZCDxEEY8g/NRpcm3QJ3478UrZUaq/fO/mmIU=
+
+Name: mono/android/media/AudioManager_OnCommunicationDeviceChangedList
+ enerImplementor.class
+SHA-256-Digest: o7fd6HHH/AvCYiHL0Ct1wRG7ulcAzyCqEFKw9t2DorU=
+
+Name: mono/android/media/AudioTrack_OnPlaybackPositionUpdateListenerIm
+ plementor.class
+SHA-256-Digest: F48VJAh3XOcMOpnpEg/opPnoubkpFC246dTG/k/iNsw=
+
+Name: mono/android/preference/Preference_OnPreferenceChangeListenerImp
+ lementor.class
+SHA-256-Digest: AMeCdjUaCPBOCFh6K3tkUgQTl0UwWqo2E3ta76uNYLU=
+
+Name: mono/android/content/ClipboardManager_OnPrimaryClipChangedListen
+ erImplementor.class
+SHA-256-Digest: Ng5SC0836e5dEZUMgVz5DuIEPKSOEZXAiq7ahPOv0iw=
+
+Name: mono/android/preference/PreferenceManager_OnActivityResultListen
+ erImplementor.class
+SHA-256-Digest: UGlUKD3FosnJRoNVgwQAIcFNYGLn405Q3fnXLoTeJ38=
+
+Name: mono/android/view/WindowInsetsAnimationControlListenerImplemento
+ r.class
+SHA-256-Digest: NVSPZ9Ek7d+HPkeaiD59qFVF/+oiUnPyUqMhvtp0YU8=
+
+Name: mono/android/app/FragmentBreadCrumbs_OnBreadCrumbClickListenerIm
+ plementor.class
+SHA-256-Digest: Y/2r6vbg1juyFybrOJt1QAqNnhP/VUzJbkUt7cMB73k=
+
+Name: mono/android/widget/ExpandableListView_OnGroupExpandListenerImpl
+ ementor.class
+SHA-256-Digest: yPBPMUuXXV99b8Mnc+UaoEE2aQmpJuC19W/3HYanW6I=
+
+Name: mono/android/os/StrictMode_OnThreadViolationListenerImplementor.
+ class
+SHA-256-Digest: +nVfW9HrWKJuMPCGi5ljothZOqT0GLbKDnLmndqDwLA=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_ConnectionInfoListenerI
+ mplementor.class
+SHA-256-Digest: znkNB6IiisCaYnH5ci43ocLHnrG2ZRhAfI4cFpYPOTw=
+
+Name: mono/android/widget/SeekBar_OnSeekBarChangeListenerImplementor.c
+ lass
+SHA-256-Digest: Z8aBfUzTGfiUotzlHHJCKrOLQyIvH+w/O81p6b7y82o=
+
+Name: mono/android/media/MediaScannerConnection_OnScanCompletedListene
+ rImplementor.class
+SHA-256-Digest: Wkn7h07wnNsLu0ucVZLGean9QN4hUxF5UIOfKPoi2x8=
+
+Name: mono/android/net/wifi/WifiManager_SuggestionUserApprovalStatusLi
+ stenerImplementor.class
+SHA-256-Digest: Sqm12LiFtcUeEbNg83o4tM7D2OwrDJvJWjcOSUqcFBE=
+
+Name: mono/android/media/session/MediaSessionManager_OnSession2TokensC
+ hangedListenerImplementor.class
+SHA-256-Digest: tyibdlJdDxlc+y6MZm97DyUNNwhUMB/ELwTS8ClM3/U=
+
+Name: mono/android/view/View_OnFocusChangeListenerImplementor.class
+SHA-256-Digest: R5/RKReujnBEafAtrsKyWhnsaOPQQ23mvnBvhzDQZvc=
+
+Name: mono/android/graphics/ImageDecoder_OnHeaderDecodedListenerImplem
+ entor.class
+SHA-256-Digest: PTAhMeNr638mvGfHJAd660a7gmIvXAoP5m5koXdIZNM=
+
+Name: mono/android/location/OnNmeaMessageListenerImplementor.class
+SHA-256-Digest: V9mV3UAI4SXzxIFWP0Z0KXbRjjbefpB8k8Ca7015jAs=
+
+Name: mono/android/content/DialogInterface_OnShowListenerImplementor.c
+ lass
+SHA-256-Digest: v+qCuXxKqTcgXQbIVXXdjGtfNpHKGTsBWqxnQQM6OyQ=
+
+Name: mono/android/nfc/NfcAdapter_OnTagRemovedListenerImplementor.clas
+ s
+SHA-256-Digest: 1JrqK/YlsQZQGVtIxwLZJAJoAR58y7pF8TF/2voo5BE=
+
+Name: mono/android/media/MediaPlayer_OnTimedTextListenerImplementor.cl
+ ass
+SHA-256-Digest: Pc4yOrbqWN+JcIWvmXnH1c6AdE30DWro4ZPBQNtIjR8=
+
+Name: mono/android/media/MediaPlayer_OnTimedMetaDataAvailableListenerI
+ mplementor.class
+SHA-256-Digest: aT/jh/iSP4BLD1qopDe31hQwdEoVPU3dysnMKtG0a68=
+
+Name: mono/android/media/MediaDrm_OnExpirationUpdateListenerImplemento
+ r.class
+SHA-256-Digest: VK+QQQdGpKE8tu257I0BjPZ46is463DyrFOrS+OMW0M=
+
+Name: mono/android/webkit/WebIconDatabase_IconListenerImplementor.clas
+ s
+SHA-256-Digest: 3jDgY0sW9JtowpSbhPoCJbV3HZQCn04uOo9qavjgdRo=
+
+Name: mono/android/telephony/TelephonyCallback_CallDisconnectCauseList
+ enerImplementor.class
+SHA-256-Digest: gQ0Td9qA4v0kTdH3hWlSLQtYldU6EBOET/MNSVndIXw=
+
+Name: mono/android/media/RemoteControlClient_OnMetadataUpdateListenerI
+ mplementor.class
+SHA-256-Digest: 158VjaLZNidZSYOnuwkTleZuVLXxqgeYSF7ha0Vo8+k=
+
+Name: mono/android/widget/Filter_FilterListenerImplementor.class
+SHA-256-Digest: CFtmRHPe75RhdiJiGJHnLSBMkOQnHUNTVOzBv+kFIEQ=
+
+Name: mono/android/media/audiofx/BassBoost_OnParameterChangeListenerIm
+ plementor.class
+SHA-256-Digest: StX6gS0SMoYVoi4sryiugW2QlCky35x07BRD3vPPyoM=
+
+Name: mono/android/view/View_OnCreateContextMenuListenerImplementor.cl
+ ass
+SHA-256-Digest: chI1M8tmB5qNLyZYZ/2uEI+ecmLGp4IgGcfITt0702o=
+
+Name: mono/android/view/Window_OnFrameMetricsAvailableListenerImplemen
+ tor.class
+SHA-256-Digest: iBaalf6wSeeag1x9sM/E5VpOew8V4DfWoM4AXAOT8lQ=
+
+Name: mono/android/widget/CompoundButton_OnCheckedChangeListenerImplem
+ entor.class
+SHA-256-Digest: 422pDprxUhYUyviQHYe35xXD8GhPdW0iRGybK2tdol0=
+
+Name: mono/android/app/ActionBar_TabListenerImplementor.class
+SHA-256-Digest: Z5VuhCOOCo1BUktTISRKtQahhzp2Ctgl7q4T29dgVEY=
+
+Name: mono/android/hardware/SensorListenerImplementor.class
+SHA-256-Digest: sb163G3tTsNm1MgTzT9EeOjSZ3scq70cWBmNqzOhZaM=
+
+Name: mono/android/widget/PopupMenu_OnMenuItemClickListenerImplementor
+ .class
+SHA-256-Digest: WyhBNt0uwTxx3cF8Pl6ruIyhjOiVSv9qS3Dg2H3GDY4=
+
+Name: mono/android/view/GestureDetector_OnDoubleTapListenerImplementor
+ .class
+SHA-256-Digest: Wa6FkgH4HCZxEoB/yJ/vuJrWbaAJz7+Xp8gEDghKXg0=
+
+Name: mono/android/telephony/TelephonyCallback_CallForwardingIndicator
+ ListenerImplementor.class
+SHA-256-Digest: Jin2NpY9MLImzA5iE3XZVD3QATMHCROkDcgVEQJ8cYc=
+
+Name: mono/android/transition/Transition_TransitionListenerImplementor
+ .class
+SHA-256-Digest: kBt0B8ps3/klvh4NkiYORa2DEWRQfOTj1pjb38hh5M0=
+
+Name: mono/android/media/tv/interactive/TvInteractiveAppView_OnUnhandl
+ edInputEventListenerImplementor.class
+SHA-256-Digest: Up2vSgSuQ9r2EM7GFZMGz76NGB/TiNEpk4mCPVmaPic=
+
+Name: mono/java/lang/Runnable.class
+SHA-256-Digest: 74vI2txdASMkzjesb2qUinBkPoS+ddDhMxzKcRRdjVE=
+
+Name: mono/android/se/omapi/SEService_OnConnectedListenerImplementor.c
+ lass
+SHA-256-Digest: M1q3/A3yurPkTjYkl5P5QDli/NNesqHQTRdLQ8Freiw=
+
+Name: mono/android/telephony/TelephonyCallback_UserMobileDataStateList
+ enerImplementor.class
+SHA-256-Digest: DERFNgksZkFkuKzZWjnieq7yLKe7NVQ07TkNxzyIjpY=
+
+Name: mono/android/widget/ZoomButtonsController_OnZoomListenerImplemen
+ tor.class
+SHA-256-Digest: D2ISp7gynync8wSs86oDGa1CD+Lj48wmvTticMjTBBs=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_GroupInfoListenerImplem
+ entor.class
+SHA-256-Digest: Q0pECohbjOKEjYTFPiN0WanLk6Uhk35y2Br+PI2nAg4=
+
+Name: mono/android/view/Window_OnRestrictedCaptionAreaChangedListenerI
+ mplementor.class
+SHA-256-Digest: gHAeyUoQLsqeu8WvdSaPVHAUI1jB7kUkSqlVGodDnec=
+
+Name: mono/android/view/MenuItem_OnActionExpandListenerImplementor.cla
+ ss
+SHA-256-Digest: PcHL42p4nBN2HBxlzvXF4LGuinbjrIwuJiDk0d2IQvg=
+
+Name: mono/java/util/EventListenerImplementor.class
+SHA-256-Digest: 80L+/JQxOmfDYO1ZNCpywGYv1ASITlI8ZzNwxLLlBxw=
+
+Name: mono/android/graphics/drawable/Icon_OnDrawableLoadedListenerImpl
+ ementor.class
+SHA-256-Digest: Uldp6nQuPBU/vOGl/jDChSotR3N1scLPLt/IiAHmTyc=
+
+Name: mono/android/text/TextWatcherImplementor.class
+SHA-256-Digest: crV/TFVaM1QS/uENens3hKnX979wcPoCKaUDRsqKxKw=
+
+Name: mono/android/media/MediaPlayer_OnErrorListenerImplementor.class
+SHA-256-Digest: ZYef+NOOKGhUnblxNQaDELW023+G1qbppjkNwg99xH0=
+
+Name: mono/android/widget/SearchView_OnQueryTextListenerImplementor.cl
+ ass
+SHA-256-Digest: 7LzaSKlcwBhGLT81sbp6WiysTcRAFOqCKsZ+m9O2tBY=
+
+Name: mono/android/view/SurfaceControl_TransactionCommittedListenerImp
+ lementor.class
+SHA-256-Digest: yE+RHOazMBO0q4NcSACv1yh6DhUFKE6q8QPKjgzFTWw=
+
+Name: mono/android/media/RemoteControlClient_OnPlaybackPositionUpdateL
+ istenerImplementor.class
+SHA-256-Digest: e785NTsf+3PlYr4S9RAT8nxs6L/oHsmvy+/XKfUMVG0=
+
+Name: mono/android/telephony/TelephonyCallback_MessageWaitingIndicator
+ ListenerImplementor.class
+SHA-256-Digest: GuSTjmCexAs4H1WqfNJz+h6+O9R5NUS2nfKs3TOXpME=
+
+Name: mono/android/content/SharedPreferences_OnSharedPreferenceChangeL
+ istenerImplementor.class
+SHA-256-Digest: E83S5Ujka+R9ZY0VIr2l8/EfrMYq/N4AOt/XDMqg/54=
+
+Name: mono/android/telephony/TelephonyCallback_DataActivationStateList
+ enerImplementor.class
+SHA-256-Digest: 60W6v6dCD3BJf20g4QeytW07ombTk7uuj1bIKChZ7IU=
+
+Name: mono/android/location/GnssAntennaInfo_ListenerImplementor.class
+SHA-256-Digest: r2czGfEUbo/XwlFRycjOmPi6qFYZyX+HhVJFZlmEblw=
+
+Name: mono/android/view/View_OnUnhandledKeyEventListenerImplementor.cl
+ ass
+SHA-256-Digest: DSWQCBvHmORBstodzK33MSR6a88DvPpzPfcG1CF3W7Y=
+
+Name: mono/android/os/FileUtils_ProgressListenerImplementor.class
+SHA-256-Digest: jfxE6Z29L6uLcdT5LtLhNEGcsDUPBvNXdIJPbKmnNSo=
+
+Name: mono/android/animation/TimeAnimator_TimeListenerImplementor.clas
+ s
+SHA-256-Digest: XAjO5qsrofjGmnz+UOz/IEKmKm6awZgstCQnOajzlyU=
+
+Name: mono/android/widget/DatePicker_OnDateChangedListenerImplementor.
+ class
+SHA-256-Digest: ZF3Zh5ny5KuHGK3tNm5GijHEvts+uElR87haqGMP9CU=
+
+Name: mono/android/hardware/display/DisplayManager_DisplayListenerImpl
+ ementor.class
+SHA-256-Digest: nOkK3bjqkZCy4WU5cnWn1qqymVJCTV2W/HXBHh7MTnI=
+
+Name: mono/android/view/ActionProvider_VisibilityListenerImplementor.c
+ lass
+SHA-256-Digest: VUe+CbK71DzWDqzkc3zo+Tg1MwTbgXtqT0dGLG49cbw=
+
+Name: mono/android/media/audiofx/AudioEffect_OnControlStatusChangeList
+ enerImplementor.class
+SHA-256-Digest: NWXPHptdV2VMerABNTdKYzPpggUKyxst95ZrTEX005g=
+
+Name: mono/android/view/ViewTreeObserver_OnWindowAttachListenerImpleme
+ ntor.class
+SHA-256-Digest: Uanyd+YrgcCgWEuzGypkWyHQOlTz6CPUJ0AE9Dl2Cgg=
+
+Name: mono/android/widget/SearchView_OnSuggestionListenerImplementor.c
+ lass
+SHA-256-Digest: RgYSUPXrtpgs3Sth4xDJldCwsaGimg+w1IFlFtAiCWY=
+
+Name: mono/android/os/PowerManager_WakeLockStateListenerImplementor.cl
+ ass
+SHA-256-Digest: SAgURhtalaTfvhJV+mcCoQYWCb0LxtNhGeqE6AlgWig=
+
+Name: mono/android/location/LocationListenerImplementor.class
+SHA-256-Digest: km6AiId9n4yPEvXGwvsVr5/Ay8VQAfbZhRkBU7udyvo=
+
+Name: mono/android/view/View_OnLongClickListenerImplementor.class
+SHA-256-Digest: 2If2/Cpg4kZ84JBOXDulkHRJjHIJhwcNNDoFZGJfsH8=
+
+Name: mono/android/view/ViewTreeObserver_OnTouchModeChangeListenerImpl
+ ementor.class
+SHA-256-Digest: R4tUrY3Iyk9pazzXZmfnmldJS3Izl+kVP3ln0Wvij5o=
+
+Name: mono/android/media/MediaPlayer_OnInfoListenerImplementor.class
+SHA-256-Digest: Vg5iAcY48Bzz2DKb2v1/rMNrlDlGphJVVKYWfLSDAac=
+
+Name: mono/android/drm/DrmManagerClient_OnErrorListenerImplementor.cla
+ ss
+SHA-256-Digest: yzbN4MpW8JkgmTC90siIN1y+H+yG4pKS/vVac83cUdU=
+
+Name: mono/android/content/DialogInterface_OnClickListenerImplementor.
+ class
+SHA-256-Digest: 1t4SByCvgIbzsU5YK97kgVEhuDeovbKpqiNQ4Sj00iU=
+
+Name: mono/javax/xml/transform/ErrorListenerImplementor.class
+SHA-256-Digest: sLPQPJ3FPxn/uVtyzdLSYm5n0J6ky9OxQPBfANcLSyo=
+
+Name: mono/android/telephony/TelephonyCallback_EmergencyNumberListList
+ enerImplementor.class
+SHA-256-Digest: 7awTRtXmOVqHGrHAtOXjzhuhjhr5P2Xpl/ObNcquuPk=
+
+Name: mono/android/media/midi/MidiManager_OnDeviceOpenedListenerImplem
+ entor.class
+SHA-256-Digest: 0lIY0jLvvA0AHmXD+uqfCp1k0ozK2W5WhM5uM3DJuOg=
+
+Name: mono/android/view/ViewTreeObserver_OnGlobalFocusChangeListenerIm
+ plementor.class
+SHA-256-Digest: 3il84Om479fZey+Rzt/m/Ny+ICBl5x6vt+GoJAA5P2o=
+
+Name: mono/android/media/session/MediaSessionManager_OnActiveSessionsC
+ hangedListenerImplementor.class
+SHA-256-Digest: DP1AyZ2/gWX/Ndp+nkfB4Kfet+iJZAinQSK5Ss0Gxcg=
+
+Name: mono/android/widget/TabHost_OnTabChangeListenerImplementor.class
+SHA-256-Digest: 1fcFTBLBdyxFx5/BOMZSA6yuwMDbBX3VNBcAvqgldxY=
+
+Name: mono/android/widget/Chronometer_OnChronometerTickListenerImpleme
+ ntor.class
+SHA-256-Digest: uwbWx13KoND8iMVHdi/+iHry5lM2yh8sAT+go88TICY=
+
+Name: android/runtime/JavaProxyThrowable.class
+SHA-256-Digest: fWgKf4Jbyc98wfd57DWMHhu9K10M/1ED8NN+D+ioQgU=
+
+Name: mono/android/widget/ExpandableListView_OnChildClickListenerImple
+ mentor.class
+SHA-256-Digest: g5VaKSHKkIN9uv0JJLAI0BoctVJIAKxLjq6WprzIXh8=
+
+Name: mono/android/view/ViewTreeObserver_OnDrawListenerImplementor.cla
+ ss
+SHA-256-Digest: ePByicnT0VZGoNlSEtONWFoxGf4STqpWWlBHiCiK7lQ=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_DeviceInfoListenerImple
+ mentor.class
+SHA-256-Digest: kT1xL4GXouuPzmYWMAeDqYGZ4dB5tla+uLKebLO1Kx4=
+
+Name: mono/android/app/DatePickerDialog_OnDateSetListenerImplementor.c
+ lass
+SHA-256-Digest: VanmLXawuyHfWHRkJPf4FNU35IA60oOOlVsN5hkyD9Q=
+
+Name: mono/android/telephony/TelephonyCallback_PreciseDataConnectionSt
+ ateListenerImplementor.class
+SHA-256-Digest: iWm/CFdxxH4LZ0WaNxqibk9guWdP7bZZtMhfCADo4no=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_ChannelListenerImplemen
+ tor.class
+SHA-256-Digest: MRyNAnh0EBYCqjLZQxXmtw4+TLapqiPKLPJxdmkJM6I=
+
+Name: mono/android/content/DialogInterface_OnDismissListenerImplemento
+ r.class
+SHA-256-Digest: AZ7ACALhSO26pQhHXuNGnWPbSIxQRD2Y4yyI7jPvQUI=
+
+Name: mono/android/speech/tts/TextToSpeech_OnUtteranceCompletedListene
+ rImplementor.class
+SHA-256-Digest: QGZGL6IErHyzn1nbyTpWaL7znT9nHraQXngpOb6kbMY=
+
+Name: mono/android/media/MediaSync_OnErrorListenerImplementor.class
+SHA-256-Digest: IA7qF5Kdm0BOTm3GuSw7l/tEX/VQ22ag7vYeg6IIsmA=
+
+Name: mono/android/webkit/WebView_FindListenerImplementor.class
+SHA-256-Digest: B2Fvf7Q4q7dMHsi0uApjM1KI0+sHVpI7/0V+obebNjs=
+
+Name: mono/android/sax/StartElementListenerImplementor.class
+SHA-256-Digest: OBDF6iHbHcqbRqaGJm4BdLHbgx7GR+ZgetoumI55P0I=
+
+Name: mono/android/speech/RecognitionListenerImplementor.class
+SHA-256-Digest: /YeV+iA25RtsCPwQ0IKLA4JVfmcje0q5gsnN+JE5ZhI=
+
+Name: mono/android/app/AlarmManager_OnAlarmListenerImplementor.class
+SHA-256-Digest: KwrAgQyBpNQzjKYEeH7iqavUx4vAfYFf4zoDR1W0/V0=
+
+Name: mono/android/content/DialogInterface_OnKeyListenerImplementor.cl
+ ass
+SHA-256-Digest: GBxwGMwq+Tm6vrmyyWVnMB63DXS5k9rEd92/SG92KEY=
+
+Name: mono/android/view/GestureDetector_OnContextClickListenerImplemen
+ tor.class
+SHA-256-Digest: p6CRx0AfnLH7qfjrELzx6yW9r3zbStTGFZ4lFduVheo=
+
+Name: mono/android/os/MessageQueue_OnFileDescriptorEventListenerImplem
+ entor.class
+SHA-256-Digest: VFof6vLsaJqfH4Aexmh63Qmz/VG5GmvzYyHzNqgSnY0=
+
+Name: mono/android/media/MediaCas_EventListenerImplementor.class
+SHA-256-Digest: Z3dZncuy05IxBYe9IlbnqZz2MK9P1vssbx1ZVKkFJB4=
+
+Name: mono/android/media/audiofx/EnvironmentalReverb_OnParameterChange
+ ListenerImplementor.class
+SHA-256-Digest: 773Ien2H4kAw1sJph4JaGH9c07lwxzUg9pIElnIXbwc=
+
+Name: mono/android/media/MediaPlayer_OnBufferingUpdateListenerImplemen
+ tor.class
+SHA-256-Digest: a4BgYasC2lxH1ebzIRaF2Q6dGIF+iLhbdTekIm00hWQ=
+
+Name: mono/android/app/Application_OnProvideAssistDataListenerImplemen
+ tor.class
+SHA-256-Digest: q7vRQ/j6BOZ9sxkWTLbx/LrHAav5LzncVL+OcoLL1dM=
+
+Name: mono/android/widget/SearchView_OnCloseListenerImplementor.class
+SHA-256-Digest: IBx4y/3oMujAW56ofTBBVaso/l6BgoYULbsRKe6fZ/A=
+
+Name: xamarin/android/net/ServerCertificateCustomValidator_TrustManage
+ r_FakeSSLSession.class
+SHA-256-Digest: GUgljrdDsAH0UODdIxBy/wuDwBpU4gOur0omu7DOax8=
+
+Name: mono/android/view/View_OnCapturedPointerListenerImplementor.clas
+ s
+SHA-256-Digest: 1TOyofY+aGkfwFWR71y2cYLr6t6nmx/HANNsiAdhrXo=
+
+Name: mono/android/widget/AutoCompleteTextView_OnDismissListenerImplem
+ entor.class
+SHA-256-Digest: 6tobGSNYI0ZfqJydPXsutDLzokI1KW1yLrCCwRi7Hh8=
+
+Name: mono/android/telephony/TelephonyCallback_DataConnectionStateList
+ enerImplementor.class
+SHA-256-Digest: swTB97+upQ+AKvNW7RlZu2yWbvAMghMnWhe3l4p6uKc=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_ExternalApproverRequest
+ ListenerImplementor.class
+SHA-256-Digest: YfQrd2h2xQo8FbMRHetfxuhaqZXgh9JFZ3AbZ9hvS4c=
+
+Name: mono/android/media/session/MediaSessionManager_OnMediaKeyEventSe
+ ssionChangedListenerImplementor.class
+SHA-256-Digest: ipr+rJJ4uadAeK6T9boEKSYI6QlaUz1CXt+NmQc5EXg=
+
+Name: mono/android/inputmethodservice/KeyboardView_OnKeyboardActionLis
+ tenerImplementor.class
+SHA-256-Digest: 2yty3VUJf/NLoJw9jrvnt90tcv6wgyS2HDdv/U6vg1M=
+
+Name: mono/android/telephony/TelephonyCallback_DataActivityListenerImp
+ lementor.class
+SHA-256-Digest: RDp8x1lMxquXyvbTS2Tb+Yq5Wnj2NPAajtuKw9FcU0k=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_NetworkInfoListenerImpl
+ ementor.class
+SHA-256-Digest: jzaAjwYesM1cLO3uaBaaWt0RCjWhsMlx0LdQmmIXCSU=
+
+Name: mono/android/os/PowerManager_OnThermalStatusChangedListenerImple
+ mentor.class
+SHA-256-Digest: MpfIiZHWrQCDaIwH2OVCVeXcyXrY10qLHqhcnprTyUY=
+
+Name: mono/android/media/audiofx/PresetReverb_OnParameterChangeListene
+ rImplementor.class
+SHA-256-Digest: 2vsHXe942aILHMTKSr3afsqFNLx/zqd645sjQqObdDk=
+
+Name: mono/android/view/ViewTreeObserver_OnScrollChangedListenerImplem
+ entor.class
+SHA-256-Digest: lGVGTDs2WU3Ux30RUaH0usV9ZScIre2KIWlUFMcDuEE=
+
+Name: mono/android/widget/PopupWindow_OnDismissListenerImplementor.cla
+ ss
+SHA-256-Digest: F6Nap5RtfYSUMnq2G07vpQ7OIOhx3wMl4CwQgiN3pws=
+
+Name: mono/android/renderscript/Allocation_OnBufferAvailableListenerIm
+ plementor.class
+SHA-256-Digest: IjypBUcs9VkHLmpQ+991MsumVXKpW5GvYUB9Y9FozcA=
+
+Name: mono/android/media/ImageWriter_OnImageReleasedListenerImplemento
+ r.class
+SHA-256-Digest: KHzrKFmY4+pyLdc5JMp/hzcQZXKITnxwCswFyFBFasw=
+
+Name: mono/android/media/MediaPlayer_OnCompletionListenerImplementor.c
+ lass
+SHA-256-Digest: Ia+MbS1kC64snHv2DmdramY0wmckhSz9aN4C8bc6VrI=
+
+Name: mono/android/app/SearchManager_OnDismissListenerImplementor.clas
+ s
+SHA-256-Digest: mopCZXn6SNMrqYV8amnk2+erTQINp4O9kZpR+KmLXTw=
+
+Name: mono/android/view/View_OnLayoutChangeListenerImplementor.class
+SHA-256-Digest: SDR385ym4yoaVZuOmFp0kyDgW5lk2FxDLPuhbymDVgY=
+
+Name: mono/android/view/PixelCopy_OnPixelCopyFinishedListenerImplement
+ or.class
+SHA-256-Digest: Dc1d/Zcd9Qira+ANUe3l8kC+8a42hjhtCSe3x0AlEpY=
+
+Name: mono/android/view/accessibility/AccessibilityManager_TouchExplor
+ ationStateChangeListenerImplementor.class
+SHA-256-Digest: PKYWz6xHcQr/wCLERjNehU+HTNYSuSpLFihcXPZAQD4=
+
+Name: mono/android/media/AudioManager_OnModeChangedListenerImplementor
+ .class
+SHA-256-Digest: Ci64AZnutc9dn4/b7UT6Ph0L7qfrwPdf6SAPbePL5aM=
+
+Name: mono/android/app/UiAutomation_OnAccessibilityEventListenerImplem
+ entor.class
+SHA-256-Digest: ogNuNVIaOME/+E8wwhGZVvyrOUcC/Hys0SG3yEL2ygA=
+
+Name: mono/android/view/accessibility/AccessibilityManager_Accessibili
+ tyStateChangeListenerImplementor.class
+SHA-256-Digest: +mSZVNQfOYYwt7PCia2y3fAPf8MYyjjHCRzBiqOcVsY=
+
+Name: mono/android/net/sip/SipRegistrationListenerImplementor.class
+SHA-256-Digest: m/NfK+JslCmwfQO1g7m5siKhcazY/5/zjkE2M50ERAY=
+
+Name: mono/android/widget/NumberPicker_OnScrollListenerImplementor.cla
+ ss
+SHA-256-Digest: 9k9narsqkQG1i66mN8NaI/RdKu9gCxy/rA+ROUcYisY=
+
+Name: mono/android/media/MediaDrm_OnKeyStatusChangeListenerImplementor
+ .class
+SHA-256-Digest: NyAfvi/Tt3/lB+KMc6ZBZS6JNCKtfNv+rfJ9bsZ+qaU=
+
+Name: mono/android/view/View_OnScrollChangeListenerImplementor.class
+SHA-256-Digest: zXRXT+w7MhO6H7Qqc3r6iYu6LT2cPfPCid5M+3i/WPk=
+
+Name: mono/android/view/View_OnKeyListenerImplementor.class
+SHA-256-Digest: p7y0Hw+v4EosFeciiyoklfFdnXD25DUlD4AT3YnEb2k=
+
+Name: mono/android/accessibilityservice/AccessibilityService_SoftKeybo
+ ardController_OnShowModeChangedListenerImplementor.class
+SHA-256-Digest: EsFKDLHev+gbtRKJcKlCpGVMDj2V+2x/eG6aKW68eTE=
+
+Name: mono/android/media/Spatializer_OnSpatializerStateChangedListener
+ Implementor.class
+SHA-256-Digest: 2T+f+3rr+LBDkOAP5eeBCyhTNRO6gPpTsZO7WQu7PYw=
+
+Name: mono/android/view/ViewTreeObserver_OnGlobalLayoutListenerImpleme
+ ntor.class
+SHA-256-Digest: QddETFDXhFNr9eAk/E7qsK49F1G/i+1ahSqNF8bdu54=
+
+Name: mono/android/database/sqlite/SQLiteTransactionListenerImplemento
+ r.class
+SHA-256-Digest: tlWuvSaxOY1M1nDigMWR2rKf8lqZ99Pj5bD7qSVBOkU=
+
+Name: mono/android/widget/CalendarView_OnDateChangeListenerImplementor
+ .class
+SHA-256-Digest: 3bYUwg/JIWLmqe64hz/Cc/7vzOWpksSXUrcUh+rcePc=
+
+Name: mono/android/view/ViewTreeObserver_OnWindowFocusChangeListenerIm
+ plementor.class
+SHA-256-Digest: ul+vtocq/+/t13tdY/OegVf6B/ixEnGV0KWqcHZgumw=
+
+Name: mono/android/widget/TextView_OnEditorActionListenerImplementor.c
+ lass
+SHA-256-Digest: qkZb3jyoRumLI/VRIaqozLSagX7e5vSCti+lJAR1YVE=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_DnsSdTxtRecordListenerI
+ mplementor.class
+SHA-256-Digest: IUxLr6KXjYlupoDXSg3U5pKJnJr3aO0ZgCq3dRclZ1g=
+
+Name: mono/android/animation/ValueAnimator_AnimatorUpdateListenerImple
+ mentor.class
+SHA-256-Digest: gssE/Svat1fGTp8GAfiqf5S+/7pKci5oTc4onFuIavw=
+
+Name: mono/android/telephony/TelephonyCallback_PhysicalChannelConfigLi
+ stenerImplementor.class
+SHA-256-Digest: Yq8RO7wNyGX1mrux28DjQRqzDVjTYdsfTWMRS/I2kgg=
+
+Name: mono/android/view/View_OnTouchListenerImplementor.class
+SHA-256-Digest: ZKNeC9IC0n2EULCburSxDsCEGadwvb/fCxKWNYnn1yA=
+
+Name: mono/android/content/Loader_OnLoadCompleteListenerImplementor.cl
+ ass
+SHA-256-Digest: r6lB8nLGLdmZrT521jNltFjzhpPYSKY+NudjC031xOU=
+
+Name: mono/android/runtime/JavaObject.class
+SHA-256-Digest: YMT4zbNuSJuCiQOsTpmGobXfDxA445eTyWxc4GFN5e4=
+
+Name: mono/android/location/GpsStatus_ListenerImplementor.class
+SHA-256-Digest: JjhkiZEe4TV8sYaJsfDTr4ExrEiVVFyyqmxLWd2goEI=
+
+Name: xamarin/android/net/ServerCertificateCustomValidator_TrustManage
+ r.class
+SHA-256-Digest: L3705Hkf91G6JbO+ufeE9cMEsNfAtfvCRFomPzizH/o=
+
+Name: mono/android/view/View_OnApplyWindowInsetsListenerImplementor.cl
+ ass
+SHA-256-Digest: 3cjiT/U9g5wopcr9ZTkSvgF8EQZhdvlJA3uoZ3xx/6U=
+
+Name: mono/android/content/DialogInterface_OnMultiChoiceClickListenerI
+ mplementor.class
+SHA-256-Digest: tLQPfJZAWZe0dgjhFrHGiZwmEBuMAmHPYb6L9csJLV4=
+
+Name: mono/android/app/FragmentManager_OnBackStackChangedListenerImple
+ mentor.class
+SHA-256-Digest: CQhkNLLrmv7zbLUKr9JYXNrPSRHl2Kvj1VTfBvCximo=
+
+Name: mono/android/window/SplashScreen_OnExitAnimationListenerImplemen
+ tor.class
+SHA-256-Digest: gEwDcN/Fn6pEhdcZE+2k4pGyCYLWt+o+AWkjg+72I3E=
+
+Name: mono/android/view/MenuItem_OnMenuItemClickListenerImplementor.cl
+ ass
+SHA-256-Digest: 3lBkKExBpwUPufn0lxzMSFSiaUvbjfZPC1KkgKvsotE=
+
+Name: mono/android/graphics/ImageDecoder_OnPartialImageListenerImpleme
+ ntor.class
+SHA-256-Digest: fDsYak4OHVyhlnjDw089lFahED32g/h50cgYTCcNptI=
+
+Name: mono/android/app/WallpaperManager_OnColorsChangedListenerImpleme
+ ntor.class
+SHA-256-Digest: kjFg0VLGq6GdgOTQUF4uySwQZ6IiewKMKxbb+Nt9HbU=
+
+Name: android/runtime/XmlReaderResourceParser.class
+SHA-256-Digest: RjfaxFufr2nwCpSduuIx6x7xATngLkMb/pb4+4vc3CY=
+
+Name: mono/android/app/AppOpsManager_OnOpChangedListenerImplementor.cl
+ ass
+SHA-256-Digest: +OozfoMAit48rDK8EoZ55xO8gfBLkK8TWlVqJQViRkk=
+
+Name: mono/android/view/OnReceiveContentListenerImplementor.class
+SHA-256-Digest: JTYNw7+8oxe13qH6w801yJOGWEyLZMslu9vHjKgsDBo=
+
+Name: mono/android/media/AudioRecord_OnRecordPositionUpdateListenerImp
+ lementor.class
+SHA-256-Digest: 9t4taStdUSiMe1lnA/mHZUY2LReQ4JRz9ENWjTbThC0=
+
+Name: mono/android/media/AudioManager_OnAudioFocusChangeListenerImplem
+ entor.class
+SHA-256-Digest: ltqHlkG5641yHxzPEaEvlW9Nkuphy9VUtQZElYnvIB0=
+
+Name: mono/android/view/GestureDetector_OnGestureListenerImplementor.c
+ lass
+SHA-256-Digest: XsR1d7sEANe0ZJJJ6vJUGBMYDT0lJKp/iZziWkLDb5s=
+
+Name: mono/android/hardware/Camera_FaceDetectionListenerImplementor.cl
+ ass
+SHA-256-Digest: Mot34lTJtlIipfS+pAEC/ArExlnvMjNbWx7X4WO3Xys=
+
+Name: mono/android/media/MediaCodec_OnFirstTunnelFrameReadyListenerImp
+ lementor.class
+SHA-256-Digest: UEjFsLkIhc5ALQvbc2L4EA+UO02MidVLyXPxpLxgE2U=
+
+Name: mono/android/media/tv/TvView_OnUnhandledInputEventListenerImplem
+ entor.class
+SHA-256-Digest: NrMbmJdWGjO2xxZd2Y+U6c9knboQNH3KYAd/Tz4m+Q4=
+
+Name: mono/android/media/MediaPlayer_OnSubtitleDataListenerImplementor
+ .class
+SHA-256-Digest: qSBhSLcpqlnbK9vglnhBNijOKOQFMYP+T3j88OulqJQ=
+
+Name: mono/android/widget/RadioGroup_OnCheckedChangeListenerImplemento
+ r.class
+SHA-256-Digest: EelhfN9T74DT6jVfGDR/JE2DBtcTq5hidBrL1QuhdU0=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_DnsSdServiceResponseLis
+ tenerImplementor.class
+SHA-256-Digest: 70xgMC1oW0KOw+wVqF5fUSyPAnkk+W7KjCM8GtEic8o=
+
+Name: android/app/ActivityTracker.class
+SHA-256-Digest: WphguYrCOt1yJ6rDVSRrLcSstp6oKV1+/tg0EvQR7i0=
+
+Name: mono/android/view/ViewGroup_OnHierarchyChangeListenerImplementor
+ .class
+SHA-256-Digest: EoPNzWYoN4rHDtTne5XSCTiRIZ5sh7rBkHQDyj0RV9s=
+
+Name: mono/android/telephony/TelephonyCallback_CellInfoListenerImpleme
+ ntor.class
+SHA-256-Digest: JUjCFmlycvOUZsmxA42HhZeCFBf31qnVAnHbGO8QWfU=
+
+Name: mono/android/view/View_OnSystemUiVisibilityChangeListenerImpleme
+ ntor.class
+SHA-256-Digest: HA9IPB/pBkAPLSlXUG/htex768ngI7n61mWyQ1ysvo8=
+
+Name: mono/android/media/JetPlayer_OnJetEventListenerImplementor.class
+SHA-256-Digest: 7iN+DxJAxLXwfgNWIgy2F+aO8Fk7O+WQqeIbxbO/uFM=
+
+Name: mono/android/animation/LayoutTransition_TransitionListenerImplem
+ entor.class
+SHA-256-Digest: +6GDPcECoZVQZXGNjOS5t9y6iXK/tnM2eQ8dJ/AzNuk=
+
+Name: mono/android/net/ConnectivityManager_OnNetworkActiveListenerImpl
+ ementor.class
+SHA-256-Digest: 52GRLL2PT4pPVZKwkk6vtr69LzHxGTbiwfC4FQgDyyk=
+
+Name: mono/android/widget/AbsListView_OnScrollListenerImplementor.clas
+ s
+SHA-256-Digest: P7aGqlq+D0U1pGADTuX1ExUk4lD6WnTGD7PZ6WJFdlI=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_PeerListListenerImpleme
+ ntor.class
+SHA-256-Digest: 8Y0+y4JWALlewgi5/qeftnljQijQiptN3mQ+SN8MXKg=
+
+Name: mono/android/hardware/SensorEventListenerImplementor.class
+SHA-256-Digest: xpJZyVzInUZdgWTF4nEbm47yQz2v6f87feEPdFGUtc0=
+
+Name: mono/android/speech/tts/TextToSpeech_OnInitListenerImplementor.c
+ lass
+SHA-256-Digest: euvjKV2c5F4KI99V8bG8rZC8f6Ecn4JOi4LDwYYh8xU=
+
+Name: mono/android/net/wifi/p2p/WifiP2pManager_ServiceResponseListener
+ Implementor.class
+SHA-256-Digest: w9pdprn+kdjSVGCl6/GVFhqaV2utNYv9DZ+blabdhQs=
+
+Name: mono/android/gesture/GestureOverlayView_OnGesturingListenerImple
+ mentor.class
+SHA-256-Digest: O/F9Fm9piqvwWti67AmnC0kEzP5e4b+Lr77Az3tNcQw=
+
+Name: mono/android/media/effect/EffectUpdateListenerImplementor.class
+SHA-256-Digest: +kmoZnbhKNpM0bUbvMEEwhT7LV5DlxRqJOwSjSTgY3I=
+
+Name: mono/android/view/View_OnDragListenerImplementor.class
+SHA-256-Digest: H1OwWQKcmWozYQVb/8Rmd5oG861DwiBTyj9WpytVKnY=
+
+Name: mono/android/os/ActionHandlerCallback.class
+SHA-256-Digest: 5/dYN+tohwPrloq5v/B/I4LU58u1uBD/vRHzTEtKVa8=
+
+Name: mono/android/media/ImageReader_OnImageAvailableListenerImplement
+ or.class
+SHA-256-Digest: iKBD5E0SzOG8xgB03HzfxbXRd3B8GBKx5rIVJUC4Z64=
+
+Name: mono/android/animation/Animator_AnimatorListenerImplementor.clas
+ s
+SHA-256-Digest: FrxuLjsNrtcQH9O9KQTpgAMgeoqRg72VYI/IhwWMzkg=
+
+Name: mono/android/media/MediaRouter2_OnGetControllerHintsListenerImpl
+ ementor.class
+SHA-256-Digest: cW82UeTvBV+YWHrptBl3OOv9uU9U9g57QAqynO6LDDM=
+
+Name: mono/android/app/TimePickerDialog_OnTimeSetListenerImplementor.c
+ lass
+SHA-256-Digest: n8DbcBFcoaAGyPB0CPKE763eEqLm1Yc4YNB7TUDZweo=
+
+Name: mono/android/preference/PreferenceManager_OnActivityStopListener
+ Implementor.class
+SHA-256-Digest: xE6KiTfWiMDEE1VUW6GZLo7YGdLn+WaDy6YpEpAxM9E=
+
+Name: mono/android/app/SharedElementCallback_OnSharedElementsReadyList
+ enerImplementor.class
+SHA-256-Digest: hFC6R1YlQ3hdJnTKg07Oahbczuaye0Yz/euNRkxi7c8=
+
+Name: mono/android/telephony/TelephonyCallback_RegistrationFailedListe
+ nerImplementor.class
+SHA-256-Digest: kZNwsxE9+YvVVko1Gxh+la08bV4+fKh75RWw/d1/JdM=
+
+Name: mono/android/view/animation/Animation_AnimationListenerImplement
+ or.class
+SHA-256-Digest: pTbQi0Hw3o5xz5mShFOsJlnSHoPfzW4OsbZWdRo/coo=
+
+Name: mono/android/gesture/GestureOverlayView_OnGestureListenerImpleme
+ ntor.class
+SHA-256-Digest: hgqbuMRN8NuXY6xrRFAIqSzdKt8YQiR330CjnrLRWns=
+
+Name: mono/android/telephony/TelephonyCallback_ActiveDataSubscriptionI
+ dListenerImplementor.class
+SHA-256-Digest: c85QQx851Rn7dJ8iIjwdIBNO43rVnPnIgvSL0g0QpgU=
+
+Name: mono/android/view/textservice/SpellCheckerSession_SpellCheckerSe
+ ssionListenerImplementor.class
+SHA-256-Digest: GbENVhzW2BCJI8AKVQfkK7UC7v5uGfegU7qBxGKszCg=
+
+Name: mono/android/os/CancellationSignal_OnCancelListenerImplementor.c
+ lass
+SHA-256-Digest: Q+RNdigHSyr1rXx5Rx6BgE0mvpRSDbkl7qz2xY9DTnA=
+
+Name: mono/android/telephony/TelephonyCallback_CellLocationListenerImp
+ lementor.class
+SHA-256-Digest: r6LaqRQ8ByT0J4bJySFOr2NssdAVRuQTuWHenuhUUw0=
+
+Name: mono/android/net/wifi/WifiManager_SuggestionConnectionStatusList
+ enerImplementor.class
+SHA-256-Digest: dL5C7maoqqXXQIc+a97yI0LvZ2KQgrhr/+gsp9nQ7m4=
+
+Name: mono/android/media/RemoteController_OnClientUpdateListenerImplem
+ entor.class
+SHA-256-Digest: 4MStTvb4wzvmzuM5is8oHJOTzczpSipDaRZX1CCv9BQ=
+
+Name: mono/android/preference/Preference_OnPreferenceClickListenerImpl
+ ementor.class
+SHA-256-Digest: WQT2ZBbJU3YwJZiN2MJAVFkPjw7D9EnVBDh1eTM6oKQ=
+
+Name: mono/android/media/MediaRecorder_OnInfoListenerImplementor.class
+SHA-256-Digest: O0mP5zPztNUE+Q80b0aXnDyxCSJWVq/mR7cYAIwsHws=
+
+Name: mono/android/location/GpsStatus_NmeaListenerImplementor.class
+SHA-256-Digest: hCDsKK5vj0tM4AdLPS8wTBVUwbl3YuOE8wXkZBTVDPo=
+

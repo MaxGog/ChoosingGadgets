@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<style name="MainTheme" parent="MainTheme.Base">
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:textColorPrimary">@color/textColorPrimary</item>
+		<item name="android:colorPrimaryDark">@color/textColorPrimary</item>
+		<item name="android:colorAccent">@color/colorAccent</item>
+		<item name="android:windowBackground">@color/launcher_background</item>
+		<item name="android:statusBarColor">@color/launcher_background</item>
+		<!--<item name="windowActionBar">@color/colorPrimary</item>
+	  <item name="windowActionBarOverlay">@color/colorPrimary</item>
+	  <item name="windowNoTitle">@color/textColorPrimary</item>
+	  <item name="windowActionModeOverlay">@color/colorPrimary</item>
+	  <item name="android:windowIsFloating">@color/colorPrimary</item>-->
+	</style>
+	<!--<style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="colorPrimary">#B5B5B5</item>
+		<item name="colorPrimaryDark">#4C5866</item>
+		<item name="colorAccent">#3F4B59</item>
+		<item name="windowActionModeOverlay">true</item>
+
+		<item name="android:windowTranslucentStatus">true</item>
+
+		<item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
+	</style>
+
+	<style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+		<item name="colorAccent">@android:color/holo_blue_light</item>
+	</style>-->
+</resources>
