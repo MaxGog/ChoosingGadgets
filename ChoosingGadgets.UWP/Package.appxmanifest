@@ -9,7 +9,7 @@
   <Identity
     Name="52304FeatherProjects.Supportsystemwhenyouselectthe"
     Publisher="CN=B9003DCF-59B1-401C-9896-9F045D0A6C6D"
-    Version="2.5.13.0" />
+    Version="2.5.22.0" />
 
   <mp:PhoneIdentity PhoneProductId="c84c87da-6a54-4247-bced-d3bdb71304e0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

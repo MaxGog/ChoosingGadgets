@@ -51,10 +51,10 @@ namespace ChoosingGadgets.UWP
             {
                 Frame.Navigate(typeof(SettingsPage));
             }
-            else if (selectedFunctionalNew == TipsMenu)
-            {
-                Frame.Navigate(typeof(DictionaryPage));
-            }
+            //else if (selectedFunctionalNew == TipsMenu)
+            //{
+            //    Frame.Navigate(typeof(DictionaryPage));
+            //}
             else if (selectedFunctionalNew == TipsMenu2)
             {
                 Frame.Navigate(typeof(TipsPage));

@@ -132,6 +132,10 @@
     <value>Action</value>
     <comment>Консоли</comment>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Choosing gadgets</value>
+    <comment>Application description</comment>
+  </data>
   <data name="AppDisplayName" xml:space="preserve">
     <value>Choosing Gadgets</value>
     <comment>Application display name</comment>
@@ -204,6 +208,9 @@ Directly from the app, you can go to Yandex.Market for shopping and view the cod
 
 Лэптоп от Apple получил сканер отпечатков Touch ID, беспроводной адаптер Wi-Fi 6, экран Retina с разрешением – 2560 х 1600 пикселей и диагональю 13,3 дюйма. Максимальный объем оперативной памяти составляет 16 ГБ, а объем твердотельного накопителя –  2 ТБ.</value>
   </data>
+  <data name="MainLabel.Text" xml:space="preserve">
+    <value>Choosing gadgets</value>
+  </data>
   <data name="Media.Header" xml:space="preserve">
     <value>Do you need a media center?</value>
     <comment>Консоли</comment>
@@ -228,6 +235,9 @@ Directly from the app, you can go to Yandex.Market for shopping and view the cod
   </data>
   <data name="Payment" xml:space="preserve">
     <value>Recommended payment system: </value>
+  </data>
+  <data name="PCArgument" xml:space="preserve">
+    <value>Choose PC</value>
   </data>
   <data name="PC_Assembly.Header" xml:space="preserve">
     <value>You need high-quality build and material?</value>
@@ -308,6 +318,9 @@ Directly from the app, you can go to Yandex.Market for shopping and view the cod
   </data>
   <data name="PC_Sync.OnContent" xml:space="preserve">
     <value>Yes</value>
+  </data>
+  <data name="PhoneArgument" xml:space="preserve">
+    <value>Choose Phone</value>
   </data>
   <data name="Phone_Apps.Header" xml:space="preserve">
     <value>Will you be installing over 20 third-party apps?</value>
@@ -429,6 +442,9 @@ PC - stationary computer</value>
   <data name="Setting.Header" xml:space="preserve">
     <value>Application Settings</value>
   </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="SettingsPivot.Title" xml:space="preserve">
     <value>Settings</value>
     <comment>В коде для NavPan Header</comment>
@@ -468,6 +484,14 @@ PC - stationary computer</value>
   <data name="Tips.Content" xml:space="preserve">
     <value>Tips (Only Russian)</value>
   </data>
+  <data name="Tips_about.Text" xml:space="preserve">
+    <value>You can view all the information about the application in the settings in the "About the application" section. Here you can see the author of the application, its description, and version.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_about_Title.Text" xml:space="preserve">
+    <value>Where can I view information about the app?</value>
+    <comment>Обучение</comment>
+  </data>
   <data name="Tips_accuracy.Text" xml:space="preserve">
     <value>Do you need to have more data about your future device? To get more accurate data and an expanded result, check the box next to the "Pick up" button. Then your result will not be rounded for ordinary users and will show the most accurate characteristics of your computer.</value>
     <comment>Обучение</comment>
@@ -492,11 +516,27 @@ PC - stationary computer</value>
     <value>How does the app work?</value>
     <comment>Обучение</comment>
   </data>
+  <data name="Tips_menu.Text" xml:space="preserve">
+    <value>This is the menu. Here you can access any part of the application by clicking on the tile. Each section has a corresponding icon and a title.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_menu_Title.Text" xml:space="preserve">
+    <value>Menu</value>
+    <comment>Обучение</comment>
+  </data>
   <data name="Tips_result.Text" xml:space="preserve">
     <value>This is your device's result window. Depending on whether you chose a phone or a console or a computer, the number of selected parameters will be different.</value>
   </data>
   <data name="Tips_result_Title.Text" xml:space="preserve">
     <value>Result Window</value>
+  </data>
+  <data name="Tips_theme.Text" xml:space="preserve">
+    <value>To change the application theme to light or dark, go to the application settings and click on the appropriate button.</value>
+    <comment>Обучение</comment>
+  </data>
+  <data name="Tips_theme_Title.Text" xml:space="preserve">
+    <value>Change the theme of the application</value>
+    <comment>Обучение</comment>
   </data>
   <data name="TitleChooseConsole" xml:space="preserve">
     <value>Choose console</value>

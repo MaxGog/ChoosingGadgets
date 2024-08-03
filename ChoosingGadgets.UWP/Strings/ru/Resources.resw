@@ -209,6 +209,9 @@
 Лэптоп от Apple получил сканер отпечатков Touch ID, беспроводной адаптер Wi-Fi 6, экран Retina с разрешением – 2560 х 1600 пикселей и диагональю 13,3 дюйма. Максимальный объем оперативной памяти составляет 16 ГБ, а объем твердотельного накопителя –  2 ТБ.</value>
     <comment>Компьютер</comment>
   </data>
+  <data name="MainLabel.Text" xml:space="preserve">
+    <value>Выбор гаджетов</value>
+  </data>
   <data name="Media.Header" xml:space="preserve">
     <value>Требуется ли вам медиацентр?</value>
     <comment>Консоли</comment>
