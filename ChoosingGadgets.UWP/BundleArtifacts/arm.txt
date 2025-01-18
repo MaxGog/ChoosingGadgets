@@ -1,7 +1,0 @@
-MainPackage=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\ARM\Release\ChoosingGadgets.UWP_2.5.22.0_ARM.appx
-SymbolPackage=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\obj\ARM\Release\Symbols\ChoosingGadgets.UWP_2.5.22.0_ARM.appxsym
-ResourcePack=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\ARM\Release\ChoosingGadgets.UWP_2.5.22.0_language-ru.appx
-ResourcePack=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\ARM\Release\ChoosingGadgets.UWP_2.5.22.0_scale-100.appx
-ResourcePack=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\ARM\Release\ChoosingGadgets.UWP_2.5.22.0_scale-125.appx
-ResourcePack=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\ARM\Release\ChoosingGadgets.UWP_2.5.22.0_scale-150.appx
-ResourcePack=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\ARM\Release\ChoosingGadgets.UWP_2.5.22.0_scale-400.appx

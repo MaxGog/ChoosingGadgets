@@ -1,2 +1,0 @@
-MainPackage=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\bin\x86\Release\ChoosingGadgets.UWP_2.5.22.0_x86.appx
-SymbolPackage=E:\Projects\ChoosingGadgets\ChoosingGadgets.UWP\obj\x86\Release\Symbols\ChoosingGadgets.UWP_2.5.22.0_x86.appxsym
