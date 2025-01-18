@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.Views.ChooseLaptopPage"
+             Title="Выбор компьютера">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="30,5" Spacing="10">
+                <Frame>
+                    <VerticalStackLayout Padding="15" Spacing="10">
+                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Для каких целей в основном Вы выбираете себе компьютер?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="usageScenario" Content="Для дома" Value="1" CheckedChanged="UsageScenarioCheckedChanged"/>
+                        <RadioButton GroupName="usageScenario" Content="Для семьи" Value="2" CheckedChanged="UsageScenarioCheckedChanged"/>
+                        <RadioButton GroupName="usageScenario" Content="Для работы" Value="3" CheckedChanged="UsageScenarioCheckedChanged"/>
+                        <RadioButton GroupName="usageScenario" Content="Для игр" Value="4" CheckedChanged="UsageScenarioCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                        <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Вам требуется использовать внешнюю периферию (жёсткие диска, принтеры, микрофоны)?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="outerPeriphery" Content="Будет часто подключаться внешняя периферия" Value="1" CheckedChanged="OuterPeripheryCheckedChanged"/>
+                        <RadioButton GroupName="outerPeriphery" Content="Не так часто будет подключаться внешняя периферия" Value="2" CheckedChanged="OuterPeripheryCheckedChanged"/>
+                        <RadioButton GroupName="outerPeriphery" Content="Нет, всё будет работать без провода" Value="3" CheckedChanged="OuterPeripheryCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                        <Image Source="cloud.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Где Вы будете хранить Ваши файлы?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="fileStorage" Content="На самом компьютере" Value="1" CheckedChanged="FileStorageCheckedChanged"/>
+                        <RadioButton GroupName="fileStorage" Content="На внешнем жёстком диске" Value="2" CheckedChanged="FileStorageCheckedChanged"/>
+                        <RadioButton GroupName="fileStorage" Content="В облачных сервисах" Value="3" CheckedChanged="FileStorageCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                        <Image Source="work.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Часто ли Вам приходиться работать в дороге, или же дома?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="placeWork" Content="Только на рабочем месте" Value="1" CheckedChanged="PlaceWorkCheckedChanged"/>
+                        <RadioButton GroupName="placeWork" Content="Приходиться работать иногда в дороге" Value="2" CheckedChanged="PlaceWorkCheckedChanged"/>
+                        <RadioButton GroupName="placeWork" Content="Всегда работаю в разных местах" Value="3" CheckedChanged="PlaceWorkCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                        <Image Source="ecosystem.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Какая у вас экосистема?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="ecosystem" Content="Google (Android, ChromesOS)" Value="1" CheckedChanged="EcosystemCheckedChanged"/>
+                        <RadioButton GroupName="ecosystem" Content="Apple (iPhone, iPad, MacBook)" Value="2" CheckedChanged="EcosystemCheckedChanged"/>
+                        <RadioButton GroupName="ecosystem" Content="Microsoft (Android, Windows, Xbox)" Value="3" CheckedChanged="EcosystemCheckedChanged"/>
+                        <RadioButton GroupName="ecosystem" Content="Не пользуюсь подобным функционалом" Value="4" CheckedChanged="EcosystemCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                        <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Какими приложениями Вы пользуйтесь?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="adobeCheckBox" CheckedChanged="AdobeCheckBoxCheckedChanged"/>
+                                <Image Source="adobe_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro..." VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="devCheckBox" CheckedChanged="DevCheckBoxCheckedChanged"/>
+                                <Image Source="visualstudio_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Средства разработки ПО" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame> 
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="officeCheckBox" CheckedChanged="OfficeCheckBoxCheckedChanged"/>
+                                <Image Source="office_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Microsoft Office для работы с документами" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="specialCheckBox" CheckedChanged="SpecialCheckBoxCheckedChanged"/>
+                                <Image Source="dotnet_bot.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Специализированное ПО" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame> 
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+        <VerticalStackLayout Grid.Row="1" Padding="30,5" Spacing="25">
+            <Button x:Name="GetResultBtn" Text="Результат" Clicked="GetResultBtnClicked" HorizontalOptions="Fill"/>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
