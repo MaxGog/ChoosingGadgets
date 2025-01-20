@@ -11,7 +11,7 @@
 		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
 		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
 		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
-		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
+		<RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers>
 
 		<OutputType>Exe</OutputType>
 		<RootNamespace>ChoosingGadgets</RootNamespace>
@@ -27,7 +27,7 @@
 		<ApplicationId>ru.maxgog.choosinggadgets</ApplicationId>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
@@ -43,14 +43,28 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.png" ForegroundFile="Resources\AppIcon\appicon.png" Color="#FFFFFF" />
+		<MauiIcon Include="Resources\AppIcon\appicon.png" Color="#FFFFFF" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#FFFFFF" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\splash.png" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\adobe_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\blender_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\office_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\xbox_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\nintendoswitch_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\psstore_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\steam_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\visualstudio_logo.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\cloud.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\work.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\professional.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\ecosystem.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\home.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\appicon_foreground.png" Resize="True" BaseSize="512,512" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
