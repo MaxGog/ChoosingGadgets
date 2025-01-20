@@ -13,21 +13,21 @@ public class ChooseLaptopModel
     public void AddLaptopOfficeScore(int score) => laptopofficeScore += score;
     public void AddLenovoThinkPadScore(int score) => lenovothinkpadScore += score;
     public void AddLaptopGamingScore(int score) => laptopgamingScore += score;
+    public void SetPCScore(int score) => pcScore = score;
     public string GetBestLaptop()
     {
         string nameLaptop = "любой компьютер или ноутбук";
-        int[] values = { macbookairScore, macbookproScore, surfaceproScore, chromebookScore, laptopgamingScore, laptopofficeScore, pcScore, lenovothinkpadScore};
+        int[] values = [macbookairScore, macbookproScore, surfaceproScore, chromebookScore, laptopgamingScore, laptopofficeScore, pcScore, lenovothinkpadScore];
         int maxScore = values.Max();
 
-        if (laptopofficeScore == maxScore) { nameLaptop = "линейка офисных ноутбуков (HP или Acer)"; }
-        else if (pcScore == maxScore) { nameLaptop = "сборочные стационарные компьютеры"; }
-        else if (macbookairScore == maxScore) { nameLaptop = "линейка MacBook Air"; }
-        else if (macbookproScore == maxScore) { nameLaptop = "линейка MacBook Pro"; }
-        else if (surfaceproScore == maxScore) { nameLaptop = "линейка планшетов Surface Pro"; }
-        else if (chromebookScore == maxScore) { nameLaptop = "линейка ноутбуков Chromebook"; }
-        else if (laptopgamingScore == maxScore) { nameLaptop = "линейка игровых ноутбуков"; }
-        else if (laptopofficeScore == maxScore) { nameLaptop = "линейка офисных ноутбуков (HP или Acer)"; }
-        else if (lenovothinkpadScore == maxScore) { nameLaptop = "линейка ноутбуков Lenovo ThinkPad"; }
+        if (laptopofficeScore >= maxScore) { nameLaptop = "линейка офисных ноутбуков (HP или Acer)"; }
+        else if (lenovothinkpadScore >= maxScore) { nameLaptop = "линейка ноутбуков Lenovo ThinkPad"; }
+        else if (laptopgamingScore >= maxScore) { nameLaptop = "линейка игровых ноутбуков"; }
+        else if (macbookairScore >= maxScore) { nameLaptop = "линейка MacBook Air"; }
+        else if (surfaceproScore >= maxScore) { nameLaptop = "линейка планшетов Surface Pro"; }
+        else if (chromebookScore >= maxScore) { nameLaptop = "линейка ноутбуков Chromebook"; }
+        else if (macbookproScore >= maxScore) { nameLaptop = "линейка MacBook Pro"; }
+        else if (pcScore >= maxScore) { nameLaptop = "сборочные стационарные компьютеры"; }
 
         return nameLaptop;
     }

@@ -12,7 +12,7 @@
         <ScrollView Grid.Row="0">
             <VerticalStackLayout Padding="30,5" Spacing="10">
                 <Frame>
-                    <VerticalStackLayout Padding="15" Spacing="10">
+                    <VerticalStackLayout>
                         <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
                         <Label Text="Для каких целей в основном Вы выбираете себе компьютер?"
                             Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
@@ -23,7 +23,7 @@
                     </VerticalStackLayout>
                 </Frame>
                 <Frame>
-                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                    <VerticalStackLayout>
                         <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
                         <Label Text="Вам требуется использовать внешнюю периферию (жёсткие диска, принтеры, микрофоны)?"
                             Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
@@ -33,7 +33,7 @@
                     </VerticalStackLayout>
                 </Frame>
                 <Frame>
-                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                    <VerticalStackLayout>
                         <Image Source="cloud.png" HeightRequest="185" Aspect="AspectFit"/>
                         <Label Text="Где Вы будете хранить Ваши файлы?"
                             Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
@@ -43,7 +43,7 @@
                     </VerticalStackLayout>
                 </Frame>
                 <Frame>
-                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                    <VerticalStackLayout>
                         <Image Source="work.png" HeightRequest="185" Aspect="AspectFit"/>
                         <Label Text="Часто ли Вам приходиться работать в дороге, или же дома?"
                             Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
@@ -53,7 +53,7 @@
                     </VerticalStackLayout>
                 </Frame>
                 <Frame>
-                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                    <VerticalStackLayout>
                         <Image Source="ecosystem.png" HeightRequest="185" Aspect="AspectFit"/>
                         <Label Text="Какая у вас экосистема?"
                             Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
@@ -64,7 +64,7 @@
                     </VerticalStackLayout>
                 </Frame>
                 <Frame>
-                    <VerticalStackLayout Padding="15,0" Spacing="10">
+                    <VerticalStackLayout Spacing="5">
                         <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
                         <Label Text="Какими приложениями Вы пользуйтесь?"
                             Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
@@ -72,7 +72,7 @@
                             <StackLayout Orientation="Horizontal" Spacing="5">
                                 <CheckBox x:Name="adobeCheckBox" CheckedChanged="AdobeCheckBoxCheckedChanged"/>
                                 <Image Source="adobe_logo.png" HeightRequest="35" Aspect="AspectFit"/>
-                                <Label Text="Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro..." VerticalOptions="Center"/>
+                                <Label Text="2D графика и иллюстрирование" VerticalOptions="Center"/>
                             </StackLayout>
                         </Frame>
                         <Frame>
@@ -82,6 +82,13 @@
                                 <Label Text="Средства разработки ПО" VerticalOptions="Center"/>
                             </StackLayout>
                         </Frame> 
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="ThreedCheckBox" CheckedChanged="ThreedCheckBoxCheckedChanged"/>
+                                <Image Source="blender_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="3D графика" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
                         <Frame>
                             <StackLayout Orientation="Horizontal" Spacing="5">
                                 <CheckBox x:Name="officeCheckBox" CheckedChanged="OfficeCheckBoxCheckedChanged"/>

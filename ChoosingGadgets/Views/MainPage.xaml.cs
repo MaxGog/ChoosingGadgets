@@ -20,19 +20,13 @@ public partial class MainPage : ContentPage
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}*/
 
-    private void LaptopsBtnClicked(object sender, EventArgs e)
-    {
-		navigationService.NavigateToAsync("ChooseLaptop");
-    }
+    private void LaptopsBtnClicked(object sender, EventArgs e) => navigationService.NavigateToAsync("ChooseLaptop");
 
 	private void PhonesBtnClicked(object sender, EventArgs e)
     {
 
     }
 
-	private void ConsolesBtnClicked(object sender, EventArgs e)
-    {
-
-    }
+	private void ConsolesBtnClicked(object sender, EventArgs e) => navigationService.NavigateToAsync("ChooseConsole");
 }
 

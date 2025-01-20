@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.Views.ChooseConsolePage"
+             Title="Выбор консоли">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="30,5" Spacing="10">
+                <Frame>
+                    <VerticalStackLayout>
+                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Для каких целей вы играете в игры?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="purposeGaming" Content="Для расслабления" Value="1" CheckedChanged="PurposeGamingCheckedChanged"/>
+                        <RadioButton GroupName="purposeGaming" Content="Для киберспорта" Value="2" CheckedChanged="PurposeGamingCheckedChanged"/>
+                        <RadioButton GroupName="purposeGaming" Content="Для из-за друзей или знакомых" Value="3" CheckedChanged="PurposeGamingCheckedChanged"/>
+                        <RadioButton GroupName="purposeGaming" Content="Попробовать, что это такое" Value="4" CheckedChanged="PurposeGamingCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Где у Вас уже приобретены игры?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="steamCheckBox" CheckedChanged="SteamCheckBoxCheckedChanged"/>
+                                <Image Source="steam_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Steam / Epic Games / GOG Galaxy" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="xboxCheckBox" CheckedChanged="XboxCheckBoxCheckedChanged"/>
+                                <Image Source="xbox_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Microsoft Store / Xbox Store" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="psCheckBox" CheckedChanged="PsCheckBoxCheckedChanged"/>
+                                <Image Source="psstore_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="PS Store" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal" Spacing="5">
+                                <CheckBox x:Name="nintendoCheckBox" CheckedChanged="NintendoCheckBoxCheckedChanged"/>
+                                <Image Source="nintendoswitch_logo.png" HeightRequest="35" Aspect="AspectFit"/>
+                                <Label Text="Nintendo Shop" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout>
+                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Вам важна графика?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="graphicsGames" Content="Конечно важна" Value="1" CheckedChanged="GraphicsGamesCheckedChanged"/>
+                        <RadioButton GroupName="graphicsGames" Content="Не важна, главное - чтобы хорошо работало" Value="2" CheckedChanged="GraphicsGamesCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout>
+                        <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Играете ли Вы в шутеры?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="shootersGames" Content="Играю" Value="1" CheckedChanged="ShootersGamesCheckedChanged"/>
+                        <RadioButton GroupName="shootersGames" Content="Не играю (или очень редко)" Value="2" CheckedChanged="ShootersGamesCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <Frame>
+                    <VerticalStackLayout>
+                        <Image Source="work.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Часто ли Вы играете вне дома или переносите ли консоль?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="placeGaming" Content="Частенько играю вне дома" Value="1" CheckedChanged="PlaceGamingCheckedChanged"/>
+                        <RadioButton GroupName="placeGaming" Content="Только дома и только дома" Value="2" CheckedChanged="PlaceGamingCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+        <VerticalStackLayout Grid.Row="1" Padding="30,5" Spacing="25">
+            <Button x:Name="GetResultBtn" Text="Результат" Clicked="GetResultBtnClicked" HorizontalOptions="Fill"/>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
