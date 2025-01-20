@@ -1,5 +1,3 @@
-using System.Linq.Expressions;
-using System.Security.Cryptography.X509Certificates;
 using ChoosingGadgets.Models;
 
 namespace ChoosingGadgets.Views;

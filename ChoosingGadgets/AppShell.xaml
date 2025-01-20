@@ -10,5 +10,6 @@
 
     <ShellContent Title="Главная" ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage"/>
     <ShellContent Title="Выбор ноутбука" ContentTemplate="{DataTemplate views:ChooseLaptopPage}" Route="ChooseLaptopPage"/>
+    <ShellContent Title="Выбор смартфона" ContentTemplate="{DataTemplate views:ChooseSmartphonePage}" Route="ChooseSmartphonePage"/>
     <ShellContent Title="Выбор консоли" ContentTemplate="{DataTemplate views:ChooseConsolePage}" Route="ChooseConsolePage"/>
 </Shell>
