@@ -1,0 +1,14 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.Views.SettingsPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Label Text="Цветовая тема приложения"
+                Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+            <Button x:Name="SwitchThemeBtn" Text="Переключить тему" HorizontalOptions="Fill"
+                IsEnabled="False"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

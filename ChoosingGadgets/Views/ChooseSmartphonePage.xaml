@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.Views.ChooseSmartphonePage"
+             Title="Выбор смартфона">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="30,5" Spacing="10">
+                <Border Padding="10">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <VerticalStackLayout>
+                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Для каких целей в основном вам требуется смартфон?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="purposePhone" Content="Чтобы позвонить и SMS" Value="1" CheckedChanged="PurposePhoneCheckedChanged"/>
+                        <RadioButton GroupName="purposePhone" Content="Для социальных сетей и SMM" Value="2" CheckedChanged="PurposePhoneCheckedChanged"/>
+                        <RadioButton GroupName="purposePhone" Content="Для офисной работы" Value="3" CheckedChanged="PurposePhoneCheckedChanged"/>
+                        <RadioButton GroupName="purposePhone" Content="Для творчества (рисование, создания видео и т.д.)" Value="4" CheckedChanged="PurposePhoneCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Border>
+                <Border Padding="10">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <VerticalStackLayout>
+                        <Image Source="work.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="К какому аккаунту вы больше всего привязаны?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="mainAccount" Content="Google" Value="1" CheckedChanged="MainAccountCheckedChanged"/>
+                        <RadioButton GroupName="mainAccount" Content="iCloud" Value="2" CheckedChanged="MainAccountCheckedChanged"/>
+                        <RadioButton GroupName="mainAccount" Content="Коммерческий или другой" Value="3" CheckedChanged="MainAccountCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Border>
+                <Border Padding="10">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <VerticalStackLayout>
+                        <Image Source="cloud.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Сколько вы готовы потратить денег на смартфон?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="priceCategory" Content="Не очень много (до 40 тыс.)" Value="1" CheckedChanged="PriceCategoryCheckedChanged"/>
+                        <RadioButton GroupName="priceCategory" Content="Достаточно много (от 50 тыс.)" Value="2" CheckedChanged="PriceCategoryCheckedChanged"/>
+                        <RadioButton GroupName="priceCategory" Content="Неограниченый бюджет" Value="3" CheckedChanged="PriceCategoryCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Border>
+                <Border Padding="10">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="5" />
+                    </Border.StrokeShape>
+                    <VerticalStackLayout>
+                        <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
+                        <Label Text="Важна ли вам автономность?"
+                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
+                        <RadioButton GroupName="autonomy" Content="Важна!" Value="1" CheckedChanged="AutonomyCheckedChanged"/>
+                        <RadioButton GroupName="autonomy" Content="Не очень важна" Value="2" CheckedChanged="AutonomyCheckedChanged"/>
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
+        <VerticalStackLayout Grid.Row="1" Padding="30,5" Spacing="25">
+            <Button x:Name="GetResultBtn" Text="Результат" Clicked="GetResultBtnClicked" HorizontalOptions="Fill"/>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
