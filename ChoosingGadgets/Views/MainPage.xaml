@@ -7,7 +7,7 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Image Source="appicon_foreground.png" HeightRequest="185" Aspect="AspectFit"
+            <Image Source="appicon.png" HeightRequest="185" Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a hovercraft number nine" />
 
             <Label Text="Добро пожаловать!" Style="{StaticResource Headline}"

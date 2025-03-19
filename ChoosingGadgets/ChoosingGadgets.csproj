@@ -27,7 +27,7 @@
 		<ApplicationId>ru.maxgog.pcsupport</ApplicationId>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>1.6.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion>1.6.1</ApplicationDisplayVersion>
 		<ApplicationVersion>8</ApplicationVersion>
 
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
@@ -46,7 +46,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.png" Color="#FFFFFF" />
 
 		<!-- Splash Screen -->
-		<!--<MauiSplashScreen Include="Resources\Splash\splash.png" BaseSize="128,128" />-->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -64,7 +64,7 @@
 		<MauiImage Update="Resources\Images\professional.png" Resize="True" BaseSize="512,512" />
 		<MauiImage Update="Resources\Images\ecosystem.png" Resize="True" BaseSize="512,512" />
 		<MauiImage Update="Resources\Images\home.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\appicon_foreground.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\appicon.png" Resize="True" BaseSize="512,512" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
