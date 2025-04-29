@@ -259,3 +259,4 @@ healthchecksdb
 MigrationBackup/
 .ionide/
 FodyWeavers.xsd
+ChoosingGadgets/Platforms/.DS_Store
