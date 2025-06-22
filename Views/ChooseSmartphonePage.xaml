@@ -2,72 +2,128 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChoosingGadgets.Views.ChooseSmartphonePage"
-             Title="Выбор смартфона">
+             Title="Выбор смартфона"
+             Background="{DynamicResource BackgroundColor}">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
         <ScrollView Grid.Row="0">
-            <VerticalStackLayout Padding="30,5" Spacing="10">
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+            <VerticalStackLayout Padding="20" Spacing="16">
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
+                        <Image Source="home.png" Style="{StaticResource QuestionImageStyle}"/>
                         <Label Text="Для каких целей в основном вам требуется смартфон?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="purposePhone" Content="Чтобы позвонить и SMS" Value="1" CheckedChanged="PurposePhoneCheckedChanged"/>
-                        <RadioButton GroupName="purposePhone" Content="Для социальных сетей и SMM" Value="2" CheckedChanged="PurposePhoneCheckedChanged"/>
-                        <RadioButton GroupName="purposePhone" Content="Для офисной работы" Value="3" CheckedChanged="PurposePhoneCheckedChanged"/>
-                        <RadioButton GroupName="purposePhone" Content="Для творчества (рисование, создания видео и т.д.)" Value="4" CheckedChanged="PurposePhoneCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Чтобы позвонить и SMS" 
+                                   GroupName="purposePhone" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposePhoneCheckedChanged"/>
+                        
+                        <RadioButton Content="Для социальных сетей и SMM" 
+                                   GroupName="purposePhone" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposePhoneCheckedChanged"/>
+                        
+                        <RadioButton Content="Для офисной работы" 
+                                   GroupName="purposePhone" 
+                                   Value="3"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposePhoneCheckedChanged"/>
+                        
+                        <RadioButton Content="Для творчества (рисование, создания видео и т.д.)" 
+                                   GroupName="purposePhone" 
+                                   Value="4"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposePhoneCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="work.png" HeightRequest="185" Aspect="AspectFit"/>
+
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
+                        <Image Source="work.png" Style="{StaticResource QuestionImageStyle}"/>
                         <Label Text="К какому аккаунту вы больше всего привязаны?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="mainAccount" Content="Google" Value="1" CheckedChanged="MainAccountCheckedChanged"/>
-                        <RadioButton GroupName="mainAccount" Content="iCloud" Value="2" CheckedChanged="MainAccountCheckedChanged"/>
-                        <RadioButton GroupName="mainAccount" Content="Коммерческий или другой" Value="3" CheckedChanged="MainAccountCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Google" 
+                                   GroupName="mainAccount" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="MainAccountCheckedChanged"/>
+                        
+                        <RadioButton Content="iCloud" 
+                                   GroupName="mainAccount" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="MainAccountCheckedChanged"/>
+                        
+                        <RadioButton Content="Коммерческий или другой" 
+                                   GroupName="mainAccount" 
+                                   Value="3"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="MainAccountCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="cloud.png" HeightRequest="185" Aspect="AspectFit"/>
+
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
+                        <Image Source="cloud.png" Style="{StaticResource QuestionImageStyle}"/>
                         <Label Text="Сколько вы готовы потратить денег на смартфон?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="priceCategory" Content="Не очень много (до 40 тыс.)" Value="1" CheckedChanged="PriceCategoryCheckedChanged"/>
-                        <RadioButton GroupName="priceCategory" Content="Достаточно много (от 50 тыс.)" Value="2" CheckedChanged="PriceCategoryCheckedChanged"/>
-                        <RadioButton GroupName="priceCategory" Content="Неограниченый бюджет" Value="3" CheckedChanged="PriceCategoryCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Не очень много (до 40 тыс.)" 
+                                   GroupName="priceCategory" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PriceCategoryCheckedChanged"/>
+                        
+                        <RadioButton Content="Достаточно много (от 50 тыс.)" 
+                                   GroupName="priceCategory" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PriceCategoryCheckedChanged"/>
+                        
+                        <RadioButton Content="Неограниченный бюджет" 
+                                   GroupName="priceCategory" 
+                                   Value="3"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PriceCategoryCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
+
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
+                        <Image Source="professional.png" Style="{StaticResource QuestionImageStyle}"/>
                         <Label Text="Важна ли вам автономность?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="autonomy" Content="Важна!" Value="1" CheckedChanged="AutonomyCheckedChanged"/>
-                        <RadioButton GroupName="autonomy" Content="Не очень важна" Value="2" CheckedChanged="AutonomyCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Важна!" 
+                                   GroupName="autonomy" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="AutonomyCheckedChanged"/>
+                        
+                        <RadioButton Content="Не очень важна" 
+                                   GroupName="autonomy" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="AutonomyCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>
         </ScrollView>
-        <VerticalStackLayout Grid.Row="1" Padding="30,5" Spacing="25">
-            <Button x:Name="GetResultBtn" Text="Результат" Clicked="GetResultBtnClicked" HorizontalOptions="Fill"/>
-        </VerticalStackLayout>
-    </Grid>
 
+        <Border Grid.Row="1" Style="{StaticResource ResultButtonContainerStyle}">
+            <Button x:Name="GetResultBtn" 
+                    Text="Получить результат" 
+                    Clicked="GetResultBtnClicked" 
+                    Style="{StaticResource ResultButtonStyle}"/>
+        </Border>
+    </Grid>
 </ContentPage>

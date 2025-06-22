@@ -1,4 +1,4 @@
-namespace ChoosingGadgets;
+namespace ChoosingGadgets.Services;
 
 public class NavigationService
 {

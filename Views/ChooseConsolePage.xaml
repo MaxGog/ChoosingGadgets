@@ -2,119 +2,163 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChoosingGadgets.Views.ChooseConsolePage"
-             Title="Выбор консоли">
+             Title="Выбор консоли"
+             Background="{DynamicResource BackgroundColor}">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
         <ScrollView Grid.Row="0">
-            <VerticalStackLayout Padding="30,5" Spacing="10">
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+            <VerticalStackLayout Padding="20" Spacing="16">
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
                         <Label Text="Для каких целей вы играете в игры?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="purposeGaming" Content="Для расслабления" Value="1" CheckedChanged="PurposeGamingCheckedChanged"/>
-                        <RadioButton GroupName="purposeGaming" Content="Для киберспорта" Value="2" CheckedChanged="PurposeGamingCheckedChanged"/>
-                        <RadioButton GroupName="purposeGaming" Content="Для из-за друзей или знакомых" Value="3" CheckedChanged="PurposeGamingCheckedChanged"/>
-                        <RadioButton GroupName="purposeGaming" Content="Попробовать, что это такое" Value="4" CheckedChanged="PurposeGamingCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Для расслабления" 
+                                   GroupName="purposeGaming" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposeGamingCheckedChanged"/>
+                        
+                        <RadioButton Content="Для киберспорта" 
+                                   GroupName="purposeGaming" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposeGamingCheckedChanged"/>
+                        
+                        <RadioButton Content="Из-за друзей или знакомых" 
+                                   GroupName="purposeGaming" 
+                                   Value="3"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposeGamingCheckedChanged"/>
+                        
+                        <RadioButton Content="Попробовать, что это такое" 
+                                   GroupName="purposeGaming" 
+                                   Value="4"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PurposeGamingCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout Spacing="5">
+
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
                         <Label Text="Где у Вас уже приобретены игры?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <Border>
-                            <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="5" />
-                            </Border.StrokeShape>
-                            <StackLayout Orientation="Horizontal" Spacing="5">
-                                <CheckBox x:Name="steamCheckBox" CheckedChanged="SteamCheckBoxCheckedChanged"/>
-                                <Image Source="steam_logo.png" HeightRequest="35" Aspect="AspectFit"/>
-                                <Label Text="Steam / Epic Games / GOG Galaxy" VerticalOptions="Center"/>
-                            </StackLayout>
-                        </Border>
-                        <Border>
-                            <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="5" />
-                            </Border.StrokeShape>
-                            <StackLayout Orientation="Horizontal" Spacing="5">
-                                <CheckBox x:Name="xboxCheckBox" CheckedChanged="XboxCheckBoxCheckedChanged"/>
-                                <Image Source="xbox_logo.png" HeightRequest="35" Aspect="AspectFit"/>
-                                <Label Text="Microsoft Store / Xbox Store" VerticalOptions="Center"/>
-                            </StackLayout>
-                        </Border>
-                        <Border>
-                            <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="5" />
-                            </Border.StrokeShape>
-                            <StackLayout Orientation="Horizontal" Spacing="5">
-                                <CheckBox x:Name="psCheckBox" CheckedChanged="PsCheckBoxCheckedChanged"/>
-                                <Image Source="psstore_logo.png" HeightRequest="35" Aspect="AspectFit"/>
-                                <Label Text="PS Store" VerticalOptions="Center"/>
-                            </StackLayout>
-                        </Border>
-                        <Border>
-                            <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="5" />
-                            </Border.StrokeShape>
-                            <StackLayout Orientation="Horizontal" Spacing="5">
-                                <CheckBox x:Name="nintendoCheckBox" CheckedChanged="NintendoCheckBoxCheckedChanged"/>
-                                <Image Source="nintendoswitch_logo.png" HeightRequest="35" Aspect="AspectFit"/>
-                                <Label Text="Nintendo Shop" VerticalOptions="Center"/>
-                            </StackLayout>
-                        </Border>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <HorizontalStackLayout Style="{StaticResource QuestionCheckBoxStyle}">
+                            <CheckBox x:Name="steamCheckBox" 
+                                     CheckedChanged="SteamCheckBoxCheckedChanged"
+                                     Style="{StaticResource FluentRadioButtonStyle}"
+                                     VerticalOptions="Center"/>
+                            <Image Source="steam_logo.png" HeightRequest="24" Aspect="AspectFit"/>
+                            <Label Text="Steam / Epic Games / GOG Galaxy" 
+                                   VerticalOptions="Center"
+                                   Style="{StaticResource BaseTextBlockStyle}"/>
+                        </HorizontalStackLayout>
+                        
+                        <HorizontalStackLayout Style="{StaticResource QuestionCheckBoxStyle}">
+                            <CheckBox x:Name="xboxCheckBox" 
+                                     CheckedChanged="XboxCheckBoxCheckedChanged"
+                                     Style="{StaticResource FluentRadioButtonStyle}"
+                                     VerticalOptions="Center"/>
+                            <Image Source="xbox_logo.png" HeightRequest="24" Aspect="AspectFit"/>
+                            <Label Text="Microsoft Store / Xbox Store" 
+                                   VerticalOptions="Center"
+                                   Style="{StaticResource BaseTextBlockStyle}"/>
+                        </HorizontalStackLayout>
+                        
+                        <HorizontalStackLayout Style="{StaticResource QuestionCheckBoxStyle}">
+                            <CheckBox x:Name="psCheckBox" 
+                                     CheckedChanged="PsCheckBoxCheckedChanged"
+                                     Style="{StaticResource FluentRadioButtonStyle}"
+                                     VerticalOptions="Center"/>
+                            <Image Source="psstore_logo.png" HeightRequest="24" Aspect="AspectFit"/>
+                            <Label Text="PS Store" 
+                                   VerticalOptions="Center"
+                                   Style="{StaticResource BaseTextBlockStyle}"/>
+                        </HorizontalStackLayout>
+                        
+                        <HorizontalStackLayout Style="{StaticResource QuestionCheckBoxStyle}">
+                            <CheckBox x:Name="nintendoCheckBox" 
+                                     CheckedChanged="NintendoCheckBoxCheckedChanged"
+                                     Style="{StaticResource FluentRadioButtonStyle}"
+                                     VerticalOptions="Center"/>
+                            <Image Source="nintendoswitch_logo.png" HeightRequest="24" Aspect="AspectFit"/>
+                            <Label Text="Nintendo Shop" 
+                                   VerticalOptions="Center"
+                                   Style="{StaticResource BaseTextBlockStyle}"/>
+                        </HorizontalStackLayout>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="home.png" HeightRequest="185" Aspect="AspectFit"/>
+                
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
                         <Label Text="Вам важна графика?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="graphicsGames" Content="Конечно важна" Value="1" CheckedChanged="GraphicsGamesCheckedChanged"/>
-                        <RadioButton GroupName="graphicsGames" Content="Не важна, главное - чтобы хорошо работало" Value="2" CheckedChanged="GraphicsGamesCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Конечно важна" 
+                                   GroupName="graphicsGames" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="GraphicsGamesCheckedChanged"/>
+                        
+                        <RadioButton Content="Не важна, главное - чтобы хорошо работало" 
+                                   GroupName="graphicsGames" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="GraphicsGamesCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="professional.png" HeightRequest="185" Aspect="AspectFit"/>
+
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
                         <Label Text="Играете ли Вы в шутеры?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="shootersGames" Content="Играю" Value="1" CheckedChanged="ShootersGamesCheckedChanged"/>
-                        <RadioButton GroupName="shootersGames" Content="Не играю (или очень редко)" Value="2" CheckedChanged="ShootersGamesCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Играю" 
+                                   GroupName="shootersGames" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="ShootersGamesCheckedChanged"/>
+                        
+                        <RadioButton Content="Не играю (или очень редко)" 
+                                   GroupName="shootersGames" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="ShootersGamesCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
-                <Border Padding="10">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="5" />
-                    </Border.StrokeShape>
-                    <VerticalStackLayout>
-                        <Image Source="work.png" HeightRequest="185" Aspect="AspectFit"/>
+
+                <Border Style="{StaticResource QuestionBorderStyle}">
+                    <VerticalStackLayout Style="{StaticResource QuestionContentStyle}">
                         <Label Text="Часто ли Вы играете вне дома или переносите ли консоль?"
-                            Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-                        <RadioButton GroupName="placeGaming" Content="Частенько играю вне дома" Value="1" CheckedChanged="PlaceGamingCheckedChanged"/>
-                        <RadioButton GroupName="placeGaming" Content="Только дома и только дома" Value="2" CheckedChanged="PlaceGamingCheckedChanged"/>
+                               Style="{StaticResource QuestionTitleStyle}"/>
+                        
+                        <RadioButton Content="Частенько играю вне дома" 
+                                   GroupName="placeGaming" 
+                                   Value="1"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PlaceGamingCheckedChanged"/>
+                        
+                        <RadioButton Content="Только дома" 
+                                   GroupName="placeGaming" 
+                                   Value="2"
+                                   Style="{StaticResource QuestionRadioButtonStyle}"
+                                   CheckedChanged="PlaceGamingCheckedChanged"/>
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>
         </ScrollView>
-        <VerticalStackLayout Grid.Row="1" Padding="30,5" Spacing="25">
-            <Button x:Name="GetResultBtn" Text="Результат" Clicked="GetResultBtnClicked" HorizontalOptions="Fill"/>
-        </VerticalStackLayout>
-    </Grid>
 
+        <Border Grid.Row="1" Style="{StaticResource ResultButtonContainerStyle}">
+            <Button x:Name="GetResultBtn" 
+                    Text="Получить результат" 
+                    Clicked="GetResultBtnClicked" 
+                    Style="{StaticResource ResultButtonStyle}"/>
+        </Border>
+    </Grid>
 </ContentPage>

@@ -3,5 +3,10 @@
     <color name="colorPrimary">#4682b4</color>
     <color name="colorPrimaryDark">#4682b4</color>
     <color name="colorAccent">#4682b4</color>
-    <color name="navigationBarColor">#ffffff</color>
+    
+    <color name="navigationBarColor">@android:color/transparent</color>
+    <color name="statusBarColor">@android:color/transparent</color>
+    
+    <color name="navigationBarColorDark">@android:color/transparent</color>
+    <color name="statusBarColorDark">@android:color/transparent</color>
 </resources>

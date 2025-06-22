@@ -1,4 +1,5 @@
-﻿using ChoosingGadgets.ViewModels;
+﻿using ChoosingGadgets.Services;
+using ChoosingGadgets.ViewModels;
 
 namespace ChoosingGadgets.Views;
 

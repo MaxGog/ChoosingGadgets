@@ -1,15 +1,193 @@
 ﻿<?xml version = "1.0" encoding = "UTF-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:ChoosingGadgets"
              x:Class="ChoosingGadgets.App">
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+            <Color x:Key="SystemAccentColor">#0078D7</Color>
+            <Color x:Key="SystemAccentColorLight1">#2296F3</Color>
+            <Color x:Key="SystemAccentColorLight2">#DFD8F7</Color>
+            <Color x:Key="SystemAccentColorDark1">#005BA1</Color>
+            <Color x:Key="SystemAccentColorDark2">#004170</Color>
+            
+            <Color x:Key="SystemBaseHighColor">#000000</Color>
+            <Color x:Key="SystemBaseMediumHighColor">#CC000000</Color>
+            <Color x:Key="SystemBaseMediumColor">#99000000</Color>
+            <Color x:Key="SystemBaseLowColor">#808080</Color>
+            <Color x:Key="SystemAltHighColor">#FFFFFF</Color>
+            <Color x:Key="SystemAltMediumHighColor">#CCFFFFFF</Color>
+            <Color x:Key="SystemAltMediumColor">#99FFFFFF</Color>
+            <Color x:Key="SystemAltLowColor">#66FFFFFF</Color>
+            
+            <Color x:Key="SystemChromeLowColor">#F2F2F2</Color>
+            <Color x:Key="SystemChromeMediumLowColor">#E6E6E6</Color>
+            <Color x:Key="SystemChromeHighColor">#767676</Color>
+            
+            <Color x:Key="SystemListLowColor">#DDDDDD</Color>
+            <Color x:Key="SystemListMediumColor">#E6E6E6</Color>
+            
+            <Color x:Key="BackgroundColor">#F5F5F5</Color>
+            <Color x:Key="TextColor">Black</Color>
 
+            <Color x:Key="FlyoutBackgroundColor">White</Color>
+
+            <SolidColorBrush x:Key="SystemControlBackgroundAltHighBrush" Color="{DynamicResource SystemAltHighColor}"/>
+            <SolidColorBrush x:Key="SystemControlForegroundBaseLowBrush" Color="{DynamicResource SystemBaseLowColor}"/>
+            <SolidColorBrush x:Key="SystemControlForegroundBaseHighBrush" Color="{DynamicResource SystemBaseHighColor}"/>
+            
+            <ResourceDictionary x:Key="Light">
+                <Color x:Key="BackgroundColor">#F5F5F5</Color>
+                <Color x:Key="TextColor">Black</Color>
+                <Color x:Key="SystemBaseHighColor">#000000</Color>
+                <Color x:Key="SystemBaseMediumHighColor">#CC000000</Color>
+                <Color x:Key="SystemBaseMediumColor">#99000000</Color>
+                <Color x:Key="SystemBaseLowColor">#808080</Color>
+                <Color x:Key="SystemAltHighColor">#FFFFFF</Color>
+                <Color x:Key="SystemAltMediumHighColor">#CCFFFFFF</Color>
+                <Color x:Key="SystemAltMediumColor">#99FFFFFF</Color>
+                <Color x:Key="SystemAltLowColor">#66FFFFFF</Color>
+                <Color x:Key="SystemChromeLowColor">#F2F2F2</Color>
+                <Color x:Key="SystemChromeMediumLowColor">#E6E6E6</Color>
+                <Color x:Key="SystemChromeHighColor">#767676</Color>
+                <Color x:Key="SystemListLowColor">#DDDDDD</Color>
+                <Color x:Key="SystemListMediumColor">#E6E6E6</Color>
+                <Color x:Key="FlyoutBackgroundColor">#F5F5F5</Color>
+            </ResourceDictionary>
+            
+            <ResourceDictionary x:Key="Dark">
+                <Color x:Key="BackgroundColor">#171717</Color>
+                <Color x:Key="TextColor">White</Color>
+                <Color x:Key="SystemBaseHighColor">#FFFFFF</Color>
+                <Color x:Key="SystemBaseMediumHighColor">#CCFFFFFF</Color>
+                <Color x:Key="SystemBaseMediumColor">#99FFFFFF</Color>
+                <Color x:Key="SystemBaseLowColor">#66FFFFFF</Color>
+                <Color x:Key="SystemAltHighColor">#000000</Color>
+                <Color x:Key="SystemAltMediumHighColor">#CC000000</Color>
+                <Color x:Key="SystemAltMediumColor">#99000000</Color>
+                <Color x:Key="SystemAltLowColor">#66000000</Color>
+                <Color x:Key="SystemChromeLowColor">#171717</Color>
+                <Color x:Key="SystemChromeMediumLowColor">#2B2B2B</Color>
+                <Color x:Key="SystemChromeHighColor">#767676</Color>
+                <Color x:Key="SystemListLowColor">#2A2A2A</Color>
+                <Color x:Key="SystemListMediumColor">#1F1F1F</Color>
+                <Color x:Key="FlyoutBackgroundColor">#2D2D30</Color>
+            </ResourceDictionary>
+            
+            <OnPlatform x:Key="CurrentTheme" x:TypeArguments="ResourceDictionary">
+                <On Platform="iOS, Android" Value="{DynamicResource Dark}" />
+                <On Platform="WinUI" Value="{DynamicResource Light}" />
+            </OnPlatform>
+            
+            <Style TargetType="ShellContent">
+                <Setter Property="ContentTemplate">
+                    <Setter.Value>
+                        <DataTemplate>
+                            <Label Text="{Binding Title}"
+                                   FontSize="14"
+                                   TextColor="{StaticResource SystemBaseHighColor}"
+                                   VerticalOptions="Center"
+                                   Margin="16,12"/>
+                        </DataTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="AccentButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource SystemAccentColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemAltHighColor}"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="CornerRadius" Value="4"/>
+                <Setter Property="Padding" Value="16,8"/>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal"/>
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource SystemAccentColorDark1}"/>
+                                    <Setter Property="Scale" Value="0.98"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource SystemBaseLowColor}"/>
+                                    <Setter Property="TextColor" Value="{DynamicResource SystemBaseMediumColor}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+            <Style x:Key="BaseTextBlockStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemBaseHighColor}"/>
+            </Style>
+
+            <Style x:Key="HeaderTextBlockStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemBaseHighColor}"/>
+            </Style>
+
+
+            <Style x:Key="FluentRadioButtonStyle" TargetType="RadioButton">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemBaseHighColor}"/>
+                <Setter Property="FontSize" Value="14"/>
+            </Style>
+
+            <Style x:Key="QuestionBorderStyle" TargetType="Border">
+                <Setter Property="Background" Value="{DynamicResource SystemControlBackgroundAltHighBrush}"/>
+                <Setter Property="Padding" Value="16"/>
+                <Setter Property="Stroke" Value="{DynamicResource SystemControlForegroundBaseLowBrush}"/>
+                <Setter Property="StrokeThickness" Value="1"/>
+                <Setter Property="StrokeShape" Value="RoundRectangle 8"/>
+            </Style>
+
+            <Style x:Key="QuestionTitleStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemControlForegroundBaseHighBrush}"/>
+            </Style>
+
+            <Style x:Key="QuestionRadioButtonStyle" TargetType="RadioButton">
+                <Setter Property="Style" Value="{StaticResource FluentRadioButtonStyle}"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemControlForegroundBaseHighBrush}"/>
+                <Setter Property="Margin" Value="0,4"/>
+            </Style>
+
+            <Style x:Key="QuestionCheckBoxStyle" TargetType="HorizontalStackLayout">
+                <Setter Property="Spacing" Value="8"/>
+            </Style>
+
+            <Style x:Key="QuestionImageStyle" TargetType="Image">
+                <Setter Property="HeightRequest" Value="160"/>
+                <Setter Property="Aspect" Value="AspectFit"/>
+            </Style>
+
+            <Style x:Key="QuestionContentStyle" TargetType="VerticalStackLayout">
+                <Setter Property="Spacing" Value="12"/>
+            </Style>
+
+            <Style x:Key="ResultButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Style" Value="{StaticResource AccentButtonStyle}"/>
+                <Setter Property="HeightRequest" Value="44"/>
+            </Style>
+
+            <Style x:Key="ResultButtonContainerStyle" TargetType="Border">
+                <Setter Property="Background" Value="{DynamicResource SystemControlBackgroundAltHighBrush}"/>
+                <Setter Property="Padding" Value="20,12"/>
+                <Setter Property="StrokeThickness" Value="0"/>
+            </Style>
+
+            <Style x:Key="SubtitleTextBlockStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="TextColor" Value="{DynamicResource SystemBaseMediumColor}"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+            </Style>
+        </ResourceDictionary>
+            
+        <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
     </Application.Resources>
 </Application>

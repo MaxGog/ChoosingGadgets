@@ -1,33 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:ChoosingGadgets.ViewModels"
+             xmlns:microsoft="http://schemas.microsoft.com/dotnet/2021/maui"
              x:Class="ChoosingGadgets.Views.MainPage"
-             Title="Меню">
+             Title="Главная"
+             Background="{DynamicResource ApplicationPageBackgroundThemeBrush}">
 
-    <ScrollView Padding="0, 10">
-        <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Image Source="icon_brand.svg" HeightRequest="150" Aspect="AspectFit"
-                SemanticProperties.Description="Логотип приложения" />
+    <ScrollView>
+        <VerticalStackLayout Spacing="24" Padding="20,16">
+            <VerticalStackLayout Spacing="8">
+                <Image Source="icon_brand.svg" 
+                       HeightRequest="120" 
+                       Aspect="AspectFit"
+                       HorizontalOptions="Center"/>
+                
+                <Label Text="Добро пожаловать!"
+                       Style="{StaticResource TitleLarge}"
+                       HorizontalOptions="Center"/>
+                
+                <Label Text="Подберите идеальное устройство для ваших нужд"
+                       Style="{StaticResource BodyMedium}"
+                       HorizontalOptions="Center"
+                       TextColor="{DynamicResource SystemBaseMediumColor}"/>
+            </VerticalStackLayout>
 
-            <Label Text="Добро пожаловать!" Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
-            <Label Text="Чтобы подобрать к себе компьютер, выберите, какой девайс Вы хотите выбрать"
-                Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Описание выбора девайса" />
+            <VerticalStackLayout Spacing="12">
+                <Label Text="Популярные ноутбуки"
+                       Style="{StaticResource TitleMedium}"/>
+                
+                <CollectionView ItemsSource="{Binding Laptops}" 
+                               HorizontalScrollBarVisibility="Never"
+                               ItemsUpdatingScrollMode="KeepItemsInView">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal" ItemSpacing="12"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Stroke="{DynamicResource CardStrokeColor}"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 8"
+                                    Background="{DynamicResource CardBackgroundFillColorDefault}"
+                                    WidthRequest="160"
+                                    HeightRequest="220"
+                                    Padding="0"
+                                    Margin="0,0,0,8">
+                                <VerticalStackLayout Spacing="8" Padding="12">
+                                    <!-- Карточка товара -->
+                                    <Image Source="{Binding ImageUrl}" 
+                                           Aspect="AspectFit"
+                                           HeightRequest="80"
+                                           BackgroundColor="Transparent"/>
+                                    
+                                    <VerticalStackLayout Spacing="4">
+                                        <Label Text="{Binding Title}" 
+                                               Style="{StaticResource BodyMedium}"
+                                               LineBreakMode="TailTruncation"
+                                               MaxLines="2"/>
+                                        
+                                        <Label Text="{Binding Price}" 
+                                               Style="{StaticResource TitleSmall}"
+                                               TextColor="{DynamicResource SystemAccentColorDark1}"/>
+                                        
+                                        <Label Text="{Binding Rating}" 
+                                               Style="{StaticResource BodySmall}"
+                                               TextColor="{DynamicResource SystemBaseMediumColor}"/>
+                                    </VerticalStackLayout>
+                                    
+                                    <Button Text="В магазин" 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:MainViewModel}}, Path=OpenProductUrlCommand}"
+                                            CommandParameter="{Binding ProductUrl}"
+                                            Style="{StaticResource AccentButtonStyle}"
+                                            CornerRadius="4"
+                                            HeightRequest="32"
+                                            FontSize="14"/>
+                                </VerticalStackLayout>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
 
-            <Button x:Name="LaptopsBtn" Text="Компьютеры" 
-                Command="{Binding LaptopsNavigateCommand}" HorizontalOptions="Fill"/>
-            <Button x:Name="PhonesBtn" Text="Смартфоны" 
-                Command="{Binding SmartphonesNavigateCommand}" HorizontalOptions="Fill"/>
-            <Button x:Name="ConsolesBtn" Text="Игровые консоли" 
-                Command="{Binding ConsolesNavigateCommand}" HorizontalOptions="Fill"/>
+            <VerticalStackLayout Spacing="12">
+                <Label Text="Категории устройств"
+                       Style="{StaticResource TitleMedium}"/>
+                
+                <Button Text="Компьютеры" 
+                        Command="{Binding LaptopsNavigateCommand}"
+                        Style="{StaticResource FilledButtonStyle}"
+                        HeightRequest="48"
+                        CornerRadius="4"/>
+                
+                <Button Text="Смартфоны" 
+                        Command="{Binding SmartphonesNavigateCommand}"
+                        Style="{StaticResource FilledButtonStyle}"
+                        HeightRequest="48"
+                        CornerRadius="4"/>
+                
+                <Button Text="Игровые консоли" 
+                        Command="{Binding ConsolesNavigateCommand}"
+                        Style="{StaticResource FilledButtonStyle}"
+                        HeightRequest="48"
+                        CornerRadius="4"/>
+            </VerticalStackLayout>
 
-            <Label Text="С любовью делал для вас @maxgog"
-                Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-
-            <Button x:Name="SettingsBtn" Text="Параметры"
-                Command="{Binding SettingsNavigateCommand}" HorizontalOptions="Fill"/> 
+            <VerticalStackLayout Spacing="8" VerticalOptions="End">
+                <Button Text="Параметры"
+                        Command="{Binding SettingsNavigateCommand}"
+                        Style="{StaticResource TextButtonStyle}"
+                        HorizontalOptions="Center"/>
+                
+                <Label Text="С любовью делал для вас @maxgog"
+                       Style="{StaticResource BodySmall}"
+                       TextColor="{DynamicResource SystemBaseMediumColor}"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

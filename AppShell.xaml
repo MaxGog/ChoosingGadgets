@@ -4,16 +4,57 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:ChoosingGadgets.Views"
     Shell.FlyoutBehavior="Flyout"
-    Title="Выбор гаджетов">
+    Title="Выбор гаджетов"
+    FlyoutBackgroundColor="{AppThemeBinding Light={StaticResource FlyoutBackgroundColor}, Dark={StaticResource FlyoutBackgroundColor}}"
+    FlyoutHeaderBehavior="CollapseOnScroll"
+    FlyoutWidth="320">
 
-    <ShellContent Title="Меню" 
-        ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage"/>
-    <ShellContent Title="Выбор ноутбука" 
-        ContentTemplate="{DataTemplate views:ChooseLaptopPage}" Route="ChooseLaptopPage"/>
-    <ShellContent Title="Выбор смартфона" 
-        ContentTemplate="{DataTemplate views:ChooseSmartphonePage}" Route="ChooseSmartphonePage"/>
-    <ShellContent Title="Выбор консоли" 
-        ContentTemplate="{DataTemplate views:ChooseConsolePage}" Route="ChooseConsolePage"/>
-    <ShellContent Title="Параметры" 
-        ContentTemplate="{DataTemplate views:SettingsPage}" Route="SettingsPage"/>
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="160"
+              BackgroundColor="{StaticResource SystemAccentColor}">
+            <Label Text="Выбор гаджетов"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   Margin="16,0"
+                   TextColor="White"
+                   FontSize="20"
+                   FontAttributes="Bold"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Меню" 
+                      ContentTemplate="{DataTemplate views:MainPage}" 
+                      Route="MainPage"/>
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Выбор ноутбука" 
+                      ContentTemplate="{DataTemplate views:ChooseLaptopPage}" 
+                      Route="ChooseLaptopPage"/>
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Выбор смартфона" 
+                      ContentTemplate="{DataTemplate views:ChooseSmartphonePage}" 
+                      Route="ChooseSmartphonePage"/>
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Выбор консоли" 
+                      ContentTemplate="{DataTemplate views:ChooseConsolePage}" 
+                      Route="ChooseConsolePage"/>
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Параметры" 
+                      ContentTemplate="{DataTemplate views:SettingsPage}" 
+                      Route="SettingsPage"/>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <BoxView HeightRequest="1"
+                 BackgroundColor="{StaticResource SystemBaseLowColor}"
+                 Margin="0,10,0,0"/>
+    </Shell.FlyoutFooter>
 </Shell>
