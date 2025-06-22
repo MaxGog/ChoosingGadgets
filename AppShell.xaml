@@ -24,26 +24,8 @@
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
         <ShellContent Title="Меню" 
-                      ContentTemplate="{DataTemplate views:MainPage}" 
-                      Route="MainPage"/>
-    </FlyoutItem>
-
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Выбор ноутбука" 
-                      ContentTemplate="{DataTemplate views:ChooseLaptopPage}" 
-                      Route="ChooseLaptopPage"/>
-    </FlyoutItem>
-
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Выбор смартфона" 
-                      ContentTemplate="{DataTemplate views:ChooseSmartphonePage}" 
-                      Route="ChooseSmartphonePage"/>
-    </FlyoutItem>
-
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Выбор консоли" 
-                      ContentTemplate="{DataTemplate views:ChooseConsolePage}" 
-                      Route="ChooseConsolePage"/>
+                      ContentTemplate="{DataTemplate views:DevicesPage}" 
+                      Route="DevicesPage"/>
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">

@@ -1,8 +1,12 @@
 ﻿<?xml version = "1.0" encoding = "UTF-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:ChoosingGadgets.Converters"
+             xmlns:behaviors="clr-namespace:ChoosingGadgets.Behaviors"
              x:Class="ChoosingGadgets.App">
     <Application.Resources>
+        <converters:DeviceTypeToUrlConverter x:Key="DeviceTypeToUrlConverter" />
+        <behaviors:RadioButtonCheckedBehavior x:Key="RadioButtonBehavior" />
         <ResourceDictionary>
             <Color x:Key="SystemAccentColor">#0078D7</Color>
             <Color x:Key="SystemAccentColorLight1">#2296F3</Color>
@@ -92,100 +96,6 @@
                 </Setter>
             </Style>
 
-            <Style x:Key="AccentButtonStyle" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="{DynamicResource SystemAccentColor}"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemAltHighColor}"/>
-                <Setter Property="FontSize" Value="14"/>
-                <Setter Property="CornerRadius" Value="4"/>
-                <Setter Property="Padding" Value="16,8"/>
-                <Setter Property="VisualStateManager.VisualStateGroups">
-                    <VisualStateGroupList>
-                        <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal"/>
-                            <VisualState x:Name="Pressed">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{DynamicResource SystemAccentColorDark1}"/>
-                                    <Setter Property="Scale" Value="0.98"/>
-                                </VisualState.Setters>
-                            </VisualState>
-                            <VisualState x:Name="Disabled">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{DynamicResource SystemBaseLowColor}"/>
-                                    <Setter Property="TextColor" Value="{DynamicResource SystemBaseMediumColor}"/>
-                                </VisualState.Setters>
-                            </VisualState>
-                        </VisualStateGroup>
-                    </VisualStateGroupList>
-                </Setter>
-            </Style>
-
-            <Style x:Key="BaseTextBlockStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="14"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemBaseHighColor}"/>
-            </Style>
-
-            <Style x:Key="HeaderTextBlockStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="20"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemBaseHighColor}"/>
-            </Style>
-
-
-            <Style x:Key="FluentRadioButtonStyle" TargetType="RadioButton">
-                <Setter Property="BackgroundColor" Value="Transparent"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemBaseHighColor}"/>
-                <Setter Property="FontSize" Value="14"/>
-            </Style>
-
-            <Style x:Key="QuestionBorderStyle" TargetType="Border">
-                <Setter Property="Background" Value="{DynamicResource SystemControlBackgroundAltHighBrush}"/>
-                <Setter Property="Padding" Value="16"/>
-                <Setter Property="Stroke" Value="{DynamicResource SystemControlForegroundBaseLowBrush}"/>
-                <Setter Property="StrokeThickness" Value="1"/>
-                <Setter Property="StrokeShape" Value="RoundRectangle 8"/>
-            </Style>
-
-            <Style x:Key="QuestionTitleStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="18"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemControlForegroundBaseHighBrush}"/>
-            </Style>
-
-            <Style x:Key="QuestionRadioButtonStyle" TargetType="RadioButton">
-                <Setter Property="Style" Value="{StaticResource FluentRadioButtonStyle}"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemControlForegroundBaseHighBrush}"/>
-                <Setter Property="Margin" Value="0,4"/>
-            </Style>
-
-            <Style x:Key="QuestionCheckBoxStyle" TargetType="HorizontalStackLayout">
-                <Setter Property="Spacing" Value="8"/>
-            </Style>
-
-            <Style x:Key="QuestionImageStyle" TargetType="Image">
-                <Setter Property="HeightRequest" Value="160"/>
-                <Setter Property="Aspect" Value="AspectFit"/>
-            </Style>
-
-            <Style x:Key="QuestionContentStyle" TargetType="VerticalStackLayout">
-                <Setter Property="Spacing" Value="12"/>
-            </Style>
-
-            <Style x:Key="ResultButtonStyle" TargetType="Button">
-                <Setter Property="HorizontalOptions" Value="Fill"/>
-                <Setter Property="Style" Value="{StaticResource AccentButtonStyle}"/>
-                <Setter Property="HeightRequest" Value="44"/>
-            </Style>
-
-            <Style x:Key="ResultButtonContainerStyle" TargetType="Border">
-                <Setter Property="Background" Value="{DynamicResource SystemControlBackgroundAltHighBrush}"/>
-                <Setter Property="Padding" Value="20,12"/>
-                <Setter Property="StrokeThickness" Value="0"/>
-            </Style>
-
-            <Style x:Key="SubtitleTextBlockStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="14"/>
-                <Setter Property="TextColor" Value="{DynamicResource SystemBaseMediumColor}"/>
-                <Setter Property="FontAttributes" Value="Italic"/>
-            </Style>
         </ResourceDictionary>
             
         <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
