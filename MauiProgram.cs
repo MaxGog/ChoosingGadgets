@@ -25,7 +25,10 @@ public static class MauiProgram
         builder.Services.AddSingleton<BackgroundParserService>();
         
         builder.Services.AddSingleton<DevicesViewModel>();
+		builder.Services.AddSingleton<SettingsViewModel>();
+		
         builder.Services.AddSingleton<DevicesPage>();
+		builder.Services.AddSingleton<SettingsPage>();
 
 #if DEBUG
 		builder.Logging.AddDebug();

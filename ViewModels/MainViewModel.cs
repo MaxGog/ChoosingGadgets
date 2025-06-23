@@ -8,13 +8,11 @@ namespace ChoosingGadgets.ViewModels;
 public class MainViewModel : BaseViewModel
 {
     private readonly NavigationService navigationService;
-    
-    //public ObservableCollection<YandexMarketLaptop> Laptops { get; } = new();
+
     
     public MainViewModel(NavigationService _navigationService)
     {
         navigationService = _navigationService;
-        //marketParser = new YandexMarketParser();
         
         LaptopsNavigateCommand = new Command(LaptopsNavigate);
         SmartphonesNavigateCommand = new Command(PhonesNavigate);
@@ -31,10 +29,10 @@ public class MainViewModel : BaseViewModel
     public ICommand OpenProductUrlCommand { get; }
     
     
-    private void LaptopsNavigate() => navigationService.NavigateToAsync("ChooseLaptop");
-    private void PhonesNavigate() => navigationService.NavigateToAsync("ChooseSmartphone");
-    private void ConsolesNavigate() => navigationService.NavigateToAsync("ChooseConsole");
-    private void SettingsNavigate() => navigationService.NavigateToAsync("Settings");
+    private void LaptopsNavigate() => NavigationService.NavigateToAsync("ChooseLaptop");
+    private void PhonesNavigate() => NavigationService.NavigateToAsync("ChooseSmartphone");
+    private void ConsolesNavigate() => NavigationService.NavigateToAsync("ChooseConsole");
+    private void SettingsNavigate() => NavigationService.NavigateToAsync("Settings");
     
     private async void OpenProductUrl(string url)
     {

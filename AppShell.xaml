@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell x:Class="ChoosingGadgets.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -7,31 +6,35 @@
     Title="Выбор гаджетов"
     FlyoutBackgroundColor="{AppThemeBinding Light={StaticResource FlyoutBackgroundColor}, Dark={StaticResource FlyoutBackgroundColor}}"
     FlyoutHeaderBehavior="CollapseOnScroll"
-    FlyoutWidth="320">
+    FlyoutWidth="320"
+    Shell.NavBarHasShadow="True"
+    Shell.BackgroundColor="{DynamicResource SystemChromeLowColor}"
+    Shell.ForegroundColor="{DynamicResource SystemBaseHighColor}"
+    Shell.TitleColor="{DynamicResource SystemBaseHighColor}">
 
     <Shell.FlyoutHeader>
         <Grid HeightRequest="160"
-              BackgroundColor="{StaticResource SystemAccentColor}">
+            BackgroundColor="{StaticResource SystemAccentColor}">
             <Label Text="Выбор гаджетов"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Start"
-                   Margin="16,0"
-                   TextColor="White"
-                   FontSize="20"
-                   FontAttributes="Bold"/>
+                VerticalOptions="Center"
+                HorizontalOptions="Start"
+                Margin="16,0"
+                TextColor="White"
+                FontSize="20"
+                FontAttributes="Bold"/>
         </Grid>
     </Shell.FlyoutHeader>
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
         <ShellContent Title="Меню" 
-                      ContentTemplate="{DataTemplate views:DevicesPage}" 
-                      Route="DevicesPage"/>
+            ContentTemplate="{DataTemplate views:DevicesPage}" 
+            Route="DevicesPage"/>
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Параметры" 
-                      ContentTemplate="{DataTemplate views:SettingsPage}" 
-                      Route="SettingsPage"/>
+        <ShellContent Title="Параметры"
+            ContentTemplate="{DataTemplate views:SettingsPage}" 
+            Route="SettingsPage"/>
     </FlyoutItem>
 
     <Shell.FlyoutFooter>

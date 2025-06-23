@@ -2,7 +2,7 @@ namespace ChoosingGadgets.Services;
 
 public class NavigationService
 {
-    public Task NavigateToAsync(string route, IDictionary<string, object>? routeParameters = null)
+    public static Task NavigateToAsync(string route, IDictionary<string, object>? routeParameters = null)
     {
         return
             routeParameters != null

@@ -7,10 +7,16 @@
              xmlns:behaviors="clr-namespace:ChoosingGadgets.Behaviors"
              x:DataType="viewmodels:DevicesViewModel">
     
-    <Grid RowDefinitions="Auto,*,Auto">
-        <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="Center">
+    <Grid RowDefinitions="Auto,Auto,*,Auto">
+        <SearchBar Grid.Row="0"
+            Placeholder="Поиск устройств..."
+            Text="{Binding SearchTerm}"
+            SearchCommand="{Binding SearchDevicesCommand}"
+            Margin="10,5"/>
+
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center">
             <RadioButton Content="Компьютеры" 
-                        IsChecked="True">
+                IsChecked="True">
                 <RadioButton.Behaviors>
                     <behaviors:RadioButtonCheckedBehavior 
                         Command="{Binding SwitchDeviceTypeCommand}"
@@ -18,7 +24,7 @@
                 </RadioButton.Behaviors>
             </RadioButton>
             <RadioButton Content="Смартфоны" 
-                        Margin="20,0,0,0">
+                Margin="20,0,0,0">
                 <RadioButton.Behaviors>
                     <behaviors:RadioButtonCheckedBehavior 
                         Command="{Binding SwitchDeviceTypeCommand}"
@@ -26,87 +32,79 @@
                 </RadioButton.Behaviors>
             </RadioButton>
         </StackLayout>
-            
-        <SearchBar Grid.Row="0"
-                   Placeholder="Поиск устройств..."
-                   Text="{Binding SearchTerm}"
-                   SearchCommand="{Binding SearchDevicesCommand}"
-                   Margin="10,5"/>
         
-        <RefreshView Grid.Row="1"
-                     Command="{Binding LoadDevicesCommand}"
-                     IsRefreshing="{Binding IsBusy}">
+        <RefreshView Grid.Row="2"
+            Command="{Binding LoadDevicesCommand}"
+            IsRefreshing="{Binding IsBusy}">
             <CollectionView ItemsSource="{Binding Devices}"
-                           SelectionMode="Single"
-                           SelectionChangedCommand="{Binding DeviceSelectedCommand}"
-                           EmptyView="Устройств не найдено">
+                SelectionMode="Single"
+                SelectionChangedCommand="{Binding DeviceSelectedCommand}"
+                EmptyView="Устройств не найдено">
                 <CollectionView.Header>
                     <StackLayout Orientation="Horizontal" 
-                                HorizontalOptions="Center"
-                                Padding="10">
+                            HorizontalOptions="Center"
+                            Padding="10">
                         <Label Text="Всего устройств: "
-                               FontAttributes="Italic"/>
+                            FontAttributes="Italic"/>
                         <Label Text="{Binding DevicesCount}"
-                               FontAttributes="Italic"/>
+                            FontAttributes="Italic"/>
                     </StackLayout>
                 </CollectionView.Header>
                 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Device">
                         <Grid Padding="10">
-                            <Frame HeightRequest="150" 
-                                   Padding="0"
-                                   CornerRadius="10"
-                                   HasShadow="True">
+                            <Border HeightRequest="150" 
+                                Padding="0">
                                 <Grid ColumnDefinitions="150,*"
                                       RowDefinitions="Auto,Auto,Auto,Auto">
                                     <Image Grid.Column="0"
-                                           Grid.RowSpan="4"
-                                           Source="{Binding ImageUrl}"
-                                           Aspect="AspectFill"
-                                           BackgroundColor="LightGray"/>
+                                        Grid.RowSpan="4"
+                                        Source="{Binding ImageUrl}"
+                                        Aspect="AspectFill"
+                                        BackgroundColor="LightGray"/>
                                     
                                     <Label Grid.Column="1"
-                                           Grid.Row="0"
-                                           Text="{Binding Name}"
-                                           FontAttributes="Bold"
-                                           FontSize="Medium"
-                                           Margin="10,10,10,0"/>
+                                        Grid.Row="0"
+                                        Text="{Binding Name}"
+                                        FontAttributes="Bold"
+                                        FontSize="Medium"
+                                        Margin="10,10,10,0"/>
                                     
                                     <Label Grid.Column="1"
-                                           Grid.Row="1"
-                                           Text="{Binding Manufacturer}"
-                                           FontSize="Small"
-                                           TextColor="Gray"
-                                           Margin="10,0"/>
+                                        Grid.Row="1"
+                                        Text="{Binding Manufacturer}"
+                                        FontSize="Small"
+                                        TextColor="Gray"
+                                        Margin="10,0"/>
                                     
                                     <Label Grid.Column="1"
-                                           Grid.Row="2"
-                                           Text="{Binding Type, 
-                                           Converter={StaticResource DeviceTypeConverter}}"
-                                           FontSize="Small"
-                                           Margin="10,0"/>
+                                        Grid.Row="2"
+                                        Text="{Binding Type, 
+                                        Converter={StaticResource DeviceTypeConverter}}"
+                                        FontSize="Small"
+                                        Margin="10,0"/>
                                     
                                     <Label Grid.Column="1"
-                                           Grid.Row="3"
-                                           Text="{Binding Price, StringFormat='{0:C}'}"
-                                           FontSize="Medium"
-                                           FontAttributes="Bold"
-                                           TextColor="{AppThemeBinding Light={StaticResource Primary}, 
-                                                                      Dark={StaticResource Secondary}}"
-                                           Margin="10,0,10,10"/>
+                                        Grid.Row="3"
+                                        Text="{Binding Price, StringFormat='{0:C}'}"
+                                        FontSize="Medium"
+                                        FontAttributes="Bold"
+                                        TextColor="{AppThemeBinding Light={StaticResource Primary}, 
+                                                                    Dark={StaticResource Secondary}}"
+                                        Margin="10,0,10,10"/>
                                 </Grid>
-                            </Frame>
+                            </Border>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </RefreshView>
         
-        <Grid Grid.Row="2" 
-              ColumnDefinitions="*,*"
-              Padding="10"
-              BackgroundColor="{AppThemeBinding Light=White, Dark=#1C1C1E}">
+        <Grid Grid.Row="3" 
+            ColumnDefinitions="*,*"
+            Padding="10"
+            BackgroundColor="{AppThemeBinding Light=White, Dark=#1C1C1E}">
             <Button Grid.Column="0"
                 Text="Добавить вручную"
                 Command="{Binding AddManualCommand}"

@@ -1,14 +1,103 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ChoosingGadgets.Views.SettingsPage">
+             xmlns:controls="clr-namespace:ChoosingGadgets.Controls"
+             x:Class="ChoosingGadgets.Views.SettingsPage"
+             Title="Настройки"
+             BackgroundColor="{DynamicResource SystemChromeLowColor}">
 
     <ScrollView>
-        <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Label Text="Цветовая тема приложения"
-                Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level2"/>
-            <Button x:Name="SwitchThemeBtn" Text="Переключить тему" HorizontalOptions="Fill"
-                IsEnabled="False"/>
+        <VerticalStackLayout Padding="20,10" Spacing="0">
+            <Label Text="Настройки"
+                   Style="{StaticResource HeaderTextStyle}"
+                   Margin="0,0,0,20"/>
+            
+            <controls:FluentSettingsCard Header="Персонализация">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Цветовая тема приложения"
+                           Style="{StaticResource BodyTextStyle}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Grid ColumnDefinitions="*,*,*" ColumnSpacing="10">
+                        <RadioButton Content="Светлая" 
+                                     GroupName="ThemeGroup"
+                                     IsChecked="{Binding IsLightTheme}"
+                                     Style="{StaticResource FluentRadioButtonStyle}"/>
+                        <RadioButton Content="Темная" 
+                                     GroupName="ThemeGroup"
+                                     IsChecked="{Binding IsDarkTheme}"
+                                     Grid.Column="1"
+                                     Style="{StaticResource FluentRadioButtonStyle}"/>
+                        <RadioButton Content="Системная" 
+                                     GroupName="ThemeGroup"
+                                     IsChecked="{Binding IsSystemTheme}"
+                                     Grid.Column="2"
+                                     Style="{StaticResource FluentRadioButtonStyle}"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </controls:FluentSettingsCard>
+            
+            <controls:FluentSettingsCard Header="Акцентный цвет" Margin="0,16,0,0">
+                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="12">
+                    <Label Text="Цвет акцентов"
+                           Style="{StaticResource BodyTextStyle}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           VerticalOptions="Center"/>
+                    
+                    <HorizontalStackLayout Grid.Column="1" Spacing="8" HorizontalOptions="Center">
+                        <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
+                               BackgroundColor="#0078D7" Padding="0"/>
+                        <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
+                               BackgroundColor="#E81123" Padding="0"/>
+                        <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
+                               BackgroundColor="#881798" Padding="0"/>
+                        <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
+                               BackgroundColor="#498205" Padding="0"/>
+                    </HorizontalStackLayout>
+                    
+                    <Button Text="Другие" 
+                            Grid.Column="2"
+                            Style="{StaticResource FluentTextButtonStyle}"
+                            HorizontalOptions="End"/>
+                </Grid>
+            </controls:FluentSettingsCard>
+            
+            <controls:FluentSettingsCard Header="Дополнительно" Margin="0,16,0,0">
+                <VerticalStackLayout Spacing="12">
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Автоматическое обновление"
+                               Style="{StaticResource BodyTextStyle}"
+                               TextColor="{DynamicResource SystemBaseHighColor}"/>
+                        <Switch Grid.Column="1" 
+                                IsToggled="{Binding AutoUpdateEnabled}"
+                                HorizontalOptions="End"/>
+                    </Grid>
+                    
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Отправлять данные об использовании"
+                               Style="{StaticResource BodyTextStyle}"
+                               TextColor="{DynamicResource SystemBaseHighColor}"/>
+                        <Switch Grid.Column="1" 
+                                IsToggled="{Binding SendUsageData}"
+                                HorizontalOptions="End"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </controls:FluentSettingsCard>
+            
+            <controls:FluentSettingsCard Header="О приложении" Margin="0,16,0,0">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Версия 1.0.0"
+                           Style="{StaticResource BodyTextStyle}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Button Text="Лицензионное соглашение"
+                            Style="{StaticResource FluentTextButtonStyle}"
+                            HorizontalOptions="Fill"/>
+                    
+                    <Button Text="Политика конфиденциальности"
+                            Style="{StaticResource FluentTextButtonStyle}"
+                            HorizontalOptions="Fill"/>
+                </VerticalStackLayout>
+            </controls:FluentSettingsCard>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
