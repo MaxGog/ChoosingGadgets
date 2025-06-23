@@ -23,7 +23,7 @@ public class ParserService
         try
         {
             if (string.IsNullOrWhiteSpace(sourceUrl))
-                return new List<Device>();
+                return [];
 
             if (sourceUrl.Contains("dns-shop.ru") && deviceType == DeviceType.Computer)
                 return await ParseDnsShopComputers(sourceUrl);

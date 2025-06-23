@@ -9,6 +9,7 @@ public partial class AppShell : Shell
 		InitializeComponent();
 
 		Routing.RegisterRoute("Devices", typeof(DevicesPage));
+		Routing.RegisterRoute("AddDevice", typeof(AddDevicePage));
 		Routing.RegisterRoute("Settings", typeof(SettingsPage));
 	}
 }

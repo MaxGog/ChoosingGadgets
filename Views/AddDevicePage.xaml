@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.Views.AddDevicePage"
+             Title="Добавить устройство"
+             xmlns:viewmodels="clr-namespace:ChoosingGadgets.ViewModels"
+             BackgroundColor="{DynamicResource SystemAltHighColor}"
+             x:DataType="viewmodels:AddDeviceViewModel">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="12">
+            <Label Text="Добавить новое устройство"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="{DynamicResource SystemBaseHighColor}"
+                   Margin="0,0,0,8"/>
+
+            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 4"
+                    Padding="8">
+                <Picker Title="Тип устройства"
+                        ItemsSource="{Binding DeviceTypes}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedDeviceType}"
+                        TitleColor="{DynamicResource SystemBaseMediumColor}"
+                        TextColor="{DynamicResource SystemBaseHighColor}"
+                        FontSize="14"/>
+            </Border>
+
+            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 4"
+                    Padding="12,8">
+                <StackLayout Spacing="10">
+                    <Label Text="Основная информация"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Entry Placeholder="Название" 
+                           Text="{Binding Name}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Производитель" 
+                           Text="{Binding Manufacturer}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Модель" 
+                           Text="{Binding Model}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Цена" 
+                           Keyboard="Numeric" 
+                           Text="{Binding Price}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <DatePicker Date="{Binding ReleaseDate}" 
+                                Format="D"
+                                MinimumDate="01/01/2000"
+                                TextColor="{DynamicResource SystemBaseHighColor}"
+                                FontSize="14"/>
+                    
+                    <Entry Placeholder="URL изображения" 
+                           Text="{Binding ImageUrl}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="URL источника" 
+                           Text="{Binding SourceUrl}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                </StackLayout>
+            </Border>
+
+            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 4"
+                    Padding="12,8"
+                    IsVisible="{Binding IsComputer}">
+                <StackLayout Spacing="10">
+                    <Label Text="Характеристики компьютера"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Entry Placeholder="Процессор" 
+                           Text="{Binding Processor}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Видеокарта" 
+                           Text="{Binding GPU}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Оперативная память (ГБ)" 
+                           Keyboard="Numeric" 
+                           Text="{Binding RAM}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Накопитель" 
+                           Text="{Binding Storage}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Операционная система" 
+                           Text="{Binding OS}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                </StackLayout>
+            </Border>
+
+            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 4"
+                    Padding="12,8"
+                    IsVisible="{Binding IsSmartphone}">
+                <StackLayout Spacing="10">
+                    <Label Text="Характеристики смартфона"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Entry Placeholder="Размер экрана" 
+                           Text="{Binding ScreenSize}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Разрешение" 
+                           Text="{Binding Resolution}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Процессор" 
+                           Text="{Binding CPU}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Оперативная память (ГБ)" 
+                           Keyboard="Numeric" 
+                           Text="{Binding RAM}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Память (ГБ)" 
+                           Keyboard="Numeric" 
+                           Text="{Binding PhoneStorage}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Камера" 
+                           Text="{Binding Camera}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                    
+                    <Entry Placeholder="Аккумулятор" 
+                           Text="{Binding Battery}"
+                           PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"
+                           BackgroundColor="Transparent"/>
+                </StackLayout>
+            </Border>
+
+            <Button Text="Добавить устройство" 
+                    Command="{Binding AddDeviceCommand}"
+                    BackgroundColor="{DynamicResource SystemAccentColor}"
+                    TextColor="{DynamicResource SystemAltHighColor}"
+                    FontAttributes="Bold"
+                    CornerRadius="4"
+                    HeightRequest="44"
+                    Margin="0,16,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

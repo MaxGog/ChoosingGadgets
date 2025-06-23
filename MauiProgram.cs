@@ -26,9 +26,12 @@ public static class MauiProgram
         
         builder.Services.AddSingleton<DevicesViewModel>();
 		builder.Services.AddSingleton<SettingsViewModel>();
-		
+
         builder.Services.AddSingleton<DevicesPage>();
 		builder.Services.AddSingleton<SettingsPage>();
+
+		builder.Services.AddTransient<AddDeviceViewModel>();
+		builder.Services.AddTransient<AddDevicePage>();
 
 #if DEBUG
 		builder.Logging.AddDebug();

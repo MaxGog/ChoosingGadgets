@@ -26,9 +26,15 @@
     </Shell.FlyoutHeader>
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Меню" 
+        <ShellContent Title="Список устройств" 
             ContentTemplate="{DataTemplate views:DevicesPage}" 
             Route="DevicesPage"/>
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Добавить своё устройство" 
+            ContentTemplate="{DataTemplate views:AddDevicePage}" 
+            Route="AddDevicePage"/>
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
