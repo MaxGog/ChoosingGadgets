@@ -5,16 +5,36 @@ public partial class App : Application
 	public App()
 	{
 		InitializeComponent();
-		SetTheme();
+		var useSystemTheme = Preferences.Get("UseSystemTheme", true);
+        var appTheme = Preferences.Get("AppTheme", "LightTheme");
+        
+        SetTheme(useSystemTheme, useSystemTheme ? null : appTheme);
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)
-	{
-		return new Window(new AppShell());
-	}
+    {
+        var window = new Window(new AppShell());
+        
+        window.Created += (s, e) => {
+            Application.Current.RequestedThemeChanged += (s, e) => {
+                if (Preferences.Get("UseSystemTheme", true))
+                {
+                    SetTheme(true);
+                }
+            };
+        };
+        
+        return window;
+    }
 
 	public static void SetTheme(bool isSystemTheme = false, string themeName = null)
     {
+        Preferences.Set("UseSystemTheme", isSystemTheme);
+        if (!isSystemTheme)
+        {
+            Preferences.Set("AppTheme", themeName);
+        }
+
         if (isSystemTheme)
         {
             var currentTheme = Application.Current.RequestedTheme == AppTheme.Dark 
@@ -33,14 +53,12 @@ public partial class App : Application
         if (Application.Current.Resources.TryGetValue(themeKey, out var newTheme) && 
             newTheme is ResourceDictionary themeDict)
         {
-            var mergedDictionaries = Application.Current.Resources.MergedDictionaries;
-            mergedDictionaries.Clear();
-            
-            mergedDictionaries.Add(themeDict);
-            
             foreach (var resource in themeDict)
             {
-                Application.Current.Resources[resource.Key] = resource.Value;
+                if (resource.Key is string key)
+                {
+                    Application.Current.Resources[key] = resource.Value;
+                }
             }
         }
     }

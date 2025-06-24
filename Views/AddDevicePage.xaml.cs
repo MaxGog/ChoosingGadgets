@@ -5,9 +5,9 @@ namespace ChoosingGadgets.Views;
 
 public partial class AddDevicePage : ContentPage
 {
-    public AddDevicePage(/*AddDeviceViewModel viewModel*/)
+    public AddDevicePage(AddDeviceViewModel viewModel)
     {
         InitializeComponent();
-        //BindingContext = viewModel;
+        BindingContext = viewModel;
     }
 }

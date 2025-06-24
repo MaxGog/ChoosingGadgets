@@ -78,8 +78,8 @@
         </ResourceDictionary>
 
         <OnPlatform x:Key="CurrentTheme" x:TypeArguments="ResourceDictionary">
-            <On Platform="iOS, Android" Value="{DynamicResource Dark}" />
-            <On Platform="WinUI" Value="{DynamicResource Light}" />
+            <On Platform="iOS, Android" Value="{DynamicResource DarkTheme}" />
+            <On Platform="WinUI, Mac" Value="{DynamicResource LightTheme}" />
         </OnPlatform>
 
         <Style TargetType="Label">
@@ -154,6 +154,5 @@
             <Setter Property="BorderColor" Value="{DynamicResource SystemBaseMediumColor}"/>
         </Style>
             
-        <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
     </Application.Resources>
 </Application>

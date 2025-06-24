@@ -4,9 +4,10 @@ namespace ChoosingGadgets.Views;
 
 public partial class DevicesPage : ContentPage
 {
-    public DevicesPage()
+    public DevicesPage(DevicesViewModel viewModel)
     {
         InitializeComponent();
+        BindingContext = viewModel;
     }
 }
 

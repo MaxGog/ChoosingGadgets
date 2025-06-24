@@ -3,7 +3,12 @@
              xmlns:controls="clr-namespace:ChoosingGadgets.Controls"
              x:Class="ChoosingGadgets.Views.SettingsPage"
              Title="Настройки"
-             BackgroundColor="{DynamicResource SystemChromeLowColor}">
+             BackgroundColor="{DynamicResource SystemChromeLowColor}"
+             xmlns:viewModels="clr-namespace:ChoosingGadgets.ViewModels">
+
+    <ContentPage.BindingContext>
+        <viewModels:SettingsViewModel />
+    </ContentPage.BindingContext>
 
     <ScrollView>
         <VerticalStackLayout Padding="20,10" Spacing="0">

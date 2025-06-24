@@ -9,6 +9,22 @@ public class SettingsViewModel : INotifyPropertyChanged
     private bool _isDarkTheme;
     private bool _isSystemTheme = true;
 
+    public SettingsViewModel()
+    {
+        var useSystemTheme = Preferences.Get("UseSystemTheme", true);
+        var appTheme = Preferences.Get("AppTheme", "LightTheme");
+        
+        if (useSystemTheme)
+        {
+            _isSystemTheme = true;
+        }
+        else
+        {
+            _isLightTheme = appTheme == "LightTheme";
+            _isDarkTheme = appTheme == "DarkTheme";
+        }
+    }
+
     public bool IsLightTheme
     {
         get => _isLightTheme;
@@ -18,7 +34,7 @@ public class SettingsViewModel : INotifyPropertyChanged
             {
                 IsDarkTheme = false;
                 IsSystemTheme = false;
-                App.SetTheme(themeName: "LightTheme");
+                MainThread.BeginInvokeOnMainThread(() => App.SetTheme(themeName: "LightTheme"));
             }
         }
     }
@@ -32,7 +48,7 @@ public class SettingsViewModel : INotifyPropertyChanged
             {
                 IsLightTheme = false;
                 IsSystemTheme = false;
-                App.SetTheme(themeName: "DarkTheme");
+                MainThread.BeginInvokeOnMainThread(() => App.SetTheme(themeName: "DarkTheme"));
             }
         }
     }

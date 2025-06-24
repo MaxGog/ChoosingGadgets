@@ -1,5 +1,76 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ChoosingGadgets.Views.QuestionnairePage">
-</ContentPage>
+             x:Class="ChoosingGadgets.Views.QuestionnairePage"
+             Title="Подбор компьютера">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Label Text="Давайте подберем вам компьютер" 
+                   FontSize="Title"
+                   HorizontalOptions="Center"/>
             
+            <Label Text="Ваш бюджет:" FontSize="Subtitle"/>
+            <Picker x:Name="BudgetPicker">
+                <Picker.Items>
+                    <x:String>До 500$</x:String>
+                    <x:String>500-1000$</x:String>
+                    <x:String>1000-1500$</x:String>
+                    <x:String>Более 1500$</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label Text="Основное использование:" FontSize="Subtitle"/>
+            <Picker x:Name="UsagePicker">
+                <Picker.Items>
+                    <x:String>Офисная работа</x:String>
+                    <x:String>Игры</x:String>
+                    <x:String>Дизайн/Видеомонтаж</x:String>
+                    <x:String>Учеба/Повседневные задачи</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label Text="Важна ли портативность?" FontSize="Subtitle"/>
+            <Switch x:Name="PortabilitySwitch" 
+                    HorizontalOptions="Start"/>
+            
+            <Label Text="Какие программы будете использовать?" FontSize="Subtitle"/>
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="OfficeCheckBox"/>
+                <Label Text="Офисные приложения (Word, Excel)" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="CadCheckBox"/>
+                <Label Text="CAD системы (AutoCAD, SolidWorks)" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="VideoCheckBox"/>
+                <Label Text="Видеоредакторы (Premiere, DaVinci)" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="IdeCheckBox"/>
+                <Label Text="Среды разработки (VS, Android Studio)" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            
+            <Label Text="Приоритет производительности (1-5):" FontSize="Subtitle"/>
+            <Slider x:Name="PerformanceSlider" 
+                    Minimum="1" 
+                    Maximum="5" 
+                    Value="3"
+                    MinimumTrackColor="Blue"
+                    MaximumTrackColor="Gray"
+                    ThumbColor="Blue"/>
+            <Label x:Name="PerformanceValueLabel" 
+                   Text="{Binding Source={x:Reference PerformanceSlider}, Path=Value, StringFormat='{0:F0}'}"
+                   HorizontalOptions="Center"/>
+            
+            <Button Text="Подобрать компьютер" 
+                    Clicked="OnSubmitClicked"
+                    BackgroundColor="#512BD4"
+                    TextColor="White"
+                    CornerRadius="20"
+                    Margin="0,20,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
