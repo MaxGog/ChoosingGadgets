@@ -1,13 +1,20 @@
 using ChoosingGadgets.Models;
+using ChoosingGadgets.Repositories;
 using ChoosingGadgets.ViewModels;
+using Microsoft.Extensions.Logging;
 
 namespace ChoosingGadgets.Views;
 
 public partial class QuestionnairePage : ContentPage
 {
-    public QuestionnairePage()
+    private readonly DeviceRepository _deviceRepository;
+    private readonly ILogger<ResultsPage> _logger;
+
+    public QuestionnairePage(DeviceRepository deviceRepository, ILogger<ResultsPage> logger)
     {
         InitializeComponent();
+        _deviceRepository = deviceRepository;
+        _logger = logger;
     }
 
     private async void OnSubmitClicked(object sender, EventArgs e)
@@ -21,15 +28,16 @@ public partial class QuestionnairePage : ContentPage
             PerformancePriority = (int)PerformanceSlider.Value
         };
 
-        // Сохраняем предпочтения (можно использовать Preferences или базу данных)
         Preferences.Set("UserBudget", preferences.Budget);
         Preferences.Set("UserPrimaryUse", preferences.PrimaryUse);
         Preferences.Set("UserPortability", preferences.PortabilityImportant);
         Preferences.Set("UserSoftware", preferences.SoftwareRequirements);
         Preferences.Set("UserPerformance", preferences.PerformancePriority);
 
-        // Переходим на страницу с результатами
-        await Navigation.PushAsync(new ResultsPage(preferences));
+        await Navigation.PushAsync(new ResultsPage(
+            preferences, 
+            _deviceRepository, 
+            _logger));
     }
 
     private string GetPrimaryUse(int index)
