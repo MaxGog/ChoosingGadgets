@@ -11,37 +11,47 @@ public class ResultsViewModel
     public ObservableCollection<Computer> RecommendedDevices { get; } = new();
     private readonly UserPreferences _preferences;
     private readonly DeviceRepository _deviceRepository;
+    private readonly bool _useDatabase;
 
-    public ResultsViewModel(UserPreferences preferences, DeviceRepository deviceRepository)
+    public ResultsViewModel(UserPreferences preferences,
+                          DeviceRepository deviceRepository,
+                          bool useDatabase = true)
     {
         _preferences = preferences;
         _deviceRepository = deviceRepository;
+        _useDatabase = useDatabase;
     }
 
     public async Task LoadRecommendations()
     {
-        var dbDevices = (await _deviceRepository.GetDevicesByTypeAsync(DeviceType.Computer))
-            .Cast<Computer>()
-            .ToList();
-
         IEnumerable<Computer> matchedDevices;
 
-        if (dbDevices.Any())
+        if (_useDatabase)
         {
-            matchedDevices = dbDevices
-                .Where(d => MatchPreferences(d, _preferences))
-                .OrderBy(d => d.Price)
-                .Take(5);
+            try
+            {
+                var dbDevices = (await _deviceRepository.GetDevicesByTypeAsync(DeviceType.Computer))
+                    .Cast<Computer>()
+                    .ToList();
+
+                if (dbDevices.Any())
+                {
+                    matchedDevices = dbDevices
+                        .Where(d => MatchPreferences(d, _preferences))
+                        .OrderByDescending(d => MatchScore(d, _preferences))
+                        .Take(5);
+                }
+                else
+                {
+                    matchedDevices = GetGenericRecommendations(_preferences);
+                }
+            }
+            catch
+            {
+                matchedDevices = GetGenericRecommendations(_preferences);
+            }
         }
         else
-        {
-            matchedDevices = GetMockDevices()
-                .Where(d => MatchPreferences(d, _preferences))
-                .OrderBy(d => d.Price)
-                .Take(5);
-        }
-
-        if (!matchedDevices.Any())
         {
             matchedDevices = GetGenericRecommendations(_preferences);
         }
@@ -52,34 +62,86 @@ public class ResultsViewModel
         }
     }
 
+    private double MatchScore(Computer computer, UserPreferences preferences)
+    {
+        double score = 0;
+
+        double price = (double)computer.Price;
+        if (preferences.Budget == 1) score += 1 - Math.Min(price / 50000, 1); // До 50k
+        else if (preferences.Budget == 2) score += 1 - Math.Abs(price - 75000) / 25000; // 50-100k
+        else if (preferences.Budget == 3) score += 1 - Math.Abs(price - 125000) / 25000; // 100-150k
+        else if (preferences.Budget == 4) score += 1 - Math.Abs(price - 175000) / 25000; // 150-200k
+        else if (preferences.Budget == 5) score += Math.Min(price / 300000, 1); // >200k
+
+        score += (computer.RAM / 64.0) * 0.3; // Нормализовано до 64GB
+        score += (preferences.PerformancePriority / 5.0) * 0.2;
+
+        if (preferences.PrimaryUse == "gaming" && IsGoodForGaming(computer)) score += 0.5;
+        if (preferences.PrimaryUse == "design" && IsGoodForDesign(computer)) score += 0.5;
+        if (preferences.PrimaryUse == "video" && IsGoodForVideoEditing(computer)) score += 0.5;
+
+        if (preferences.FormFactor == 0 && computer.IsDesktop) score += 0.3;
+        if (preferences.FormFactor == 1 && computer.IsLaptop) score += 0.3;
+
+        if (preferences.NeedsRussianSoftware && computer.SupportsRussianOS) score += 0.2;
+
+        return score;
+    }
+
     private List<Computer> GetGenericRecommendations(UserPreferences preferences)
     {
-        return new List<Computer>
+        var recommendations = new List<Computer>
         {
             new Computer
             {
-                Name = "Общие рекомендации",
+                Name = "Рекомендуемая конфигурация",
                 Type = DeviceType.Computer,
                 Manufacturer = "ChoosingGadgets",
-                Model = "Generic",
-                Price = 0,
+                Model = "OptimalConfig",
+                Price = GetRecommendedPrice(preferences),
                 Processor = GetRecommendedProcessor(preferences),
                 GPU = GetRecommendedGpu(preferences),
                 RAM = GetRecommendedRam(preferences),
                 Storage = GetRecommendedStorage(preferences),
                 OS = GetRecommendedOs(preferences),
-                ImageUrl = "generic_pc.jpg"
+                FormFactor = GetRecommendedFormFactor(preferences),
+                SupportsRussianOS = preferences.NeedsRussianSoftware,
+                ImageUrl = "recommended_pc.jpg"
             }
+        };
+
+        if (preferences.PrimaryUse == "gaming")
+        {
+            recommendations.Add(GetAlternativeGamingConfig(preferences));
+        }
+
+        return recommendations;
+    }
+
+    private int GetRecommendedPrice(UserPreferences preferences)
+    {
+        return preferences.Budget switch
+        {
+            1 => 40000,
+            2 => 75000,
+            3 => 125000,
+            4 => 175000,
+            5 => 250000,
+            _ => 100000
         };
     }
 
     private string GetRecommendedProcessor(UserPreferences preferences)
     {
+        if (preferences.NeedsRussianSoftware)
+            return "Эльбрус-8СВ / Байкал-M";
+
         return preferences.PrimaryUse switch
         {
-            "gaming" => "Intel Core i5/i7 или AMD Ryzen 5/7",
-            "design" => "Intel Core i7/i9 или AMD Ryzen 7/9",
-            _ => "Intel Core i3/i5 или AMD Ryzen 3/5"
+            "gaming" => "Intel Core i5-13600K или AMD Ryzen 7 7700X",
+            "design" or "video" => "Intel Core i7-13700K или AMD Ryzen 9 7900X",
+            "programming" => "Intel Core i5-13400 или AMD Ryzen 5 7600",
+            _ => "Intel Core i3-13100 или AMD Ryzen 3 7300X"
         };
     }
 
@@ -87,8 +149,8 @@ public class ResultsViewModel
     {
         return preferences.PrimaryUse switch
         {
-            "gaming" => "NVIDIA RTX 3060/4060 или AMD RX 6600/7600",
-            "design" => "NVIDIA RTX A-series или Quadro",
+            "gaming" => "NVIDIA RTX 4060 Ti или AMD RX 7700 XT",
+            "design" or "video" => "NVIDIA RTX 4070 или AMD RX 7900 XT",
             _ => "Интегрированная графика или NVIDIA GTX 1650"
         };
     }
@@ -97,9 +159,10 @@ public class ResultsViewModel
     {
         return preferences.PrimaryUse switch
         {
-            "gaming" => 16,
-            "design" => 32,
-            _ => 8
+            "gaming" => 32,
+            "design" or "video" => 64,
+            "programming" => 32,
+            _ => 16
         };
     }
 
@@ -107,30 +170,71 @@ public class ResultsViewModel
     {
         return preferences.PrimaryUse switch
         {
-            "gaming" => "1TB SSD + 2TB HDD",
-            "design" => "2TB SSD",
-            _ => "512GB SSD"
+            "gaming" => "1TB NVMe SSD + 2TB HDD",
+            "design" or "video" => "2TB NVMe SSD",
+            _ => "512GB NVMe SSD"
         };
     }
 
     private string GetRecommendedOs(UserPreferences preferences)
     {
+        if (preferences.NeedsRussianSoftware)
+            return "Альт Линукс / РЕД ОС";
+
         return preferences.PrimaryUse switch
         {
-            "design" => "Windows 10/11 Pro",
-            _ => "Windows 10/11 Home"
+            "design" or "video" => "Windows 11 Pro",
+            _ => "Windows 11 Home"
+        };
+    }
+
+    private string GetRecommendedFormFactor(UserPreferences preferences)
+    {
+        return preferences.FormFactor switch
+        {
+            0 => "Настольный ПК",
+            1 => "Ноутбук",
+            2 => "Мини-ПК",
+            3 => "Моноблок",
+            _ => "Настольный ПК"
+        };
+    }
+
+    private Computer GetAlternativeGamingConfig(UserPreferences preferences)
+    {
+        return new Computer
+        {
+            Name = "Альтернативная игровая конфигурация",
+            Type = DeviceType.Computer,
+            Manufacturer = "ChoosingGadgets",
+            Model = "GamingAlt",
+            Price = (decimal)(GetRecommendedPrice(preferences) * 0.9),
+            Processor = "Intel Core i5-13400F или AMD Ryzen 5 7600X",
+            GPU = "NVIDIA RTX 3060 Ti или AMD RX 6700 XT",
+            RAM = 16,
+            Storage = "1TB SSD",
+            OS = "Windows 11 Home",
+            FormFactor = GetRecommendedFormFactor(preferences),
+            ImageUrl = "gaming_pc.jpg"
         };
     }
 
     private bool MatchPreferences(Computer device, UserPreferences preferences)
     {
-        if (preferences.Budget == 1 && device.Price > 500) return false;
-        if (preferences.Budget == 2 && (device.Price < 500 || device.Price > 1000)) return false;
-        if (preferences.Budget == 3 && (device.Price < 1000 || device.Price > 1500)) return false;
-        if (preferences.Budget == 4 && device.Price < 1500) return false;
+        if (preferences.Budget == 1 && device.Price > 50000) return false;
+        if (preferences.Budget == 2 && (device.Price < 50000 || device.Price > 100000)) return false;
+        if (preferences.Budget == 3 && (device.Price < 100000 || device.Price > 150000)) return false;
+        if (preferences.Budget == 4 && (device.Price < 150000 || device.Price > 200000)) return false;
+        if (preferences.Budget == 5 && device.Price < 200000) return false;
 
         if (preferences.PrimaryUse == "gaming" && !IsGoodForGaming(device)) return false;
         if (preferences.PrimaryUse == "design" && !IsGoodForDesign(device)) return false;
+        if (preferences.PrimaryUse == "video" && !IsGoodForVideoEditing(device)) return false;
+
+        if (preferences.FormFactor == 0 && !device.IsDesktop) return false;
+        if (preferences.FormFactor == 1 && !device.IsLaptop) return false;
+
+        if (preferences.NeedsRussianSoftware && !device.SupportsRussianOS) return false;
 
         return true;
     }
@@ -138,7 +242,7 @@ public class ResultsViewModel
     private bool IsGoodForGaming(Computer device)
     {
         return device.GPU.Contains("RTX") ||
-               device.GPU.Contains("GTX") ||
+               device.GPU.Contains("RX") ||
                device.RAM >= 16;
     }
 
@@ -151,38 +255,10 @@ public class ResultsViewModel
                device.Processor.Contains("Ryzen 9");
     }
 
-    private List<Computer> GetMockDevices()
+    private bool IsGoodForVideoEditing(Computer device)
     {
-        return new List<Computer>
-        {
-            new Computer
-            {
-                Name = "Игровой ПК начального уровня",
-                Type = DeviceType.Computer,
-                Manufacturer = "Custom Build",
-                Model = "Gamer Basic",
-                Price = 700,
-                Processor = "Intel Core i5-11400F",
-                GPU = "NVIDIA GTX 1660 Super",
-                RAM = 16,
-                Storage = "512GB SSD",
-                OS = "Windows 11",
-                ImageUrl = "pc1.jpg"
-            },
-            new Computer
-            {
-                Name = "Профессиональная рабочая станция",
-                Type = DeviceType.Computer,
-                Manufacturer = "Dell",
-                Model = "Precision 3650",
-                Price = 1800,
-                Processor = "Intel Xeon W-1250",
-                GPU = "NVIDIA Quadro P2200",
-                RAM = 32,
-                Storage = "1TB SSD + 2TB HDD",
-                OS = "Windows 10 Pro",
-                ImageUrl = "pc2.jpg"
-            }
-        };
+        return device.RAM >= 32 &&
+              (device.GPU.Contains("RTX") || device.GPU.Contains("RX")) &&
+              device.Storage.Contains("NVMe");
     }
 }

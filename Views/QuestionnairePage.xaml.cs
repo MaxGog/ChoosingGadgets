@@ -23,16 +23,18 @@ public partial class QuestionnairePage : ContentPage
         {
             Budget = BudgetPicker.SelectedIndex + 1,
             PrimaryUse = GetPrimaryUse(UsagePicker.SelectedIndex),
-            PortabilityImportant = PortabilitySwitch.IsToggled,
+            FormFactor = FormFactorPicker.SelectedIndex,
+            BrandPreference = BrandPicker.SelectedIndex,
             SoftwareRequirements = GetSoftwareRequirements(),
-            PerformancePriority = (int)PerformanceSlider.Value
+            PerformancePriority = (int)PerformanceSlider.Value,
+            UpgradePlanned = UpgradePicker.SelectedIndex,
+            NeedsRussianSoftware = RussianSoftwareSwitch.IsToggled,
+            EnergyEfficient = EnergyEfficiencySwitch.IsToggled,
+            WarrantyRequirement = WarrantyPicker.SelectedIndex
         };
 
         Preferences.Set("UserBudget", preferences.Budget);
         Preferences.Set("UserPrimaryUse", preferences.PrimaryUse);
-        Preferences.Set("UserPortability", preferences.PortabilityImportant);
-        Preferences.Set("UserSoftware", preferences.SoftwareRequirements);
-        Preferences.Set("UserPerformance", preferences.PerformancePriority);
 
         await Navigation.PushAsync(new ResultsPage(
             preferences, 
@@ -44,10 +46,12 @@ public partial class QuestionnairePage : ContentPage
     {
         return index switch
         {
-            0 => "work",
+            0 => "office",
             1 => "gaming",
             2 => "design",
-            3 => "general",
+            3 => "video",
+            4 => "programming",
+            5 => "media",
             _ => "general"
         };
     }
@@ -60,6 +64,7 @@ public partial class QuestionnairePage : ContentPage
         if (CadCheckBox.IsChecked) software.Add("cad");
         if (VideoCheckBox.IsChecked) software.Add("video");
         if (IdeCheckBox.IsChecked) software.Add("programming");
+        if (GamingCheckBox.IsChecked) software.Add("gaming");
         
         return string.Join(",", software);
     }

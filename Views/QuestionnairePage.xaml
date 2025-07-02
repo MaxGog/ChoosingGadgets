@@ -4,35 +4,55 @@
              Title="Подбор компьютера">
     <ScrollView>
         <StackLayout Padding="20" Spacing="15">
-            <Label Text="Давайте подберем вам компьютер" 
+            <Label Text="Подбор оптимального компьютера" 
                    FontSize="Title"
                    HorizontalOptions="Center"/>
             
-            <Label Text="Ваш бюджет:" FontSize="Subtitle"/>
+            <Label Text="1. Ваш бюджет (в рублях):" FontSize="Subtitle"/>
             <Picker x:Name="BudgetPicker">
                 <Picker.Items>
-                    <x:String>До 500$</x:String>
-                    <x:String>500-1000$</x:String>
-                    <x:String>1000-1500$</x:String>
-                    <x:String>Более 1500$</x:String>
+                    <x:String>До 50 000 ₽</x:String>
+                    <x:String>50 000 - 100 000 ₽</x:String>
+                    <x:String>100 000 - 150 000 ₽</x:String>
+                    <x:String>150 000 - 200 000 ₽</x:String>
+                    <x:String>Более 200 000 ₽</x:String>
                 </Picker.Items>
             </Picker>
             
-            <Label Text="Основное использование:" FontSize="Subtitle"/>
+            <Label Text="2. Основное назначение компьютера:" FontSize="Subtitle"/>
             <Picker x:Name="UsagePicker">
                 <Picker.Items>
-                    <x:String>Офисная работа</x:String>
+                    <x:String>Офисная работа/учеба</x:String>
                     <x:String>Игры</x:String>
-                    <x:String>Дизайн/Видеомонтаж</x:String>
-                    <x:String>Учеба/Повседневные задачи</x:String>
+                    <x:String>Графика/дизайн</x:String>
+                    <x:String>Видеомонтаж/рендеринг</x:String>
+                    <x:String>Программирование</x:String>
+                    <x:String>Домашний медиацентр</x:String>
+                </Picker.Items>
+            </Picker>
+        
+            <Label Text="3. Предпочтительный форм-фактор:" FontSize="Subtitle"/>
+            <Picker x:Name="FormFactorPicker">
+                <Picker.Items>
+                    <x:String>Настольный ПК</x:String>
+                    <x:String>Ноутбук</x:String>
+                    <x:String>Мини-ПК/NUC</x:String>
+                    <x:String>Моноблок</x:String>
+                    <x:String>Не важно</x:String>
                 </Picker.Items>
             </Picker>
             
-            <Label Text="Важна ли портативность?" FontSize="Subtitle"/>
-            <Switch x:Name="PortabilitySwitch" 
-                    HorizontalOptions="Start"/>
+            <Label Text="4. Предпочтения по производителю:" FontSize="Subtitle"/>
+            <Picker x:Name="BrandPicker">
+                <Picker.Items>
+                    <x:String>Российские бренды (DEXP, iRU)</x:String>
+                    <x:String>Международные бренды</x:String>
+                    <x:String>Сборка на заказ</x:String>
+                    <x:String>Не важно</x:String>
+                </Picker.Items>
+            </Picker>
             
-            <Label Text="Какие программы будете использовать?" FontSize="Subtitle"/>
+            <Label Text="5. Какое ПО планируете использовать?" FontSize="Subtitle"/>
             <HorizontalStackLayout Spacing="10">
                 <CheckBox x:Name="OfficeCheckBox"/>
                 <Label Text="Офисные приложения (Word, Excel)" VerticalOptions="Center"/>
@@ -40,7 +60,7 @@
 
             <HorizontalStackLayout Spacing="10">
                 <CheckBox x:Name="CadCheckBox"/>
-                <Label Text="CAD системы (AutoCAD, SolidWorks)" VerticalOptions="Center"/>
+                <Label Text="CAD системы (Компас-3D, NanoCAD)" VerticalOptions="Center"/>
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="10">
@@ -50,10 +70,15 @@
 
             <HorizontalStackLayout Spacing="10">
                 <CheckBox x:Name="IdeCheckBox"/>
-                <Label Text="Среды разработки (VS, Android Studio)" VerticalOptions="Center"/>
+                <Label Text="Среды разработки (VS, PyCharm)" VerticalOptions="Center"/>
             </HorizontalStackLayout>
             
-            <Label Text="Приоритет производительности (1-5):" FontSize="Subtitle"/>
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="GamingCheckBox"/>
+                <Label Text="Игры (включая российские)" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            
+            <Label Text="6. Приоритет производительности (1-5):" FontSize="Subtitle"/>
             <Slider x:Name="PerformanceSlider" 
                     Minimum="1" 
                     Maximum="5" 
@@ -64,6 +89,33 @@
             <Label x:Name="PerformanceValueLabel" 
                    Text="{Binding Source={x:Reference PerformanceSlider}, Path=Value, StringFormat='{0:F0}'}"
                    HorizontalOptions="Center"/>
+            
+            <Label Text="7. Планируете ли апгрейд в будущем?" FontSize="Subtitle"/>
+            <Picker x:Name="UpgradePicker">
+                <Picker.Items>
+                    <x:String>Да, важно</x:String>
+                    <x:String>Возможно</x:String>
+                    <x:String>Нет</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label Text="8. Требуется поддержка российского ПО?" FontSize="Subtitle"/>
+            <Switch x:Name="RussianSoftwareSwitch" 
+                    HorizontalOptions="Start"/>
+            
+            <Label Text="9. Важна ли энергоэффективность?" FontSize="Subtitle"/>
+            <Switch x:Name="EnergyEfficiencySwitch" 
+                    HorizontalOptions="Start"/>
+            
+            <Label Text="10. Требуемый срок гарантии:" FontSize="Subtitle"/>
+            <Picker x:Name="WarrantyPicker">
+                <Picker.Items>
+                    <x:String>1 год</x:String>
+                    <x:String>2 года</x:String>
+                    <x:String>3 года и более</x:String>
+                    <x:String>Не важно</x:String>
+                </Picker.Items>
+            </Picker>
             
             <Button Text="Подобрать компьютер" 
                     Clicked="OnSubmitClicked"
