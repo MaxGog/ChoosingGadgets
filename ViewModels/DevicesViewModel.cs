@@ -125,9 +125,12 @@ public partial class DevicesViewModel : BaseViewModel
             string actualUrl = url;
             if (url == "https://example.com/devices")
             {
-                actualUrl = DeviceType == DeviceType.Computer 
-                    ? "https://www.dns-shop.ru/catalog/17a892f816404e77/noutbuki/" 
-                    : "https://www.gsmarena.com/samsung-phones-9.php";
+                actualUrl = DeviceType switch
+                {
+                    DeviceType.Computer => "https://4pda.to/forum/",
+                    DeviceType.Smartphone => "https://4pda.to/forum/",
+                    _ => "https://4pda.to/forum/"
+                };
             }
 
             var devices = await _parserService.ParseDevicesFromWeb(DeviceType, actualUrl);
@@ -143,6 +146,15 @@ public partial class DevicesViewModel : BaseViewModel
             {
                 if (!await _repository.DeviceExistsAsync(device))
                 {
+                    if (actualUrl.Contains("4pda.to"))
+                    {
+                        //device.Description = $"Источник: 4PDA\n{device.Description}";
+                        if (string.IsNullOrEmpty(device.Manufacturer))
+                        {
+                            device.Manufacturer = "4PDA Forum";
+                        }
+                    }
+                    
                     await _repository.AddDeviceAsync(device);
                     Devices.Add(device);
                     addedCount++;

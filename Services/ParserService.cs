@@ -46,6 +46,8 @@ public class ParserService
                 return await ParseGsmArenaSmartphones(sourceUrl);
             else if (sourceUrl.Contains("wildberries.ru") && deviceType == DeviceType.Smartphone)
                 return await ParseWildberriesSmartphones(sourceUrl);
+            else if (sourceUrl.Contains("4pda.to") && (deviceType == DeviceType.Smartphone))
+                return await Parse4pdaDevices(sourceUrl, deviceType);
 
             return new List<Device>();
         }
@@ -305,7 +307,97 @@ public class ParserService
         }
     }
 
-    #region Helper Methods
+    private async Task<List<Device>> Parse4pdaDevices(string url, DeviceType deviceType)
+    {
+        try
+        {
+            var html = await _httpClient.GetStringAsync(url);
+            var devices = new List<Device>();
+            var doc = new HtmlDocument();
+            doc.LoadHtml(html);
+
+            var topics = doc.DocumentNode.SelectNodes("//article[contains(@class, 'post')] | //div[contains(@class, 'topic')]");
+
+            if (topics == null) 
+            {
+                Debug.WriteLine("Не найдены темы на странице 4PDA");
+                return devices;
+            }
+
+            foreach (var topic in topics)
+            {
+                try
+                {
+                    var titleNode = topic.SelectSingleNode(".//h2/a | .//h3/a | .//a[contains(@class, 'topic-title')]");
+                    var descriptionNode = topic.SelectSingleNode(".//div[contains(@class, 'topic-description')] | .//div[contains(@class, 'post-content')]");
+                    var imageNode = topic.SelectSingleNode(".//img[contains(@class, 'topic-image')] | .//div[contains(@class, 'topic-image')]/img | .//img[contains(@class, 'post-image')]");
+                    var linkNode = titleNode; // Ссылка обычно в том же элементе, что и заголовок
+                    var dateNode = topic.SelectSingleNode(".//time | .//span[contains(@class, 'topic-date')] | .//span[contains(@class, 'post-date')]");
+
+                    if (titleNode == null) 
+                    {
+                        Debug.WriteLine("Не найдено название темы");
+                        continue;
+                    }
+
+                    Device device;
+                    
+                    if (deviceType == DeviceType.Smartphone)
+                    {
+                        device = new Smartphone
+                        {
+                            Name = HtmlEntity.DeEntitize(titleNode.InnerText).Trim(),
+                            //Description = descriptionNode != null ? HtmlEntity.DeEntitize(descriptionNode.InnerText).Trim() : string.Empty,
+                            Manufacturer = ExtractManufacturer(titleNode.InnerText),
+                            ImageUrl = imageNode?.GetAttributeValue("src", "") ?? string.Empty,
+                            SourceUrl = linkNode?.GetAttributeValue("href", "").StartsWith("http") == true 
+                                ? linkNode.GetAttributeValue("href", "") 
+                                : "https://4pda.to" + linkNode?.GetAttributeValue("href", ""),
+                            Type = DeviceType.Smartphone,
+                            //ReleaseDate = dateNode != null ? HtmlEntity.DeEntitize(dateNode.InnerText).Trim() : string.Empty
+                        };
+                    }
+                    else
+                    {
+                        device = new Device
+                        {
+                            Name = HtmlEntity.DeEntitize(titleNode.InnerText).Trim(),
+                            //Description = descriptionNode != null ? HtmlEntity.DeEntitize(descriptionNode.InnerText).Trim() : string.Empty,
+                            Manufacturer = ExtractManufacturer(titleNode.InnerText),
+                            ImageUrl = imageNode?.GetAttributeValue("src", "") ?? string.Empty,
+                            SourceUrl = linkNode?.GetAttributeValue("href", "").StartsWith("http") == true 
+                                ? linkNode.GetAttributeValue("href", "") 
+                                : "https://4pda.to" + linkNode?.GetAttributeValue("href", ""),
+                            Type = deviceType
+                        };
+                    }
+                    if (descriptionNode != null)
+                    {
+                        var priceMatch = Regex.Match(descriptionNode.InnerText, @"цена[^\d]*(\d[\d\s]+\d)\s*р", RegexOptions.IgnoreCase);
+                        if (priceMatch.Success)
+                        {
+                            device.Price = ExtractPrice(priceMatch.Groups[1].Value);
+                        }
+                    }
+
+                    devices.Add(device);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine($"Ошибка парсинга темы 4PDA: {ex.Message}");
+                }
+            }
+
+            return devices;
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"Ошибка парсинга 4PDA: {ex.Message}");
+            return new List<Device>();
+        }
+    }
+
+#region Helper Methods
 
     private decimal ExtractPrice(string priceText)
     {
@@ -354,5 +446,5 @@ public class ParserService
         }
     }
 
-    #endregion
+#endregion
 }
