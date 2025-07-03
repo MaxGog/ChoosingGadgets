@@ -32,6 +32,12 @@
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Подобрать компьютер" 
+            ContentTemplate="{DataTemplate views:QuestionnairePhonePage}" 
+            Route="QuestionnairePhonePage"/>
+    </FlyoutItem>
+
+    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
         <ShellContent Title="Список устройств" 
             ContentTemplate="{DataTemplate views:DevicesPage}" 
             Route="DevicesPage"/>

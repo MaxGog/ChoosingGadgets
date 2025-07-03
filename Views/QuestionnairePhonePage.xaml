@@ -1,0 +1,119 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChoosingGadgets.Views.QuestionnairePhonePage"
+             Title="Подбор смартфона">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Label Text="Подбор оптимального смартфона" 
+                   FontSize="Title"
+                   HorizontalOptions="Center"/>
+            
+            <Label Text="1. Ваш бюджет (в рублях):" FontSize="Subtitle"/>
+            <Picker x:Name="BudgetPicker">
+                <Picker.Items>
+                    <x:String>До 10 000 ₽</x:String>
+                    <x:String>10 000 - 20 000 ₽</x:String>
+                    <x:String>20 000 - 40 000 ₽</x:String>
+                    <x:String>40 000 - 60 000 ₽</x:String>
+                    <x:String>Более 60 000 ₽</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label Text="2. Основное назначение смартфона:" FontSize="Subtitle"/>
+            <Picker x:Name="UsagePicker">
+                <Picker.Items>
+                    <x:String>Повседневное использование</x:String>
+                    <x:String>Игры</x:String>
+                    <x:String>Фотография/видео</x:String>
+                    <x:String>Бизнес/работа</x:String>
+                    <x:String>Премиум сегмент</x:String>
+                </Picker.Items>
+            </Picker>
+        
+            <Label Text="3. Предпочтения по бренду:" FontSize="Subtitle"/>
+            <Picker x:Name="BrandPicker">
+                <Picker.Items>
+                    <x:String>Российские бренды (BQ, Irbis)</x:String>
+                    <x:String>Китайские бренды (Xiaomi, Realme)</x:String>
+                    <x:String>Корейские бренды (Samsung)</x:String>
+                    <x:String>Apple</x:String>
+                    <x:String>Не важно</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label Text="4. Важные для вас функции:" FontSize="Subtitle"/>
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="GoodCameraCheckBox"/>
+                <Label Text="Хорошая камера" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="LongBatteryCheckBox"/>
+                <Label Text="Долгая работа от батареи" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="FastChargeCheckBox"/>
+                <Label Text="Быстрая зарядка" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="WaterResistantCheckBox"/>
+                <Label Text="Водозащита" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox x:Name="HeadphoneJackCheckBox"/>
+                <Label Text="Разъем для наушников" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            
+            <Label Text="5. Приоритет производительности (1-5):" FontSize="Subtitle"/>
+            <Slider x:Name="PerformanceSlider" 
+                    Minimum="1" 
+                    Maximum="5" 
+                    Value="3"
+                    MinimumTrackColor="Blue"
+                    MaximumTrackColor="Gray"
+                    ThumbColor="Blue"/>
+            <Label x:Name="PerformanceValueLabel" 
+                   Text="{Binding Source={x:Reference PerformanceSlider}, Path=Value, StringFormat='{0:F0}'}"
+                   HorizontalOptions="Center"/>
+            
+            <Label Text="6. Размер экрана:" FontSize="Subtitle"/>
+            <Picker x:Name="ScreenSizePicker">
+                <Picker.Items>
+                    <x:String>До 5.5" (компактный)</x:String>
+                    <x:String>5.5" - 6.2" (стандартный)</x:String>
+                    <x:String>6.2" - 6.7" (большой)</x:String>
+                    <x:String>Более 6.7" (очень большой)</x:String>
+                    <x:String>Не важно</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Label Text="7. Требуется поддержка российского ПО?" FontSize="Subtitle"/>
+            <Switch x:Name="RussianSoftwareSwitch" 
+                    HorizontalOptions="Start"/>
+            
+            <Label Text="8. Важна ли поддержка 5G?" FontSize="Subtitle"/>
+            <Switch x:Name="FiveGSupportSwitch" 
+                    HorizontalOptions="Start"/>
+            
+            <Label Text="9. Требуемый срок гарантии:" FontSize="Subtitle"/>
+            <Picker x:Name="WarrantyPicker">
+                <Picker.Items>
+                    <x:String>1 год</x:String>
+                    <x:String>2 года</x:String>
+                    <x:String>3 года и более</x:String>
+                    <x:String>Не важно</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Button Text="Подобрать смартфон" 
+                    Clicked="OnSubmitClicked"
+                    BackgroundColor="#512BD4"
+                    TextColor="White"
+                    CornerRadius="20"
+                    Margin="0,20,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

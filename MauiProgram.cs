@@ -46,6 +46,7 @@ public static class MauiProgram
         services.AddSingleton<SettingsViewModel>();
         
         services.AddTransient<ResultsViewModel>();
+        services.AddTransient<ResultsPhonePage>();
         services.AddTransient<AddDeviceViewModel>();
         
     }
@@ -55,9 +56,10 @@ public static class MauiProgram
         services.AddSingleton<DevicesPage>();
         services.AddSingleton<SettingsPage>();
         services.AddSingleton<QuestionnairePage>();
-        
+        services.AddSingleton<QuestionnairePhonePage>();
 
         services.AddTransient<ResultsPage>();
+        services.AddTransient<ResultsPhonePage>();
         services.AddTransient<AddDevicePage>();
     }
 }
