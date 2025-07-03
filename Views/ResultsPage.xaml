@@ -37,6 +37,27 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                    <Button Text="DNS" 
+                            Clicked="OnDnsClicked"
+                            BackgroundColor="#FF5722"
+                            TextColor="White"
+                            CornerRadius="20"
+                            WidthRequest="100"/>
+                    <Button Text="М.Видео" 
+                            Clicked="OnMVideoClicked"
+                            BackgroundColor="#E53935"
+                            TextColor="White"
+                            CornerRadius="20"
+                            WidthRequest="100"/>
+                    <Button Text="Эльдорадо" 
+                            Clicked="OnEldoradoClicked"
+                            BackgroundColor="#3949AB"
+                            TextColor="White"
+                            CornerRadius="20"
+                            WidthRequest="100"/>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
         
