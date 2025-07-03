@@ -2,9 +2,10 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:views="clr-namespace:ChoosingGadgets.Views"
+    xmlns:local="clr-namespace:ChoosingGadgets"
     Shell.FlyoutBehavior="Flyout"
     Title="Выбор гаджетов"
-    FlyoutBackgroundColor="{AppThemeBinding Light={StaticResource FlyoutBackgroundColor}, Dark={StaticResource FlyoutBackgroundColor}}"
+    FlyoutBackgroundColor="{StaticResource FlyoutBackgroundColor}"
     FlyoutHeaderBehavior="CollapseOnScroll"
     FlyoutWidth="320"
     Shell.NavBarHasShadow="True"
@@ -12,52 +13,72 @@
     Shell.ForegroundColor="{DynamicResource SystemBaseHighColor}"
     Shell.TitleColor="{DynamicResource SystemBaseHighColor}">
 
+    <!-- Ресурсы для Shell -->
+    <Shell.Resources>
+        <Style x:Key="FluentMenuItemLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="TextColor" Value="{StaticResource SystemBaseHighColor}"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="Margin" Value="12,0,0,0"/>
+        </Style>
+    </Shell.Resources>
+
+    <!-- Flyout Header (Fluent 3 Style) -->
     <Shell.FlyoutHeader>
-        <Grid HeightRequest="160"
-            BackgroundColor="{StaticResource SystemAccentColor}">
+        <Grid HeightRequest="180" 
+              BackgroundColor="{StaticResource SystemAccentColor}"
+              Padding="0,40,0,20">
             <Label Text="Выбор гаджетов"
-                VerticalOptions="Center"
-                HorizontalOptions="Start"
-                Margin="16,0"
-                TextColor="White"
-                FontSize="20"
-                FontAttributes="Bold"/>
+                   VerticalOptions="End"
+                   HorizontalOptions="Start"
+                   Margin="24,0,0,16"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
         </Grid>
     </Shell.FlyoutHeader>
 
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Подобрать компьютер" 
-            ContentTemplate="{DataTemplate views:QuestionnairePage}" 
-            Route="QuestionnairePage"/>
+    <!-- Основные пункты меню -->
+    <FlyoutItem Title="Главное меню">
+        <Tab>
+            <ShellContent Title="Подобрать компьютер" 
+                         Icon="ic_fluent_laptop_color.svg"
+                         ContentTemplate="{DataTemplate views:QuestionnairePage}" 
+                         Route="QuestionnairePage"/>
+            
+            <ShellContent Title="Подобрать телефон" 
+                         Icon="ic_fluent_phone_color.svg"
+                         ContentTemplate="{DataTemplate views:QuestionnairePhonePage}" 
+                         Route="QuestionnairePhonePage"/>
+        </Tab>
     </FlyoutItem>
 
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Подобрать компьютер" 
-            ContentTemplate="{DataTemplate views:QuestionnairePhonePage}" 
-            Route="QuestionnairePhonePage"/>
+    <FlyoutItem Title="Устройства">
+        <Tab>
+            <ShellContent Title="Список устройств" 
+                         Icon="ic_fluent_library_color.svg"
+                         ContentTemplate="{DataTemplate views:DevicesPage}" 
+                         Route="DevicesPage"/>
+            
+            <ShellContent Title="Добавить устройство" 
+                         Icon="ic_fluent_add_filled.svg"
+                         ContentTemplate="{DataTemplate views:AddDevicePage}" 
+                         Route="AddDevicePage"/>
+        </Tab>
     </FlyoutItem>
 
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Список устройств" 
-            ContentTemplate="{DataTemplate views:DevicesPage}" 
-            Route="DevicesPage"/>
-    </FlyoutItem>
-
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Добавить своё устройство" 
-            ContentTemplate="{DataTemplate views:AddDevicePage}" 
-            Route="AddDevicePage"/>
-    </FlyoutItem>
-
-    <FlyoutItem FlyoutDisplayOptions="AsSingleItem">
-        <ShellContent Title="Параметры"
-            ContentTemplate="{DataTemplate views:SettingsPage}" 
-            Route="SettingsPage"/>
-    </FlyoutItem>
-
+    <!-- Separator -->
     <Shell.FlyoutFooter>
         <BoxView HeightRequest="1"
-                 BackgroundColor="{StaticResource SystemBaseLowColor}"
-                 Margin="0,10,0,0"/>
+                 BackgroundColor="{StaticResource SystemListLowColor}"
+                 Margin="24,8,24,8"/>
     </Shell.FlyoutFooter>
+
+    <!-- Settings (Bottom-Aligned) -->
+    <FlyoutItem Title="Параметры"
+               FlyoutItemIsVisible="True">
+        <ShellContent Icon="ic_fluent_settings_color.svg"
+                     ContentTemplate="{DataTemplate views:SettingsPage}" 
+                     Route="SettingsPage"/>
+    </FlyoutItem>
 </Shell>
