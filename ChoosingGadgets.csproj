@@ -46,24 +46,17 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.png" Color="#FFFFFF" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg"/>
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
-		<MauiImage Update="Resources\Images\adobe_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\blender_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\office_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\xbox_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\nintendoswitch_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\psstore_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\steam_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\visualstudio_logo.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\cloud.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\work.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\professional.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\ecosystem.png" Resize="True" BaseSize="512,512" />
-		<MauiImage Update="Resources\Images\home.png" Resize="True" BaseSize="512,512" />
+		<MauiImage Update="Resources\Images\ic_brand.svg" Resize="True" />
+		<MauiImage Update="Resources\Images\ic_fluent_laptop_color.svg" Resize="True" />
+		<MauiImage Update="Resources\Images\ic_fluent_phone_color.svg" Resize="True" />
+		<MauiImage Update="Resources\Images\ic_fluent_settings_color.svg" Resize="True" />
+		<MauiImage Update="Resources\Images\ic_fluent_library_color.svg" Resize="True" />
+		<MauiImage Update="Resources\Images\ic_fluent_add_filled.svg" Resize="True" />
 		<MauiImage Update="Resources\Images\appicon_foreground.png" Resize="True" BaseSize="512,512" />
 
 		<!-- Custom Fonts -->

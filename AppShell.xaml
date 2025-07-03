@@ -13,7 +13,6 @@
     Shell.ForegroundColor="{DynamicResource SystemBaseHighColor}"
     Shell.TitleColor="{DynamicResource SystemBaseHighColor}">
 
-    <!-- Ресурсы для Shell -->
     <Shell.Resources>
         <Style x:Key="FluentMenuItemLabel" TargetType="Label">
             <Setter Property="FontSize" Value="14"/>
@@ -23,7 +22,6 @@
         </Style>
     </Shell.Resources>
 
-    <!-- Flyout Header (Fluent 3 Style) -->
     <Shell.FlyoutHeader>
         <Grid HeightRequest="180" 
               BackgroundColor="{StaticResource SystemAccentColor}"
@@ -38,7 +36,6 @@
         </Grid>
     </Shell.FlyoutHeader>
 
-    <!-- Основные пункты меню -->
     <FlyoutItem Title="Главное меню">
         <Tab>
             <ShellContent Title="Подобрать компьютер" 
@@ -67,14 +64,12 @@
         </Tab>
     </FlyoutItem>
 
-    <!-- Separator -->
     <Shell.FlyoutFooter>
         <BoxView HeightRequest="1"
                  BackgroundColor="{StaticResource SystemListLowColor}"
                  Margin="24,8,24,8"/>
     </Shell.FlyoutFooter>
 
-    <!-- Settings (Bottom-Aligned) -->
     <FlyoutItem Title="Параметры"
                FlyoutItemIsVisible="True">
         <ShellContent Icon="ic_fluent_settings_color.svg"
