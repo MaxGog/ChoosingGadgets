@@ -124,6 +124,35 @@
                             HorizontalOptions="Fill"/>
                 </VerticalStackLayout>
             </controls:FluentSettingsCard>
+
+            <controls:FluentSettingsCard Header="Информация об устройстве" Margin="0,16,0,0">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="{Binding DeviceInfo.Manufacturer, StringFormat='Производитель: {0}'}"
+                        Style="{StaticResource BodyTextStyle}"
+                        TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Label Text="{Binding DeviceInfo.Model, StringFormat='Модель: {0}'}"
+                        Style="{StaticResource BodyTextStyle}"
+                        TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Label Text="{Binding DeviceInfo.DeviceType, StringFormat='Тип устройства: {0}'}"
+                        Style="{StaticResource BodyTextStyle}"
+                        TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Label Text="{Binding DeviceInfo.Platform, StringFormat='Платформа: {0}'}"
+                        Style="{StaticResource BodyTextStyle}"
+                        TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Label Text="{Binding DeviceInfo.Version, StringFormat='Версия ОС: {0}'}"
+                        Style="{StaticResource BodyTextStyle}"
+                        TextColor="{DynamicResource SystemBaseHighColor}"/>
+                    
+                    <Button Text="Показать полную информацию"
+                            Command="{Binding ShowFullDeviceInfoCommand}"
+                            Style="{StaticResource FluentTextButtonStyle}"
+                            HorizontalOptions="Fill"/>
+                </VerticalStackLayout>
+            </controls:FluentSettingsCard>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

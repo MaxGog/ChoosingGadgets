@@ -111,7 +111,7 @@
                     <DataTemplate>
                         <Label Text="{Binding Title}"
                             FontSize="14"
-                            TextColor="{StaticResource SystemBaseHighColor}"
+                            TextColor="Black"
                             VerticalOptions="Center"
                             Margin="16,12"/>
                     </DataTemplate>
