@@ -50,13 +50,34 @@
                     
                     <HorizontalStackLayout Grid.Column="1" Spacing="8" HorizontalOptions="Center">
                         <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
-                               BackgroundColor="#0078D7" Padding="0"/>
+                            BackgroundColor="#0078D7" Padding="0">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:SettingsViewModel}}, Path=AccentColor}" 
+                                                    CommandParameter="#0078D7"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
                         <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
-                               BackgroundColor="#E81123" Padding="0"/>
+                               BackgroundColor="#E81123" Padding="0">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:SettingsViewModel}}, Path=AccentColor}" 
+                                                    CommandParameter="#E81123"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
                         <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
-                               BackgroundColor="#881798" Padding="0"/>
+                               BackgroundColor="#881798" Padding="0">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:SettingsViewModel}}, Path=AccentColor}" 
+                                                    CommandParameter="#881798"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
                         <Frame CornerRadius="20" HeightRequest="40" WidthRequest="40" 
-                               BackgroundColor="#498205" Padding="0"/>
+                               BackgroundColor="#498205" Padding="0">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:SettingsViewModel}}, Path=AccentColor}" 
+                                                    CommandParameter="#498205"/>
+                            </Frame.GestureRecognizers>
+                               
+                        </Frame>
                     </HorizontalStackLayout>
                     
                     <Button Text="Другие" 
