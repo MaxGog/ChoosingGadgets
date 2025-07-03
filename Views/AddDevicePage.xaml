@@ -4,7 +4,7 @@
              x:Class="ChoosingGadgets.Views.AddDevicePage"
              Title="Добавить устройство"
              xmlns:viewmodels="clr-namespace:ChoosingGadgets.ViewModels"
-             BackgroundColor="{DynamicResource SystemAltHighColor}"
+             BackgroundColor="{DynamicResource SystemChromeLowColor}"
              x:DataType="viewmodels:AddDeviceViewModel">
 
     <ScrollView>

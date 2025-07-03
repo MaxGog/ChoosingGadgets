@@ -5,7 +5,8 @@
              xmlns:viewmodels="clr-namespace:ChoosingGadgets.ViewModels"
              xmlns:models="clr-namespace:ChoosingGadgets.Models"
              xmlns:behaviors="clr-namespace:ChoosingGadgets.Behaviors"
-             x:DataType="viewmodels:DevicesViewModel">
+             x:DataType="viewmodels:DevicesViewModel"
+             BackgroundColor="{DynamicResource SystemChromeLowColor}">
     
     <Grid RowDefinitions="Auto,Auto,*,Auto">
         <SearchBar Grid.Row="0"

@@ -5,7 +5,7 @@
              xmlns:microsoft="http://schemas.microsoft.com/dotnet/2021/maui"
              x:Class="ChoosingGadgets.Views.MainPage"
              Title="Главная"
-             Background="{DynamicResource ApplicationPageBackgroundThemeBrush}">
+             BackgroundColor="{DynamicResource SystemChromeLowColor}">
 
     <ScrollView>
         <VerticalStackLayout Spacing="24" Padding="20,16">
