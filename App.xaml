@@ -1,4 +1,4 @@
-﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:ChoosingGadgets.Converters"
@@ -13,11 +13,12 @@
         <Color x:Key="SystemAccentColorLight2">#DFD8F7</Color>
         <Color x:Key="SystemAccentColorDark1">#005BA1</Color>
         <Color x:Key="SystemAccentColorDark2">#004170</Color>
-            
+        
         <Color x:Key="SystemBaseHighColor">#000000</Color>
         <Color x:Key="SystemBaseMediumHighColor">#CC000000</Color>
         <Color x:Key="SystemBaseMediumColor">#99000000</Color>
         <Color x:Key="SystemBaseLowColor">#808080</Color>
+        
         <Color x:Key="SystemAltHighColor">#FFFFFF</Color>
         <Color x:Key="SystemAltMediumHighColor">#CCFFFFFF</Color>
         <Color x:Key="SystemAltMediumColor">#99FFFFFF</Color>
@@ -32,14 +33,11 @@
         
         <Color x:Key="BackgroundColor">#F5F5F5</Color>
         <Color x:Key="TextColor">Black</Color>
-
         <Color x:Key="FlyoutBackgroundColor">White</Color>
 
         <SolidColorBrush x:Key="SystemControlBackgroundAltHighBrush" Color="{DynamicResource SystemAltHighColor}"/>
         <SolidColorBrush x:Key="SystemControlForegroundBaseLowBrush" Color="{DynamicResource SystemBaseLowColor}"/>
         <SolidColorBrush x:Key="SystemControlForegroundBaseHighBrush" Color="{DynamicResource SystemBaseHighColor}"/>
-    
-        
 
         <OnPlatform x:Key="CurrentTheme" x:TypeArguments="ResourceDictionary">
             <On Platform="iOS, Android, WinUI, Mac" Value="{DynamicResource LightTheme}" />
@@ -69,10 +67,10 @@
                 <Setter.Value>
                     <DataTemplate>
                         <Label Text="{Binding Title}"
-                            FontSize="14"
-                            TextColor="Black"
-                            VerticalOptions="Center"
-                            Margin="16,12"/>
+                               FontSize="14"
+                               TextColor="Black"
+                               VerticalOptions="Center"
+                               Margin="16,12"/>
                     </DataTemplate>
                 </Setter.Value>
             </Setter>
@@ -145,34 +143,33 @@
         </Style>
 
         <FontImageSource x:Key="LaptopIcon" 
-                Glyph="&#xE7F8;" 
-                FontFamily="FluentSystemIcons-Regular"
-                Color="{DynamicResource SystemBaseHighColor}"
-                Size="20"/>
+                         Glyph="&#xE7F8;" 
+                         FontFamily="FluentSystemIcons-Regular"
+                         Color="{DynamicResource SystemBaseHighColor}"
+                         Size="20"/>
 
         <FontImageSource x:Key="PhoneIcon" 
-                        Glyph="&#xE717;" 
-                        FontFamily="FluentSystemIcons-Regular"
-                        Color="{DynamicResource SystemBaseHighColor}"
-                        Size="20"/>
+                         Glyph="&#xE717;" 
+                         FontFamily="FluentSystemIcons-Regular"
+                         Color="{DynamicResource SystemBaseHighColor}"
+                         Size="20"/>
 
         <FontImageSource x:Key="LibraryIcon" 
-                        Glyph="&#xE8F1;" 
-                        FontFamily="FluentSystemIcons-Regular"
-                        Color="{DynamicResource SystemBaseHighColor}"
-                        Size="20"/>
+                         Glyph="&#xE8F1;" 
+                         FontFamily="FluentSystemIcons-Regular"
+                         Color="{DynamicResource SystemBaseHighColor}"
+                         Size="20"/>
 
         <FontImageSource x:Key="AddIcon" 
-                        Glyph="&#xE710;" 
-                        FontFamily="FluentSystemIcons-Regular"
-                        Color="{DynamicResource SystemBaseHighColor}"
-                        Size="20"/>
+                         Glyph="&#xE710;" 
+                         FontFamily="FluentSystemIcons-Regular"
+                         Color="{DynamicResource SystemBaseHighColor}"
+                         Size="20"/>
 
         <FontImageSource x:Key="SettingsIcon" 
-                        Glyph="&#xE713;" 
-                        FontFamily="FluentSystemIcons-Regular"
-                        Color="{DynamicResource SystemBaseHighColor}"
-                        Size="20"/>
-            
+                         Glyph="&#xE713;" 
+                         FontFamily="FluentSystemIcons-Regular"
+                         Color="{DynamicResource SystemBaseHighColor}"
+                         Size="20"/>
     </Application.Resources>
 </Application>
