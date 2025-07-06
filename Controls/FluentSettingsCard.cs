@@ -2,14 +2,14 @@ using Microsoft.Maui.Controls;
 
 namespace ChoosingGadgets.Controls;
 
-public class FluentSettingsCard : ContentView
+public class FluentCard : ContentView
 {
     public static readonly BindableProperty HeaderProperty =
-        BindableProperty.Create(nameof(Header), typeof(string), typeof(FluentSettingsCard), 
+        BindableProperty.Create(nameof(Header), typeof(string), typeof(FluentCard), 
         default(string), propertyChanged: OnHeaderChanged);
     
     public static readonly BindableProperty ContentProperty =
-        BindableProperty.Create(nameof(Content), typeof(View), typeof(FluentSettingsCard), 
+        BindableProperty.Create(nameof(Content), typeof(View), typeof(FluentCard), 
         null, propertyChanged: OnContentChanged);
     
     private readonly Label _headerLabel;
@@ -27,8 +27,9 @@ public class FluentSettingsCard : ContentView
         get => (View)GetValue(ContentProperty);
         set => SetValue(ContentProperty, value);
     }
-    
-    public FluentSettingsCard()
+
+    [Obsolete]
+    public FluentCard()
     {
         T GetResource<T>(string key, T defaultValue = default)
         {
@@ -78,7 +79,7 @@ public class FluentSettingsCard : ContentView
     
     private static void OnHeaderChanged(BindableObject bindable, object oldValue, object newValue)
     {
-        if (bindable is FluentSettingsCard card && newValue is string header)
+        if (bindable is FluentCard card && newValue is string header)
         {
             card._headerLabel.Text = header;
         }
@@ -86,7 +87,7 @@ public class FluentSettingsCard : ContentView
     
     private static void OnContentChanged(BindableObject bindable, object oldValue, object newValue)
     {
-        if (bindable is FluentSettingsCard card && newValue is View content)
+        if (bindable is FluentCard card && newValue is View content)
         {
             card._contentContainer.Content = content;
         }

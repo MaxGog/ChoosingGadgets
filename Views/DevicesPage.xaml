@@ -1,121 +1,130 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChoosingGadgets.Views.DevicesPage"
-             Title="Устройства"
              xmlns:viewmodels="clr-namespace:ChoosingGadgets.ViewModels"
              xmlns:models="clr-namespace:ChoosingGadgets.Models"
              xmlns:behaviors="clr-namespace:ChoosingGadgets.Behaviors"
+             xmlns:controls="clr-namespace:ChoosingGadgets.Controls"
              x:DataType="viewmodels:DevicesViewModel"
-             BackgroundColor="{DynamicResource SystemChromeLowColor}">
+             BackgroundColor="{DynamicResource SystemChromeLowColor}"
+             Title="Устройства">
     
     <Grid RowDefinitions="Auto,Auto,*,Auto">
-        <SearchBar Grid.Row="0"
-            Placeholder="Поиск устройств..."
-            Text="{Binding SearchTerm}"
-            SearchCommand="{Binding SearchDevicesCommand}"
-            Margin="10,5"/>
+        <controls:FluentCard Grid.Row="0" Margin="10,5">
+            <SearchBar Placeholder="Поиск устройств..."
+                      Text="{Binding SearchTerm}"
+                      SearchCommand="{Binding SearchDevicesCommand}"
+                      BackgroundColor="Transparent"
+                      CancelButtonColor="{DynamicResource SystemAccentColor}"/>
+        </controls:FluentCard>
 
-        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center">
-            <RadioButton Content="Компьютеры" 
-                IsChecked="True">
-                <RadioButton.Behaviors>
-                    <behaviors:RadioButtonCheckedBehavior 
-                        Command="{Binding SwitchDeviceTypeCommand}"
-                        CommandParameter="{x:Static models:DeviceType.Computer}"/>
-                </RadioButton.Behaviors>
-            </RadioButton>
-            <RadioButton Content="Смартфоны" 
-                Margin="20,0,0,0">
-                <RadioButton.Behaviors>
-                    <behaviors:RadioButtonCheckedBehavior 
-                        Command="{Binding SwitchDeviceTypeCommand}"
-                        CommandParameter="{x:Static models:DeviceType.Smartphone}"/>
-                </RadioButton.Behaviors>
-            </RadioButton>
-        </StackLayout>
+        <controls:FluentCard Grid.Row="1" Margin="10,0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                <RadioButton Content="Компьютеры" 
+                             IsChecked="True"
+                             Style="{StaticResource FluentRadioButtonStyle}">
+                    <RadioButton.Behaviors>
+                        <behaviors:RadioButtonCheckedBehavior 
+                            Command="{Binding SwitchDeviceTypeCommand}"
+                            CommandParameter="{x:Static models:DeviceType.Computer}"/>
+                    </RadioButton.Behaviors>
+                </RadioButton>
+                
+                <RadioButton Content="Смартфоны"
+                             Style="{StaticResource FluentRadioButtonStyle}">
+                    <RadioButton.Behaviors>
+                        <behaviors:RadioButtonCheckedBehavior 
+                            Command="{Binding SwitchDeviceTypeCommand}"
+                            CommandParameter="{x:Static models:DeviceType.Smartphone}"/>
+                    </RadioButton.Behaviors>
+                </RadioButton>
+            </StackLayout>
+        </controls:FluentCard>
         
         <RefreshView Grid.Row="2"
-            Command="{Binding LoadDevicesCommand}"
-            IsRefreshing="{Binding IsBusy}">
+                     Command="{Binding LoadDevicesCommand}"
+                     IsRefreshing="{Binding IsBusy}"
+                     RefreshColor="{DynamicResource SystemAccentColor}">
             <CollectionView ItemsSource="{Binding Devices}"
-                SelectionMode="Single"
-                SelectionChangedCommand="{Binding DeviceSelectedCommand}"
-                EmptyView="Устройств не найдено">
+                            SelectionMode="Single"
+                            SelectionChangedCommand="{Binding DeviceSelectedCommand}"
+                            EmptyView="Устройств не найдено">
                 <CollectionView.Header>
-                    <StackLayout Orientation="Horizontal" 
-                            HorizontalOptions="Center"
-                            Padding="10">
-                        <Label Text="Всего устройств: "
-                            FontAttributes="Italic"/>
-                        <Label Text="{Binding DevicesCount}"
-                            FontAttributes="Italic"/>
-                    </StackLayout>
+                    <controls:FluentCard Margin="10,5">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label Text="Всего устройств: "
+                                   Style="{StaticResource BodyTextStyle}"/>
+                            <Label Text="{Binding DevicesCount}"
+                                   Style="{StaticResource BodyTextStyle}"
+                                   FontAttributes="Bold"/>
+                        </StackLayout>
+                    </controls:FluentCard>
                 </CollectionView.Header>
                 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Device">
-                        <Grid Padding="10">
-                            <Border HeightRequest="150" 
-                                Padding="0">
-                                <Grid ColumnDefinitions="150,*"
-                                      RowDefinitions="Auto,Auto,Auto,Auto">
-                                    <Image Grid.Column="0"
-                                        Grid.RowSpan="4"
-                                        Source="{Binding ImageUrl}"
-                                        Aspect="AspectFill"
-                                        BackgroundColor="LightGray"/>
-                                    
-                                    <Label Grid.Column="1"
-                                        Grid.Row="0"
-                                        Text="{Binding Name}"
-                                        FontAttributes="Bold"
-                                        FontSize="Medium"
-                                        Margin="10,10,10,0"/>
-                                    
-                                    <Label Grid.Column="1"
-                                        Grid.Row="1"
-                                        Text="{Binding Manufacturer}"
-                                        FontSize="Small"
-                                        TextColor="Gray"
-                                        Margin="10,0"/>
-                                    
-                                    <Label Grid.Column="1"
-                                        Grid.Row="2"
-                                        Text="{Binding Type, 
-                                        Converter={StaticResource DeviceTypeConverter}}"
-                                        FontSize="Small"
-                                        Margin="10,0"/>
-                                    
-                                    <Label Grid.Column="1"
-                                        Grid.Row="3"
-                                        Text="{Binding Price, StringFormat='{0:C}'}"
-                                        FontSize="Medium"
-                                        FontAttributes="Bold"
-                                        TextColor="{AppThemeBinding Light={StaticResource Primary}, 
-                                                                    Dark={StaticResource Secondary}}"
-                                        Margin="10,0,10,10"/>
-                                </Grid>
-                            </Border>
-                        </Grid>
+                        <controls:FluentCard Margin="10,5">
+                            <Grid ColumnDefinitions="120,*"
+                                  RowDefinitions="Auto,Auto,Auto,Auto"
+                                  Padding="0"
+                                  HeightRequest="120">
+                                <Image Grid.Column="0"
+                                       Grid.RowSpan="4"
+                                       Source="{Binding ImageUrl}"
+                                       Aspect="AspectFill"
+                                       BackgroundColor="{DynamicResource SystemListLowColor}"
+                                       WidthRequest="120"/>
+                                
+                                <Label Grid.Column="1"
+                                       Grid.Row="0"
+                                       Text="{Binding Name}"
+                                       Style="{StaticResource BodyTextStyle}"
+                                       FontAttributes="Bold"
+                                       Margin="10,10,10,0"/>
+                                
+                                <Label Grid.Column="1"
+                                       Grid.Row="1"
+                                       Text="{Binding Manufacturer}"
+                                       Style="{StaticResource BodyTextStyle}"
+                                       TextColor="{DynamicResource SystemBaseMediumColor}"
+                                       Margin="10,0"/>
+                                
+                                <Label Grid.Column="1"
+                                       Grid.Row="2"
+                                       Text="{Binding Type, Converter={StaticResource DeviceTypeConverter}}"
+                                       Style="{StaticResource BodyTextStyle}"
+                                       Margin="10,0"/>
+                                
+                                <Label Grid.Column="1"
+                                       Grid.Row="3"
+                                       Text="{Binding Price, StringFormat='{0:C}'}"
+                                       Style="{StaticResource BodyTextStyle}"
+                                       FontAttributes="Bold"
+                                       TextColor="{DynamicResource SystemAccentColor}"
+                                       Margin="10,0,10,10"/>
+                            </Grid>
+                        </controls:FluentCard>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </RefreshView>
-        
+
         <Grid Grid.Row="3" 
-            ColumnDefinitions="*,*"
-            Padding="10"
-            BackgroundColor="{AppThemeBinding Light=White, Dark=#1C1C1E}">
+              ColumnDefinitions="*,*"
+              Padding="10"
+              BackgroundColor="{DynamicResource SystemAltHighColor}">
             <Button Grid.Column="0"
-                Text="Добавить вручную"
-                Command="{Binding AddManualCommand}"
-                Margin="0,0,5,0"/>
+                    Text="Добавить вручную"
+                    Command="{Binding AddManualCommand}"
+                    Style="{StaticResource FluentButtonStyle}"
+                    Margin="0,0,5,0"/>
             
             <Button Grid.Column="1"
-                Text="Загрузить из сети"
-                Command="{Binding ParseFromWebCommand}"
-                CommandParameter="{Binding DeviceType, Converter={StaticResource DeviceTypeToUrlConverter}}"
-                Margin="5,0,0,0"/>
+                    Text="Загрузить из сети"
+                    Command="{Binding ParseFromWebCommand}"
+                    CommandParameter="{Binding DeviceType, Converter={StaticResource DeviceTypeToUrlConverter}}"
+                    Style="{StaticResource FluentButtonStyle}"
+                    Margin="5,0,0,0"/>
         </Grid>
     </Grid>
 </ContentPage>

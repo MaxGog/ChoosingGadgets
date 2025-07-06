@@ -1,69 +1,104 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChoosingGadgets.Views.ResultsPage"
+             xmlns:controls="clr-namespace:ChoosingGadgets.Controls"
              BackgroundColor="{DynamicResource SystemChromeLowColor}"
              Title="Результаты подбора">
     <Grid>
         <ScrollView>
-            <StackLayout Padding="20" Spacing="15">
+            <StackLayout Padding="20" Spacing="24">
                 <Label Text="Мы подобрали для вас:" 
-                       FontSize="Title"
+                       Style="{DynamicResource HeaderTextStyle}"
                        HorizontalOptions="Center"/>
                 
-                <Label x:Name="RecommendationLabel" 
-                       FontSize="Subtitle"
-                       TextColor="Black"/>
+                <controls:FluentCard Header="Рекомендация">
+                    <Label x:Name="RecommendationLabel" 
+                           Style="{DynamicResource BodyTextStyle}"
+                           TextColor="{DynamicResource SystemBaseHighColor}"/>
+                </controls:FluentCard>
                 
                 <CollectionView x:Name="DevicesCollection"
                                SelectionMode="Single"
                                SelectionChanged="OnDeviceSelected">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Grid Padding="10">
-                                <Frame CornerRadius="10" HasShadow="True">
-                                    <StackLayout Orientation="Horizontal" Spacing="15">
-                                        <Image Source="{Binding ImageUrl}"
-                                               Aspect="AspectFill"
-                                               HeightRequest="80"
-                                               WidthRequest="80"/>
-                                        <StackLayout Spacing="5">
-                                            <Label Text="{Binding Name}" FontAttributes="Bold"/>
-                                            <Label Text="{Binding Manufacturer}"/>
-                                            <Label Text="{Binding Price, StringFormat='Цена: {0:C}'}"/>
-                                        </StackLayout>
+                            <controls:FluentCard>
+                                <Grid Padding="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <Image Source="{Binding ImageUrl}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="80"
+                                           WidthRequest="80"
+                                           Grid.Column="0"
+                                           Margin="0,0,16,0"/>
+                                    
+                                    <StackLayout Spacing="4" Grid.Column="1">
+                                        <Label Text="{Binding Name}" 
+                                               Style="{DynamicResource BodyTextStyle}"
+                                               FontAttributes="Bold"/>
+                                        <Label Text="{Binding Manufacturer}" 
+                                               Style="{DynamicResource BodyTextStyle}"
+                                               TextColor="{DynamicResource SystemBaseMediumColor}"/>
+                                        <Label Text="{Binding Price, StringFormat='{0:C}'}" 
+                                               Style="{DynamicResource BodyTextStyle}"
+                                               FontAttributes="Bold"
+                                               TextColor="{DynamicResource SystemAccentColor}"/>
                                     </StackLayout>
-                                </Frame>
-                            </Grid>
+                                    
+                                    <!-- Иконка выбора -->
+                                    <Label Text="→" 
+                                           FontSize="20"
+                                           TextColor="{DynamicResource SystemAccentColor}"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="End"
+                                           Grid.Column="2"/>
+                                </Grid>
+                            </controls:FluentCard>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
+                    
+                    <CollectionView.EmptyView>
+                        <StackLayout>
+                            <Label Text="Нет подходящих устройств" 
+                                   Style="{DynamicResource BodyTextStyle}"
+                                   HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </CollectionView.EmptyView>
                 </CollectionView>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                <StackLayout Orientation="Horizontal" 
+                             HorizontalOptions="Center" 
+                             Spacing="12"
+                             Margin="0,16,0,0">
                     <Button Text="DNS" 
                             Clicked="OnDnsClicked"
+                            Style="{StaticResource FluentButtonStyle}"
                             BackgroundColor="#FF5722"
-                            TextColor="White"
-                            CornerRadius="20"
-                            WidthRequest="100"/>
+                            WidthRequest="110"/>
+                    
                     <Button Text="М.Видео" 
                             Clicked="OnMVideoClicked"
+                            Style="{StaticResource FluentButtonStyle}"
                             BackgroundColor="#E53935"
-                            TextColor="White"
-                            CornerRadius="20"
-                            WidthRequest="100"/>
+                            WidthRequest="110"/>
+                    
                     <Button Text="Эльдорадо" 
                             Clicked="OnEldoradoClicked"
+                            Style="{StaticResource FluentButtonStyle}"
                             BackgroundColor="#3949AB"
-                            TextColor="White"
-                            CornerRadius="20"
-                            WidthRequest="100"/>
+                            WidthRequest="110"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
         
         <ActivityIndicator x:Name="LoadingIndicator"
                            IsRunning="False"
-                           Color="{StaticResource Primary}"
+                           Color="{DynamicResource SystemAccentColor}"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"
                            BackgroundColor="#80000000"

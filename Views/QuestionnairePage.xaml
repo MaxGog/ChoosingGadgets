@@ -1,129 +1,183 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChoosingGadgets.Views.QuestionnairePage"
+             xmlns:controls="clr-namespace:ChoosingGadgets.Controls"
              BackgroundColor="{DynamicResource SystemChromeLowColor}"
              Title="Подбор компьютера">
     <ScrollView>
-        <StackLayout Padding="20" Spacing="15">
+        <StackLayout Padding="20" Spacing="24">
             <Label Text="Подбор оптимального компьютера" 
-                   FontSize="Title"
+                   Style="{DynamicResource HeaderTextStyle}"
                    HorizontalOptions="Center"/>
             
-            <Label Text="1. Ваш бюджет (в рублях):" FontSize="Subtitle"/>
-            <Picker x:Name="BudgetPicker">
-                <Picker.Items>
-                    <x:String>До 50 000 ₽</x:String>
-                    <x:String>50 000 - 100 000 ₽</x:String>
-                    <x:String>100 000 - 150 000 ₽</x:String>
-                    <x:String>150 000 - 200 000 ₽</x:String>
-                    <x:String>Более 200 000 ₽</x:String>
-                </Picker.Items>
-            </Picker>
+            <controls:FluentCard Header="1. Ваш бюджет (в рублях):">
+                <Picker x:Name="BudgetPicker"
+                        Title="Выберите бюджет"
+                        TextColor="{DynamicResource SystemBaseHighColor}">
+                    <Picker.Items>
+                        <x:String>До 50 000 ₽</x:String>
+                        <x:String>50 000 - 100 000 ₽</x:String>
+                        <x:String>100 000 - 150 000 ₽</x:String>
+                        <x:String>150 000 - 200 000 ₽</x:String>
+                        <x:String>Более 200 000 ₽</x:String>
+                    </Picker.Items>
+                </Picker>
+            </controls:FluentCard>
             
-            <Label Text="2. Основное назначение компьютера:" FontSize="Subtitle"/>
-            <Picker x:Name="UsagePicker">
-                <Picker.Items>
-                    <x:String>Офисная работа/учеба</x:String>
-                    <x:String>Игры</x:String>
-                    <x:String>Графика/дизайн</x:String>
-                    <x:String>Видеомонтаж/рендеринг</x:String>
-                    <x:String>Программирование</x:String>
-                    <x:String>Домашний медиацентр</x:String>
-                </Picker.Items>
-            </Picker>
+            <controls:FluentCard Header="2. Основное назначение компьютера:">
+                <Picker x:Name="UsagePicker"
+                        Title="Выберите назначение"
+                        TextColor="{DynamicResource SystemBaseHighColor}">
+                    <Picker.Items>
+                        <x:String>Офисная работа/учеба</x:String>
+                        <x:String>Игры</x:String>
+                        <x:String>Графика/дизайн</x:String>
+                        <x:String>Видеомонтаж/рендеринг</x:String>
+                        <x:String>Программирование</x:String>
+                        <x:String>Домашний медиацентр</x:String>
+                    </Picker.Items>
+                </Picker>
+            </controls:FluentCard>
         
-            <Label Text="3. Предпочтительный форм-фактор:" FontSize="Subtitle"/>
-            <Picker x:Name="FormFactorPicker">
-                <Picker.Items>
-                    <x:String>Настольный ПК</x:String>
-                    <x:String>Ноутбук</x:String>
-                    <x:String>Мини-ПК/NUC</x:String>
-                    <x:String>Моноблок</x:String>
-                    <x:String>Не важно</x:String>
-                </Picker.Items>
-            </Picker>
+            <controls:FluentCard Header="3. Предпочтительный форм-фактор:">
+                <Picker x:Name="FormFactorPicker"
+                        Title="Выберите форм-фактор"
+                        TextColor="{DynamicResource SystemBaseHighColor}">
+                    <Picker.Items>
+                        <x:String>Настольный ПК</x:String>
+                        <x:String>Ноутбук</x:String>
+                        <x:String>Мини-ПК/NUC</x:String>
+                        <x:String>Моноблок</x:String>
+                        <x:String>Не важно</x:String>
+                    </Picker.Items>
+                </Picker>
+            </controls:FluentCard>
             
-            <Label Text="4. Предпочтения по производителю:" FontSize="Subtitle"/>
-            <Picker x:Name="BrandPicker">
-                <Picker.Items>
-                    <x:String>Российские бренды (DEXP, iRU)</x:String>
-                    <x:String>Международные бренды</x:String>
-                    <x:String>Сборка на заказ</x:String>
-                    <x:String>Не важно</x:String>
-                </Picker.Items>
-            </Picker>
+            <controls:FluentCard Header="4. Предпочтения по производителю:">
+                <Picker x:Name="BrandPicker"
+                        Title="Выберите производителя"
+                        TextColor="{DynamicResource SystemBaseHighColor}">
+                    <Picker.Items>
+                        <x:String>Российские бренды (DEXP, iRU)</x:String>
+                        <x:String>Международные бренды</x:String>
+                        <x:String>Сборка на заказ</x:String>
+                        <x:String>Не важно</x:String>
+                    </Picker.Items>
+                </Picker>
+            </controls:FluentCard>
             
-            <Label Text="5. Какое ПО планируете использовать?" FontSize="Subtitle"/>
-            <HorizontalStackLayout Spacing="10">
-                <CheckBox x:Name="OfficeCheckBox"/>
-                <Label Text="Офисные приложения (Word, Excel)" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
+            <controls:FluentCard Header="5. Какое ПО планируете использовать?">
+                <StackLayout Spacing="12">
+                    <HorizontalStackLayout Spacing="16">
+                        <CheckBox x:Name="OfficeCheckBox" 
+                                  Color="{DynamicResource SystemAccentColor}"/>
+                        <Label Text="Офисные приложения (Word, Excel)" 
+                               Style="{DynamicResource BodyTextStyle}"
+                               VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
 
-            <HorizontalStackLayout Spacing="10">
-                <CheckBox x:Name="CadCheckBox"/>
-                <Label Text="CAD системы (Компас-3D, NanoCAD)" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="16">
+                        <CheckBox x:Name="CadCheckBox" 
+                                 Color="{DynamicResource SystemAccentColor}"/>
+                        <Label Text="CAD системы (Компас-3D, NanoCAD)" 
+                               Style="{DynamicResource BodyTextStyle}"
+                               VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
 
-            <HorizontalStackLayout Spacing="10">
-                <CheckBox x:Name="VideoCheckBox"/>
-                <Label Text="Видеоредакторы (Premiere, DaVinci)" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="16">
+                        <CheckBox x:Name="VideoCheckBox" 
+                                 Color="{DynamicResource SystemAccentColor}"/>
+                        <Label Text="Видеоредакторы (Premiere, DaVinci)" 
+                               Style="{DynamicResource BodyTextStyle}"
+                               VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
 
-            <HorizontalStackLayout Spacing="10">
-                <CheckBox x:Name="IdeCheckBox"/>
-                <Label Text="Среды разработки (VS, PyCharm)" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="16">
+                        <CheckBox x:Name="IdeCheckBox" 
+                                 Color="{DynamicResource SystemAccentColor}"/>
+                        <Label Text="Среды разработки (VS, PyCharm)" 
+                               Style="{DynamicResource BodyTextStyle}"
+                               VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
+                    
+                    <HorizontalStackLayout Spacing="16">
+                        <CheckBox x:Name="GamingCheckBox" 
+                                 Color="{DynamicResource SystemAccentColor}"/>
+                        <Label Text="Игры (включая российские)" 
+                               Style="{DynamicResource BodyTextStyle}"
+                               VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
+                </StackLayout>
+            </controls:FluentCard>
             
-            <HorizontalStackLayout Spacing="10">
-                <CheckBox x:Name="GamingCheckBox"/>
-                <Label Text="Игры (включая российские)" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
+            <controls:FluentCard Header="6. Приоритет производительности (1-5):">
+                <StackLayout Spacing="12">
+                    <Slider x:Name="PerformanceSlider" 
+                            Minimum="1" 
+                            Maximum="5" 
+                            Value="3"
+                            MinimumTrackColor="{DynamicResource SystemAccentColor}"
+                            MaximumTrackColor="{DynamicResource SystemListLowColor}"
+                            ThumbColor="{DynamicResource SystemAccentColor}"/>
+                    <Label x:Name="PerformanceValueLabel" 
+                           Text="{Binding Source={x:Reference PerformanceSlider}, Path=Value, StringFormat='{0:F0}'}"
+                           Style="{DynamicResource HeaderTextStyle}"
+                           HorizontalOptions="Center"/>
+                </StackLayout>
+            </controls:FluentCard>
             
-            <Label Text="6. Приоритет производительности (1-5):" FontSize="Subtitle"/>
-            <Slider x:Name="PerformanceSlider" 
-                    Minimum="1" 
-                    Maximum="5" 
-                    Value="3"
-                    MinimumTrackColor="Blue"
-                    MaximumTrackColor="Gray"
-                    ThumbColor="Blue"/>
-            <Label x:Name="PerformanceValueLabel" 
-                   Text="{Binding Source={x:Reference PerformanceSlider}, Path=Value, StringFormat='{0:F0}'}"
-                   HorizontalOptions="Center"/>
+            <controls:FluentCard Header="7. Планируете ли апгрейд в будущем?">
+                <Picker x:Name="UpgradePicker"
+                        Title="Выберите вариант"
+                        TextColor="{DynamicResource SystemBaseHighColor}">
+                    <Picker.Items>
+                        <x:String>Да, важно</x:String>
+                        <x:String>Возможно</x:String>
+                        <x:String>Нет</x:String>
+                    </Picker.Items>
+                </Picker>
+            </controls:FluentCard>
             
-            <Label Text="7. Планируете ли апгрейд в будущем?" FontSize="Subtitle"/>
-            <Picker x:Name="UpgradePicker">
-                <Picker.Items>
-                    <x:String>Да, важно</x:String>
-                    <x:String>Возможно</x:String>
-                    <x:String>Нет</x:String>
-                </Picker.Items>
-            </Picker>
+            <controls:FluentCard Header="8. Требуется поддержка российского ПО?">
+                <HorizontalStackLayout Spacing="16">
+                    <Switch x:Name="RussianSoftwareSwitch" 
+                            HorizontalOptions="Start"
+                            OnColor="{DynamicResource SystemAccentColor}"/>
+                    <Label Text="{Binding Source={x:Reference RussianSoftwareSwitch}, Path=IsToggled, 
+                                StringFormat='{0:Выключено;Включено}'}"
+                           Style="{DynamicResource BodyTextStyle}"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </controls:FluentCard>
             
-            <Label Text="8. Требуется поддержка российского ПО?" FontSize="Subtitle"/>
-            <Switch x:Name="RussianSoftwareSwitch" 
-                    HorizontalOptions="Start"/>
-            
-            <Label Text="9. Важна ли энергоэффективность?" FontSize="Subtitle"/>
-            <Switch x:Name="EnergyEfficiencySwitch" 
-                    HorizontalOptions="Start"/>
-            
-            <Label Text="10. Требуемый срок гарантии:" FontSize="Subtitle"/>
-            <Picker x:Name="WarrantyPicker">
-                <Picker.Items>
-                    <x:String>1 год</x:String>
-                    <x:String>2 года</x:String>
-                    <x:String>3 года и более</x:String>
-                    <x:String>Не важно</x:String>
-                </Picker.Items>
-            </Picker>
+            <controls:FluentCard Header="9. Важна ли энергоэффективность?">
+                <HorizontalStackLayout Spacing="16">
+                    <Switch x:Name="EnergyEfficiencySwitch" 
+                            HorizontalOptions="Start"
+                            OnColor="{DynamicResource SystemAccentColor}"/>
+                    <Label Text="{Binding Source={x:Reference EnergyEfficiencySwitch}, Path=IsToggled, 
+                                StringFormat='{0:Выключено;Включено}'}"
+                           Style="{DynamicResource BodyTextStyle}"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </controls:FluentCard>
+
+            <controls:FluentCard Header="10. Требуемый срок гарантии:">
+                <Picker x:Name="WarrantyPicker"
+                        Title="Выберите срок"
+                        TextColor="{DynamicResource SystemBaseHighColor}">
+                    <Picker.Items>
+                        <x:String>1 год</x:String>
+                        <x:String>2 года</x:String>
+                        <x:String>3 года и более</x:String>
+                        <x:String>Не важно</x:String>
+                    </Picker.Items>
+                </Picker>
+            </controls:FluentCard>
             
             <Button Text="Подобрать компьютер" 
                     Clicked="OnSubmitClicked"
-                    BackgroundColor="#512BD4"
-                    TextColor="White"
-                    CornerRadius="20"
-                    Margin="0,20,0,0"/>
+                    Style="{StaticResource FluentButtonStyle}"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

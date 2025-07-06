@@ -16,7 +16,7 @@
                    Style="{StaticResource HeaderTextStyle}"
                    Margin="0,0,0,20"/>
             
-            <controls:FluentSettingsCard Header="Персонализация">
+            <controls:FluentCard Header="Персонализация">
                 <VerticalStackLayout Spacing="12">
                     <Label Text="Цветовая тема приложения"
                            Style="{StaticResource BodyTextStyle}"
@@ -39,9 +39,9 @@
                                      Style="{StaticResource FluentRadioButtonStyle}"/>
                     </Grid>
                 </VerticalStackLayout>
-            </controls:FluentSettingsCard>
+            </controls:FluentCard>
             
-            <controls:FluentSettingsCard Header="Акцентный цвет" Margin="0,16,0,0">
+            <controls:FluentCard Header="Акцентный цвет" Margin="0,16,0,0">
                 <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="12">
                     <Label Text="Цвет акцентов"
                            Style="{StaticResource BodyTextStyle}"
@@ -85,9 +85,9 @@
                             Style="{StaticResource FluentTextButtonStyle}"
                             HorizontalOptions="End"/>
                 </Grid>
-            </controls:FluentSettingsCard>
+            </controls:FluentCard>
             
-            <controls:FluentSettingsCard Header="Дополнительно" Margin="0,16,0,0">
+            <controls:FluentCard Header="Дополнительно" Margin="0,16,0,0">
                 <VerticalStackLayout Spacing="12">
                     <Grid ColumnDefinitions="*,Auto">
                         <Label Text="Автоматическое обновление"
@@ -107,9 +107,9 @@
                                 HorizontalOptions="End"/>
                     </Grid>
                 </VerticalStackLayout>
-            </controls:FluentSettingsCard>
+            </controls:FluentCard>
             
-            <controls:FluentSettingsCard Header="О приложении" Margin="0,16,0,0">
+            <controls:FluentCard Header="О приложении" Margin="0,16,0,0">
                 <VerticalStackLayout Spacing="12">
                     <Label Text="Версия 1.0.0"
                            Style="{StaticResource BodyTextStyle}"
@@ -123,9 +123,9 @@
                             Style="{StaticResource FluentTextButtonStyle}"
                             HorizontalOptions="Fill"/>
                 </VerticalStackLayout>
-            </controls:FluentSettingsCard>
+            </controls:FluentCard>
 
-            <controls:FluentSettingsCard Header="Информация об устройстве" Margin="0,16,0,0">
+            <controls:FluentCard Header="Информация об устройстве" Margin="0,16,0,0">
                 <VerticalStackLayout Spacing="12">
                     <Label Text="{Binding DeviceInfo.Manufacturer, StringFormat='Производитель: {0}'}"
                         Style="{StaticResource BodyTextStyle}"
@@ -152,7 +152,7 @@
                             Style="{StaticResource FluentTextButtonStyle}"
                             HorizontalOptions="Fill"/>
                 </VerticalStackLayout>
-            </controls:FluentSettingsCard>
+            </controls:FluentCard>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

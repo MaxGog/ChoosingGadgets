@@ -2,66 +2,54 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChoosingGadgets.Views.AddDevicePage"
-             Title="Добавить устройство"
              xmlns:viewmodels="clr-namespace:ChoosingGadgets.ViewModels"
+             xmlns:controls="clr-namespace:ChoosingGadgets.Controls"
              BackgroundColor="{DynamicResource SystemChromeLowColor}"
+             Title="Добавить устройство"
              x:DataType="viewmodels:AddDeviceViewModel">
 
     <ScrollView>
-        <StackLayout Padding="20" Spacing="12">
+        <StackLayout Padding="20" Spacing="16">
             <Label Text="Добавить новое устройство"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="{DynamicResource SystemBaseHighColor}"
-                   Margin="0,0,0,8"/>
-
-            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
-                    StrokeThickness="1"
-                    StrokeShape="RoundRectangle 4"
-                    Padding="8">
-                <Picker Title="Тип устройства"
+                   Style="{DynamicResource HeaderTextStyle}"
+                   HorizontalOptions="Center"/>
+            
+            <controls:FluentCard Header="Тип устройства">
+                <Picker Title="Выберите тип устройства"
                         ItemsSource="{Binding DeviceTypes}"
                         ItemDisplayBinding="{Binding Name}"
                         SelectedItem="{Binding SelectedDeviceType}"
-                        TitleColor="{DynamicResource SystemBaseMediumColor}"
                         TextColor="{DynamicResource SystemBaseHighColor}"
-                        FontSize="14"/>
-            </Border>
-
-            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
-                    StrokeThickness="1"
-                    StrokeShape="RoundRectangle 4"
-                    Padding="12,8">
-                <StackLayout Spacing="10">
-                    <Label Text="Основная информация"
-                           FontSize="16"
-                           FontAttributes="Bold"
-                           TextColor="{DynamicResource SystemBaseHighColor}"/>
-                    
+                        FontSize="14"
+                        TitleColor="{DynamicResource SystemBaseMediumColor}"/>
+            </controls:FluentCard>
+            
+            <controls:FluentCard Header="Основная информация">
+                <StackLayout Spacing="12">
                     <Entry Placeholder="Название" 
                            Text="{Binding Name}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Производитель" 
                            Text="{Binding Manufacturer}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Модель" 
                            Text="{Binding Model}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Цена" 
                            Keyboard="Numeric" 
                            Text="{Binding Price}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <DatePicker Date="{Binding ReleaseDate}" 
                                 Format="D"
@@ -73,124 +61,104 @@
                            Text="{Binding ImageUrl}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="URL источника" 
                            Text="{Binding SourceUrl}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                 </StackLayout>
-            </Border>
+            </controls:FluentCard>
 
-            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
-                    StrokeThickness="1"
-                    StrokeShape="RoundRectangle 4"
-                    Padding="12,8"
-                    IsVisible="{Binding IsComputer}">
-                <StackLayout Spacing="10">
-                    <Label Text="Характеристики компьютера"
-                           FontSize="16"
-                           FontAttributes="Bold"
-                           TextColor="{DynamicResource SystemBaseHighColor}"/>
-                    
+            <controls:FluentCard Header="Характеристики компьютера"
+                                       IsVisible="{Binding IsComputer}">
+                <StackLayout Spacing="12">
                     <Entry Placeholder="Процессор" 
                            Text="{Binding Processor}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Видеокарта" 
                            Text="{Binding GPU}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Оперативная память (ГБ)" 
                            Keyboard="Numeric" 
                            Text="{Binding RAM}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Накопитель" 
                            Text="{Binding Storage}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Операционная система" 
                            Text="{Binding OS}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                 </StackLayout>
-            </Border>
+            </controls:FluentCard>
 
-            <Border Stroke="{DynamicResource SystemControlBackgroundBaseLowBrush}"
-                    StrokeThickness="1"
-                    StrokeShape="RoundRectangle 4"
-                    Padding="12,8"
-                    IsVisible="{Binding IsSmartphone}">
-                <StackLayout Spacing="10">
-                    <Label Text="Характеристики смартфона"
-                           FontSize="16"
-                           FontAttributes="Bold"
-                           TextColor="{DynamicResource SystemBaseHighColor}"/>
-                    
+            <controls:FluentCard Header="Характеристики смартфона"
+                                       IsVisible="{Binding IsSmartphone}">
+                <StackLayout Spacing="12">
                     <Entry Placeholder="Размер экрана" 
                            Text="{Binding ScreenSize}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Разрешение" 
                            Text="{Binding Resolution}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Процессор" 
                            Text="{Binding CPU}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Оперативная память (ГБ)" 
                            Keyboard="Numeric" 
                            Text="{Binding RAM}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Память (ГБ)" 
                            Keyboard="Numeric" 
                            Text="{Binding PhoneStorage}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Камера" 
                            Text="{Binding Camera}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                     
                     <Entry Placeholder="Аккумулятор" 
                            Text="{Binding Battery}"
                            PlaceholderColor="{DynamicResource SystemBaseMediumLowColor}"
                            TextColor="{DynamicResource SystemBaseHighColor}"
-                           BackgroundColor="Transparent"/>
+                           Style="{StaticResource FluentEntryStyle}"/>
                 </StackLayout>
-            </Border>
+            </controls:FluentCard>
 
             <Button Text="Добавить устройство" 
                     Command="{Binding AddDeviceCommand}"
-                    BackgroundColor="{DynamicResource SystemAccentColor}"
-                    TextColor="{DynamicResource SystemAltHighColor}"
-                    FontAttributes="Bold"
-                    CornerRadius="4"
-                    HeightRequest="44"
+                    Style="{StaticResource FluentButtonStyle}"
                     Margin="0,16,0,0"/>
         </StackLayout>
     </ScrollView>

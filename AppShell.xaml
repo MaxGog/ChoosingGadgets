@@ -39,12 +39,12 @@
     <FlyoutItem Title="Главное меню">
         <Tab>
             <ShellContent Title="Подобрать компьютер" 
-                         Icon="ic_fluent_laptop_color.svg"
+                         Icon="{StaticResource LaptopIcon}"
                          ContentTemplate="{DataTemplate views:QuestionnairePage}" 
                          Route="QuestionnairePage"/>
             
             <ShellContent Title="Подобрать телефон" 
-                         Icon="ic_fluent_phone_color.svg"
+                         Icon="{StaticResource PhoneIcon}"
                          ContentTemplate="{DataTemplate views:QuestionnairePhonePage}" 
                          Route="QuestionnairePhonePage"/>
         </Tab>
@@ -53,12 +53,12 @@
     <FlyoutItem Title="Устройства">
         <Tab>
             <ShellContent Title="Список устройств" 
-                         Icon="ic_fluent_library_color.svg"
+                         Icon="{StaticResource LibraryIcon}"
                          ContentTemplate="{DataTemplate views:DevicesPage}" 
                          Route="DevicesPage"/>
             
             <ShellContent Title="Добавить устройство" 
-                         Icon="ic_fluent_add_filled.svg"
+                         Icon="{StaticResource AddIcon}"
                          ContentTemplate="{DataTemplate views:AddDevicePage}" 
                          Route="AddDevicePage"/>
         </Tab>
@@ -72,7 +72,7 @@
 
     <FlyoutItem Title="Параметры"
                FlyoutItemIsVisible="True">
-        <ShellContent Icon="ic_fluent_settings_color.svg"
+        <ShellContent Icon="{StaticResource SettingsIcon}"
                      ContentTemplate="{DataTemplate views:SettingsPage}" 
                      Route="SettingsPage"/>
     </FlyoutItem>
