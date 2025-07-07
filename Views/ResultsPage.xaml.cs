@@ -221,14 +221,14 @@ public partial class ResultsPage : ContentPage
 
     private string BuildDnsUrl(Dictionary<string, string> filters)
     {
-        string baseUrl = "https://www.dns-shop.ru/catalog/17a892f816404e77/noutbuki/";
-        
-        if (filters["type"] == "desktop")
-            baseUrl = "https://www.dns-shop.ru/catalog/17a89aab16404e77/komplektuyushhie-dlya-pk/";
-        else if (filters["type"] == "allinone")
-            baseUrl = "https://www.dns-shop.ru/catalog/17a89c3416404e77/monobloki/";
-        else if (filters["type"] == "mini")
-            baseUrl = "https://www.dns-shop.ru/catalog/17a89c0f16404e77/mini-pk/";
+        string baseUrl = filters["type"] switch
+        {
+            "desktop" => "https://www.dns-shop.ru/catalog/17a899cd16404e77/kompyutery/",
+            "laptop" => "https://www.dns-shop.ru/catalog/17a892f816404e77/noutbuki/",
+            "allinone" => "https://www.dns-shop.ru/catalog/17a89c3416404e77/monobloki/",
+            "mini" => "https://www.dns-shop.ru/catalog/17a89c0f16404e77/mini-pk/",
+            _ => "https://www.dns-shop.ru/catalog/17a899cd16404e77/kompyutery/"
+        };
 
         var queryParams = new List<string>
         {
@@ -236,8 +236,15 @@ public partial class ResultsPage : ContentPage
             $"f[svobnaya-operativka]={filters["ram"]}gb-999gb"
         };
 
+        if (filters.ContainsKey("cpu"))
+        {
+            queryParams.Add($"f[proczessor]={Uri.EscapeDataString(filters["cpu"])}");
+        }
+
         if (filters.ContainsKey("gpu"))
+        {
             queryParams.Add("f[videokarta]=discretnaya");
+        }
 
         return $"{baseUrl}?{string.Join("&", queryParams)}";
     }
@@ -259,8 +266,15 @@ public partial class ResultsPage : ContentPage
             $"ram={filters["ram"]}_gb_i_bolee"
         };
 
+        if (filters.ContainsKey("cpu"))
+        {
+            queryParams.Add($"cpu={Uri.EscapeDataString(filters["cpu"])}");
+        }
+
         if (filters.ContainsKey("gpu"))
+        {
             queryParams.Add("videokarta=discretnaya");
+        }
 
         return $"https://www.mvideo.ru/{category}?{string.Join("&", queryParams)}";
     }
@@ -283,11 +297,17 @@ public partial class ResultsPage : ContentPage
             $"ramFrom={filters["ram"]}"
         };
 
+        if (filters.ContainsKey("cpu"))
+        {
+            queryParams.Add($"cpu={Uri.EscapeDataString(filters["cpu"])}");
+        }
+
         if (filters.ContainsKey("gpu"))
+        {
             queryParams.Add("videoCardType=discrete");
+        }
 
         return $"https://www.eldorado.ru/c/{category}/?{string.Join("&", queryParams)}";
     }
-
 
 }
